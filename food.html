@@ -1,0 +1,21 @@
+---
+layout: primary
+title: Food
+main_heading: Recipe Development + Food Photography
+services: I make really delicious recipes for people!
+---
+
+<section class="grid food">
+
+{% for post in site.posts %}
+  <a href="{{post.url}}" class="col-6_sm-12 post-preview">
+    <div class="recipe-background" style="background-image:url({{post.featured_image}})">
+    <div class="overlay"></div>
+    <div class="recipe-info">
+      <h3> {{post.title}}</h3>
+    </div>
+  </a>
+
+{% endfor %}
+
+</section>

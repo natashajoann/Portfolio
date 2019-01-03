@@ -1,0 +1,164 @@
+/*
+---------------------------
+Website Fonts: List fonts here for reference
+Website Colours: List colour hex codes here for reference
+----------------------------
+*/
+
+* {
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+body {
+  color: rgb(60,60,60);
+  /* font-family: 'Noto Serif JP', serif; */
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+
+}
+
+a{
+  text-decoration:none;
+  color: rgb(60, 60, 60)
+}
+
+/* ---- GENERAL HELPER CLASSES --------------------------- */
+.tall         { min-height:100vh; }
+.med-height   { min-height: 50vh; }
+
+.left         { text-align: left; }
+.centered     { text-align: center; }
+.right        { text-align: right; }
+
+.no-padding { padding: 0; }
+
+.padded-1 { padding: 1%; }
+.padded-3 { padding: 3%; }
+.padded-4 { padding: 4%; }
+.padded-5 { padding: 5%; }
+.padded-10 {padding: 10%; }
+.padded-5-10 {padding: 5% 10%; }
+
+.padded-top-1 { padding-top: 1%;}
+
+.mob-show { display: none;}
+
+.bg-img {
+  background-color: grey;
+  background-size: cover;
+  background-position: center;
+}
+
+section{
+  padding:4rem;
+}
+
+[class*=col-], [class*=col_], [class~=col]{
+  padding:0;
+  margin:0;
+}
+/* nav  */
+
+.space-around{
+  display:flex;
+  justify-content:space-around;
+}
+
+.nav-menu{
+  padding-left:0;
+}
+
+.nav-menu a{
+  border-bottom: 2px solid white;
+}
+
+.nav-menu a:hover{
+  border-bottom: 2px solid #FFDB6B;
+  color: #FFDB6B;
+}
+
+/* Title */
+
+.title section{
+  height: 90vh;
+}
+
+.title div{
+  padding: 3rem;
+}
+
+/* services */
+
+.services div{
+  padding: 4rem;
+  margin:0.5rem;
+}
+
+
+.services h3{
+  padding-left:11px
+}
+
+.webdev{
+  background-color:#1A8383;
+  padding:4rem;
+}
+
+.writing{
+  background-color: #FAA4B1;
+  padding: 4rem;
+  transition:0.2s;
+}
+
+.food{
+  background-color: #FFCF2F;
+  padding: 4rem;
+  transition:0.2s;
+}
+
+
+.media{
+  background-color: #7BCEAE;
+  padding: 4rem;
+  transition: 0.2s;
+}
+
+.blog{
+  background-color:#d9babf;
+  padding: 4rem;
+  transition: 0.2s;
+}
+
+.blog-wrap div{
+  margin:0;
+  padding:0;
+}
+
+.services h3:hover{
+  font-size:20px;
+}
+
+.services{
+  margin-top:-5px;
+}
+
+.section-title{
+  padding:0px;
+  z-index:1;
+}
+
+/* ABOUT */
+
+.about-text{
+  background-color: #CFFCE3;
+  
+}
+
+.about-img{
+  background-image:
+}

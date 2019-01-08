@@ -62,6 +62,14 @@ section{
   padding:0;
   margin:0;
 }
+
+h2, h3{
+  font-family: 'Abril Fatface', cursive;
+}
+
+p, a{
+font-family: 'EB Garamond', serif;
+}
 /* nav  */
 
 .space-around{
@@ -84,6 +92,14 @@ section{
 
 /* Title */
 
+h1{
+  font-size:47px;
+}
+
+.title p{
+  padding: 1px 6rem;
+}
+
 .title section{
   height: 90vh;
 }
@@ -95,47 +111,58 @@ section{
 /* services */
 
 .services div{
-  padding: 4rem;
+  padding: 3rem;
   margin:0.5rem;
+  transition: 0.2s;
+}
+
+.serv-head{
+  padding:0;
+  font-size: 40px;
+  margin-bottom:-38px;
+  z-index:6;
+  margin-left:32px;
 }
 
 
 .services h3{
-  padding-left:11px
+  padding-bottom:15px;
+  font-size:24px;
+}
+
+.services p{
+  padding-left:35px;
 }
 
 .webdev{
-  background-color:#1A8383;
-  padding:4rem;
+  background-color:#e5bc5c;
+  padding:4rem 3rem;
 }
 
 .writing{
-  background-color: #FAA4B1;
-  padding: 4rem;
-  transition:0.2s;
+  background-color: #94b3ba;
 }
 
 .food{
-  background-color: #FFCF2F;
-  padding: 4rem;
-  transition:0.2s;
+  background-color:#e4cabc;
 }
 
 
 .media{
-  background-color: #7BCEAE;
-  padding: 4rem;
-  transition: 0.2s;
+  background-color: #c8b0b4;
 }
 
 .blog{
-  background-color:#d9babf;
-  padding: 4rem;
-  transition: 0.2s;
+  background-color:#BB5C2F;
+}
+
+.blog h4{
+  text-align:right;
+  padding:10.5px 0;
 }
 
 .blog-wrap div{
-  margin:0;
+  margin:0px;
   padding:0;
 }
 
@@ -147,18 +174,94 @@ section{
   margin-top:-5px;
 }
 
-.section-title{
+.section-title div{
   padding:0px;
   z-index:1;
 }
 
+
 /* ABOUT */
 
 .about-text{
-  background-color: #CFFCE3;
-  
+  background-color: #d2ebdd;
+  width:88%;
+  margin:auto;
+  margin-top:3rem;
+
 }
 
 .about-img{
   background-image:
+}
+
+/* Media*/
+
+.header{
+  padding-bottom:4rem;
+  padding-top: 4rem;
+  background-color:#AAF8D4;
+  margin:auto;
+  width:90%;
+  margin-top:15px;
+}
+
+.social-media, .web-dev{
+  padding:4rem;
+  padding-top:2rem;
+}
+
+.left-text, .right-text{
+  padding:2rem;
+  border:2px solid rgb(80,80,80);
+}
+
+.push-right1{
+  /* background-image: url("/images/chickencurry.png") */
+}
+
+
+.social-media div{
+  margin-bottom:50px;
+}
+
+
+.social-media h3{
+  background-color:white;
+  margin-top:-53px;
+  font-size:32px;
+  text-align:center;
+  width:192px;
+  padding-bottom: 20px;
+}
+
+.enemon h3{
+  width: 121px;
+}
+
+.ioc h3{
+  width: 239px;
+}
+
+.miika-kivilo h3{
+  width:234px;
+}
+
+.nashjo h3{
+  width:180px;
+}
+
+.thesis h3{
+  width:100%;
+}
+
+.bogota h3{
+  width:520px;
+}
+
+.podcast h3{
+  width:573px;
+}
+
+.box{
+  padding:3rem;
 }

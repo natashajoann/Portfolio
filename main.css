@@ -70,6 +70,7 @@ h2, h3, h4{
 
 p, a{
 font-family: 'EB Garamond', serif;
+font-size:18px;
 }
 /* nav  */
 
@@ -94,12 +95,16 @@ h1{
   font-size:47px;
 }
 
+.intro{
+  font-size:22px;
+}
 .title p{
   padding: 1px 6rem;
 }
 
-.title section{
-  height: 90vh;
+.title{
+  height: 60vh;
+  padding-top:10rem;
 }
 
 .title div{
@@ -111,17 +116,18 @@ h1{
 .services div{
   margin:0.5rem;
   transition: 0.2s;
+  position:relative;
 }
 
 .push-down h2{
   font-size: 40px;
-  margin-bottom:-38px;
-  margin-left:32px;
+  padding: 35px 88px;
 }
 
 .push-down{
   padding:0;
   z-index:6;
+  position:absolute;
 }
 
 
@@ -167,8 +173,8 @@ h1{
 }
 
 
-.services h3:hover{
-  font-size:20px;
+.services div:hover{
+  zoom: 105%;
 }
 
 .services{
@@ -200,54 +206,71 @@ padding:3rem;
 }
 
 .contact-media{
-  padding:2rem 0;
+  padding-top:3rem;
 }
 
 .about {
   padding-bottom:0;
+  position:relative;
+  margin-top:1px;
 }
 
 .padded-bottom-1 h2{
-  padding-bottom:1rem;
+  /* padding-bottom:1rem; */
+  position:absolute;
 }
 
+.about-img{
+  background-image: url("/images/myface.jpg");
+  background-position:center;
+  background-size:cover;
+}
 /* Media*/
 
 .header{
   padding-bottom:4rem;
   padding-top: 4rem;
-  background-color:#AAF8D4;
   margin:auto;
   width:90%;
   margin-top:15px;
 }
 
+.header h2{
+  font-size:35px;
+}
+
 .social-media, .web-dev{
   padding:4rem;
   padding-top:2rem;
+
 }
 
 .left-text, .right-text{
   padding:2rem;
-  border:2px solid rgb(80,80,80);
 }
 
 
 
 .social-media div{
+  margin: 8px;
   margin-bottom:50px;
+
 }
 
 
 .social-media h3{
-  background-color:white;
-  margin-top:-53px;
   font-size:32px;
   text-align:center;
-  width:192px;
   padding-bottom: 20px;
 }
 
+.nashjo-img{
+  background-image: url("/images/nashjoeats.png");
+  background-size:cover;
+  background-position:center;
+}
+
+/* borders */
 .enemon h3{
   width: 121px;
 }
@@ -260,18 +283,34 @@ padding:3rem;
   width:234px;
 }
 
-.nashjo h3{
-  width:180px;
+
+
+/* writing + radio */
+
+.writing_radio{
+  text-align: center;
+  padding-left:8rem;
 }
 
-.thesis h3{
-  width:100%;
+.thesis{
+  background-color:#94b3ba;
+  margin:0;
+  margin-bottom:50px;
 }
 
-.bogota h3{
-  width:520px;
+.podcast{
+  background-color:#BB5C2F;
+  margin-bottom:50px;
 }
 
-.podcast h3{
-  width:573px;
+.bogota{
+  background-color:#e4cabc;
+}
+
+.wsp{
+  background-color:#e5bc5c;
+}
+
+.empty{
+  margin:0;
 }

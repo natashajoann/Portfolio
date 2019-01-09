@@ -9,13 +9,15 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
   <!-- Font Awesome Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- lightbox -->
+  <link href="/lightbox.css" rel="stylesheet">
   <!-- my css file -->
   <link href="/main.css" rel="stylesheet">
 </head>
 <body>
 
 <nav class="grid nav-menu">
-  <div class="col-8 space-around">
+  <div class="col-6 space-around">
     <a href="/">Home</a>
     <a href="/web-dev">Web Dev</a>
     <a href="/writing">Writing + Radio</a>
@@ -27,11 +29,13 @@
 
 {{content}}
 
+
+    <div class="push-down padded-bottom-1"> <h2>About</h2></div>
+
+
 <section class="grid about">
-  <div class="col-12 push-down padded-bottom-1"> <h2>About + Contact</h2></div>
-  <div class="col-6 about-text">
-    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p> <br>
-    <p>For inquiries and collaborations send me an email at <span>natashamverdon@gmail.com<span></p>
+  <div class="col-6_sm-12 about-text">
+    <p> Need help building a website? Want to implement SEO into your excisting platforms? Or maybe you need a recipe developed for your new healthy living brand? <br> <br> Whatever it may be, I can be contacted at </p> <span>natashamverdon@gmail.com<span></p>
       <div class="contact-media">
         <span class="social-icon">
             <a  href="http://www.instagram.com/natashajoann" class="fa fa-instagram"></a>
@@ -43,11 +47,12 @@
       </div>
     </div>
   </div>
-  <div class="col-6 about-img"></div>
+  <div class="col-6_sm-12 about-img"></div>
 </section>
 
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+<script src="/lightbox-plus-jquery.min.js"></script>
 <script src="/main.js"></script>
 </body>
 </html>

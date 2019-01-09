@@ -3,19 +3,32 @@ layout: primary
 title: Food
 main_heading: Recipe Development + Food Photography
 services: I make really delicious recipes for people!
+featured_gallery:
+  - featured_image: chickencurry.png
+    heading: Enemon - Curried Chicken with Vegetables
+  - featured_image: avocadoeggs.png
+    heading: Avo Toast with Poached Eggs
+  - featured_image: shrimp.png
+    heading: Enemon - Garlic Shrimp with Mushy Peas
 ---
 
-<section class="grid food-gallery">
+<section class="grid featured-gallery" id="featured">
 
-{% for post in site.posts %}
-  <a href="{{post.url}}" class="col-6_sm-12 post-preview">
-    <div class="recipe-background" style="background-image:url({{post.featured_image}})">
-    </div>
-    <div class="recipe-info">
-      <h3> {{post.title}}</h3>
-    </div>
-  </a>
-{% endfor %}
+  {% for item in page.featured-gallery %}
 
+  <div class="col-4_xs-12-middle gallery-item">
+    <a href="{{item.featured_image}}" data-lightbox="featured" data-title="{{item.heading}}">
+      <div style="background-image:url({{item.featured_image}})" class="gallery-image">
+        <div class="overlay"></div>
+      </div>
+    </a>
+  </div>
 
+  {% endfor %}
+
+  {% for item in page.featured-gallery offset:8 %}
+
+  <a href="{{item.featured_image}}" data-lightbox="featured" data-title="{{item.heading}}"></a>
+
+  {% endfor %}
 </section>

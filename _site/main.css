@@ -43,6 +43,7 @@ a{
 .padded-5 { padding: 5%; }
 .padded-10 {padding: 10%; }
 .padded-5-10 {padding: 5% 10%; }
+.padded-bottom-1 {padding: 1rem; }
 
 .padded-top-1 { padding-top: 1%;}
 
@@ -63,7 +64,7 @@ section{
   margin:0;
 }
 
-h2, h3{
+h2, h3, h4{
   font-family: 'Abril Fatface', cursive;
 }
 
@@ -77,17 +78,14 @@ font-family: 'EB Garamond', serif;
   justify-content:space-around;
 }
 
-.nav-menu{
-  padding-left:0;
-}
 
 .nav-menu a{
   border-bottom: 2px solid white;
 }
 
 .nav-menu a:hover{
-  border-bottom: 2px solid #FFDB6B;
-  color: #FFDB6B;
+  border-bottom: 2px solid #e5bc5c;
+  color: #e5bc5c;
 }
 
 /* Title */
@@ -111,17 +109,19 @@ h1{
 /* services */
 
 .services div{
-  padding: 3rem;
   margin:0.5rem;
   transition: 0.2s;
 }
 
-.serv-head{
-  padding:0;
+.push-down h2{
   font-size: 40px;
   margin-bottom:-38px;
-  z-index:6;
   margin-left:32px;
+}
+
+.push-down{
+  padding:0;
+  z-index:6;
 }
 
 
@@ -141,30 +141,31 @@ h1{
 
 .writing{
   background-color: #94b3ba;
+  padding: 3rem;
 }
 
 .food{
   background-color:#e4cabc;
+  padding: 3rem;
 }
 
 
 .media{
   background-color: #c8b0b4;
+  padding: 3rem;
 }
 
 .blog{
   background-color:#BB5C2F;
+  padding: 3rem;
 }
 
 .blog h4{
   text-align:right;
   padding:10.5px 0;
+  font-size:24px;
 }
 
-.blog-wrap div{
-  margin:0px;
-  padding:0;
-}
 
 .services h3:hover{
   font-size:20px;
@@ -186,12 +187,28 @@ h1{
   background-color: #d2ebdd;
   width:88%;
   margin:auto;
-  margin-top:3rem;
+  padding:4rem 4rem 1rem;
 
 }
 
+.about-text span{
+  font-weight:bold;
+}
+
 .about-img{
-  background-image:
+padding:3rem;
+}
+
+.contact-media{
+  padding:2rem 0;
+}
+
+.about {
+  padding-bottom:0;
+}
+
+.padded-bottom-1 h2{
+  padding-bottom:1rem;
 }
 
 /* Media*/
@@ -215,9 +232,6 @@ h1{
   border:2px solid rgb(80,80,80);
 }
 
-.push-right1{
-  /* background-image: url("/images/chickencurry.png") */
-}
 
 
 .social-media div{
@@ -260,8 +274,4 @@ h1{
 
 .podcast h3{
   width:573px;
-}
-
-.box{
-  padding:3rem;
 }

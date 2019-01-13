@@ -8,7 +8,7 @@
   <!-- GRIDLEX -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
   <!-- Font Awesome Icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
   <!-- lightbox -->
   <link href="/lightbox.css" rel="stylesheet">
   <!-- my css file -->
@@ -17,25 +17,44 @@
 <body>
 
 <nav class="grid nav-menu">
-  <div class="col-6 space-around">
+  <div class="col-10 space-around">
     <a href="/">Home</a>
-    <a href="/web-dev">Web Dev</a>
-    <a href="/writing">Writing + Radio</a>
     <a href="/food">Food</a>
+    <a href="/writing">Writing + Radio</a>
+    <a href="/web-dev">Web Dev</a>
     <a href="/media">Social Media Marketing + SEO</a>
+    <a href="#about"> About + Contact </a>
 </div>
+</nav>
+
+<!-- burger menu -->
+
+<nav class="mobil-menu">
+    <div class="burger-button">
+        <span class="burger-top"></span>
+        <span class="burger-middle"></span>
+        <span class="burger-bottom"></span>
+    </div>
+    <div class="burger-menu">
+      <a href="/">Home</a>
+      <a href="/food">Food</a>
+      <a href="/writing">Writing + Radio</a>
+      <a href="/web-dev">Web Dev</a>
+      <a href="/media">Social Media Marketing + SEO</a>
+      <a href="#about"> About + Contact </a>
+    </div>
 </nav>
 
 
 {{content}}
 
+<section class="no-padding">
+<div class="push-down padded-bottom-1"> <h2>About</h2></div>
+</section>
 
-    <div class="push-down padded-bottom-1"> <h2>About</h2></div>
-
-
-<section class="grid about">
+<section class="grid about" id="about">
   <div class="col-6_sm-12 about-text">
-    <p> Need help building a website? Want to implement SEO into your excisting platforms? Or maybe you need a recipe developed for your new healthy living brand? <br> <br> Whatever it may be, I can be contacted at </p> <span>natashamverdon@gmail.com<span></p>
+    <p> Need help building a website? Want to implement SEO into your excisting platforms? Or maybe you need a recipe developed for your new healthy lifestyle brand? <br> <br> Whatever it may be, I can be contacted at </p> <span>natashamverdon@gmail.com<span></p>
       <div class="contact-media">
         <span class="social-icon">
             <a  href="http://www.instagram.com/natashajoann" class="fa fa-instagram"></a>
@@ -51,7 +70,7 @@
 </section>
 
 
-<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="/lightbox-plus-jquery.min.js"></script>
 <script src="/main.js"></script>
 </body>

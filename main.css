@@ -12,7 +12,7 @@ Website Colours: List colour hex codes here for reference
 
 }
 body {
-  color: rgb(60,60,60);
+  color: rgb(80, 80, 80);
   /* font-family: 'Noto Serif JP', serif; */
 }
 
@@ -24,7 +24,7 @@ img {
 
 a{
   text-decoration:none;
-  color: rgb(60, 60, 60)
+  color: rgb(80, 80, 80)
 }
 
 /* ---- GENERAL HELPER CLASSES --------------------------- */
@@ -68,13 +68,11 @@ section{
 
 h2, h3, h4{
   font-family: 'Abril Fatface', cursive;
-  color: rgb(80,80,80);
 }
 
 p, a{
 font-family: 'EB Garamond', serif;
 font-size:18px;
-color: rgb(80,80,80);
 }
 
 html{
@@ -110,11 +108,11 @@ html{
 }
 
 .circle1{
-  color:#e5bc5c
+  color:#f6cf75;
 }
 
 .circle2{
-  color: #e4cabc;
+  color: #f1ddd2;
 }
 
 .circle3{
@@ -270,7 +268,7 @@ h1{
 
 .social-media, .web-dev{
   padding:4rem;
-  padding-top:2rem;
+  padding-top:0rem;
 
 }
 
@@ -289,6 +287,7 @@ li{
 .social-media div{
   margin-bottom:20px;
   border-radius:5px;
+  margin-top:50px;
 }
 
 
@@ -329,9 +328,14 @@ li{
 }
 /* writing + radio */
 
-.writing_radio{
-  text-align: center;
-}
+.writing_radio div{
+    text-align: center;
+    margin:8px;
+    margin-bottom:20px;
+    border-radius:5px;
+    margin-top:0px;
+  }
+
 
 .thesis{
   background-color:#94b3ba;

@@ -24,7 +24,7 @@ img {
 
 a{
   text-decoration:none;
-  color: rgb(80, 80, 80)
+  color: rgb(90, 90, 90);
 }
 
 /* ---- GENERAL HELPER CLASSES --------------------------- */
@@ -66,11 +66,11 @@ section{
 
 
 
-h2, h3, h4{
+h2, h3, h4, a{
   font-family: 'Abril Fatface', cursive;
 }
 
-p, a{
+p{
 font-family: 'EB Garamond', serif;
 font-size:18px;
 }
@@ -99,9 +99,7 @@ html{
   color: #e5bc5c;
 }
 
-.dots{
-  padding-left:25px;
-}
+
 
 .fa-circle{
   margin:0 20px;
@@ -133,7 +131,7 @@ h1{
 }
 
 .title{
-  height: 60vh;
+  height: 70vh;
   padding-top:10rem;
 }
 
@@ -143,11 +141,26 @@ h1{
 
 /* services */
 
+[class*=grid-]>[class*=col-6], [class*=grid_]>[class*=col-6], [class~=grid]>[class*=col-6]{
+  max-width:49%;
+}
+
+[class*=grid-]>[class*=col-12], [class*=grid_]>[class*=col-12], [class~=grid]>[class*=col-12]{
+  max-width:97.5%;
+}
 .services div{
-  margin:0.5rem;
   transition: 0.2s;
   position:relative;
   border-radius:5px;
+}
+
+.services a{
+  margin: 6px;
+  border-radius:5px;
+}
+
+.services{
+  padding:64px 50px 64px 62px;
 }
 
 .push-down h2{
@@ -218,40 +231,6 @@ h1{
 }
 
 
-/* ABOUT */
-
-.about-text{
-  background-color: #d2ebdd;
-  width:88%;
-  margin:auto;
-  padding:4rem 4rem 1rem;
-
-}
-
-.about-text span{
-  font-weight:bold;
-}
-
-.contact-media{
-  padding-top:3rem;
-}
-
-.about {
-  padding-bottom:0;
-  position:relative;
-  margin-top:1px;
-}
-
-.padded-bottom-1 h2{
-  /* padding-bottom:1rem; */
-  position:absolute;
-}
-
-.about-img{
-  background-image: url("/images/myface.jpg");
-  background-position:center;
-  background-size:cover;
-}
 /* Media*/
 
 .header{
@@ -328,12 +307,24 @@ li{
 }
 /* writing + radio */
 
+[class*=grid-]>[class*=col-6], [class*=grid_]>[class*=col-6], [class~=grid]>[class*=col-6]{
+  max-width:48%;
+
+}
+
 .writing_radio div{
     text-align: center;
     margin:8px;
-    margin-bottom:20px;
-    border-radius:5px;
-    margin-top:0px;
+    transition:0.2s;
+  }
+
+  .writing_radio a{
+    border-radius: 5px;
+    margin:6px;
+  }
+
+  .writing_radio div:hover{
+    zoom:105%;
   }
 
 
@@ -408,6 +399,48 @@ h3 {
   transition: all 0.5s;
 }
 
+/* ABOUT */
+.about{
+  padding:66px 31px 0 70px;
+}
+
+.about-text{
+  background-color: #d2ebdd;
+  width:88%;
+  padding:4rem 4rem 1rem;
+  border-radius:5px 0px 0px 0px;
+}
+
+.about-text span{
+  font-weight:bold;
+}
+
+.contact-media{
+  padding-top:3rem;
+}
+
+.about {
+  padding-bottom:0;
+  position:relative;
+  margin-top:1px;
+}
+
+.padded-bottom-1 h2{
+  /* padding-bottom:1rem; */
+  position:absolute;
+}
+
+.about-img{
+  background-image: url("/images/myface.jpg");
+  background-position:center;
+  background-size:cover;
+  border-radius:0px 5px 0 0;
+}
+
+.about div{
+  margin:0;
+}
+
 /* media queries */
 @media (max-width: 768px){
   section{
@@ -452,6 +485,10 @@ h3 {
   .services div{
     padding:2rem;
     margin:8px;
+  }
+
+  .services a{
+    padding:0;
   }
 
   .about{
@@ -534,10 +571,9 @@ h3 {
     top: 0;
     right: 0;
     background-color:white;
-    padding:14px;
     box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
     z-index: 8;
-    padding-top:50px;
+    padding-top:26px;
 }
 
 .burger-menu a {
@@ -592,5 +628,14 @@ ul{
 
 .mobile-down{
   display:none;
+}
+
+[class*=grid-]>[class*=col-6], [class*=grid_]>[class*=col-6], [class~=grid]>[class*=col-6], [class*=grid-]>[class*=col-12], [class*=grid_]>[class*=col-12], [class~=grid]>[class*=col-12]{
+  max-width:100%;
+}
+
+/* writing cols */
+[class*=grid-]>[class*=col-6], [class*=grid_]>[class*=col-6], [class~=grid]>[class*=col-6]{
+  max-width:100%;
 }
 }

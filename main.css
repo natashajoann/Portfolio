@@ -47,6 +47,8 @@ a{
 
 .padded-top-1 { padding-top: 1%;}
 
+.padded-top-3 {padding-top:3rem;}
+
 .mob-show { display: none;}
 
 .bg-img {
@@ -277,7 +279,7 @@ li{
 }
 
 .social-media ul{
-  padding:0 50px;
+  padding:0 80px;
 }
 
 .nashjo-img{
@@ -286,9 +288,6 @@ li{
   padding:10rem;
 }
 
-.media-img1, .media-img2, .media-img3, .media-img4{
-  padding:1rem;
-}
 
 .media-img1{
   background-color:#e5bc5c;
@@ -397,6 +396,47 @@ h3 {
 .overlay:hover{
   opacity:1;
   transition: all 0.5s;
+}
+
+/* Web Dev  */
+
+[class*=col-], [class*=col_], [class~=col]{
+  padding:0;
+}
+
+.media-img1, .media-img2, .media-img3, .media-img4{
+  padding:1rem;
+  margin-bottom:45px;
+}
+
+.padded-5{padding:5%;}
+
+.web-dev div{
+  border-radius:5px;
+}
+
+.mkart-img{
+  background-image: url("/images/miikaartweb.png");
+  background-position:center;
+  background-size:cover;
+  padding:8rem;
+  margin:auto;
+}
+
+.nashjoeats-img{
+  background-image: url("/images/njeweb.png");
+  background-position:center;
+  background-size:cover;
+  padding:8rem;
+  margin:auto;
+}
+
+.iocweb-img{
+  background-image: url("/images/iocweb.png");
+  background-position:center;
+  background-size:cover;
+  padding:8rem;
+  margin:auto;
 }
 
 /* ABOUT */

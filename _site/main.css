@@ -66,7 +66,18 @@ section{
   margin:0;
 }
 
+[class*=grid-], [class*=grid_], [class~=grid]{
+  margin:0;
+  padding:0;
+}
 
+[class*=col-], [class*=col_], [class~=col]{
+  padding:0;
+}
+
+[class*=grid-], [class*=grid_], [class~=grid]{
+  margin:0;
+}
 
 h2, h3, h4, a{
   font-family: 'Abril Fatface', cursive;
@@ -159,6 +170,7 @@ h1{
 .services a{
   margin: 6px;
   border-radius:5px;
+  padding:3rem;
 }
 
 .services{
@@ -516,6 +528,7 @@ h3 {
 
   .services{
     margin-top:8px;
+    padding:1rem;
   }
 
   .food{
@@ -529,6 +542,7 @@ h3 {
 
   .services a{
     padding:0;
+    margin: 5px 0;
   }
 
   .about{
@@ -552,7 +566,7 @@ h3 {
 
   .burger-button{
     position:fixed;
-    top:2vh;
+    top:4vh;
     right:2vh;
     z-index:9;
     padding:8px;
@@ -629,13 +643,17 @@ h3 {
 
 .burger-menu li{list-style:none}
 
-
 .featured-gallery{
   padding:0;
 }
 
-.social-media{
-  padding:2rem;
+.gallery-item {
+  padding:1rem 1rem 0;;
+}
+
+
+.social-media, .web-dev{
+  padding:1rem;
 }
 
 .social-media div{
@@ -643,6 +661,10 @@ h3 {
   margin-bottom:15px;
 }
 
+.web-dev h3{
+  text-align:center;
+  margin-bottom:20px;
+}
 .about-img{
   padding:5rem;
 }
@@ -677,5 +699,14 @@ ul{
 /* writing cols */
 [class*=grid-]>[class*=col-6], [class*=grid_]>[class*=col-6], [class~=grid]>[class*=col-6]{
   max-width:100%;
+}
+
+.social-media ul{
+  padding:0 2rem;
+}
+
+.writing_radio a{
+  margin:0;
+  margin-bottom:20px;
 }
 }

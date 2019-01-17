@@ -500,13 +500,14 @@ h3 {
   }
 
   .header{
-    padding-bottom:0;
+    padding-top:4rem;
+    padding-bottom:1rem;;
   }
 
   .title{
     padding-bottom:2rem;
-    height:71vh;
-    padding-top:0;
+    height:87vh;
+    padding-top:3rem;
   }
 
   .title p{
@@ -519,7 +520,7 @@ h3 {
   }
 
   .title div{
-    padding:1rem;
+    padding:1rem 2rem 3rem;
   }
 
   .push-down h2{
@@ -665,6 +666,7 @@ h3 {
   text-align:center;
   margin-bottom:20px;
 }
+
 .about-img{
   padding:5rem;
 }

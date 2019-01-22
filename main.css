@@ -140,7 +140,7 @@ h1{
   font-size:22px;
 }
 .title p{
-  padding: 1px 6rem;
+  padding: 1px 13rem;
 }
 
 .title{
@@ -421,15 +421,22 @@ h3 {
   margin-bottom:45px;
 }
 
+.web-dev h3{
+  padding-bottom:14px;
+}
+
 .padded-5{padding:5%;}
 
 .web-dev div{
   border-radius:5px;
 }
 
+.nje{
+  padding-left: 5rem;
+}
+
 .mkart-img{
   background-image: url("/images/miikaartweb.png");
-  background-position:center;
   background-size:cover;
   padding:8rem;
   margin:auto;
@@ -520,7 +527,7 @@ h3 {
   }
 
   .title div{
-    padding:1rem 2rem 3rem;
+    padding:1rem 3rem 3rem;
   }
 
   .push-down h2{

@@ -4,32 +4,33 @@ title: Food
 main_heading: Recipe Development + Food Photography
 featured-gallery:
   - featured_image: /images/chickencurry.png
-    heading: Enemon - Curried Chicken with Vegetables
+    heading: Curried Chicken with Vegetables
   - featured_image: /images/avocadoeggs.png
     heading: Avo Toast with Poached Eggs
   - featured_image: /images/shrimp.png
-    heading: Enemon - Garlic Shrimp with Mushy Peas
+    heading: Garlic Shrimp with Mushy Peas
+  - featured_image: /images/shrimp.png
+    heading: Garlic Shrimp with Mushy Peas
   - featured_image: /images/chickencurry.png
-    heading: Enemon - Curried Chicken with Vegetables
+    heading: Curried Chicken with Vegetables
   - featured_image: /images/avocadoeggs.png
     heading: Avo Toast with Poached Eggs
-  - featured_image: /images/shrimp.png
-    heading: Enemon - Garlic Shrimp with Mushy Peas
----
 
+---
 <section class="grid featured-gallery" id="featured">
 
   {% for item in page.featured-gallery %}
 
-  <div class="col-3_md-6_s-12-middle gallery-item">
+  <div class="col-4_md-6_sm-12-middle gallery-item">
     <a href="{{item.featured_image}}" data-lightbox="featured" data-title="{{item.heading}}">
       <div style="background-image:url({{item.featured_image}})" class="gallery-image">
-        <div class="overlay"></div>
+        <div class="overlay centered"> <br> {{item.heading}}</div>
       </div>
     </a>
   </div>
 
   {% endfor %}
+
 
   {% for item in page.featured-gallery offset:8 %}
 

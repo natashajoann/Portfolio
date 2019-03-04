@@ -13,7 +13,7 @@ Website Colours: List colour hex codes here for reference
 
 }
 body {
-  color: rgb(80, 80, 80);
+  color: #313131;
   /* font-family: 'Noto Serif JP', serif; */
 }
 
@@ -25,8 +25,7 @@ img {
 
 a{
   text-decoration:none;
-  color: rgb(90, 90, 90);
-  font-weight:600;
+  color: #313131;
 }
 
 /* ---- GENERAL HELPER CLASSES --------------------------- */
@@ -81,13 +80,13 @@ section{
   margin:0;
 }
 
-h2, h3, a{
+h2, h3, a, h1{
   /* font-family: 'Abril Fatface', cursive; */
   font-family: 'Josefin Sans', sans-serif;
 }
 
 h3{
-  font-weight:300;
+  font-weight:400;
 }
 
 h2{
@@ -163,8 +162,10 @@ h1{
   font-size:47px;
 }
 
-.intro{
+.intro h3{
   font-size:22px;
+  width:80%;
+  margin:auto;
 }
 .title p{
   padding: 1px 9rem;
@@ -178,6 +179,10 @@ h1{
   padding: 3rem;
 }
 
+.title span{
+  color: #acc4b7;
+  font-style:italic;
+}
 /* services */
 
 [class*=grid-]>[class*=col-6], [class*=grid_]>[class*=col-6], [class~=grid]>[class*=col-6]{
@@ -273,26 +278,16 @@ h1{
 
 /* Media*/
 
-.header{
-  padding-bottom:4rem;
-  padding-top: 4rem;
+.consult p{
+  width:80%;
   margin:auto;
-  width:90%;
-  margin-top:15px;
 }
 
-.header h2{
-  font-size:24px;
-}
 
 .social-media, .web-dev{
   padding:4rem 1rem 2rem 2rem;
 }
 
-
-li{
-  line-height:16px;
-}
 
 .mobile-up{
   display:none;
@@ -307,10 +302,11 @@ li{
 .social-media h3{
   font-size:32px;
   text-align:center;
+  margin-bottom:15px;
 }
 
 .social-media ul{
-  padding:0 80px;
+  padding:0 60px;
 }
 
 .nashjo-img{
@@ -342,6 +338,10 @@ li{
 
 }
 
+.writing_radio h3{
+  font-weight: 300;
+}
+
 .writing_radio div{
     text-align: center;
     transition:0.2s;
@@ -358,9 +358,9 @@ li{
     margin:auto;
   }
 
-  .writing_radio a:hover{
+  /* .writing_radio a:hover{
     text-decoration:underline;
-  }
+  } */
 
 
 .writing-bk-img{
@@ -387,24 +387,28 @@ li{
   background-image: url("/images/Verdon-piece-photo.jpg");
 }
 
+.wine-bk-img{
+  background-image: url("/images/tashwine.jpg");
+}
+
 .thesis{
   margin:0;
   margin-bottom:50px;
 }
 
-.bogota:hover{
+.blue-hover:hover{
   color: #94b3ba;
 }
 
-.podcast:hover{
+.orange-hover:hover{
   color: #BB5C2f;
 }
 
-.thesis:hover{
+.pink-hover:hover{
   color:#e4cabc;
 }
 
-.wsp:hover{
+.yellow-hover:hover{
   color:#e5bc5c;
 }
 
@@ -414,12 +418,18 @@ li{
 
 /* lightbox - Food */
 
+[class*=grid-]>[class*=col-4], [class*=grid_]>[class*=col-4], [class~=grid]>[class*=col-4]{
+  max-width:31.3333%;
+}
+
+
+
 .gallery-image{
   height:10vh;
 }
 
 .featured-gallery{
-  padding:1rem 3rem 1rem;
+  padding:1rem 3rem 1rem 3.5rem;
 }
 
 .featured-gallery p{
@@ -434,7 +444,7 @@ h3 {
   padding:15px;
   padding-top:0;
   padding-bottom:30px;
-  margin: 10px;
+  margin: 6px;
 }
 
 
@@ -450,7 +460,7 @@ h3 {
 }
 
 .overlay{
-  background-color: rgba(255, 210, 30,0.2);
+  background-color: rgb(222, 241, 234, 0.6);
   opacity:0;
   height:100%;
   width:100%;
@@ -458,6 +468,7 @@ h3 {
   position:absolute;
   top:0;
   left:0;
+  color: rgb(60, 60, 60);
 }
 
 .overlay:hover{
@@ -473,6 +484,7 @@ h3 {
 
 .media-img1, .media-img2, .media-img3, .media-img4{
   padding:1rem;
+  padding-bottom:0;
 }
 
 .web-dev h3{
@@ -490,6 +502,9 @@ h3 {
   margin:auto;
 }
 
+/* .web-dev a:hover{
+  text-decoration:underline;
+} */
 
 .mkart-img{
   background-image: url("/images/miikaartweb.png");
@@ -499,6 +514,16 @@ h3 {
   border: 1px solid rgb(200, 200, 200);
   width:90%;
 }
+
+.ivy-img{
+  background-image: url("/images/ivyweb.png");
+  background-size:cover;
+  padding:8rem;
+  margin:auto;
+  border: 1px solid rgb(200, 200, 200);
+  width:90%;
+}
+
 
 .nashjoeats-img{
   background-image: url("/images/njeweb.png");
@@ -522,7 +547,7 @@ h3 {
 
 /* ABOUT */
 .about{
-  padding:66px 31px 0 50px;
+  padding:66px 31px 0 64px;
 }
 
 .about-text{
@@ -768,6 +793,9 @@ ul{
 /* lightbox cols */
 
 [class*=grid-]>[class*=col-6], [class*=grid_]>[class*=col-6], [class~=grid]>[class*=col-6], [class*=grid-]>[class*=col-12], [class*=grid_]>[class*=col-12], [class~=grid]>[class*=col-12]{
+  max-width:100%;
+}
+[class*=grid-]>[class*=_sm-12], [class*=grid_]>[class*=_sm-12], [class~=grid]>[class*=_sm-12]{
   max-width:100%;
 }
 

@@ -45,6 +45,9 @@ a{
 .padded-10 {padding: 10%; }
 .padded-5-10 {padding: 5% 10%; }
 .padded-bottom-1 {padding: 1rem; }
+.padded-5-right{padding-right:5rem;}
+.padded-5-left{padding-left:5rem;}
+.margin-side-6{margin:0 6px;}
 
 .padded-top-1 { padding-top: 1%;}
 
@@ -103,9 +106,6 @@ html{
 }
 /* nav  */
 
-.nav-title{
-  display:none;
-}
 
 .mobil-menu{
   display:none;
@@ -284,10 +284,19 @@ h1{
 }
 
 
+.social-media div{
+  margin:auto;
+  margin-top:0;
+}
+
 .social-media, .web-dev{
   padding:4rem 1rem 2rem 2rem;
 }
 
+
+.see4me{
+  padding-left:5rem;
+}
 
 .mobile-up{
   display:none;
@@ -306,7 +315,7 @@ h1{
 }
 
 .social-media ul{
-  padding:0 60px;
+  padding:0 0 0 13px;
 }
 
 .nashjo-img{
@@ -336,6 +345,10 @@ h1{
 [class*=grid-]>[class*=col-6], [class*=grid_]>[class*=col-6], [class~=grid]>[class*=col-6], [class*=grid-]>[class*=col-6], [class*=grid_]>[class*=col-6], [class~=grid]>[class*=col-6]{
   max-width:48%;
 
+}
+
+.writing span{
+  font-style:italic;
 }
 
 .writing_radio h3{
@@ -412,6 +425,10 @@ h1{
   color:#e5bc5c;
 }
 
+.purple-hover:hover{
+  color: #c8b0b4;
+}
+
 .empty{
   margin:0;
 }
@@ -455,9 +472,6 @@ h3 {
   position:relative;
 }
 
-.gallery-image div:hover{
-  zoom: 200%;
-}
 
 .overlay{
   background-color: rgb(222, 241, 234, 0.6);
@@ -469,11 +483,16 @@ h3 {
   top:0;
   left:0;
   color: rgb(60, 60, 60);
+  text-align:right;
 }
 
 .overlay:hover{
   opacity:1;
   transition: all 0.5s;
+}
+
+.heading-mobile{
+  display:none;
 }
 
 /* Web Dev  */
@@ -617,11 +636,6 @@ h3 {
     padding:0px;
   }
 
-  .main-title{
-    padding:1rem;
-    padding-top:55px;
-
-  }
 
   .title div{
     padding:1rem 3rem 3rem;
@@ -751,6 +765,7 @@ h3 {
 
 .featured-gallery{
   padding:0;
+  padding-top:4rem;
 }
 
 
@@ -760,7 +775,7 @@ h3 {
 }
 
 .social-media div{
-  margin:auto;
+  margin:0 6px;
   margin-bottom:15px;
   width:100%;
 }
@@ -804,6 +819,11 @@ ul{
   max-width:100%;
 }
 
+/* Media cols  */
+[class*=_sm-12]>[class*=col-], [class*=_sm-12]>[class*=col_], [class*=_sm-12]>[class~=col]{
+  max-width:100%;
+}
+
 .social-media ul{
   padding:0 2rem;
 }
@@ -824,4 +844,14 @@ width:100%;
 .about-img{
   border-radius:0;
 }
+}
+
+.gallery-item{
+  margin:0;
+}
+
+.heading-mobile{
+  display: block;
+  padding-bottom:20px;
+  text-align:center;
 }

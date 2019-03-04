@@ -21,11 +21,12 @@ featured-gallery:
 
   {% for item in page.featured-gallery %}
 
-  <div class="col-4_md-6_sm-12-middle gallery-item">
+  <div class="col-4_sm-12-middle gallery-item">
     <a href="{{item.featured_image}}" data-lightbox="featured" data-title="{{item.heading}}">
       <div style="background-image:url({{item.featured_image}})" class="gallery-image">
-        <div class="overlay centered"> <br> {{item.heading}}</div>
+        <div class="overlay"> <br> {{item.heading}}</div>
       </div>
+        <div class="heading-mobile"> <br> {{item.heading}}</div>
     </a>
   </div>
 

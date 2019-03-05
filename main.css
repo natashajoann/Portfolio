@@ -48,6 +48,7 @@ a{
 .padded-5-right{padding-right:5rem;}
 .padded-5-left{padding-left:5rem;}
 .margin-side-6{margin:0 6px;}
+.margin-sides{margin: 0px 21px;}
 
 .padded-top-1 { padding-top: 1%;}
 
@@ -278,6 +279,37 @@ h1{
 
 /* Media*/
 
+.accordion{
+  border:none;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  transition: max-height 0.4s ease-out;
+}
+
+.accordion:hover{
+  color:#e5bc5c;
+}
+
+.accordion:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+.panel{
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+
 .consult p{
   width:80%;
   margin:auto;
@@ -287,7 +319,11 @@ h1{
 .social-media div{
   margin:auto;
   margin-top:0;
+  margin-right: 40px;
+  margin-left: 37px;
 }
+
+.social_media ul{margin: 0px 21px;}
 
 .social-media, .web-dev{
   padding:4rem 1rem 2rem 2rem;
@@ -607,6 +643,14 @@ h3 {
 }
 
 /* media queries */
+
+@media (max-width: 1024){
+  .social-media div{
+    margin:auto;
+    margin-left:0;
+    margin-right:0;
+  }
+}
 @media (max-width: 768px){
   section{
     padding:0rem;

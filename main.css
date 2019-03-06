@@ -50,6 +50,9 @@ a{
 .margin-side-6{margin:0 6px;}
 .margin-sides{margin: 0px 21px;}
 
+
+.margin-auto{margin:auto;}
+
 .padded-top-1 { padding-top: 1%;}
 
 .padded-top-3 {padding-top:3rem;}
@@ -84,8 +87,7 @@ section{
   margin:0;
 }
 
-h2, h3, a, h1{
-  /* font-family: 'Abril Fatface', cursive; */
+h2, h3, a{
   font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -132,7 +134,6 @@ html{
 
 .nav-menu a:hover{
   color: #e5bc5c;
-  transition:0.3s;
 }
 
 .nav-menu a:active{
@@ -141,26 +142,22 @@ html{
 
 
 
-.fa-circle{
-  margin:0 20px;
-}
-
-.circle1{
-  color:#f6cf75;
-}
-
-.circle2{
-  color: #f1ddd2;
-}
-
-.circle3{
-  color:#d2ebdd;
-}
-
 /* Title */
 
-h1{
+.main-title h1, .main-title-mobile h1{
   font-size:47px;
+  font-family: 'Fascinate Inline', cursive;
+  line-height: 43px;
+  margin: 6px 0 0 35px;
+  color: rgb(70,70,70);
+}
+
+.main-title h1:hover{
+  color: #e5bc5c;
+}
+
+.main-title-mobile{
+  display:none;
 }
 
 .intro h3{
@@ -279,35 +276,43 @@ h1{
 
 /* Media*/
 
-.accordion{
-  border:none;
-  padding: 18px;
-  width: 100%;
-  text-align: left;
-  transition: max-height 0.4s ease-out;
+.social-media nav a {
+  display:inline-block;
+  text-decoration: none;
+  padding: 15px 11px;
+  font-size: 20px;
+  font-weight: 300;
+  color: #C3BFBC;
+  font-family: 'Alegreya Sans SC', sans-serif;
 }
 
-.accordion:hover{
-  color:#e5bc5c;
+.dropdown-content {
+    display: none;
+    background-color: white;
+    padding:5px;
+    width:80%;
 }
 
-.accordion:after {
-  content: '\02795'; /* Unicode character for "plus" sign (+) */
-  font-size: 13px;
-  color: #777;
-  float: right;
-  margin-left: 5px;
+.dropdown-content a:hover {
+  font-style: italic;
 }
 
-.active:after {
-  content: "\2796"; /* Unicode character for "minus" sign (-) */
+
+
+.dropdown-nav {
+  position:relative;
+  cursor: pointer;
 }
 
-.panel{
-  padding: 0 18px;
-  background-color: white;
-  display: none;
-  overflow: hidden;
+.dropdown-nav h3{
+  border-bottom: 2px solid;
+  width: 80%;
+  margin:auto;
+}
+
+
+.social-media-clients{
+  margin-bottom:20px;
 }
 
 .consult p{
@@ -319,8 +324,6 @@ h1{
 .social-media div{
   margin:auto;
   margin-top:0;
-  margin-right: 40px;
-  margin-left: 37px;
 }
 
 .social_media ul{margin: 0px 21px;}
@@ -348,8 +351,12 @@ h1{
   font-size:32px;
   text-align:center;
   margin-bottom:15px;
+  margin-top:20px;
 }
 
+.instagram-media-rendered{
+  margin:auto;
+}
 .social-media ul{
   padding:0 0 0 13px;
 }
@@ -431,6 +438,7 @@ h1{
 .bgt-bk-img{
   background-image: url("/images/Verdon-houses-in-Bogota.jpg");
 }
+
 
 .wsp-bk-img{
   background-image: url("/images/Verdon-piece-photo.jpg");
@@ -652,6 +660,17 @@ h3 {
   }
 }
 @media (max-width: 768px){
+
+.main-title-mobile{
+  display:block;
+}
+
+.main-title-mobile h1{
+  font-size: 35px;
+  line-height: 31px;
+  margin: 6px 0 0 16px;
+  padding-top: 8px;
+}
   section{
     padding:0rem;
   }
@@ -672,7 +691,7 @@ h3 {
 
   .title{
     padding-bottom:2rem;
-    height:87vh;
+    height:60vh;
     padding-top:3rem;
   }
 
@@ -682,7 +701,7 @@ h3 {
 
 
   .title div{
-    padding:1rem 3rem 3rem;
+    padding:0;
   }
 
   .push-down h2{
@@ -730,7 +749,7 @@ h3 {
   .burger-button{
     position:fixed;
     top:4vh;
-    right:2vh;
+    right:0vh;
     z-index:9;
     padding:8px;
   }
@@ -891,7 +910,7 @@ width:100%;
 }
 
 .gallery-item{
-  margin:0;
+  margin:2px;
 }
 
 .heading-mobile{

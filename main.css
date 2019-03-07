@@ -43,6 +43,7 @@ a{
 .padded-4 { padding: 4%; }
 .padded-5 { padding: 5%; }
 .padded-10 {padding: 10%; }
+.padded-top-16 {padding:16%;}
 .padded-5-10 {padding: 5% 10%; }
 .padded-bottom-1 {padding: 1rem; }
 .padded-5-right{padding-right:5rem;}
@@ -54,7 +55,7 @@ a{
 .margin-auto{margin:auto;}
 
 .padded-top-1 { padding-top: 1%;}
-
+.padded-top-5{padding-top:5%;}
 .padded-top-3 {padding-top:3rem;}
 
 .mob-show { display: none;}
@@ -161,7 +162,7 @@ html{
 }
 
 .intro h3{
-  font-size:22px;
+  font-size:27px;
   width:80%;
   margin:auto;
 }
@@ -170,11 +171,11 @@ html{
 }
 
 .title{
-  height: 25vh;
+  height: 44vh;
 }
 
 .title div{
-  padding: 3rem;
+  padding: 6rem;
 }
 
 .title span{
@@ -207,8 +208,8 @@ html{
 }
 
 .push-down h2{
-  font-size: 56px;
-  padding: 35px 88px;
+  font-size: 47px;
+  padding: 40px 88px;
 }
 
 .push-down{
@@ -313,16 +314,27 @@ html{
 
 .social-media-clients{
   margin-bottom:20px;
+  margin-right:37px;
 }
 
-.consult p{
-  width:80%;
+
+
+.social-media-clients img{
+  width:146px;
+}
+
+.enemon-bk{
+  background-color: rgb(100,100,100);
+}
+
+
+.social-media-clients h3{
   margin:auto;
+  padding: 3rem 0;
 }
 
 
 .social-media div{
-  margin:auto;
   margin-top:0;
 }
 
@@ -332,14 +344,6 @@ html{
   padding:4rem 1rem 2rem 2rem;
 }
 
-
-.see4me{
-  padding-left:5rem;
-}
-
-.mobile-up{
-  display:none;
-}
 
 .social-media div{
   margin-bottom:20px;
@@ -354,9 +358,6 @@ html{
   margin-top:20px;
 }
 
-.instagram-media-rendered{
-  margin:auto;
-}
 .social-media ul{
   padding:0 0 0 13px;
 }
@@ -414,11 +415,6 @@ html{
     margin:auto;
   }
 
-  /* .writing_radio a:hover{
-    text-decoration:underline;
-  } */
-
-
 .writing-bk-img{
   background-size:cover;
   background-position:center;
@@ -473,16 +469,12 @@ html{
   color: #c8b0b4;
 }
 
-.empty{
-  margin:0;
-}
 
 /* lightbox - Food */
 
 [class*=grid-]>[class*=col-4], [class*=grid_]>[class*=col-4], [class~=grid]>[class*=col-4]{
   max-width:31.3333%;
 }
-
 
 
 .gallery-image{
@@ -556,8 +548,6 @@ h3 {
 }
 
 
-.padded-5{padding:5%;}
-
 .web-dev div{
   border-radius:5px;
   text-align:center;
@@ -565,9 +555,6 @@ h3 {
   margin:auto;
 }
 
-/* .web-dev a:hover{
-  text-decoration:underline;
-} */
 
 .mkart-img{
   background-image: url("/images/miikaartweb.png");
@@ -616,7 +603,7 @@ h3 {
 .about-text{
   background-color: #d2ebdd;
   width:88%;
-  padding:4rem 4rem 1rem;
+  padding:4rem 4rem 4rem;
   border-radius:5px 0px 0px 0px;
 }
 
@@ -635,7 +622,6 @@ h3 {
 }
 
 .padded-bottom-1 h2{
-  /* padding-bottom:1rem; */
   position:absolute;
 }
 
@@ -649,6 +635,10 @@ h3 {
 .about div{
   margin:0;
 }
+
+
+.padded-top-3{padding-top:3%;}
+.padded-top-5{padding-top:5%;}
 
 /* media queries */
 
@@ -838,7 +828,6 @@ h3 {
 }
 
 .social-media div{
-  margin:0 6px;
   margin-bottom:15px;
   width:100%;
 }

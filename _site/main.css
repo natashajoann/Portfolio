@@ -38,6 +38,7 @@ a{
 
 .no-padding { padding: 0; }
 
+.padded-top-0{padding-top:0;}
 .padded-1 { padding: 1%; }
 .padded-3 { padding: 3%; }
 .padded-4 { padding: 4%; }
@@ -50,7 +51,7 @@ a{
 .padded-5-left{padding-left:5rem;}
 .margin-side-6{margin:0 6px;}
 .margin-sides{margin: 0px 21px;}
-
+.margin-bottom{margin-bottom:3rem;}
 
 .margin-auto{margin:auto;}
 
@@ -291,7 +292,6 @@ html{
     display: none;
     background-color: white;
     padding:5px;
-    width:80%;
 }
 
 .dropdown-content a:hover {
@@ -338,7 +338,20 @@ html{
   margin-top:0;
 }
 
-.social_media ul{margin: 0px 21px;}
+.social-media p, .social-media h2{
+  width:70%;
+  margin:auto;
+  text-align:left;
+}
+
+.social_media ul{
+  margin: 0px 21px;
+}
+
+.social-media span{
+  font-weight:800;
+  color: #8aa4a9;
+}
 
 .social-media, .web-dev{
   padding:4rem 1rem 2rem 2rem;
@@ -359,7 +372,7 @@ html{
 }
 
 .social-media ul{
-  padding:0 0 0 13px;
+  margin-left:74px;
 }
 
 .nashjo-img{
@@ -639,6 +652,8 @@ h3 {
 
 .padded-top-3{padding-top:3%;}
 .padded-top-5{padding-top:5%;}
+.padded-5 { padding: 5%; }
+.margin-bottom{margin-bottom:3rem;}
 
 /* media queries */
 
@@ -650,6 +665,10 @@ h3 {
   }
 }
 @media (max-width: 768px){
+
+.intro h3{
+  padding-top:3rem;
+}
 
 .main-title-mobile{
   display:block;
@@ -829,7 +848,6 @@ h3 {
 
 .social-media div{
   margin-bottom:15px;
-  width:100%;
 }
 
 .web-dev h3{
@@ -877,7 +895,8 @@ ul{
 }
 
 .social-media ul{
-  padding:0 2rem;
+  padding:0;
+
 }
 
 .writing_radio a{
@@ -896,7 +915,6 @@ width:100%;
 .about-img{
   border-radius:0;
 }
-}
 
 .gallery-item{
   margin:2px;
@@ -907,7 +925,22 @@ width:100%;
   padding-bottom:20px;
   text-align:center;
 }
+.social-media-clients{
+  margin-right:0;}
 
-.dropdown-content{
+.social-media-clients h3{
+  padding: 1rem 0;
+  font-size: 23px;
+}
+
+.media-side-img{
+  display:none;
+}
+
+
+.social-media p, .social-media h2{
   width:100%;
+  margin:auto;
+}
+
 }

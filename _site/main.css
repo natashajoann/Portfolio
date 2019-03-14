@@ -457,6 +457,10 @@ html{
   background-image: url("/images/tashwine.jpg");
 }
 
+.stpatty-bk-img{
+  background-image: url("/images/st.pattyday.jpg");
+}
+
 .thesis{
   margin:0;
   margin-bottom:50px;

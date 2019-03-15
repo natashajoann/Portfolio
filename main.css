@@ -148,7 +148,7 @@ html{
 
 .main-title h1, .main-title-mobile h1{
   font-size:47px;
-  font-family: 'Fascinate Inline', cursive;
+  /* font-family: 'Fascinate Inline', cursive; */
   line-height: 43px;
   margin: 6px 0 0 35px;
   color: rgb(70,70,70);

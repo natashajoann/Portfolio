@@ -617,7 +617,9 @@ h3 {
 /* ABOUT */
 .about{
   padding:66px 31px 0 64px;
+    height:80vh;
 }
+
 
 .about-text{
   background-color: #d2ebdd;

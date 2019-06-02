@@ -291,10 +291,8 @@ html{
 .dropdown-content {
     display: none;
     padding:5px;
-    background-color:rgb(250,250,250);
-    margin-left:3.75rem;
+    background-color:white;
 }
-
 
 .dropdown-content a:hover {
   font-style: italic;
@@ -309,8 +307,8 @@ html{
 
 .dropdown-nav h3{
   border-bottom: 2px solid;
-  width: 87%;
-  margin-left:5rem;
+  width: 80%;
+  margin: auto;
 }
 
 

@@ -291,7 +291,6 @@ html{
 .dropdown-content {
     display: none;
     padding:5px;
-    background-color:white;
 }
 
 .dropdown-content a:hover {

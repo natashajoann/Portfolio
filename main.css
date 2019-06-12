@@ -154,7 +154,7 @@ html{
   color: rgb(70,70,70);
 }
 .title{
-  padding-right:2rem;
+  padding-right:1rem;
 }
 .main-title h1:hover{
   color: #e5bc5c;
@@ -173,9 +173,6 @@ html{
   padding: 1px 9rem;
 }
 
-.title{
-  height: 67vh;
-}
 
 .title div{
   padding: 3rem;
@@ -191,27 +188,27 @@ html{
 }
 
 .intro-img-1{
-  background-image: url("/images/tash-bali.jpg");
-  background-position:center;
-  background-size:cover;
-  margin:5px;
-  height:50vh;
-}
-
-.intro-img-2{
-  background-image: url("/images/mex-oatbowl.jpg");
-  background-position:center;
-  background-size:cover;
-  margin:5px;
-  height:50vh;
-}
-
-.intro-img-3{
   background-image: url("/images/tash-tacos.jpg");
   background-position:center;
   background-size:cover;
   margin:5px;
-  height:50vh;
+  height:43vh;
+}
+
+.intro-img-2{
+  background-image: url("/images/tash-bali.jpg");
+  background-position:center;
+  background-size:cover;
+  margin:5px;
+  height:43vh;
+}
+
+.intro-img-3{
+  background-image: url("/images/mex-oatbowl.jpg");
+  background-position:center;
+  background-size:cover;
+  margin:5px;
+  height:43vh;
 }
 /* services */
 

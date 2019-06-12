@@ -153,7 +153,9 @@ html{
   margin: 6px 0 0 35px;
   color: rgb(70,70,70);
 }
-
+.title{
+  padding-right:2rem;
+}
 .main-title h1:hover{
   color: #e5bc5c;
 }
@@ -184,7 +186,9 @@ html{
   font-style:italic;
 }
 
-
+.title-mid{
+  margin-left:5px;
+}
 
 .intro-img-1{
   background-image: url("/images/tash-bali.jpg");
@@ -201,7 +205,7 @@ html{
 }
 
 .intro-img-3{
-  background-image: url("/images/tash-peru.jpg");
+  background-image: url("/images/tash-tacos.jpg");
   background-position:center;
   background-size:cover;
   margin:5px;

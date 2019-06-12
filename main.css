@@ -172,11 +172,11 @@ html{
 }
 
 .title{
-  height: 44vh;
+  height: 67vh;
 }
 
 .title div{
-  padding: 6rem;
+  padding: 3rem;
 }
 
 .title span{
@@ -184,22 +184,27 @@ html{
   font-style:italic;
 }
 
-.intro-img-1, .intro-img-2{
+
+
+.intro-img-1{
+  background-image: url("/images/tash-bali.jpg");
   background-position:center;
   background-size:cover;
   margin:5px;
 }
 
-.intro-img-1{
-  background-image: url("/images/tash-bali.jpg/");
-}
-
 .intro-img-2{
-  background-image: url("/images/mex-oatbowl.jpg/");
+  background-image: url("/images/mex-oatbowl.jpg");
+  background-position:center;
+  background-size:cover;
+  margin:5px;
 }
 
 .intro-img-3{
-  background-image: url("/images/tash-peru.jpg/");
+  background-image: url("/images/tash-peru.jpg");
+  background-position:center;
+  background-size:cover;
+  margin:5px;
 }
 /* services */
 

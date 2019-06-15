@@ -976,4 +976,13 @@ width:100%;
   padding: 0 31px;
 }
 
+.intro-img-1, .intro-img-3{
+  display:none;
+}
+
+.intro-img-2{
+  margin:auto;
+  margin-top:15px;
+  padding:0;
+}
 }

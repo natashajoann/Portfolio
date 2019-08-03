@@ -183,6 +183,11 @@ html{
   font-style:italic;
 }
 
+.title a{
+  color:#acc4b7;
+  font-style:normal;
+}
+
 .title-mid{
   margin-left:5px;
 }

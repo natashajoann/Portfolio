@@ -619,6 +619,15 @@ h3 {
   margin:auto;
 }
 
+.phh-img{
+  background-image: url("/images/PHHLawGroup.png");
+  background-size:cover;
+  padding:8rem;
+  margin:auto;
+  border: 1px solid rgb(200, 200, 200);
+  width:90%;
+}
+
 
 .mkart-img{
   background-image: url("/images/miikaartweb.png");

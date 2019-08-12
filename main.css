@@ -223,12 +223,13 @@ html{
 }
 
 .testimonial span{
-  color:#e5bc5c;
+  color:#c8b0b4;
 }
 
 .testimonial h3{
   width:80%;
   margin:auto;
+  font-size:20px;
 }
 
 /* services */

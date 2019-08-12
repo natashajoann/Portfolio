@@ -215,6 +215,17 @@ html{
   margin:5px;
   height:43vh;
 }
+
+/* Testimonials */
+.testimonial{
+  padding:4rem;
+  text-align:center;
+}
+
+.testimonial span{
+  color:#e5bc5c;
+}
+
 /* services */
 
 [class*=grid-]>[class*=col-6], [class*=grid_]>[class*=col-6], [class~=grid]>[class*=col-6]{

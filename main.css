@@ -669,6 +669,10 @@ h3 {
   width:90%;
 }
 
+.testimonial-web span{
+  color:#e5bc5c;
+}
+
 /* ABOUT */
 .about{
   padding:66px 31px 0 64px;

@@ -682,7 +682,12 @@ h3 {
 }
 
 .web-process h2{
-  font-size:30px;
+  font-size:44px;
+  text-align:center;
+}
+
+.web-process h3{
+  font-size:17px;
 }
 
 .process{
@@ -1040,6 +1045,10 @@ width:100%;
 }
 
 .testimonial-web{
+  padding:2rem;
+}
+
+.web-process{
   padding:2rem;
 }
 }

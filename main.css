@@ -677,6 +677,18 @@ h3 {
   background-color:#d2ebddad;
 }
 
+.web-process{
+  background-color:#e9b43945;
+}
+
+.web-process h2{
+  font-size:30px;
+}
+
+.process{
+  margin-top:20px;
+}
+
 /* ABOUT */
 .about{
   padding:66px 31px 0 64px;

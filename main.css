@@ -694,6 +694,14 @@ h3 {
   margin-top:20px;
 }
 
+.process p{
+  margin-bottom:20px;
+}
+
+.process h3{
+  margin-top:6px;
+}
+
 /* ABOUT */
 .about{
   padding:66px 31px 0 64px;

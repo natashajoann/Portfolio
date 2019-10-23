@@ -758,6 +758,9 @@ h3 {
 
 .cv-img{
 margin:auto;
+background-image:url("/images/nmvresume2019png.png");
+background-position:center;
+background-size:cover;
 padding: 30rem 0;
 }
 

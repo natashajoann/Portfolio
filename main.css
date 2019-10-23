@@ -752,8 +752,12 @@ h3 {
 
 /* CV */
 
+.cv-title{
+  text-align:center;
+}
+
 .cv-img{
-  background-image:url("images/NMVResume2019.pdf");
+  background-image:url("images/NMVResume2019PNg.png");
   background-position:center;
   background-size:cover;
   margin-auto;

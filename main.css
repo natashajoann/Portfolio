@@ -750,6 +750,15 @@ h3 {
 .padded-5 { padding: 5%; }
 .margin-bottom{margin-bottom:3rem;}
 
+/* CV */
+
+.cv-img{
+  background-image:url("images/NMVResume2019.pdf");
+  background-position:center;
+  background-size:cover;
+  margin-auto;
+}
+
 /* media queries */
 
 @media (max-width: 1024){

@@ -760,7 +760,7 @@ h3 {
   background-image:url("images/NMVResume2019PNg.png");
   background-position:center;
   background-size:cover;
-  margin-auto;
+  padding:5rem;
 }
 
 /* media queries */

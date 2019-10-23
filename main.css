@@ -757,10 +757,8 @@ h3 {
 }
 
 .cv-img{
-  background-image:url("/images/NMVResume2019PNG.png");
-  background-position:center;
-  background-size:cover;
-  padding:5rem;
+margin:auto;
+padding: 30rem 0;
 }
 
 /* media queries */
@@ -773,6 +771,9 @@ h3 {
   }
 }
 @media (max-width: 768px){
+.cv-img{
+  padding: 14rem 0;
+}
 
 .intro h3{
   padding-top:3rem;

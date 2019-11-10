@@ -67,9 +67,7 @@ a{
   background-position: center;
 }
 
-section{
-  padding:4rem;
-}
+
 
 [class*=col-], [class*=col_], [class~=col]{
   padding:0;
@@ -179,8 +177,7 @@ header h1{
 .testimonial{
   padding:4rem;
   font-size:30px;
-  text-align:center;
-  color:white;
+  text-align:left;
   font-weight:bold;
 }
 

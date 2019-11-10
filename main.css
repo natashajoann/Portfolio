@@ -206,7 +206,7 @@ header h1{
   padding:6rem 2rem;
 }
 
-.services-text:hover{
+.services-text a:hover{
   color:#e5bc5c;
 }
 

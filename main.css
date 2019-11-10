@@ -81,7 +81,7 @@ section{
   padding:0;
 }
 
-[class*=col-], [class*=col_], [class~=col]{
+[class*=col-], [class*=col_], [class~=col], [class*=col-], [class*=col_], [class~=col], [class*=col-], [class*=col_], [class~=col]{
   padding:0;
 }
 
@@ -133,7 +133,6 @@ html{
 
 .nav-menu{
   padding:10px 20px;
-  position:fixed;
   width:100%;
 }
 
@@ -164,14 +163,14 @@ header h1{
 }
 
 .intro-image{
-  background-image:url("/images/tash-tacos.jpg");
+  background-image:url("/images/vietnampic.jpg");
   background-position:center;
   background-size:cover;
 }
 
 .intro-text{
-  text-align:right;
-  padding:19rem 4rem 3rem 6rem;
+  text-align:center;
+  padding:4rem;
   font-size:30px;
 }
 
@@ -199,7 +198,7 @@ header h1{
 
 /* Services */
 .service-img{
-  background-image:url("/images/vietnamnpic.jpg");
+  background-image:url("/images/tash-tacos.jpg");
   background-position:right;
   background-size:cover;
   padding:3rem;
@@ -215,6 +214,12 @@ header h1{
 
 .services-text a:hover{
   color:#e5bc5c;
+}
+
+.testimonial-image{
+  background-image:url("/images/patepic.jpg");
+  background-position:center;
+  background-size:cover;
 }
 
 /* Media*/

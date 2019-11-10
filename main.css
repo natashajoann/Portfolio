@@ -111,7 +111,9 @@ html{
 }
 /* nav  */
 
-
+.main-title-mobile{
+  display:none;
+}
 .mobil-menu{
   display:none;
 }
@@ -178,7 +180,11 @@ header h1{
 }
 
 .test-1{
-  background-color:#e5bc5c;
+  background-image:url("images/test1.png");
+  background-attachment: fixed;
+  background-position:center;
+  background-position:cover;
+  padding:6rem;
 }
 
 .test-2{
@@ -194,8 +200,12 @@ header h1{
 }
 
 .services-text{
-  text-align:center;
-  padding:4rem;
+  text-align:left;
+  padding:6rem 2rem;
+}
+
+.services-text:hover{
+  color:#e5bc5c;
 }
 
 /* Media*/

@@ -146,183 +146,57 @@ html{
 
 /* Title */
 
-.main-title h1, .main-title-mobile h1{
+/* .main-title h1, .main-title-mobile h1{ */
+header h1{
   font-size:47px;
-  /* font-family: 'Fascinate Inline', cursive; */
   line-height: 43px;
   margin: 6px 0 0 35px;
   color: rgb(70,70,70);
-}
-.title{
-  padding-right:1rem;
-}
-.main-title h1:hover{
-  color: #e5bc5c;
+  text-align:left;
 }
 
-.main-title-mobile{
-  display:none;
-}
-
-.intro h3{
-  font-size:27px;
-  width:80%;
-  margin:auto;
-}
-.title p{
-  padding: 1px 9rem;
-}
-
-
-.title div{
-  padding: 3rem;
-}
-
-.title span{
-  color: #acc4b7;
-  font-style:italic;
-}
-
-.title a{
-  color:#acc4b7;
-  font-style:normal;
-}
-
-.title-mid{
-  margin-left:5px;
-}
-
-.intro-img-1{
-  background-image: url("/images/tash-tacos.jpg");
+.about-image{
+  background-image:url("/images/tash-tacos.jpg");
   background-position:center;
   background-size:cover;
-  margin:5px;
-  height:43vh;
 }
 
-.intro-img-2{
-  background-image: url("/images/tash-bali.jpg");
-  background-position:center;
-  background-size:cover;
-  margin:5px;
-  height:43vh;
-}
-
-.intro-img-3{
-  background-image: url("/images/mex-oatbowl.jpg");
-  background-position:center;
-  background-size:cover;
-  margin:5px;
-  height:43vh;
+.about-text{
+  test-align:right;
+  padding: 3rem 6rem 0 0;
+  font-size:30px;
 }
 
 /* Testimonials */
+
 .testimonial{
-  padding:4rem 0 0 2rem;
+  padding:2rem;
+  font-size:30px;
   text-align:center;
+  color:white;
+  font-weight:bold;
 }
 
-.testimonial span{
-  color:#c8b0b4;
+.test-1{
+  background-color:#e5bc5c;
 }
 
-.testimonial h3{
-  width:80%;
-  margin:auto;
+.test-2{
+  background-color:#e4cabc;
 }
 
-/* services */
-
-[class*=grid-]>[class*=col-6], [class*=grid_]>[class*=col-6], [class~=grid]>[class*=col-6]{
-  max-width:48%;
-}
-
-[class*=grid-]>[class*=col-12], [class*=grid_]>[class*=col-12], [class~=grid]>[class*=col-12]{
-  max-width:97.5%;
-}
-.services div{
-  transition: 0.2s;
-  position:relative;
-  border-radius:5px;
-}
-
-.services a{
-  margin: 6px;
-  border-radius:5px;
+/* Services */
+.service-img{
+  background-image:url("/images/vietnamnpic.jpg");
+  background-position:right;
+  background-size:cover;
   padding:3rem;
 }
 
-.services{
-  padding:64px 50px 64px 62px;
+.services-text{
+  text-align:center;
+  padding:4rem;
 }
-
-.push-down h2{
-  font-size: 47px;
-  padding: 40px 88px;
-}
-
-.push-down{
-  padding:0;
-  z-index:6;
-  position:absolute;
-}
-
-
-.services h3{
-  padding-bottom:15px;
-  font-size:24px;
-}
-
-.services p{
-  padding-left:35px;
-}
-
-.webdev{
-  background-color:#e5bc5c;
-  padding:4rem 3rem;
-}
-
-.writing{
-  background-color: #94b3ba;
-  padding: 3rem;
-}
-
-.food{
-  background-color:#e4cabc;
-  padding: 3rem;
-}
-
-
-.media{
-  background-color:#BB5C2F;
-  padding: 3rem;
-}
-
-.blog{
-  background-color:#c8b0b4;
-  padding: 3rem;
-}
-
-.blog h4{
-  text-align:right;
-  padding:10.5px 0;
-  font-size:24px;
-}
-
-
-.services div:hover{
-  zoom: 105%;
-}
-
-.services{
-  margin-top:-5px;
-}
-
-.section-title div{
-  padding:0px;
-  z-index:1;
-}
-
 
 /* Media*/
 

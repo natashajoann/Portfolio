@@ -337,8 +337,8 @@ header h1{
 }
 /* writing + radio */
 
-[class*=grid-]>[class*=col-6], [class*=grid_]>[class*=col-6], [class~=grid]>[class*=col-6], [class*=grid-]>[class*=col-6], [class*=grid_]>[class*=col-6], [class~=grid]>[class*=col-6]{
-  max-width:48%;
+/* [class*=grid-]>[class*=col-6], [class*=grid_]>[class*=col-6], [class~=grid]>[class*=col-6], [class*=grid-]>[class*=col-6], [class*=grid_]>[class*=col-6], [class~=grid]>[class*=col-6]{
+  max-width:48%; */
 
 }
 
@@ -593,10 +593,6 @@ h3 {
 }
 
 /* ABOUT */
-.about{
-  padding:66px 31px 0 64px;
-}
-
 
 .about-text{
   background-color: #d2ebdd;
@@ -613,11 +609,7 @@ h3 {
   padding-top:3rem;
 }
 
-.about {
-  padding-bottom:0;
-  position:relative;
-  margin-top:1px;
-}
+
 
 .padded-bottom-1 h2{
   position:absolute;
@@ -627,11 +619,6 @@ h3 {
   background-image: url("/images/myface.jpg");
   background-position:center;
   background-size:cover;
-  border-radius:0px 5px 0 0;
-}
-
-.about div{
-  margin:0;
 }
 
 

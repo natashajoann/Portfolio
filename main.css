@@ -198,6 +198,10 @@ header h1{
   background-size:cover;
   padding:3rem;
 }
+[class*=col-], [class*=col_], [class~=col]{
+  padding:0;
+}
+]
 
 .services-text{
   text-align:left;

@@ -71,7 +71,7 @@ a{
   padding:0;
 }
 
-[class*=col-], [class*=col_], [class~=col], [class*=col-], [class*=col_], [class~=col]{
+[class*=col-], [class*=col_], [class~=col], [class*=col-], [class*=col_], [class~=col], [class*=col-], [class*=col_], [class~=col]{
   padding:0;
 }
 
@@ -220,9 +220,13 @@ a{
 .main-title-name h1{
   font-size:47px;
   line-height: 43px;
-  margin: 6px 0 0 35px;
   color: rgb(70,70,70);
   text-align:left;
+}
+
+.main-title-name{
+    margin: 6px 0 0 35px;
+    position:fixed;
 }
 
 .intro-image{

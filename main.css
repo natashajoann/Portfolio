@@ -175,12 +175,12 @@ a{
     display: none;
     position: fixed;
     top: 0;
-    right: 42.25%;
+    right: 41%;
     background-color:rgba(255,255,255,0.89);
     padding:5px;
     z-index: 8;
     padding-top:12rem;
-    width:58%;
+    width:59%;
     text-align:center;
     height:100vh;
 

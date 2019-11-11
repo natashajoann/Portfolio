@@ -87,7 +87,7 @@ a{
   margin:0;
 }
 
-[class*=col-], [class*=col_], [class~=col], [class*=col-], [class*=col_], [class~=col], [class*=col-], [class*=col_], [class~=col], [class*=col-], [class*=col_], [class~=col], [class*=col-], [class*=col_], [class~=col], [class*=col-], [class*=col_], [class~=col]
+[class*=col-], [class*=col_], [class~=col], [class*=col-], [class*=col_], [class~=col], [class*=col-], [class*=col_], [class~=col], [class*=col-], [class*=col_], [class~=col], [class*=col-], [class*=col_], 
 {
   padding:0;
 }

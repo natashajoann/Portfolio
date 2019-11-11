@@ -225,11 +225,14 @@ a{
   background-size:cover;
 } */
 
+.intro-image{
+  position:fixed;
+}
 
 
 .intro-text{
   text-align:right;
-  padding:14rem 3rem 2rem 2rem;
+  padding:0 3rem 2rem 2rem;
   font-size:30px;
 }
 

@@ -176,7 +176,7 @@ a{
     position: fixed;
     top: 0;
     right: 42.25%;
-    background-color: #fffffff2;
+    background-color: :
     padding:5px;
     z-index: 8;
     padding-top:12rem;
@@ -732,6 +732,19 @@ padding: 30rem 0;
 .cv-img{
   padding: 14rem 0;
 }
+
+.burger-button{
+right:2vh;
+
+
+.burger-menu{
+right:0;
+width:100%
+background-color: #fffffff2;
+height: 103vh;
+
+burger-menu a{
+Font-size:15px;
 
 intro-text h3 {
     padding: 14rem 1rem 2rem 2rem;

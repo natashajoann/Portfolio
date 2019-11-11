@@ -15,6 +15,7 @@ Website Colours: List colour hex codes here for reference
 body {
   color: #313131;
   /* font-family: 'Noto Serif JP', serif; */
+  background-color:#f6f4ea;
 }
 
 img {
@@ -254,12 +255,16 @@ a{
   color:white;
 }
 
-.test-1{
+/* .test-1{
 background-color:#e5bc5c;
 }
 
 .test-2{
   background-color:#e4cabc;
+} */
+
+.parallax{
+  background-attachment:fixed;
 }
 
 /* Services */
@@ -271,7 +276,7 @@ background-color:#e5bc5c;
 }
 
 
-.services-text{
+.services-text h2, .services-text h3{
   text-align:left;
   padding:6rem 2rem;
 }

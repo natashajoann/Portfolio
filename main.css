@@ -147,7 +147,9 @@ html{
   color: #e5bc5c;
 }
 
-
+.coming-soon{
+  height:100vh;
+}
 
 /* Title */
 
@@ -164,12 +166,15 @@ header h1{
   background-image:url("/images/vietnampic.jpg");
   background-position:center;
   background-size:cover;
+  margin:2rem 4rem 4rem;
+  padding:17rem;
 }
 
 .intro-text{
   text-align:center;
   padding:4rem;
   font-size:30px;
+  margin:3rem 6rem;
 }
 
 /* Testimonials */

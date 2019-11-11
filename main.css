@@ -186,22 +186,24 @@ a{
     display: none;
     position: fixed;
     top: 0;
-    right: 42%;
+    right: 42.25%;
     background-color: #fffffff2;
     padding:5px;
     z-index: 8;
-    padding-top:50px;
+    padding-top:12rem;
+    width:58%;
+    text-align:center;
+    height:100vh;
+
 }
 
 .burger-menu a {
   text-decoration: none;
-  padding: 15px 11px;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 300;
   color: #C3BFBC;
   display:block;
-  padding:5px 15px;
-  text-align:right;
+  padding:15px;
   white-space:nowrap;
 }
 
@@ -238,6 +240,10 @@ a{
   text-align:right;
   padding:14rem 3rem 2rem 2rem;
   font-size:30px;
+}
+
+.intro-text h3{
+  padding:19rem 3rem 2rem 2rem;
 }
 
 /* Testimonials */

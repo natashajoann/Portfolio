@@ -176,7 +176,7 @@ a{
     position: fixed;
     top: 0;
     right: 42.25%;
-    background-color:#ffffffe3;
+    background-color:rgba(255,255,255,0.89);
     padding:5px;
     z-index: 8;
     padding-top:12rem;
@@ -741,24 +741,24 @@ right:2vh;
 .burger-menu{
 right:0;
 width:100%;
-background-color: #ffffffe3;
+background-color: rgba(255,255,255,0.89);
 height: 103vh;
-background-color: #ffffffe3;
+background-color: rgba(255,255,255,0.89);
 }
 
 .burger-menu a{
-font-size:15px;
+font-size:30px;
 white-space: normal;
 }
 
 .intro-text h3 {
-    padding:4rem 2rem 0rem 2rem;
+    padding:4rem 2rem 2rem;
 }
 
-.title h3{
-
-  padding:14rem 2rem 2rem;
+.intro-text{
+  padding:0;
 }
+
 
 .parallax{
   padding:11rem;

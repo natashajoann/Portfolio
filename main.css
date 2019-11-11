@@ -743,13 +743,16 @@ right:0;
 width:100%;
 background-color: #ffffffe6;
 height: 103vh;
+background-color: #ffffffe6;
+}
 
-burger-menu a{
+.burger-menu a{
 font-size:15px;
+white-space: normal;
+}
 
 intro-text h3 {
     padding:4rem 2rem 0rem 2rem;
-
 }
 
 .title h3{

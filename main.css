@@ -232,15 +232,13 @@ a{
 }
 
 .intro-text h3{
-  padding:24rem 3rem 2rem 2rem;
-  height:100vh;
+  padding:20rem 3rem 4rem 2rem;
 }
 
 /* Testimonials */
 
 .testimonial{
   text-align:center;
-  height:100vh;
 }
 
 .testimonial p{
@@ -744,15 +742,15 @@ background-color: #ffffffe6;
 height: 103vh;
 
 burger-menu a{
-Font-size:15px;
+font-size:15px;
 
 intro-text h3 {
     padding: 14rem 1rem 2rem 2rem;
-    /* height:0; */
+
 }
 
 .title h3{
-  /* height:0; */
+
   padding:14rem 2rem 2rem;
 }
 
@@ -761,7 +759,7 @@ intro-text h3 {
 }
 
 .testimonial{
-  /* height:0; */
+
   padding:0rem;
 }
 
@@ -773,8 +771,9 @@ intro-text h3 {
   padding:2rem 4rem;
 }
 
-.services{
-  height:77vh;;
+.services-text{
+  padding-top:7rem;
+  padding-bottom:8rem;
 }
 .services div{
   padding:1rem 2rem ;

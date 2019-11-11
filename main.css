@@ -732,6 +732,10 @@ padding: 30rem 0;
   padding: 14rem 0;
 }
 
+[class*=col-], [class*=col_], [class~=col]{
+  padding:0;
+}
+
 .burger-button{
 right:2vh;
 
@@ -760,7 +764,6 @@ intro-text h3 {
 }
 
 .testimonial{
-
   padding:0rem;
 }
 
@@ -769,7 +772,7 @@ intro-text h3 {
 }
 
 .testimonial p{
-  padding:2rem 4rem;
+  padding:3rem 4rem;
 }
 
 .services-text{

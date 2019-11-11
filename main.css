@@ -71,7 +71,7 @@ a{
   padding:0;
 }
 
-[class*=col-], [class*=col_], [class~=col]{
+[class*=col-], [class*=col_], [class~=col], [class*=col-], [class*=col_], [class~=col]{
   padding:0;
 }
 
@@ -217,7 +217,7 @@ a{
 /* Title */
 
 /* .main-title h1, .main-title-mobile h1{ */
-header h1{
+.main-title-name h1{
   font-size:47px;
   line-height: 43px;
   margin: 6px 0 0 35px;

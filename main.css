@@ -227,12 +227,12 @@ a{
 
 .intro-text{
   text-align:right;
-  padding:14rem 3rem 2rem 2rem;
+  padding:0;
   font-size:30px;
 }
 
 .intro-text h3{
-  padding:20rem 3rem 4rem 2rem;
+  padding:4rem 2rem 4rem 2rem;
 }
 
 /* Testimonials */

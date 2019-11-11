@@ -71,7 +71,7 @@ a{
   padding:0;
 }
 
-[class*=col-], [class*=col_], [class~=col], [class*=col-], [class*=col_], [class~=col]{
+[class*=col-], [class*=col_], [class~=col], [class*=col-], [class*=col_], [class~=col], [class*=col-], [class*=col_], [class~=col]{
   padding:0;
 }
 
@@ -101,12 +101,12 @@ html{
 }
 /* nav  */
 
-.main-title-mobile{
+/* .main-title-mobile{
   display:none;
 }
 .mobil-menu{
   display:none;
-}
+} */
 
 .space-around{
   display:flex;
@@ -163,7 +163,7 @@ header h1{
 /* Testimonials */
 
 .testimonial{
-  padding:4rem 2rem;
+  padding:4rem;
   text-align:center;
   color:white;
 }
@@ -188,6 +188,14 @@ background-color:#e5bc5c;
 .services-text{
   text-align:left;
   padding:6rem 2rem;
+}
+
+.services-text h2{
+  font-size:60px;
+}
+
+.services-text a{
+  padding: 15px 0;
 }
 
 .services-text a:hover{

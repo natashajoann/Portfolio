@@ -267,7 +267,8 @@ background-color:#e5bc5c;
 
 
 .services-text{
-  height:100vh;
+  padding-top:7rem;
+  padding-bottom:8rem;
 }
 
 .services-text h2{

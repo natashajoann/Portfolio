@@ -92,6 +92,10 @@ font-size:15px;
 html{
   scroll-behavior:smooth;
 }
+
+[class*=col-], [class*=col_], [class~=col]{
+  padding:0;
+}
 /* nav  */
 
 
@@ -228,16 +232,19 @@ a{
 }
 
 .intro-text h3{
-  padding:14rem 3rem 2rem 2rem;
-  height:67vh;
+  padding:24rem 3rem 2rem 2rem;
+  height:100vh;
 }
 
 /* Testimonials */
 
 .testimonial{
-  padding:13rem 4rem;
   text-align:center;
-  height:88vh;
+  height:100vh;
+}
+
+.testimonial p{
+  padding:13rem 4rem;
 }
 
 /* .test-1{
@@ -262,13 +269,13 @@ background-color:#e5bc5c;
 
 
 .services-text{
-  text-align:left;
-  padding:6rem 4rem;
-  height:8vh;
+  height:100vh;
 }
 
 .services-text h2{
   font-size:60px;
+  text-align:left;
+  padding:6rem 4rem;
 }
 
 .services-text h3{

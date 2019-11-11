@@ -148,7 +148,9 @@ html{
 }
 
 .coming-soon{
-  height:100vh;
+  height:12vh;
+  padding:10rem 3rem;
+  font-size:50px;
 }
 
 /* Title */

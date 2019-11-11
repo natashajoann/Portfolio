@@ -176,7 +176,7 @@ a{
     position: fixed;
     top: 0;
     right: 42.25%;
-    background-color: :
+    background-color:#ffffffe6;
     padding:5px;
     z-index: 8;
     padding-top:12rem;
@@ -739,8 +739,8 @@ right:2vh;
 
 .burger-menu{
 right:0;
-width:100%
-background-color: #fffffff2;
+width:100%;
+background-color: #ffffffe6;
 height: 103vh;
 
 burger-menu a{

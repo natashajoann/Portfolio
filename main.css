@@ -15,7 +15,7 @@ Website Colours: List colour hex codes here for reference
 body {
   color: #313131;
   /* font-family: 'Noto Serif JP', serif; */
-  background-color:#f6f4ea;
+  background-color:#fffefa;
 }
 
 img {
@@ -66,22 +66,6 @@ a{
   background-color: grey;
   background-size: cover;
   background-position: center;
-}
-
-[class*=col-], [class*=col_], [class~=col]{
-  padding:0;
-}
-
-[class*=col-], [class*=col_], [class~=col], [class*=col-], [class*=col_], [class~=col], [class*=col-], [class*=col_], [class~=col]{
-  padding:0;
-}
-
-[class*=col-], [class*=col_], [class~=col], [class*=col-], [class*=col_], [class~=col], [class*=col-], [class*=col_], [class~=col]{
-  padding:0;
-}
-
-[class*=col-], [class*=col_], [class~=col]{
-  padding:0;
 }
 
 h2, h3, h4, h5, a{
@@ -244,15 +228,16 @@ a{
 }
 
 .intro-text h3{
-  padding:19rem 3rem 2rem 2rem;
+  padding:14rem 3rem 2rem 2rem;
+  height:67vh;
 }
 
 /* Testimonials */
 
 .testimonial{
-  padding:4rem;
+  padding:13rem 4rem;
   text-align:center;
-  color:white;
+  height:88vh;
 }
 
 /* .test-1{
@@ -276,17 +261,18 @@ background-color:#e5bc5c;
 }
 
 
-.services-text h2, .services-text h3{
+.services-text{
   text-align:left;
-  padding:6rem 2rem;
+  padding:6rem 4rem;
+  height:8vh;
 }
 
 .services-text h2{
   font-size:60px;
 }
 
-.services-text a{
-  padding: 15px 0;
+.services-text h3{
+  padding: 20px 0;
 }
 
 .services-text a:hover{

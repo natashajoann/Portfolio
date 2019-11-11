@@ -227,12 +227,12 @@ a{
 
 .intro-text{
   text-align:right;
-  padding:0;
+  padding:14rem 3rem 2rem 2rem;
   font-size:30px;
 }
 
 .intro-text h3{
-  padding:4rem 2rem 4rem 2rem;
+  padding:20rem 3rem 4rem 2rem;
 }
 
 /* Testimonials */
@@ -751,7 +751,7 @@ font-size:15px;
 white-space: normal;
 }
 
-intro-text h3 {
+.intro-text h3 {
     padding:4rem 2rem 0rem 2rem;
 }
 
@@ -761,7 +761,7 @@ intro-text h3 {
 }
 
 .parallax{
-  padding:5rem;
+  padding:11rem;
 }
 
 .testimonial{
@@ -780,16 +780,17 @@ intro-text h3 {
   padding-top:7rem;
   padding-bottom:8rem;
 }
-.services div{
-  padding:1rem 2rem ;
-}
+
 
 .services h2{
-  padding:0;
+  padding:0 5rem;
+}
+.services-text h3{
+  padding:20px 0rem 0 3rem;
 }
 
 .services-text a{
-  padding:20px 1rem;
+  padding:20px 0rem 0 3rem;
 }
 
 .featured-gallery{

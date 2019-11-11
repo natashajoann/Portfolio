@@ -565,9 +565,6 @@ h3 {
 
 /* Web Dev  */
 
-[class*=col-], [class*=col_], [class~=col]{
-  padding:0;
-}
 
 .media-img1, .media-img2, .media-img3, .media-img4{
   padding:1rem;
@@ -732,9 +729,6 @@ padding: 30rem 0;
   padding: 14rem 0;
 }
 
-[class*=col-], [class*=col_], [class~=col]{
-  padding:0;
-}
 
 .main-title-name{
   position:relative;

@@ -254,6 +254,14 @@ a{
 background-color:#e5bc5c;
 }
 
+.test-1 span{
+  text-decoration: underline;
+}
+
+.test-1 span:hover{
+  color:white;
+}
+
 .test-2{
   background-color:#e4cabc;
 }
@@ -294,37 +302,55 @@ background-color:#e5bc5c;
 .slideshow-container{
   position:relative;
   margin:auto;
+  padding-top:6rem;
+  padding-bottom:6rem;
 
 }
 
 .slide1{
   background-image: url("/images/vietnampic.jpg");
-  width:100vw;
-  /* height: 89vh; */
+  width:98%;
+  height: 60vh;
   background-position:center;
   background-size:cover;
 }
 
 .slide2{
   background-image: url("/images/1.png");
-  width:100vw;
-  /* height: 89vh; */
+  width:50vw;
+  height: 60vh;
+  background-position:center;
+  background-size:cover;
+}
+
+.slide2-test{
+  background-image: url("/images/kalish-testimonial.png");
+  width:50vw;
+  height: 60vh;
   background-position:center;
   background-size:cover;
 }
 
 .slide3{
   background-image: url("/images/patepic.jpg");
-  width:100vw;
-  /* height: 89vh; */
+  width:98%;
+  height: 60vh;
   background-position:center;
   background-size:cover;
 }
 
 .slide4{
   background-image: url("/images/4.png");
-  width:100vw;
-  /* height: 89vh; */
+  width:50vw;
+  height: 60vh;
+  background-position:center;
+  background-size:cover;
+}
+
+.slide4-test{
+  background-image: url("/images/marcy-testimonial.png");
+  width:50vw;
+  height: 60vh;
   background-position:center;
   background-size:cover;
 }

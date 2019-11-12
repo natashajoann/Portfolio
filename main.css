@@ -250,13 +250,13 @@ a{
   padding:13rem 4rem 6rem;
 }
 
-/* .test-1{
+.test-1{
 background-color:#e5bc5c;
 }
 
 .test-2{
   background-color:#e4cabc;
-} */
+}
 
 .parallax{
   background-attachment:fixed;
@@ -289,6 +289,50 @@ background-color:#e5bc5c;
 .services-text a:hover{
   color:#e5bc5c;
 }
+
+/* Services slideshow */
+.slideshow-container{
+  position:relative;
+  margin:auto;
+
+}
+
+.slide1{
+  background-image: url("/images/vietnampic.jpg");
+  width:100vw;
+  /* height: 89vh; */
+  background-position:center;
+  background-size:cover;
+}
+
+.slide2{
+  background-image: url("/images/1.png");
+  width:100vw;
+  /* height: 89vh; */
+  background-position:center;
+  background-size:cover;
+}
+
+.slide3{
+  background-image: url("/images/patepic.jpg");
+  width:100vw;
+  /* height: 89vh; */
+  background-position:center;
+  background-size:cover;
+}
+
+.slide4{
+  background-image: url("/images/4.png");
+  width:100vw;
+  /* height: 89vh; */
+  background-position:center;
+  background-size:cover;
+}
+
+.mySlides{
+  display:none;
+}
+
 
 .testimonial-image{
   background-image:url("/images/patepic.jpg");

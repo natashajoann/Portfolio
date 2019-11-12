@@ -251,7 +251,9 @@ a{
 }
 
 .test-1{
-background-color:#e5bc5c;
+background-color:#04385b;
+color:white;
+padding:3rem;
 }
 
 .test-1 span{
@@ -284,8 +286,7 @@ background-color:#e5bc5c;
 
 
 .services-text{
-  padding-top:7rem;
-  padding-bottom:8rem;
+  padding-bottom:3rem;
 }
 
 .services-text h2{
@@ -296,6 +297,13 @@ background-color:#e5bc5c;
 
 .services-text h3{
   padding: 20px 5rem;
+}
+
+.services-text span{
+  text-decoration:underline;
+}
+.services-text span:hover{
+  color:#e5bc5c;
 }
 
 .services-text a:hover{

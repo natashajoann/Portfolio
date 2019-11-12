@@ -205,10 +205,11 @@ a:hover{
 
 .test-2 p{
   padding:3rem;
+  text-align:center;
 }
 
 .test-2{
-  background-color:white;
+  background-color:rgba(255, 255, 255, 0.91);
 }
 
 .test-1 p{
@@ -563,7 +564,7 @@ h3 {
 }
 
 .phh-img{
-  background-image: url("/images/PHHLawGroup.png");
+  background-image: url("/images/4.png");
   background-size:cover;
   padding:8rem;
   margin:auto;
@@ -573,7 +574,7 @@ h3 {
 
 
 .mkart-img{
-  background-image: url("/images/miikaartweb.png");
+  background-image: url("/images/3.png");
   background-size:cover;
   padding:8rem;
   margin:auto;
@@ -582,7 +583,7 @@ h3 {
 }
 
 .ivy-img{
-  background-image: url("/images/ivyweb.png");
+  background-image: url("/images/5.png");
   background-size:cover;
   padding:8rem;
   margin:auto;
@@ -592,7 +593,7 @@ h3 {
 
 
 .nashjoeats-img{
-  background-image: url("/images/njeweb.png");
+  background-image: url("/images/2.png");
   background-position:center;
   background-size:cover;
   padding:8rem;
@@ -602,13 +603,20 @@ h3 {
 }
 
 .iocweb-img{
-  background-image: url("/images/iocweb.png");
+  background-image: url("/images/6.png");
   background-position:center;
   background-size:cover;
   padding:8rem;
   margin:auto;
   border: 1px solid rgb(200, 200, 200);
   width:90%;
+}
+
+.web-fixed{
+    background-image:url("/images/keyboard.jpg");
+    background-position:center;
+    background-size:cover;
+    background-attachment:fixed;
 }
 
 .testimonial-web span{

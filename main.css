@@ -15,7 +15,7 @@ Website Colours: List colour hex codes here for reference
 body {
   color: #313131;
   /* font-family: 'Noto Serif JP', serif; */
-  background-color:#fffefa;
+  /* background-color:#fffefa; */
 }
 
 img {
@@ -170,7 +170,7 @@ a{
 }
 
 .intro-text h3{
-  font-size:40px
+  font-size:40px;
   padding-bottom:20px;
 }
 

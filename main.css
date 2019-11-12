@@ -566,7 +566,8 @@ h3 {
 .phh-img{
   background-image: url("/images/4.png");
   background-size:cover;
-  padding:8rem;
+  background-position:center;
+  padding:11rem;
   margin:auto;
   width:90%;
 }
@@ -575,7 +576,8 @@ h3 {
 .mkart-img{
   background-image: url("/images/3.png");
   background-size:cover;
-  padding:8rem;
+  background-position:center;
+  padding:11rem;
   margin:auto;
   width:90%;
 }
@@ -583,7 +585,8 @@ h3 {
 .ivy-img{
   background-image: url("/images/5.png");
   background-size:cover;
-  padding:8rem;
+  background-position:center;
+  padding:11rem;
   margin:auto;
   width:90%;
 }
@@ -593,7 +596,7 @@ h3 {
   background-image: url("/images/2.png");
   background-position:center;
   background-size:cover;
-  padding:8rem;
+  padding:11rem;
   margin:auto;
   width:90%;
 }
@@ -602,7 +605,7 @@ h3 {
   background-image: url("/images/6.png");
   background-position:center;
   background-size:cover;
-  padding:8rem;
+  padding:11rem;
   margin:auto;
   width:90%;
 }

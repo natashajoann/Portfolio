@@ -552,9 +552,10 @@ h3 {
   padding-bottom:0;
 }
 
-.web-dev h3{
+.web-dev h2{
   padding-bottom:10px;
   font-weight:400;
+  font-size:30px;
 }
 
 

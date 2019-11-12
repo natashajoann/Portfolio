@@ -103,7 +103,7 @@ html{
 /* nav  */
 
 
-nav {
+nav{
   text-align:center;
   width:100%;
   margin:10px 20px;
@@ -128,6 +128,9 @@ a{
   display:none;
 }
 
+.nav-menu{
+  margin-top:20px;
+}
 
 
 /* Title */
@@ -137,7 +140,7 @@ a{
   font-size:47px;
   line-height: 43px;
   color: rgb(70,70,70);
-  text-align:left;
+  text-align:center;
 }
 
 .main-title-name{
@@ -351,10 +354,6 @@ a{
   color: #8aa4a9;
 }
 
-.social-media, .web-dev{
-  padding:4rem 1rem 2rem 2rem;
-}
-
 
 .social-media div{
   margin-bottom:20px;
@@ -379,28 +378,6 @@ a{
   padding:10rem;
 }
 
-
-/* .media-img1{
-  background-color:#e5bc5c;
-}
-
-.media-img2{
-  background-color:#94b3ba;
-}
-
-.media-img3{
-  background-color:#BB5C2F;
-}
-
-.media-img4{
-  background-color:#e4cabc; */
-}
-/* writing + radio */
-
-/* [class*=grid-]>[class*=col-6], [class*=grid_]>[class*=col-6], [class~=grid]>[class*=col-6], [class*=grid-]>[class*=col-6], [class*=grid_]>[class*=col-6], [class~=grid]>[class*=col-6]{
-  max-width:48%; */
-
-}
 
 .writing span{
   font-style:italic;
@@ -626,6 +603,7 @@ h3 {
 
 .web-process{
   background-color:#e9b43945;
+  padding:3rem;
 }
 
 .web-process h2{

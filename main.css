@@ -232,7 +232,7 @@ a{
 
 .intro-text{
   text-align:right;
-  19rem 3rem 4rem 10rem
+  padding:19rem 3rem 4rem 10rem;
   font-size:30px;
 }
 
@@ -243,6 +243,12 @@ a{
 
 .intro-text h4{
   font-size:30px;
+}
+
+.menu-img{
+    background-image:url("/images/1.png");
+    background-position:center;
+    background-size:cover;
 }
 
 /* .intro-text h3{
@@ -259,26 +265,32 @@ a{
   padding:3rem;
 }
 
-.test-1{
-background-color:#04385b;
-color:white;
-padding:3rem;
+.test-1 span, .test-2 span{
+  color:#e5bc5c;
 }
 
-.test-1 span{
-  text-decoration: underline;
+.test-img-1{
+  background-image:url("/images/kalish-feed.png");
+  background-position:center;
+  background-size:cover;
 }
 
-.test-1 span:hover{
-  color:white;
+.test-img-2{
+  background-image:url("/images/4.png");
+  background-position:center;
+  background-size:cover;
 }
 
-.test-2{
-  background-color:#e4cabc;
-}
 
 .parallax{
   background-attachment:fixed;
+}
+
+.intro-fixed{
+  background-image:url("/images/vietnampic.jpg");
+  background-position:center;
+  background-size:cover;
+  padding:5rem;
 }
 
 /* Services */

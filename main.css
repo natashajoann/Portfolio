@@ -543,7 +543,9 @@ h3 {
 }
 
 /* Web Dev  */
-
+.overlay1{
+  background-color:rgba(255, 255, 255, 0.9);
+}
 
 .media-img1, .media-img2, .media-img3, .media-img4{
   padding:1rem;

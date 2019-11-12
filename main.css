@@ -292,7 +292,7 @@ padding:3rem;
 .services-text h2{
   font-size:60px;
   text-align:left;
-  padding:3rem 5rem;
+  padding:3rem 5rem 0;
 }
 
 .services-text h3{

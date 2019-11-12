@@ -199,8 +199,16 @@ a:hover{
   padding-top:2rem;
 }
 
-.test-2 p{
+/* .test-2 p{
   padding:9rem 5rem 9rem 2rem;
+} */
+
+.test-2 p{
+  padding:3rem;
+}
+
+.test-2{
+  background-color:white;
 }
 
 .test-1 p{

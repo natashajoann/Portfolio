@@ -120,6 +120,10 @@ a{
   display:in-line block;
 }
 
+a:hover{
+  color:#e5bc5c;
+}
+
 .mobile-menu{
   display:none;
 }

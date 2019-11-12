@@ -118,15 +118,15 @@ a{
 }
 
 /* burger button code */
-.burger-button {
+/* .burger-button {
   position:fixed;
   top: 2vh;
   right: 42%;
   z-index: 9;
   padding: 8px;
-}
+} */
 /*this is where you can change the color of the buttons*/
-.burger-button span{
+/* .burger-button span{
   width: 40px;
   border: 2px solid #ecb100;
   display: block;
@@ -148,9 +148,9 @@ a{
 
 .burger-bottom{
   bottom: -02px;
-}
+} */
 /* make sure this has the same top as the burger button has padding*/
-.burger-button.active .burger-top{
+/* .burger-button.active .burger-top{
   position: absolute;
   top: 8px;
   transform: rotateZ(45deg);
@@ -160,11 +160,11 @@ a{
 /*   transform: rotateZ(270deg); */
   border-color: rgba(0,0,0,0);
   background-color:rgba(0,0,0,0);
-}
+} */
 
 /* make sure this has the same bottom as the burger button has padding*/
 
-.burger-button.active .burger-bottom{
+/* .burger-button.active .burger-bottom{
   position: absolute;
   bottom: 8px;
   transform: rotateZ(-45deg);
@@ -196,7 +196,7 @@ a{
   white-space:nowrap;
 }
 
-.burger-menu li{list-style:none}
+.burger-menu li{list-style:none} */
 /*
 .dropdown-nav:hover .dropdown-content {
     display: block;
@@ -216,7 +216,7 @@ a{
 
 .main-title-name{
     margin: 6px 0 0 35px;
-    position:fixed;
+    /* position:fixed; */
 }
 
 .intro-image{

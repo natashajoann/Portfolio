@@ -120,6 +120,10 @@ a{
   display:none;
 }
 
+.burger-menu{
+  display:none;
+}
+
 
 
 /* Title */
@@ -959,6 +963,10 @@ width:100%;
 
 
   .mobil-menu{
+    display:block;
+  }
+
+  .burger-menu{
     display:block;
   }
 

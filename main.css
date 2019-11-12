@@ -219,7 +219,13 @@ a{
   background-size:cover;
 }
 
-
+.about-fixed{
+  background-image:url("/images/patepic.jpg");
+  background-position:center;
+  background-size:cover;
+  padding:11rem;
+  background-attachment:fixed;
+}
 
 
 .intro-fixed{

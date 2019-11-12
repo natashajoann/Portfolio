@@ -219,11 +219,15 @@ a{
     /* position:fixed; */
 }
 
-.intro-image{
+.title{
+  padding:0 3rem;
+}
+
+/* .intro-image{
   background-image:url("/images/tash-tacos.jpg");
   background-position:center;
   background-size:cover;
-}
+} */
 
 /* .intro-image{
   position:fixed;

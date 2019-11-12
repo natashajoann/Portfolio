@@ -629,8 +629,7 @@ h3 {
 }
 
 .web-process{
-  background-color:#e9b43945;
-  padding:3rem;
+  background-color:rgba(255, 255, 255, 0.8);
 }
 
 .web-process h2{

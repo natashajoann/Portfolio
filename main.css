@@ -117,6 +117,10 @@ a{
   display:in-line block;
 }
 
+.mobile-menu{
+  display:none;
+}
+
 /* burger button code */
 /* .burger-button {
   position:fixed;

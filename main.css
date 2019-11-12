@@ -142,7 +142,7 @@ a{
 }
 
 .title{
-  padding:0 3rem;
+  padding:3rem;
 }
 
 /* .intro-image{
@@ -158,7 +158,7 @@ a{
 
 .intro-text{
   text-align:right;
-  padding:19rem 3rem 4rem 10rem;
+  padding:2rem 3rem 4rem 10rem;
   font-size:30px;
 }
 
@@ -187,8 +187,12 @@ a{
   text-align:center;
 }
 
-.testimonial p{
-  padding:6rem 3rem;
+.test-2 p{
+  padding:9rem 5rem 9rem 2rem;
+}
+
+.test-1 p{
+  padding:9rem 2rem 9rem 5rem;
 }
 
 .test-1 span, .test-2 span{
@@ -208,15 +212,14 @@ a{
 }
 
 
-.parallax{
-  background-attachment:fixed;
-}
+
 
 .intro-fixed{
   background-image:url("/images/vietnampic.jpg");
   background-position:center;
   background-size:cover;
-  padding:5rem;
+  padding:11rem;
+  background-attachment:fixed;
 }
 
 /* Services */
@@ -228,7 +231,7 @@ a{
 }
 
 .services{
-  padding:2rem;
+  padding:2rem 2rem 8rem;
 }
 
 
@@ -243,7 +246,8 @@ a{
 }
 
 .services-text h3{
-  padding: 20px 5rem;
+  padding:5px 5rem;
+  font-size:20px;
 }
 
 .services-text span{
@@ -257,66 +261,6 @@ a{
   color:#e5bc5c;
 }
 
-/* Services slideshow */
-.slideshow-container{
-  position:relative;
-  margin:auto;
-  padding-top:6rem;
-  padding-bottom:6rem;
-
-}
-
-.slide1{
-  background-image: url("/images/vietnampic.jpg");
-  width:98%;
-  height: 60vh;
-  background-position:center;
-  background-size:cover;
-}
-
-.slide2{
-  background-image: url("/images/1.png");
-  width:50vw;
-  height: 60vh;
-  background-position:center;
-  background-size:cover;
-}
-
-.slide2-test{
-  background-image: url("/images/kalish-testimonial.png");
-  width:50vw;
-  height: 60vh;
-  background-position:center;
-  background-size:cover;
-}
-
-.slide3{
-  background-image: url("/images/patepic.jpg");
-  width:98%;
-  height: 60vh;
-  background-position:center;
-  background-size:cover;
-}
-
-.slide4{
-  background-image: url("/images/4.png");
-  width:50vw;
-  height: 60vh;
-  background-position:center;
-  background-size:cover;
-}
-
-.slide4-test{
-  background-image: url("/images/marcy-testimonial.png");
-  width:50vw;
-  height: 60vh;
-  background-position:center;
-  background-size:cover;
-}
-
-.mySlides{
-  display:none;
-}
 
 
 .testimonial-image{

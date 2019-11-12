@@ -317,6 +317,9 @@ a:hover{
   font-style: italic;
 }
 
+.media-side-img{
+  padding-top:2rem;
+}
 
 
 .dropdown-nav {
@@ -545,6 +548,11 @@ h3 {
 /* Web Dev  */
 .overlay1{
   background-color:rgba(255, 255, 255, 0.9);
+  padding:3rem;
+}
+
+.web-process h2{
+  font-size:30px;
 }
 
 .media-img1, .media-img2, .media-img3, .media-img4{

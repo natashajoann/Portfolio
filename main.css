@@ -96,6 +96,10 @@ html{
 [class*=col-], [class*=col_], [class~=col]{
   padding:0;
 }
+
+[class*=grid-], [class*=grid_], [class~=grid]{
+  margin:0;
+}
 /* nav  */
 
 

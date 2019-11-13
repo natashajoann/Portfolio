@@ -577,52 +577,55 @@ h3 {
   margin:auto;
 }
 
-.phh-img{
+/* .phh-img{
   background-image: url("/images/4.png");
   background-size:cover;
   background-position:center;
   padding:11rem;
   margin:auto;
   width:90%;
+} */
+
+.phh-img, .ivy-img, .mkart-img, .nashjoeats-img, .iocweb-img{
+  height:50vh;
 }
 
-
-.mkart-img{
+/* .mkart-img{
   background-image: url("/images/3.png");
   background-size:cover;
   background-position:center;
   padding:11rem;
   margin:auto;
   width:90%;
-}
+} */
 
-.ivy-img{
+/* .ivy-img{
   background-image: url("/images/5.png");
   background-size:cover;
   background-position:center;
   padding:11rem;
   margin:auto;
   width:90%;
-}
+} */
 
 
-.nashjoeats-img{
+/* .nashjoeats-img{
   background-image: url("/images/2.png");
   background-position:center;
   background-size:cover;
   padding:11rem;
   margin:auto;
   width:90%;
-}
+} */
 
-.iocweb-img{
+/* .iocweb-img{
   background-image: url("/images/6.png");
   background-position:center;
   background-size:cover;
   padding:11rem;
   margin:auto;
   width:90%;
-}
+} */
 
 .web-fixed{
     background-image:url("/images/keyboard.jpg");

@@ -185,6 +185,7 @@ a:hover{
 }
 .menu-img{
   height:50vh;
+  padding-left:5rem;
 }
 
 /* .menu-img{
@@ -739,6 +740,9 @@ padding: 30rem 0;
   padding: 14rem 0;
 }
 
+.menu-img{
+  padding-left:0;
+}
 
 .main-title-name{
   position:relative;

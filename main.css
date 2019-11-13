@@ -156,6 +156,10 @@ a:hover{
   padding:3rem;
 }
 
+.menu-img{
+  height:50vh;
+}
+
 /* .intro-image{
   background-image:url("/images/tash-tacos.jpg");
   background-position:center;

@@ -169,7 +169,7 @@ a:hover{
 
 .intro-text{
   text-align:right;
-  padding:2rem 3rem 4rem 10rem;
+  padding:2rem 3rem 4rem 6rem;
   font-size:30px;
 }
 
@@ -761,13 +761,17 @@ white-space: normal;
 } */
 
 .intro-text{
+  padding:0;
+}
+
+.intro-fixed{
   padding:2rem;
 }
 
 
-.parallax{
+/* .parallax{
   padding:11rem;
-}
+} */
 
 .testimonial{
   padding:0rem;

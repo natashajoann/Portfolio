@@ -409,6 +409,10 @@ a:hover{
   font-weight: 300;
 }
 
+.writing_radio{
+  padding:3rem;
+}
+
 .writing_radio div{
     text-align: center;
     transition:0.2s;
@@ -416,7 +420,6 @@ a:hover{
 
   .writing_radio a{
     border-radius: 5px;
-    margin:6px;
     margin-bottom:20px;
   }
 
@@ -438,7 +441,7 @@ a:hover{
 }
 
 .pd-bk-img{
-  background-image: url("/images/lucho-renolfi-1331169-unsplash.jpg");
+  background-image: url("/images/mex-oatbowl.jpg");
 }
 
 .bgt-bk-img{
@@ -496,7 +499,7 @@ a:hover{
 }
 
 .featured-gallery{
-  padding:1rem 3rem 1rem 3.5rem;
+  padding:3rem 3rem 1rem 3.5rem;
 }
 
 .featured-gallery p{

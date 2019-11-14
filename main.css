@@ -314,6 +314,10 @@ a:hover{
   font-family: 'Alegreya Sans SC', sans-serif;
 }
 
+.social-testimonial span{
+  color:#94b3ba;
+}
+
 .dropdown-content {
     display: none;
     padding:5px;
@@ -829,6 +833,8 @@ white-space: normal;
 .social-media div{
   margin-bottom:15px;
 }
+
+
 
 .web-dev h3{
   text-align:center;

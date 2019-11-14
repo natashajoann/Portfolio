@@ -323,14 +323,15 @@ a:hover{
 }
 
 .social-testimonial{
-  margin: 4rem 4rem 0;
+  padding: 4rem 4rem 0;
 }
 
 .social-media hr{
   border: 1px solid;
   width:20%;
-  margin-left:41%
+  margin-left:41%;
   padding-top: 20px;
+  text-align:center;
 }
 
 .dropdown-content {
@@ -849,6 +850,10 @@ white-space: normal;
   margin-bottom:15px;
 }
 
+.social-media nav{
+  margin:0;
+}
+
 
 
 .web-dev h3{
@@ -878,6 +883,10 @@ ul{
 
 .slide1, .slide2, .slide2-test, .slide3, .slide4, .slide4-test {
   width:100%;
+}
+
+.social-testimonial{
+  padding: 1rem 2rem 0;
 }
 
 /* lightbox cols */

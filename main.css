@@ -318,6 +318,21 @@ a:hover{
   color:#94b3ba;
 }
 
+.social-testimonial h4{
+  font-size: 25px;
+}
+
+.social-testimonial{
+  margin: 4rem 4rem 0;
+}
+
+.social-media hr{
+  border: 1px solid;
+  width:20%;
+  margin-left:41%
+  padding-top: 20px;
+}
+
 .dropdown-content {
     display: none;
     padding:5px;

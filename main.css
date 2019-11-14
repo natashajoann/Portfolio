@@ -320,6 +320,7 @@ a:hover{
 
 .social-testimonial h4{
   font-size: 25px;
+    text-align:center;
 }
 
 .social-testimonial{
@@ -331,7 +332,6 @@ a:hover{
   width:20%;
   margin-left:41%;
   margin-top: 20px;
-  text-align:center;
 }
 
 .dropdown-content {

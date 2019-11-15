@@ -296,9 +296,9 @@ a:hover{
 }
 
 .slide1{
-  background-image: url("/images/1-test.png");
+  background-image: url("/images/1-old.png");
   width:98%;
-  /* height: 89vh; */
+  height: 52vh;
   background-position:center;
   background-size:cover;
 }
@@ -306,7 +306,7 @@ a:hover{
 .slide2{
   background-image: url("/images/1.png");
   width:98%;
-  /* height: 89vh; */
+  height: 52vh;
   background-position:center;
   background-size:cover;
 }

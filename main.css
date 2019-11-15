@@ -256,12 +256,6 @@ a:hover{
 }
 
 /* Services */
-.service-img{
-  background-image:url("/images/vietnampic.jpg");
-  background-position:right;
-  background-size:cover;
-  padding:3rem;
-}
 
 .services{
   padding:2rem 2rem 8rem;
@@ -294,7 +288,34 @@ a:hover{
   color:#e5bc5c;
 }
 
+/* slideshow */
+.slideshow-container{
+  position:relative;
+  margin:auto;
 
+}
+
+.slide1{
+  background-image: url("/images/1-test.png");
+  width:98%;
+  /* height: 89vh; */
+  background-position:center;
+  background-size:cover;
+}
+
+.slide2{
+  background-image: url("/images/1.png");
+  width:98%;
+  /* height: 89vh; */
+  background-position:center;
+  background-size:cover;
+}
+
+
+.mySlides{
+  display:none;
+}
+/* test */
 
 .testimonial-image{
   background-image:url("/images/patepic.jpg");

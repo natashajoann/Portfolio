@@ -153,20 +153,19 @@ a:hover{
 }
 
 .title{
+  padding:5rem;
+  background-image: url("/images/myfae.jpg");
+  background-position:center;
+  background-size:cover;
+}
+
+.swoosh{
+  background-position:url("/images/title-swoop.png");
+  background-size: cover;
+  background-position: right;
   padding:3rem;
 }
 
-
-
-/* .intro-image{
-  background-image:url("/images/tash-tacos.jpg");
-  background-position:center;
-  background-size:cover;
-} */
-
-/* .intro-image{
-  position:fixed;
-} */
 
 
 .intro-text{
@@ -188,11 +187,7 @@ a:hover{
   padding-left:5rem;
 }
 
-/* .menu-img{
-    background-image:url("/images/1.png");
-    background-position:center;
-    background-size:cover;
-} */
+
 
 /* Blog */
 .blog-loop-background{

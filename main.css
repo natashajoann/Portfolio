@@ -195,7 +195,10 @@ a:hover{
 } */
 
 /* Blog */
-
+.blog-loop-background{
+  padding:  5rem;
+  margin:1rem;
+}
 
 /* Testimonials */
 

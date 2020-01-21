@@ -311,6 +311,22 @@ a:hover{
   background-size:cover;
 }
 
+.slide3{
+  background-image: url("/images/2.png");
+  width:98%;
+  height: 52vh;
+  background-position:center;
+  background-size:cover;
+}
+
+.slide4{
+  background-image: url("/images/3.png");
+  width:98%;
+  height: 52vh;
+  background-position:center;
+  background-size:cover;
+}
+
 
 .mySlides{
   display:none;
@@ -624,55 +640,11 @@ h3 {
   margin:auto;
 }
 
-/* .phh-img{
-  background-image: url("/images/4.png");
-  background-size:cover;
-  background-position:center;
-  padding:11rem;
-  margin:auto;
-  width:90%;
-} */
 
 .phh-img, .ivy-img, .mkart-img, .nashjoeats-img, .iocweb-img, .hlay-img, .pose-img{
   height:57vh;
 }
 
-/* .mkart-img{
-  background-image: url("/images/3.png");
-  background-size:cover;
-  background-position:center;
-  padding:11rem;
-  margin:auto;
-  width:90%;
-} */
-
-/* .ivy-img{
-  background-image: url("/images/5.png");
-  background-size:cover;
-  background-position:center;
-  padding:11rem;
-  margin:auto;
-  width:90%;
-} */
-
-
-/* .nashjoeats-img{
-  background-image: url("/images/2.png");
-  background-position:center;
-  background-size:cover;
-  padding:11rem;
-  margin:auto;
-  width:90%;
-} */
-
-/* .iocweb-img{
-  background-image: url("/images/6.png");
-  background-position:center;
-  background-size:cover;
-  padding:11rem;
-  margin:auto;
-  width:90%;
-} */
 
 .web-fixed{
     background-image:url("/images/keyboard.jpg");

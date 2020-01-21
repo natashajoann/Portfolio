@@ -3,16 +3,22 @@ layout: default
 title: Natasha Joann
 ---
 
-
 <section class="grid title">
+  <div class="swoosh intro-text">
+    <h3>Hey there!</h3>
+    <p>I am a Colombian-American anthropologist with a love for food, travel, and design. <br> I focus on creating websites and branding that puts your vision and voice first. <br> <br> Need a space to house your next project or a new strategy to get word out about your upcoming product release? <br><br> Don't be a stranger, <a href="mailto:natashamverdon@gmail.com">drop me a line</a> and let's make something awesome!</p>
+  </div>
+</section>
+
+<!-- <section class="grid title">
   <div class="col-7_sm-12 intro-text">
     <h3>Hey there!</h3>
-    <p>I am a Colombian-American anthropologist with a love for food, travel, and design. <br> I focus on creating websites and branding that puts your vision and voice first. <br> <br> Need a space to house your next project or a new strategy to get word out about your upcoming product release? <br><br> Don't be a stranger, <a href="mailto:natashamverdon@gmail.com">drop me a line</a> and let's make something awesome!</hp>
+    <p>I am a Colombian-American anthropologist with a love for food, travel, and design. <br> I focus on creating websites and branding that puts your vision and voice first. <br> <br> Need a space to house your next project or a new strategy to get word out about your upcoming product release? <br><br> Don't be a stranger, <a href="mailto:natashamverdon@gmail.com">drop me a line</a> and let's make something awesome!</p>
   </div>
   <div class="col-5_sm-12 intro-image parallax ">
     <img src="/images/tash-tacos.jpg">
   </div>
-  </section>
+  </section> -->
 
 
     <section class="grid services">
@@ -25,42 +31,55 @@ title: Natasha Joann
         <div class="mySlides slide1 fade"></div>
 
         <div class="mySlides slide2  fade"></div>
+
+        <div class="mySlides slide3 fade"></div>
+
+        <div class="mySlides slide4  fade"></div>
       </div>
     </div>
 
       <div class="col-6_sm-12 services-text">
         <h2> Menu.</h2>
-        <a href="/food"><h3> 01 — Recipe Development & Food Photography</h3></a>
+        <!-- <a href="/food"><h3> 01 — Recipe Development & Food Photography</h3></a> -->
         <a href="/web-dev"><h3> 02 — Web Development</h3></a>
-        <a href="/media"><h3> 03 — Digital Marketing</h3></a>
-        <a href="/writing"><h3> 04 — Writing and Podcasts</h3></a>
+        <a href="/media"><h3> 03 — Marketing and Design</h3></a>
+        <a href="/blog"><h3> 04 — Blog</h3></a>
+        <!-- <a href="/writing"><h3> 04 — Writing and Podcasts</h3></a> -->
         <h3> Have some questions? <br> <a href="mailto:natashamverdon@gmail.com"><span> Get in touch!</span></a> </h3>
       </div>
-
       </section>
 
+    <div class="testimonial swoop-orange">
+      <p>“We came to Natasha with no clear design criteria, except we wanted “clean” and “sophisticated.” <span>With that pittance of direction Natasha delivered beyond all of our expectations.</span> <br> — <br>I would, without reservation, recommend Natasha for the design and build of your website. I am proud to provide our clients, potential clients, friends, family, competitors and colleagues with our URL to “check” out us and our practice. <span>All thanks to Natasha!”</span> <br><br>- Marcy P., PHH Law Group
+      </p>
+  </div>
+
+  <section class="grid padded-5-10 blog centered">
+    <div class="col-12"><h2> Featured </h2></div>
+
+    {% for post in site.posts limit:3 %}
+      <a href="{{post.url}}" class="col-3_sm-12 post-preview">
+        <div class="blog-loop-background" style="background-image:url({{post.featured_image}})">
+          <div class="overlay grid">
+            <p class="col-12-middle"> {{post.description}}</p>
+          </div>
+        </div>
+        <div class="blog-loop-info">
+          <h3> {{post.title}}</h3>
+          <p> by {{post.author}}</p>
+        </div>
+      </a>
+    {% endfor %}
+
+    <a href="/blog"><h4> See 'Em All </h4></a>
+
+  </section>
+
+
       <!-- Fixed background -->
-      <div class="intro-fixed">
+      <!-- <div class="intro-fixed">
         <div class="test-2">
           <p>“We came to Natasha with no clear design criteria, except we wanted “clean” and “sophisticated.” <span>With that pittance of direction Natasha delivered beyond all of our expectations.</span> <br> — <br>I would, without reservation, recommend Natasha for the design and build of your website. I am proud to provide our clients, potential clients, friends, family, competitors and colleagues with our URL to “check” out us and our practice. <span>All thanks to Natasha!”</span> <br><br>- Marcy P., PHH Law Group
           </p>
         </div>
-      </div>
-
-  <!-- <section class="grid testimonial">
-    <div class="col-12 test-title">
-      <h2> Testimonials. </h2>
-    </div>
-    <div class="col-6_sm-12 test-1">
-      <p>"<span>Natasha is super talented and creative! She did a fantastic job with grasping my vision for social media and excecuting it. She is also a great communicator.</span> <br> If anyone is on the fence about hiring a VA, they should hire Natasha because she is <span>so hands on and always available to help when you need it the most.</span>" <br> - Kalish N., The Pose Box
-      </p>
-    </div>
-
-    <div class="col-6_sm-12 test-img-1"></div>
-
-    <div class="col-6_sm-12 test-img-2"></div>
-    <div class="col-6_sm-12 test-2">
-      <p>“We came to Natasha with no clear design criteria, except we wanted “clean” and “sophisticated.” <span>With that pittance of direction Natasha delivered beyond all of our expectations.</span> <br> — <br>I would, without reservation, recommend Natasha for the design and build of your website. I am proud to provide our clients, potential clients, friends, family, competitors and colleagues with our URL to “check” out us and our practice. <span>All thanks to Natasha!”</span> <br><br>- Marcy P., PHH Law Group
-      </p>
-    </div>
-  </section> -->
+      </div> -->

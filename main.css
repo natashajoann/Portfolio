@@ -170,13 +170,13 @@ a:hover{
   background-position:center;
   background-size:cover;
   padding:12rem;
+  wisth:100%;
 }
 
 
 
 .intro-text{
   text-align:right;
-  padding:2rem 3rem 4rem 6rem;
   font-size:30px;
 }
 

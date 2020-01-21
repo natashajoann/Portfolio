@@ -153,7 +153,6 @@ a:hover{
 }
 
 .title{
-  padding:5rem;
   background-image: url("/images/myface.jpg");
   background-position:center;
   background-size:cover;
@@ -170,6 +169,7 @@ a:hover{
   background-image:url("/images/yellow-swoosh.png");
   background-position:center;
   background-size:cover;
+  padding:12rem;
 }
 
 

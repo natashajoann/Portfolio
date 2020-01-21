@@ -163,6 +163,7 @@ a:hover{
   background-size: cover;
   background-position: right;
   padding:3rem;
+  width:100%;
 }
 
 .swoop-orange{
@@ -170,7 +171,6 @@ a:hover{
   background-position:center;
   background-size:cover;
   padding:12rem;
-  wisth:100%;
 }
 
 

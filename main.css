@@ -311,7 +311,7 @@ a:hover{
 }
 
 .slide1{
-  background-image: url("/images/1-old.png");
+  /* background-image: url("/images/1-old.png"); */
   width:98%;
   height: 52vh;
   background-position:center;

@@ -310,8 +310,8 @@ a:hover{
 
 }
 
-.slide1{
-  /* background-image: url("/images/1-old.png"); */
+/* .slide1{
+  background-image: url("/images/1-old.png");
   width:98%;
   height: 52vh;
   background-position:center;
@@ -340,6 +340,10 @@ a:hover{
   height: 52vh;
   background-position:center;
   background-size:cover;
+} */
+
+.slide1, .slide2, .slide3, .slide4{
+  padding-left:5rem;
 }
 
 

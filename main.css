@@ -196,15 +196,27 @@ a:hover{
 
 /* Blog */
 .blog-loop-background{
-  padding:  5rem;
-  margin:1rem;
+  padding: 3rem;
+  margin:7rem;
+}
+
+.blog-loop-info h3{
+    color:#2C41E3;
+}
+
+.post-preview a{
+  color:#2C41E3;
+}
+
+.post-preview a:hover{
+  color:#858ED8;
 }
 
 /* Testimonials */
 
 .testimonial{
   text-align:center;
-  padding-top:2rem;
+  padding:2rem 13rem;
 }
 
 /* .test-2 p{

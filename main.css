@@ -160,7 +160,7 @@ a:hover{
 }
 
 .swoosh{
-  background-position:url("/images/title-swoop.png");
+  background-image:url("/images/title-swoop.png");
   background-size: cover;
   background-position: right;
   padding:3rem;

@@ -112,7 +112,7 @@ html{
 nav{
   text-align:center;
   width:100%;
-  margin:10px 20px;
+  /* margin:10px 20px; */
 }
 
 section:focus{
@@ -154,6 +154,10 @@ a:hover{
   background-color:#D3EBDD;
 }
 
+.nav-menu{
+    background-color:#D3EBDD;
+}
+
 .nav-menu h3{
   line-height: 0px;
   font-size:20px;
@@ -178,7 +182,7 @@ a:hover{
 } */
 
 .title{
-  background-color:#D3EBDD;
+  background: linear-gradient(to bottom, #d2ebdd 0%,#d2ebdd 50%,#d2ebdd 50%,white 50%,white 100%);
 }
 
 .fa-quote-left{
@@ -246,7 +250,7 @@ text-align:right;
   /* padding:26rem 3rem 20rem;
   margin-top: -30rem;
   margin-bottom: -8rem; */
-  background-image:url("/images/tash-tacos/jpg");
+  background-image:url("/images/tash-tacos.jpg");
   background-position:center;
   background-size:cover;
   padding:5rem;

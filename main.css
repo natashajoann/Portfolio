@@ -146,7 +146,6 @@ a:hover{
   font-size:47px;
   line-height: 43px;
   color: #E2B600;
-  text-align:right;
   background-color:#D3EBDD;
 }
 
@@ -157,6 +156,8 @@ a:hover{
 .nav-menu h3{
   line-height: 0px;
   font-size:20px;
+  background-color: #d5efe0;
+  padding: 10px;
 }
 
 .nav-menu a{
@@ -187,6 +188,7 @@ padding:30rem;
 
 .fa-quote-left{
 text-align:right;
+font-size:55px;
 }
 
 
@@ -205,10 +207,12 @@ text-align:right;
   margin-top: 11rem;
 }
 
-.intro-about h3{
+.about h3{
   font-size:86px;
-
+margin-top:-30px;
 }
+
+
 
 .intro-text h4{
   font-size:30px;
@@ -280,13 +284,15 @@ text-align:right;
   background-size:cover;
 }
 
-.about-fixed{
+
+
+/* .about-fixed{
   background-image:url("/images/patepic.jpg");
   background-position:center;
   background-size:cover;
   padding:11rem;
   background-attachment:fixed;
-}
+} */
 
 
 .intro-fixed{
@@ -299,9 +305,6 @@ text-align:right;
 
 /* Services */
 
-.services{
-  padding:2rem;
-}
 
 
 .services-text{
@@ -731,15 +734,16 @@ h3 {
 
 /* ABOUT */
 
-.about-text p{
-  padding:0;
+.about{
+  padding-top:2rem;
+}
+.footer-text{
+  padding: 4rem 4rem 4rem;
 }
 
-.about-text{
-  background-color: #d2ebdd;
-  width:88%;
-  padding:4rem 4rem 4rem;
-  border-radius:5px 0px 0px 0px;
+
+.about-text p{
+  padding:0;
 }
 
 .about-text span{

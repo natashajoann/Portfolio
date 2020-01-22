@@ -181,7 +181,7 @@ a:hover{
 }
 
 .swoosh{
-  background-image:url("/images/swoosh-sml.png");
+  background-image:url("/images/tiny-white.png");
   background-size: cover;
   background-position: right;
   padding:3rem;

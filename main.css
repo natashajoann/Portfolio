@@ -178,7 +178,11 @@ a:hover{
 } */
 
 .title{
-  background: linear-gradient(to bottom,#d2ebdd 0, #d2ebdd 72%, #fff 50%,#fff 100%);
+background-image: url("/images/myface.jpg");
+background-position:center;
+background-size:cover;
+background-attachment: fixed;
+padding:30rem;
 }
 
 .fa-quote-left{
@@ -203,6 +207,7 @@ text-align:right;
 
 .intro-about h3{
   font-size:86px;
+
 }
 
 .intro-text h4{
@@ -248,7 +253,7 @@ text-align:right;
 .testimonial{
   padding: 3rem 0;
 }
-.testimonial-image{
+.taco-image{
   background-image:url("/images/tash-tacos.jpg");
   background-position:center;
   background-size:cover;

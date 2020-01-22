@@ -151,6 +151,7 @@ a:hover{
   line-height: 43px;
   color: #E2B600;
   text-align:right;
+  background-color:#D3EBDD;
 }
 
 .nav-menu h3{
@@ -162,48 +163,29 @@ a:hover{
   color:#E2B600;
 }
 
-.nav-menu{
-  position:fixed;
-  z-index:4;
-}
 
 .main-title-name{
     margin: 6px 0 0 35px;
     /* position:fixed; */
 }
 
-.title{
+/* .title{
   background-image: url("/images/myface.jpg");
   background-position:center;
   background-size:cover;
   height:90vh;
   background-attachment:fixed;
-}
+} */
 
-.swoosh{
-  background-image:url("/images/tiny-white.png");
-  background-size: cover;
-  background-position: right;
-  padding:3rem;
-  width:100%;
-}
-
-.swoop-orange{
-  background-image:url("/images/yellow-swoosh.png");
-  background-position:center;
-  background-size:cover;
-  padding:12rem;
+.title{
+  background-color:#D3EBDD;
 }
 
 .fa-quote-left{
 text-align:right;
-
-  }
-
-.fa-quote-right{
-  text-align:left;
-  margin-top:14rem;
 }
+
+
 
 .intro-text{
   text-align:left;
@@ -250,39 +232,29 @@ text-align:right;
   color:#2C41E3;
 }
 
+.blog{
+  background-color:#D3EBDD;
+}
+
 /* Testimonials */
 
-.testimonial{
-  text-align:center;
-  padding:26rem 3rem 20rem;
+.testimonial-image{
+  /* padding:26rem 3rem 20rem;
   margin-top: -30rem;
-  margin-bottom: -8rem;
+  margin-bottom: -8rem; */
+  background-image:url("/images/tash-tacos/jpg");
+  background-position:center;
+  background-size:cover;
+  padding:5rem;
+  margin-right:-30px;
 }
 
 .testimonial p{
   font-size:25px;
-}
-
-/* .test-2 p{
-  padding:9rem 5rem 9rem 2rem;
-} */
-
-.test-2 p{
-  padding:3rem;
   text-align:center;
+  z-index:3;
 }
 
-.test-2{
-  background-color:rgba(255, 255, 255, 0.91);
-}
-
-.test-1 p{
-  padding:9rem 2rem 9rem 5rem;
-}
-
-.test-1 span, .test-2 span{
-  color:#e5bc5c;
-}
 
 .test-img-1{
   background-image:url("/images/kalish-feed.png");

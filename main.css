@@ -200,10 +200,11 @@ text-align:right;
 }
 
 .intro-image{
-  background-image: url("/images/myface.jpg");
+  /* background-image: url("/images/myface.jpg");
   background-position:center;
-  background-size:cover;
-  padding:5rem;
+  background-size:cover; */
+  padding:6rem;
+  margin:2rem;
 }
 
 .intro-text h3{
@@ -373,9 +374,9 @@ text-align:right;
   background-size:cover;
 } */
 
-.slide1, .slide2, .slide3, .slide4{
+/* .slide1, .slide2, .slide3, .slide4{
   padding-left:10rem;
-}
+} */
 
 
 .mySlides{

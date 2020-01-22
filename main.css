@@ -159,6 +159,7 @@ a:hover{
 
 .nav-menu{
   position:fixed;
+  z-index:4;
 }
 
 .main-title-name{
@@ -196,7 +197,7 @@ text-align:right;
 
 .fa-quote-right{
   text-align:left;
-  margin-top:4rem;
+  margin-top:14rem;
 }
 
 .intro-text{
@@ -254,7 +255,7 @@ text-align:right;
 }
 
 .testimonial p{
-  font-size:
+  font-size:25px;
 }
 
 /* .test-2 p{

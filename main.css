@@ -143,8 +143,16 @@ a:hover{
 .nav-menu h1{
   font-size:47px;
   line-height: 43px;
-  color: rgb(70,70,70);
+  color: white;
   text-align:center;
+}
+
+.nav-menu a{
+  color:white;
+}
+
+.nav-menu{
+  position:fixed;
 }
 
 .main-title-name{
@@ -217,7 +225,13 @@ a:hover{
 
 .testimonial{
   text-align:center;
-  padding:2rem 13rem;
+  padding:31rem 13rem 20rem;
+  margin-top: -30rem;
+  margin-bottom: -8rem;
+}
+
+.testimonial p{
+  margin-top: 7rem;
 }
 
 /* .test-2 p{

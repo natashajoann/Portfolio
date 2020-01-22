@@ -102,6 +102,10 @@ html{
 [class*=grid-], [class*=grid_], [class~=grid]{
   margin:0;
 }
+
+.display-none{
+
+}
 /* nav  */
 
 
@@ -145,12 +149,12 @@ a:hover{
 .nav-menu h1{
   font-size:47px;
   line-height: 43px;
-  color: white;
+  color: #E2B600;
   text-align:center;
 }
 
 .nav-menu a{
-  color:white;
+  color:#E2B600;
 }
 
 .nav-menu{
@@ -185,11 +189,20 @@ a:hover{
   padding:12rem;
 }
 
+.fa-quote-left{
+text-align:right;
 
+  }
+
+.fa-quote-right{
+  text-align:left;
+  margin-top:4rem;
+}
 
 .intro-text{
   text-align:right;
   font-size:30px;
+  padding-top:24rem;
 }
 
 .intro-text h3{
@@ -1101,4 +1114,9 @@ width:100%;
 }
 
 .burger-menu li{list-style:none}
+
+.display-none{
+    display:none;
+}
+
 }

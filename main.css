@@ -205,8 +205,8 @@ text-align:right;
   margin-top: 11rem;
 
 
-.intro-text h3{
-  font-size:86px
+.intro-about h3{
+  font-size:86px;
 }
 
 .intro-text h4{
@@ -823,9 +823,9 @@ font-size:30px;
 white-space: normal;
 }
 
-/* .intro-text h3 {
+.intro-text h3 {
     padding:4rem 2rem 2rem;
-} */
+}
 
 .intro-text{
   padding:0;

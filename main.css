@@ -144,7 +144,7 @@ a:hover{
 /* .main-title h1, .main-title-mobile h1{ */
 .nav-menu h1{
   font-size:47px;
-  line-height: 43px;
+  line-height: 21px;
   color: #E2B600;
   background-color:#D3EBDD;
 }
@@ -183,7 +183,7 @@ background-image: url("/images/myface.jpg");
 background-position:center;
 background-size:cover;
 background-attachment: fixed;
-padding:30rem;
+padding:21rem;
 }
 
 .fa-quote-left{
@@ -209,7 +209,9 @@ font-size:55px;
 
 .about h3{
   font-size:86px;
-margin-top:-30px;
+  margin-top:-86px;
+  padding-left: 2.75rem;
+  color:#d5efe0;
 }
 
 
@@ -255,7 +257,7 @@ margin-top:-30px;
 
 /* Testimonials */
 .testimonial{
-  padding: 3rem 0;
+padding: 5rem 0 1rem;
 }
 .taco-image{
   background-image:url("/images/tash-tacos.jpg");
@@ -736,14 +738,17 @@ h3 {
 
 .about{
   padding-top:2rem;
+  padding:2rem;
 }
 .footer-text{
   padding: 4rem 4rem 4rem;
 }
 
-
+.footer{
+  background-color:#af836e;
+}
 .about-text p{
-  padding:0;
+  padding: 6rem 3rem;
 }
 
 .about-text span{
@@ -798,6 +803,10 @@ padding: 30rem 0;
 @media (max-width: 768px){
 .cv-img{
   padding: 14rem 0;
+}
+
+.taco-image{
+  display:none;
 }
 
 .menu-img{
@@ -869,6 +878,10 @@ white-space: normal;
 }
 .services-text h3{
   padding:20px 0rem 0 3rem;
+}
+
+.services-text{
+  padding: 3rem 0;
 }
 
 .services-text a{

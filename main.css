@@ -102,10 +102,6 @@ html{
 [class*=grid-], [class*=grid_], [class~=grid]{
   margin:0;
 }
-
-.display-none{
-
-}
 /* nav  */
 
 
@@ -253,9 +249,6 @@ text-align:right;
   padding: 3rem 0;
 }
 .testimonial-image{
-  /* padding:26rem 3rem 20rem;
-  margin-top: -30rem;
-  margin-bottom: -8rem; */
   background-image:url("/images/tash-tacos.jpg");
   background-position:center;
   background-size:cover;

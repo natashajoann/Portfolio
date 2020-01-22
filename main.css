@@ -85,7 +85,9 @@ h3{
 }
 
 p{
-font-family: 'EB Garamond', serif;
+/* font-family: 'EB Garamond', serif; */
+font-family: 'Lato', sans-serif;
+
 font-size:20px;
 }
 
@@ -223,17 +225,23 @@ a:hover{
   color:#858ED8;
 }
 
+.blog h2{
+  font-size: 70px;
+  margin-left: 5rem;
+  color:#2C41E3;
+}
+
 /* Testimonials */
 
 .testimonial{
   text-align:center;
-  padding:31rem 13rem 20rem;
+  padding:26rem 3rem 20rem;
   margin-top: -30rem;
   margin-bottom: -8rem;
 }
 
 .testimonial p{
-  margin-top: 7rem;
+  font-size:
 }
 
 /* .test-2 p{
@@ -298,25 +306,27 @@ a:hover{
 }
 
 .services-text h2{
-  font-size:60px;
-  text-align:left;
+  font-size:70px;
+  text-align:center;
   padding:3rem 5rem 0;
+  color:#2C41E3;
 }
 
 .services-text h3{
   padding:5px 5rem;
   font-size:20px;
+  text-align:center;
 }
 
 .services-text span{
   text-decoration:underline;
 }
 .services-text span:hover{
-  color:#e5bc5c;
+  color:#2C41E3;
 }
 
 .services-text a:hover{
-  color:#e5bc5c;
+  color:#2C41E3;
 }
 
 /* slideshow */
@@ -359,7 +369,7 @@ a:hover{
 } */
 
 .slide1, .slide2, .slide3, .slide4{
-  padding-left:5rem;
+  padding-left:10rem;
 }
 
 

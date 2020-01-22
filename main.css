@@ -191,6 +191,9 @@ text-align:right;
   text-align:left;
   font-size:30px;
   padding-top:24rem;
+  margin-top: 10rem;
+    margin-bottom: -9rem;
+
 }
 
 .intro-text h3{
@@ -233,7 +236,8 @@ text-align:right;
 }
 
 .blog{
-  background-color:#D3EBDD;
+      background: linear-gradient(to top, #d2ebdd 0%,#d2ebdd 50%,#d2ebdd 50%,white 50%,white 100%);
+      padding-bottom:1rem;
 }
 
 /* Testimonials */

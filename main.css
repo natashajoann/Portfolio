@@ -200,16 +200,13 @@ text-align:right;
 }
 
 .intro-image{
-  /* background-image: url("/images/myface.jpg");
-  background-position:center;
-  background-size:cover; */
-  padding:6rem;
+  padding:1rem;
   margin:2rem;
-}
+  margin-top: 11rem;
+
 
 .intro-text h3{
-  font-size:40px;
-  padding-bottom:20px;
+  font-size:86px
 }
 
 .intro-text h4{

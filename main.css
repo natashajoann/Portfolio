@@ -150,7 +150,12 @@ a:hover{
   font-size:47px;
   line-height: 43px;
   color: #E2B600;
-  text-align:center;
+  text-align:right;
+}
+
+.nav-menu h3{
+  line-height: 0px;
+  font-size:20px;
 }
 
 .nav-menu a{

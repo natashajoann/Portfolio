@@ -139,7 +139,7 @@ a:hover{
 }
 
 .nav-menu{
-  margin-top:20px;
+  padding-top:20px;
 }
 
 
@@ -182,7 +182,7 @@ a:hover{
 } */
 
 .title{
-  background: linear-gradient(to bottom, #d2ebdd 0%,#d2ebdd 50%,#d2ebdd 50%,white 50%,white 100%);
+  background: linear-gradient(to bottom,#d2ebdd 0, #d2ebdd 72%, #fff 50%,#fff 100%);
 }
 
 .fa-quote-left{
@@ -296,7 +296,7 @@ text-align:right;
 /* Services */
 
 .services{
-  padding:2rem 2rem 8rem;
+  padding:2rem;
 }
 
 
@@ -307,7 +307,7 @@ text-align:right;
 .services-text h2{
   font-size:70px;
   text-align:center;
-  padding:3rem 5rem 0;
+  padding:0rem 5rem;
   color:#2C41E3;
 }
 

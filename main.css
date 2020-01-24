@@ -145,22 +145,25 @@ a:hover{
 .nav-menu h1{
   font-size:47px;
   line-height: 21px;
-  color: #E2B600;
-  background-color:#D3EBDD;
+  color: white;
 }
 
 .nav-menu{
-    background-color:#D3EBDD;
+  position: fixed;
+  z-index: 5;
 }
 
 .nav-menu h3{
   line-height: 0px;
   font-size:20px;
-  background-color: #d5efe0;
   padding: 10px;
 }
 
 .nav-menu a{
+  color:white;
+}
+
+.nav-menu a:hover{
   color:#E2B600;
 }
 
@@ -179,7 +182,7 @@ a:hover{
 } */
 
 .title{
-background-image: url("/images/myface.jpg");
+background-image: url("/images/myface-dark.png");
 background-position:center;
 background-size:cover;
 background-attachment: fixed;
@@ -745,10 +748,11 @@ h3 {
 }
 
 .footer{
-  background-color:#af836e;
+  background-color:#7F9389;
 }
 .about-text p{
   padding: 6rem 3rem;
+  text-align:center;
 }
 
 .about-text span{

@@ -242,7 +242,12 @@ font-size:55px;
 .blog h2{
   font-size: 70px;
   margin-left: 5rem;
-  color: #d5efe0;
+  color: #99b6af;
+}
+
+.blog h4{
+  font-size: 30px;
+  padding-top: 30px;
 }
 
 .blog{
@@ -270,7 +275,7 @@ background-color:#244243;
   text-align:center;
   z-index:3;
   padding:30px;
-  color:#f8f4f0;
+  /* color:#f8f4f0; */
   background-color: #f8f4f0;
   margin: 2rem;
   margin-left: -49px;
@@ -824,7 +829,7 @@ white-space: normal;
 }
 
 .testimonial-img{
-  background-image: url("tash-bali.jpg");
+  background-image: url("/images/tash-bali.jpg");
   background-position:center;
   background-size:cover;
 }

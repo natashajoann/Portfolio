@@ -147,6 +147,7 @@ a:hover{
   line-height: 5px;
   color: white;
   margin-top: 12px;
+  font-family: athelas, serif;
 }
 
 .nav-menu{
@@ -155,6 +156,7 @@ a:hover{
 }
 
 .nav-menu h3{
+  font-family: athelas, serif;
   line-height: 0px;
   font-size:20px;
   padding: 10px;
@@ -212,6 +214,9 @@ font-size:55px;
 }
 
 .about h3{
+  font-family: blenny, sans-serif;
+  font-weight: 900;
+  font-style: normal;
   font-size:86px;
   margin-top:-86px;
   padding-left: 2.75rem;
@@ -755,6 +760,9 @@ h3 {
 .about-text p{
   padding: 6rem 3rem;
   text-align:center;
+  font-family: athelas, serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .about-text span{
@@ -859,6 +867,9 @@ white-space: normal;
 
 .testimonial{
   padding:0rem;
+  font-family: athelas, serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .test-2, .test-1{

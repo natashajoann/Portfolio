@@ -14,8 +14,7 @@ Website Colours: List colour hex codes here for reference
 }
 body {
   color: #313131;
-  /* font-family: 'Noto Serif JP', serif; */
-  /* background-color:#fffefa; */
+  background-color:#F8F4F0;
 }
 
 img {
@@ -189,7 +188,7 @@ background-image: url("/images/myface-dark.png");
 background-position:center;
 background-size:cover;
 background-attachment: fixed;
-padding:21rem;
+padding:24rem;
 }
 
 .fa-quote-left{
@@ -214,14 +213,11 @@ font-size:55px;
 }
 
 .about h3{
-  font-family: blenny, sans-serif;
-  font-weight: 900;
-  font-style: normal;
-  font-size:86px;
-  margin-top:-86px;
+  font-size: 86px;
+  margin-top: -53px;
   padding-left: 2.75rem;
-  color:#d5efe0;
-}
+  color: #d5efe0;
+  line-height: 19px;
 
 
 
@@ -267,7 +263,7 @@ font-size:55px;
 /* Testimonials */
 .testimonial{
 padding: 5rem 0 1rem;
-background-color:#d2ebdd;
+background-color:#244243;
 }
 .taco-image{
   background-image:url("/images/tash-tacos.jpg");

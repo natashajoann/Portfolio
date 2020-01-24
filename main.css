@@ -231,10 +231,10 @@ font-size:55px;
   margin:3rem;
 }
 
-.blog-loop-info h3{
-    color:#f8f4f0;
-}
 
+.blog-loop-info h3{
+  color:#99b6af;
+}
 .post-preview a:hover{
   color:#858ED8;
 }
@@ -242,10 +242,11 @@ font-size:55px;
 .blog h2{
   font-size: 70px;
   margin-left: 5rem;
+  color: #d5efe0;
 }
 
 .blog{
-      background: linear-gradient(to bottom,#244243 0,#244243 50%,#244243 50%,#fff 50%,#fff 100%);
+      /* background: linear-gradient(to bottom,#244243 0,#244243 50%,#244243 50%,#fff 50%,#fff 100%); */
       padding-bottom:3rem;
 }
 
@@ -770,7 +771,8 @@ padding: 30rem 0;
 }
 
 .menu-img{
-  padding-left:0;
+  padding-left: 3rem;
+padding-top: 4rem;
 }
 
 .main-title-name{
@@ -816,6 +818,12 @@ white-space: normal;
   font-family: athelas, serif;
   font-weight: 400;
   font-style: normal;
+}
+
+.testimonial-img{
+  background-image: url("tash-bali.jpg");
+  background-position:center;
+  background-size:cover;
 }
 
 .test-2, .test-1{
@@ -1062,7 +1070,7 @@ width:100%;
     top: 0;
     right: 0;
     background-color:rgba(250, 250, 250, 0.9);
-    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
+    text-shadow: 4px 4px #0c0d0d;
     z-index: 8;
     padding-top:26px;
 }

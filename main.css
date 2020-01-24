@@ -143,9 +143,10 @@ a:hover{
 
 /* .main-title h1, .main-title-mobile h1{ */
 .nav-menu h1{
-  font-size:47px;
-  line-height: 21px;
+  font-size: 35px;
+  line-height: 5px;
   color: white;
+  margin-top: 12px;
 }
 
 .nav-menu{
@@ -261,6 +262,7 @@ font-size:55px;
 /* Testimonials */
 .testimonial{
 padding: 5rem 0 1rem;
+background-color:#d2ebdd;
 }
 .taco-image{
   background-image:url("/images/tash-tacos.jpg");

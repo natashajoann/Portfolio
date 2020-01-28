@@ -39,7 +39,7 @@ a{
 
 .padded-top-0{padding-top:0;}
 .padded-1 { padding: 1%; }
-.padded-3 { padding: 3%; }
+.padded-3 { padding: 3rem; }
 .padded-4 { padding: 4%; }
 .padded-5 { padding: 5%; }
 .padded-10 {padding: 10%; }
@@ -222,9 +222,20 @@ font-size:55px;
   padding-left:5rem;
 }
 
-.mini-grid{
-  padding:30px;
+.my-face{
+  background-image:url("/images/myface.jpg");
+  background-position:center;
+  background-size:cover;
+  padding:3rem;
 }
+
+.grid-blog-img{
+  background-image:url("/images/nmv-pancakes.jpg");
+  background-position:center;
+  background-size:cover;
+  padding:3rem;
+}
+
 
 .grid-web-img{
   background-image:url("/images/2.png");
@@ -239,6 +250,14 @@ font-size:55px;
   background-size:cover;
   padding:3rem;
 }
+
+.grid-marketing-img{
+  background-image:url("/images/plant-pic.jpg");
+  background-position:center;
+  background-size:cover;
+}
+
+
 
 
 
@@ -374,11 +393,11 @@ background-color:#D3EBDD;
 
 .featured{
   background-color:#F8F4F0;
-  padding:2rem;
+  padding:5rem;
 }
 
 .featured div{
-  margin:7px;
+  margin:12px;
 }
 
 .featured1{
@@ -654,23 +673,6 @@ h3 {
 }
 
 
-.overlay{
-  background-color: rgb(222, 241, 234, 0.6);
-  opacity:0;
-  height:100%;
-  width:100%;
-  z-index:3;
-  position:absolute;
-  top:0;
-  left:0;
-  color: rgb(60, 60, 60);
-  text-align:right;
-}
-
-.overlay:hover{
-  opacity:1;
-  transition: all 0.5s;
-}
 
 .heading-mobile{
   display:none;
@@ -754,9 +756,11 @@ h3 {
 /* ABOUT */
 
 .about{
-  padding-top:2rem;
-  padding:2rem;
+padding:0;
+background-color:#ffffff;
 }
+
+
 .footer-text{
   padding: 4rem 4rem 4rem;
 }
@@ -765,7 +769,7 @@ h3 {
   background-color:#EFE4D3;
 }
 .about-text p{
-  padding: 6rem 3rem;
+  padding: 10rem 3rem 4rem;
   text-align:center;
   font-family: athelas, serif;
   font-weight: 400;
@@ -815,6 +819,11 @@ padding: 30rem 0;
 /* media queries */
 
 @media (max-width: 1024){
+
+  .mobile-up{
+    order:1;
+  }
+
   .social-media div{
     margin:auto;
     margin-left:0;
@@ -1112,7 +1121,6 @@ width:100%;
     top: 0;
     right: 0;
     background-color:rgba(250, 250, 250, 0.9);
-    text-shadow: 4px 4px #0c0d0d;
     z-index: 8;
     padding-top:26px;
 }

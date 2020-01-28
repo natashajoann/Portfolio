@@ -14,7 +14,6 @@ Website Colours: List colour hex codes here for reference
 }
 body {
   color: #313131;
-  background-color:#F8F4F0;
 }
 
 img {
@@ -190,8 +189,6 @@ text-align:right;
 font-size:55px;
 }
 
-
-
 .intro-text{
   text-align:left;
   font-size:30px;
@@ -219,9 +216,28 @@ font-size:55px;
 .intro-text h4{
   font-size:30px;
 }
+
 .menu-img{
   height:50vh;
   padding-left:5rem;
+}
+
+.mini-grid{
+  padding:30px;
+}
+
+.grid-web-img{
+  background-image:url("/images/2.png");
+  background-position:center;
+  background-size:cover;
+  padding:3rem;
+}
+
+.grid-marketing-img{
+  background-image:url("/images/3.png");
+  background-position:center;
+  background-size:cover;
+  padding:3rem;
 }
 
 
@@ -236,6 +252,7 @@ font-size:55px;
 .blog-loop-info h3{
   color:#99b6af;
 }
+
 .post-preview a:hover{
   color:#858ED8;
 }
@@ -258,15 +275,15 @@ font-size:55px;
 
 /* Testimonials */
 .testimonial{
-padding: 5rem 0 1rem;
+padding: 4rem;;
 background-color:#D3EBDD;
 }
 
-.testimonial-img{
+/* .testimonial-img{
   background-image: url("/images/myface.jpg");
   background-position:center;
   background-size:cover;
-}
+} */
 
 .quotation h1{
   font-size:200px;
@@ -280,12 +297,9 @@ background-color:#D3EBDD;
 .testimonial p{
   font-size:20px;
   text-align:center;
-  z-index:3;
   padding:30px;
-  /* color:#f8f4f0; */
-  background-color: #f8f4f0;
+  background-color: #F8F7F7;
   margin: 2rem;
-  margin-left: -49px;
 }
 
 
@@ -300,9 +314,6 @@ background-color:#D3EBDD;
   background-position:center;
   background-size:cover;
 }
-
-
-
 
 
 
@@ -346,8 +357,8 @@ background-color:#D3EBDD;
   color:#2C41E3;
 }
 
-/* slideshow */
-.slideshow-container{
+/* slideshow AND/OR FEAUTRED */
+/* .slideshow-container{
   position:relative;
   margin:auto;
 
@@ -355,8 +366,42 @@ background-color:#D3EBDD;
 
 .mySlides{
   display:none;
+} */
+
+.overlay:hover{
+  background-color:rgba(80,80,80, 0.5);
 }
-/* test */
+
+.featured{
+  background-color:#F8F4F0;
+  padding:2rem;
+}
+
+.featured div{
+  margin:7px;
+}
+
+.featured1{
+  background-image:url("/images/2.png");
+  background-position:center;
+  background-size: cover;
+  padding:5rem;
+}
+
+.featured2{
+  background-image:url("/images/2.png");
+  background-position:center;
+  background-size: cover;
+  padding:5rem;
+}
+
+.featured3{
+  background-image:url("/images/2.png");
+  background-position:center;
+  background-size: cover;
+  padding:5rem;
+}
+
 
 
 /* Media*/
@@ -836,22 +881,9 @@ white-space: normal;
 }
 
 
-.test-2, .test-1{
-  order:-1;
-}
-
-.test-1{
-  padding:2rem;
-}
-
 .testimonial p{
   padding:3rem 4rem;
 }
-
-/* .services-text{
-  padding-top:7rem;
-  padding-bottom:8rem;
-} */
 
 
 .services h2{

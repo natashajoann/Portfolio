@@ -39,7 +39,7 @@ a{
 
 .padded-top-0{padding-top:0;}
 .padded-1 { padding: 1%; }
-.padded-3 { padding: 3rem; }
+.padded-3 { padding: 3rem 2rem; }
 .padded-4 { padding: 4%; }
 .padded-5 { padding: 5%; }
 .padded-10 {padding: 10%; }
@@ -99,6 +99,14 @@ html{
 [class*=grid-], [class*=grid_], [class~=grid]{
   margin:0;
 }
+
+[class*=grid-][class*=col-], [class*=grid-][class*=col_], [class*=grid-][class~=col], [class*=grid_][class*=col-], [class*=grid_][class*=col_], [class*=grid_][class~=col], [class~=grid][class*=col-], [class~=grid][class*=col_],{
+  padding:0;
+}
+
+[class*=col-], [class*=col_], [class~=col]{
+  padding:0;
+}
 /* nav  */
 
 
@@ -147,10 +155,10 @@ a:hover{
   font-family: athelas, serif;
 }
 
-.nav-menu{
+/* .nav-menu{
   position: fixed;
   z-index: 5;
-}
+} */
 
 .nav-menu h3{
   font-family: athelas, serif;
@@ -412,28 +420,31 @@ background-color:#d6e1dd;
     font-size: 45px;
 }
 
-.featured div{
+/* .featured div{
   margin:12px;
-}
+} */
 
 .featured1{
-  background-image:url("/images/2.png");
+  /* background-image:url("/images/2.png");
   background-position:center;
-  background-size: cover;
+  background-size: cover; */
+  margin:10px;
   padding:5rem;
 }
 
 .featured2{
-  background-image:url("/images/2.png");
+  /* background-image:url("/images/2.png");
   background-position:center;
-  background-size: cover;
+  background-size: cover; */
+  margin:10px;
   padding:5rem;
 }
 
 .featured3{
-  background-image:url("/images/2.png");
+  /* background-image:url("/images/2.png");
   background-position:center;
-  background-size: cover;
+  background-size: cover; */
+  margin:10px;
   padding:5rem;
 }
 

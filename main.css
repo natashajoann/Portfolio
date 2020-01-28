@@ -177,7 +177,7 @@ a:hover{
 
 
 .title{
-background-image: url("/images/myface-dark.png");
+background-image: url("/images/tash-tacos.png");
 background-position:center;
 background-size:cover;
 background-attachment: fixed;
@@ -272,7 +272,7 @@ background-color:#D3EBDD;
   font-size:200px;
   line-height:10px;
   margin-top:-30px;
-  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
+  text-shadow: 5px 4px #292929;
   color:#f8f4f0;
 }
 

@@ -104,9 +104,19 @@ html{
   padding:0;
 }
 
+[class*=col-], [class*=col_], [class~=col], [class*=col-], [class*=col_], [class~=col], [class*=col-], [class*=col_], [class~=col], [class~=grid][class~=col]{
+  padding:0;
+}
+
+[class*=grid-][class*=col-], [class*=grid-][class*=col_], [class*=grid-][class~=col], [class*=grid_][class*=col-], [class*=grid_][class*=col_], [class*=grid_][class~=col], [class~=grid][class*=col-], [class~=grid][class*=col_]{
+  padding:0;
+}
+
 [class*=col-], [class*=col_], [class~=col]{
   padding:0;
 }
+
+
 /* nav  */
 
 
@@ -317,11 +327,11 @@ padding: 4rem;;
 background-color:#d6e1dd;
 }
 
-/* .testimonial-img{
+.testimonial-img{
   background-image: url("/images/myface.jpg");
   background-position:center;
   background-size:cover;
-} */
+}
 
 .quotation h1{
   font-size:200px;
@@ -338,6 +348,8 @@ background-color:#d6e1dd;
   padding:30px;
   background-color: #F8F7F7;
   margin: 2rem;
+  margin-left:-30px;
+  
 }
 
 
@@ -800,7 +812,7 @@ background-color:#ffffff;
 
 }
 .about-text p{
-  padding: 10rem 3rem 4rem;
+  padding: 10rem 3rem 6rem;
   text-align:center;
   font-family: athelas, serif;
   font-weight: 400;

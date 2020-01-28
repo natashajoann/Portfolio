@@ -142,7 +142,7 @@ a:hover{
 .nav-menu h1{
   font-size: 35px;
   line-height: 5px;
-  color: white;
+  color: #4a4a4a;
   margin-top: 12px;
   font-family: athelas, serif;
 }
@@ -157,14 +157,23 @@ a:hover{
   line-height: 0px;
   font-size:20px;
   padding: 10px;
+  color:#4a4a4a;
 }
 
 .nav-menu a{
-  color:white;
+  color:#4a4a4a;
 }
 
 .nav-menu a:hover{
   color:#E2B600;
+}
+
+.nav-left{
+  text-align:right;
+}
+
+.nav-right{
+  text-align:left;
 }
 
 
@@ -174,21 +183,12 @@ a:hover{
 }
 
 
+.title-img{
+    background-image:url("/images/tash-tacos.jpg");
+    background-position:center;
+    background-size: cover;
 
-.title{
-background-image: url("/images/tash-tacos.png");
-background-position:center;
-background-size:cover;
-background-attachment: fixed;
-padding:24rem;
-background-color:rgba(80,80,80,0.5);
 }
-
-.fa-quote-left{
-text-align:right;
-font-size:55px;
-}
-
 .intro-text{
   text-align:left;
   font-size:30px;
@@ -222,6 +222,10 @@ font-size:55px;
   padding-left:5rem;
 }
 
+.menu-grid{
+  background-color:white;
+}
+
 .my-face{
   background-image:url("/images/myface.jpg");
   background-position:center;
@@ -251,7 +255,14 @@ font-size:55px;
   padding:3rem;
 }
 
-.grid-marketing-img{
+.grid-blog-img{
+  background-image:url("/images/nmv-pancakes.jpg");
+  background-position:center;
+  background-size:cover;
+  padding:3rem;
+}
+
+.grid-filler{
   background-image:url("/images/plant-pic.jpg");
   background-position:center;
   background-size:cover;
@@ -295,7 +306,7 @@ font-size:55px;
 /* Testimonials */
 .testimonial{
 padding: 4rem;;
-background-color:#D3EBDD;
+background-color:#d6e1dd;
 }
 
 /* .testimonial-img{
@@ -392,8 +403,13 @@ background-color:#D3EBDD;
 }
 
 .featured{
-  background-color:#F8F4F0;
-  padding:5rem;
+  background-color:#d6e1dd;
+  padding:3rem;
+}
+
+.featured h2{
+  margin-top: -69px;
+    font-size: 45px;
 }
 
 .featured div{
@@ -767,6 +783,10 @@ background-color:#ffffff;
 
 .footer{
   background-color:#EFE4D3;
+  position:fixed;
+  z-index:-1;
+  width:100%;
+
 }
 .about-text p{
   padding: 10rem 3rem 4rem;
@@ -887,6 +907,7 @@ white-space: normal;
   font-family: athelas, serif;
   font-weight: 400;
   font-style: normal;
+  margin-bottom: 16rem;
 }
 
 

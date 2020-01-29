@@ -388,6 +388,32 @@ a:hover{
       padding-bottom:3rem;
 }
 
+.article-text{
+  margin-top:26rem;
+  padding: 0 6rem;
+  z-index:2;
+}
+
+.article-img{
+  background-attachment:fixed;
+}
+
+.article-text h2{
+  font-size:35px;
+  text-align:center;
+  width:50%;
+  margin:auto;
+}
+
+.blog-read-more{
+  background: linear-gradient(to bottom,#d5efe0 16%, #fff 16%,#fff 100%);
+}
+
+.blog-loop-info h3, .blog-loop-info h4{
+width: 65%;
+margin: auto;
+}
+
 /* Testimonials */
 .testimonial{
 padding: 4rem;;
@@ -1300,6 +1326,29 @@ padding-left: 1rem;
 
 .title-about-text{
   padding: 7rem 3rem 9rem;
+}
+
+.blog-loop-background{
+  padding: 6rem;
+  margin: 2rem;
+}
+
+.padded-5-10{
+  padding:5% 4%;
+}
+
+.blog h3{
+  margin-left:0;
+}
+
+
+.article-text h2{
+  width: 70%;
+padding: 2rem 0;
+}
+
+.article-text p{
+  padding: 1rem 3rem;
 }
 
 }

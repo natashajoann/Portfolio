@@ -178,6 +178,13 @@ a:hover{
   color: #4a4a4a;
   margin-top: 12px;
   font-family: athelas, serif;
+  text-align:center;
+}
+
+.mobile-title{
+  text-align:left;
+  padding-top:10px;
+  display:none;
 }
 
 /* .nav-menu{
@@ -935,6 +942,10 @@ padding-top: 4rem;
 
 .main-title-name{
   position:relative;
+}
+
+.mobile-title{
+  display:block;
 }
 
 .burger-button {

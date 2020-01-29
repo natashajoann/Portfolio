@@ -349,7 +349,7 @@ background-color:#d6e1dd;
   background-color: #F8F7F7;
   margin: 2rem;
   margin-left:-30px;
-  
+
 }
 
 
@@ -423,7 +423,7 @@ background-color:#d6e1dd;
 }
 
 .featured{
-  background-color:#d6e1dd;
+  background-color:#f8f4f0;
   padding:3rem;
 }
 
@@ -800,15 +800,14 @@ background-color:#ffffff;
 }
 
 
-.footer-text{
+.footer{
   padding: 4rem 4rem 4rem;
 }
 
 .footer{
-  background-color:#EFE4D3;
-  position:fixed;
-  z-index:-1;
+  background-color:#111721;
   width:100%;
+  color:#f8f4f0;
 
 }
 .about-text p{

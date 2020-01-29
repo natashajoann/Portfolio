@@ -1030,7 +1030,7 @@ white-space: normal;
   padding-left: 0rem;
 }
 
-.web-title{
+.web-title, .medi-title, .blog-title{
   margin-top: 0rem;
 }
 

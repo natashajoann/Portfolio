@@ -995,11 +995,10 @@ white-space: normal;
 } */
 
 .testimonial{
-  padding:0rem;
+  padding:3rem;
   font-family: athelas, serif;
   font-weight: 400;
   font-style: normal;
-  margin-bottom: 16rem;
 }
 
 
@@ -1284,7 +1283,7 @@ padding-left: 1rem;
 }
 
 .about-text{
-  padding:10rem 3rem 6rem;
+  padding:0;
 }
 
 .title-about-text{

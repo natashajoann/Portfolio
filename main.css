@@ -173,6 +173,15 @@ a:hover{
 /* Title */
 
 /* .main-title h1, .main-title-mobile h1{ */
+
+.title-about-text{
+  text-align:right;
+}
+
+.title{
+  background: linear-gradient(to top,#d5efe0 40%, #fff 40%,#fff 100%)
+}
+
 .nav-menu h1{
   font-size: 35px;
   line-height: 5px;
@@ -254,6 +263,8 @@ a:hover{
 }
 
 
+
+
 .intro-text h4{
   font-size:30px;
 }
@@ -265,6 +276,22 @@ a:hover{
 
 .menu-grid{
   background-color:white;
+}
+
+.about-text{
+  background-color:#d5efe0;
+}
+
+.about-text p{
+  padding: 10rem 3rem 6rem;
+  text-align:center;
+  font-family: athelas, serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.about-text span{
+  font-weight:bold;
 }
 
 .my-face{
@@ -361,18 +388,14 @@ padding: 4rem;;
 background-color:#d6e1dd;
 }
 
-.testimonial-img{
+.testimonial{
   background-image: url("/images/myface.jpg");
   background-position:center;
   background-size:cover;
 }
 
-.quotation h1{
-  font-size:200px;
-  line-height:10px;
-  margin-top:-30px;
-  text-shadow: 5px 4px #292929;
-  color:#f8f4f0;
+.testimonial p{
+  color:#F8F4F0;
 }
 
 
@@ -865,17 +888,7 @@ background-color:#ffffff;
   color:#f8f4f0;
 
 }
-.about-text p{
-  padding: 10rem 3rem 6rem;
-  text-align:center;
-  font-family: athelas, serif;
-  font-weight: 400;
-  font-style: normal;
-}
 
-.about-text span{
-  font-weight:bold;
-}
 
 .contact-media{
   padding-top:3rem;

@@ -319,7 +319,7 @@ a:hover{
 }
 
 .writing-radio{
-  background: linear-gradient(to bottom,#d5efe0 25%, #fff 25%,#fff 100%);
+  background: linear-gradient(to bottom,#d5efe0 16%, #fff 16%,#fff 100%);
 }
 
 
@@ -629,8 +629,9 @@ background-color:#d6e1dd;
 }
 
 .writing_radio{
-  padding: 5rem 0rem;
+  padding: 3rem 0rem;
 padding-left: 4rem;
+background: linear-gradient(to bottom,#d5efe0 16%, #fff 16%,#fff 100%);
 }
 
 .writing_radio div{

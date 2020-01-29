@@ -311,6 +311,17 @@ a:hover{
   margin:3rem;
 }
 
+.blog-title{
+    text-align:center;
+    padding-top:4rem;
+    margin-top:3rem;
+    background-color:#d5efe0;
+}
+
+.writing-radio{
+  background: linear-gradient(to bottom,#d5efe0 25%, #fff 25%,#fff 100%);
+}
+
 
 .blog-loop-info h3{
   color:#99b6af;
@@ -618,7 +629,8 @@ background-color:#d6e1dd;
 }
 
 .writing_radio{
-  padding:3rem;
+  padding: 5rem 0rem;
+padding-left: 4rem;
 }
 
 .writing_radio div{
@@ -1127,6 +1139,11 @@ width:100%;
 
 .web-process{
   padding:2rem;
+}
+
+.writing_radio{
+  padding: 3rem 0rem;
+padding-left: 1rem;
 }
 
 /* burger menu */

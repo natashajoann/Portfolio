@@ -1,0 +1,31 @@
+---
+layout: default
+---
+<div class="article">
+<img id="article-img" src="{{page.featured_image}}"/>
+</div>
+
+<section class="article-text">
+  <h4> {{page.title}} </h4>
+
+{{content}}
+
+</section>
+
+<div class="grid padded-5-10 blog centered">
+  <div class="col-12"><h2> More Fun Things </h2></div>
+
+  {% for post in site.posts limit:3 %}
+    <div class="col-6_sm-12 post-preview">
+      <div class="blog-loop-background" style="background-image:url({{post.featured_image}})">
+        </div>
+      <div class="blog-loop-info">
+        <h3> {{post.title}}</h3>
+        <p class="col-12-middle"> {{post.description}}</p>
+      </div>
+      <a href="{{post.url}}" class="post-info"><h4> Read More</h4></a>
+  </div>
+  {% endfor %}
+  <div class="col-12">
+  <a href="/blog"><h4> See 'Em All </h4></a>
+</div>

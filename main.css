@@ -214,7 +214,7 @@ a:hover{
 
 .nav-menu a{
   color:#4a4a4a;
-  margin-top: 10px;
+
 }
 
 .nav-menu a:hover{
@@ -223,10 +223,12 @@ a:hover{
 
 .nav-left{
   text-align:right;
+    margin-top: 10px;
 }
 
 .nav-right{
   text-align:left;
+    margin-top: 10px;
 }
 
 

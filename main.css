@@ -484,6 +484,7 @@ background-color:#d6e1dd;
 .featured{
   background-color:#f8f4f0;
   padding:3rem;
+  padding-left: 5rem;
 }
 
 .featured h2{
@@ -492,15 +493,8 @@ background-color:#d6e1dd;
     font-size: 45px;
 }
 
-/* .featured div{
-  margin:12px;
-} */
-
-.featured1{
-  /* background-image:url("/images/2.png");
-  background-position:center;
-  background-size: cover; */
-  margin:10px;
+.featured h4{
+  text-align:center;
 }
 
 .featured2{

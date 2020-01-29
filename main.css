@@ -730,8 +730,18 @@ h3 {
 }
 
 /* Web Dev  */
+
+.web-title{
+  text-align:center;
+  padding-top:3rem;
+}
+
+.web-titleh2{
+  font-size:40px;
+}
+
 .overlay1{
-  background-color:rgba(255, 255, 255, 0.9);
+  background-color:rgba(255, 255, 255, 0.7);
   padding:3rem;
 }
 
@@ -741,7 +751,7 @@ h3 {
 
 .media-img1, .media-img2, .media-img3, .media-img4{
   padding:1rem;
-  padding-bottom:0;
+  padding-bottom:3rem;
 }
 
 .web-dev h2{

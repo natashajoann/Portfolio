@@ -116,6 +116,21 @@ html{
   padding:0;
 }
 
+/* back soon */
+.be-back-soon{
+  background-image: url("/images/myface-dark.png");
+  background-position:center;
+  background-size:cover;
+  padding: 13rem 3rem;
+}
+
+.be-back-soon h3, .be-back-soon p{
+  color:white;
+}
+
+.be-back-soon a{
+  color: #e5bc5c;
+}
 
 /* nav  */
 

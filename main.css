@@ -355,6 +355,8 @@ a:hover{
 .read-more-loop-background{
   padding: 7rem;
   margin:1rem;
+  background-position: center;
+  background-size: cover;
 }
 
 .blog-title{
@@ -379,6 +381,8 @@ a:hover{
 .post-preview a:hover{
   color:#E2B600;
 }
+
+
 
 .blog h2{
   font-size: 70px;
@@ -1361,6 +1365,8 @@ padding-left: 1rem;
 .blog-loop-background{
   padding: 6rem;
   margin: 2rem;
+  background-position: center;
+  background-size: cover;
 }
 
 .padded-5-10{

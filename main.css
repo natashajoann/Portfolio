@@ -350,6 +350,8 @@ a:hover{
 .blog-loop-background{
   padding: 6rem;
   margin:1rem;
+  background-position:center;
+  background-size:cover;
 }
 
 .read-more-loop-background{

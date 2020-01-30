@@ -406,7 +406,7 @@ a:hover{
 }
 
 .blog-read-more{
-  background: linear-gradient(to bottom,#d5efe0 16%, #fff 16%,#fff 100%);
+      background: linear-gradient(to bottom,#d5efe0 48%,#fff 16%,#fff 100%);
 }
 
 .blog-loop-info h3, .blog-loop-info h4{
@@ -958,6 +958,10 @@ background-size:cover;
 padding: 30rem 0;
 }
 
+/* ARTICLES */
+
+
+
 /* media queries */
 
 @media (max-width: 1024){
@@ -1347,8 +1351,8 @@ padding-left: 1rem;
 padding: 2rem 0;
 }
 
-.article-text p{
-  padding: 1rem 3rem;
+.article-text{
+  padding:0;
 }
 
 }

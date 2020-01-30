@@ -368,13 +368,16 @@ a:hover{
   background: linear-gradient(to bottom,#d5efe0 16%, #fff 16%,#fff 100%);
 }
 
+.blog-grid{
+  background: linear-gradient(to bottom,#d5efe0 25%, #fff 24%,#fff 100%);
+}
 
 .blog-loop-info h3{
   color:#99b6af;
 }
 
 .post-preview a:hover{
-  color:#858ED8;
+  color:#E2B600;
 }
 
 .blog h2{
@@ -423,7 +426,7 @@ a:hover{
   text-align: center;
 }
 
-.blog-grid a:hover{
+.blog-grid h3:hover{
   color:#858ED8;
 }
 

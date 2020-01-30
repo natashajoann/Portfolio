@@ -371,7 +371,7 @@ a:hover{
 }
 
 .blog-grid{
-  background: linear-gradient(to bottom,#d5efe0 25%, #fff 24%,#fff 100%);
+  background: linear-gradient(to bottom,#d5efe0 45%, #fff 44%,#fff 100%);
 }
 
 .blog-loop-info h3{
@@ -441,7 +441,7 @@ a:hover{
 }
 
 .blog-grid{
-  padding: 0 5rem;
+  padding: 0 5rem 6rem;
 }
 
 /* Testimonials */
@@ -1389,7 +1389,7 @@ padding: 2rem 0;
 }
 
 .blog-grid{
-  padding: 0 3rem;
+  padding: 0 3rem 3rem;
 }
 
 }

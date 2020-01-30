@@ -403,7 +403,7 @@ a:hover{
 }
 
 .article-text{
-  margin-top:26rem;
+  /* margin-top:26rem; */
   padding: 3rem 6rem;
   z-index:10;
   background-color:#f8f4f0;

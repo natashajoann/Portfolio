@@ -348,6 +348,11 @@ a:hover{
 
 /* Blog */
 .blog-loop-background{
+  padding: 6rem;
+  margin:1rem;
+}
+
+.read-more-loop-background{
   padding: 7rem;
   margin:3rem;
 }
@@ -390,12 +395,14 @@ a:hover{
 
 .article-text{
   margin-top:26rem;
-  padding: 0 6rem;
-  z-index:2;
+  padding: 3rem 6rem;
+  z-index:10;
+  background-color:#f8f4f0;
 }
 
 .article-img{
-  background-attachment:fixed;
+  position:fixed;
+  z-index:-11;
 }
 
 .article-text h2{
@@ -403,15 +410,27 @@ a:hover{
   text-align:center;
   width:50%;
   margin:auto;
+  padding-bottom:30px;
 }
 
 .blog-read-more{
-      background: linear-gradient(to bottom,#d5efe0 48%,#fff 16%,#fff 100%);
+      background: linear-gradient(to bottom,#d5efe0 48%, #f8f4f0 16%, #f8f4f0 100%);
 }
 
 .blog-loop-info h3, .blog-loop-info h4{
-width: 65%;
-margin: auto;
+  width: 75%;
+  margin: auto;
+  text-align: center;
+}
+
+.read-more-info h3, .read-more-info h4{
+  width: 65%;
+  margin: auto;
+  text-align: center;
+}
+
+.blog-grid{
+  padding: 0 5rem;
 }
 
 /* Testimonials */
@@ -1352,7 +1371,12 @@ padding: 2rem 0;
 }
 
 .article-text{
-  padding:0;
+  padding:2rem;
+  margin-top:14rem;
+}
+
+.blog-grid{
+  padding: 0 3rem;
 }
 
 }

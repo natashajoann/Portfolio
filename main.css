@@ -354,7 +354,7 @@ a:hover{
 
 .read-more-loop-background{
   padding: 7rem;
-  margin:3rem;
+  margin:1rem;
 }
 
 .blog-title{
@@ -418,9 +418,13 @@ a:hover{
 }
 
 .blog-loop-info h3, .blog-loop-info h4{
-  width: 75%;
+  width: 80%;
   margin: auto;
   text-align: center;
+}
+
+.blog-grid a:hover{
+  color:#858ED8;
 }
 
 .read-more-info h3, .read-more-info h4{

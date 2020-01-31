@@ -284,10 +284,6 @@ a:hover{
   background-color:white;
 }
 
-.about-text{
-  background-color:#d5efe0;
-
-}
 
 .about-text p{
   padding: 8rem 11rem 6rem;
@@ -545,7 +541,7 @@ background-color:#d6e1dd;
 }
 
 .featured{
-  background-color:#f8f4f0;
+  background: linear-gradient(to bottom,#d5efe0 55%, #fff 54%,#fff 100%);
   padding:3rem;
   padding-left: 5rem;
 }
@@ -849,6 +845,10 @@ h3 {
 }
 
 /* Web Dev  */
+
+.testimonial-web{
+  padding: 2rem 5rem;
+}
 
 .web-title{
   text-align:center;
@@ -1393,6 +1393,10 @@ padding: 2rem 0;
 
 .blog-grid{
   padding: 0 3rem 3rem;
+}
+
+.testimonial-web{
+  padding:0;
 }
 
 }

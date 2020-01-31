@@ -541,9 +541,10 @@ background-color:#d6e1dd;
 }
 
 .featured{
-  background: linear-gradient(to bottom,#d5efe0 55%, #fff 54%,#fff 100%);
+  background: linear-gradient(to bottom,#d5efe0 72%, #fff 70%,#fff 100%);
   padding:3rem;
   padding-left: 5rem;
+  padding-top:9rem;
 }
 
 .featured h2{
@@ -907,11 +908,13 @@ h3 {
 }
 
 .testimonial-web{
-  background-color:#d2ebddad;
+  padding: 4rem 9rem;
+  background-color:#d5efe0;
 }
 
 .web-process{
   background-color:rgba(255, 255, 255, 0.8);
+
 }
 
 .web-process h2{

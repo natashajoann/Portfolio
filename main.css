@@ -581,6 +581,54 @@ background-color:#d6e1dd;
   margin:10px;
 }
 
+/* Bottom Images */
+
+.bottom-images{
+  padding:0;
+}
+
+.bottom-1{
+  background-image: url("/images/mex-oatbowl.jpg");
+  background-position:center;
+  background-size:cover;
+  padding:4rem;
+}
+
+.bottom-2{
+  background-image: url("/images/tash-tacos.jpg");
+  background-position:center;
+  background-size:cover;
+  padding:4rem;
+}
+
+.bottom-3{
+  background-image: url("/images/5.png");
+  background-position:center;
+  background-size:cover;
+  padding:4rem;
+}
+
+.bottom-4{
+  background-image: url("/images/ginfluencer.png");
+  background-position:center;
+  background-size:cover;
+  padding:4rem;
+}
+
+.bottom-5{
+  background-image: url("/images/veggiemole.jpg");
+  background-position:center;
+  background-size:cover;
+  padding:4rem;
+}
+
+.bottom-6{
+  background-image: url("/images/vietnampic.jpg");
+  background-position:center;
+  background-size:cover;
+  padding:4rem;
+}
+
 
 
 /* Media*/

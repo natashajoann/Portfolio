@@ -284,9 +284,14 @@ a:hover{
   background-color:white;
 }
 
+.hr{
+  width:80%;
+  margin:auto;
+}
+
 
 .about-text p{
-  padding: 8rem 11rem 6rem;
+  padding: 5rem 11rem 6rem;
   text-align:center;
   font-family: 'Josefin Sans', sans-serif;
 }
@@ -542,7 +547,7 @@ background-color:#d6e1dd;
 
 .featured{
   background: linear-gradient(to bottom,#d5efe0 72%, #fff 70%,#fff 100%);
-  padding:3rem;
+  padding:5rem;
   padding-left: 5rem;
   padding-top:9rem;
 }

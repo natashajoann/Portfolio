@@ -544,6 +544,7 @@ background-color:#d6e1dd;
   display:none;
 } */
 
+/* FEATURED reg */
 
 .featured{
   background: linear-gradient(to bottom,#d5efe0 72%, #fff 70%,#fff 100%);
@@ -561,6 +562,22 @@ background-color:#d6e1dd;
 .featured h4{
   text-align:center;
   margin-top:20px;
+}
+
+.overlay{
+  position: absolute;
+    height: 100%;
+    width: 100%;
+    padding: 5%;
+    text-align: center;
+    opacity: 0;
+    background-color: rgba(250,250,250,.8);
+    color: #5a5a5a;
+}
+
+.overlay:hover{
+  transition:1s;
+  opacity:1;
 }
 
 .featured1{
@@ -1401,21 +1418,7 @@ padding-left: 1rem;
 }
 /* Featured */
 
-.overlay{
-  position: absolute;
-    height: 100%;
-    width: 100%;
-    padding: 5%;
-    text-align: center;
-    opacity: 0;
-    background-color: rgba(250,250,250,.8);
-    color: #5a5a5a;
-}
 
-.overlay:hover{
-  transition:1s;
-  opacity:1;
-}
 
 .featured{
   padding-left:5rem;
@@ -1423,17 +1426,9 @@ padding-left: 1rem;
 
 .featured1{
   margin:0;
-  position:relative;
-  z-index:3;
 }
 
-.featured1{
-  background-image:url("/images/fish-plate.jpg");
-  background-position:center;
-  background-size:cover;
-  padding:5rem;
 
-}
 
 
 .testimonial p{

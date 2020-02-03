@@ -1404,10 +1404,14 @@ padding-left: 1rem;
 .display-none{
     display:none;
 }
+
+.overlay{
+  display:none;
+}
 /* Featured */
 
 .featured{
-  padding-left:3rem;
+  padding-left:5rem;
 }
 
 .featured1{
@@ -1443,6 +1447,7 @@ padding-left: 1rem;
 
 .title-about-text{
   padding: 7rem 3rem 9rem;
+  text-align:center;
 }
 
 .blog-loop-background{

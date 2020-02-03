@@ -576,7 +576,7 @@ background-color:#d6e1dd;
 }
 
 .overlay:hover{
-  transition:1s;
+  transition:0.7s;
   opacity:1;
 }
 

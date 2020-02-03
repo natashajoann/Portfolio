@@ -860,7 +860,7 @@ background: linear-gradient(to bottom,#d5efe0 16%, #fff 16%,#fff 100%);
     opacity: 0;
     background-color: rgba(250,250,250,.8);
     color: #5a5a5a;
-    top: 0;
+
 }
 
 .overlay:hover{

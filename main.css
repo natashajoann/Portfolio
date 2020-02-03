@@ -1418,8 +1418,13 @@ padding-left: 1rem;
   background-image:url("/images/fish-plate.jpg");
   background-position:center;
   background-size:cover;
-  z-index: 9;
-  position: relative;
+  padding:5rem;
+
+}
+
+.featured1 a{
+  position:relative;
+  z-index:9;
 }
 
 .testimonial p{

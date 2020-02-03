@@ -851,6 +851,14 @@ background: linear-gradient(to bottom,#d5efe0 16%, #fff 16%,#fff 100%);
   height:10vh;
 }
 
+.overlay:hover{
+  background-color:rgba(80,80,80,0.8);
+}
+
+.overlay{
+  transition:1s;
+}
+
 .featured-gallery{
   padding:3rem 3rem 1rem 3.5rem;
 }

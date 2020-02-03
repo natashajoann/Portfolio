@@ -567,21 +567,30 @@ background-color:#d6e1dd;
 }
 
 .featured1{
+  background-image:url("/images/fish-plate.jpg");
+  background-position:center;
+  background-size:cover;
   margin-top:10px;
+  position:relative;
+  z-index:3;
 }
 
 .featured2{
-  /* background-image:url("/images/2.png");
+  background-image:url("/images/wine-img.jpg");
   background-position:center;
-  background-size: cover; */
+  background-size: cover;
   margin:10px;
+  position:relative;
+  z-index:3;
 }
 
 .featured3{
-  /* background-image:url("/images/2.png");
+  background-image:url("/images/IMG_9275.jpg");
   background-position:center;
-  background-size: cover; */
+  background-size: cover;
   margin:10px;
+  position:relative;
+  z-index:3;
 }
 
 /* Bottom Images */
@@ -856,22 +865,7 @@ background: linear-gradient(to bottom,#d5efe0 16%, #fff 16%,#fff 100%);
   height:10vh;
 }
 
-.overlay{
-  position: absolute;
-    height: 100%;
-    width: 100%;
-    padding: 5%;
-    text-align: center;
-    opacity: 0;
-    background-color: rgba(250,250,250,.8);
-    color: #5a5a5a;
 
-}
-
-.overlay:hover{
-  transition:1s;
-  opacity:1;
-}
 
 .featured-gallery{
   padding:3rem 3rem 1rem 3.5rem;
@@ -1410,12 +1404,31 @@ padding-left: 1rem;
 }
 /* Featured */
 
+.overlay{
+  position: absolute;
+    height: 100%;
+    width: 100%;
+    padding: 5%;
+    text-align: center;
+    opacity: 0;
+    background-color: rgba(250,250,250,.8);
+    color: #5a5a5a;
+
+}
+
+.overlay:hover{
+  transition:1s;
+  opacity:1;
+}
+
 .featured{
   padding-left:5rem;
 }
 
 .featured1{
   margin:0;
+  position:relative;
+  z-index:3;
 }
 
 .featured1{
@@ -1426,10 +1439,6 @@ padding-left: 1rem;
 
 }
 
-.featured1 a{
-  position:relative;
-  z-index:9;
-}
 
 .testimonial p{
   padding: 0px;

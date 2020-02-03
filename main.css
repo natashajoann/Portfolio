@@ -1406,6 +1406,12 @@ padding-left: 1rem;
   margin:0;
 }
 
+.featured1{
+  background-image:url("/images/fish-plate.jpg");
+  background-position:center;
+  background-size:cover;
+}
+
 .testimonial p{
   padding: 0px;
   margin:0;

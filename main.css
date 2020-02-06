@@ -620,6 +620,7 @@ background-color:#d6e1dd;
 .pin-plug{
   width:62%;
   z-index:10;
+  margin-bottom:-10px;
 }
 
 .pin-plug h3{
@@ -627,6 +628,7 @@ background-color:#d6e1dd;
     background-color: #d5efe0;
     padding: 1rem;
     margin: auto;
+    text-align:center;
 }
 
 .bottom-1{

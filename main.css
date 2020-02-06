@@ -241,6 +241,7 @@ a:hover{
     background-image:url("/images/myface.jpg");
     background-position:center;
     background-size: cover;
+    margin-top:1rem;
 
 }
 .intro-text{

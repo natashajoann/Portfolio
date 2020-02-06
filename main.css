@@ -674,8 +674,8 @@ background-color:#d6e1dd;
   font-family: 'Alegreya Sans SC', sans-serif;
 }
 
-.social-testimonial span{
-  color:#94b3ba;
+.social-testimonial{
+  background:linear-gradient(to bottom,#d5efe0 55%, #fff 16%,#fff 100%)
 }
 
 .social-testimonial h4{
@@ -1235,7 +1235,6 @@ ul{
 
 .social-testimonial{
   padding: 1rem 2rem 0;
-  background:linear-gradient(to bottom,#d5efe0 55%, #fff 16%,#fff 100%)
 }
 
 /* lightbox cols */

@@ -165,20 +165,13 @@ a:hover{
   display:none;
 }
 
-.nav-menu{
-  padding-top:20px;
-  padding-bottom:20px;
-}
 
 
 /* Title */
 
 /* .main-title h1, .main-title-mobile h1{ */
 
-.main-title{
-  height:40%
-  margin-bottom:0;
-}
+
 
 .title-about-text{
   text-align:right;
@@ -229,12 +222,12 @@ a:hover{
 
 .nav-left{
   text-align:right;
-    margin-top: 10px;
+    margin-top: 4rem;
 }
 
 .nav-right{
   text-align:left;
-    margin-top: 10px;
+    margin-top: 4rem;
 }
 
 
@@ -248,7 +241,6 @@ a:hover{
     background-image:url("/images/myface.jpg");
     background-position:center;
     background-size: cover;
-    margin-top:1rem;
 
 }
 .intro-text{

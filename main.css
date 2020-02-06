@@ -618,10 +618,15 @@ background-color:#d6e1dd;
 }
 
 .pin-plug{
-  width:70%;
-  margin:auto;
-  text-align:center;
-  margin-bottom:-10px;
+  width:62%;
+  z-index:10;
+}
+
+.pin-plug h3{
+  width: 36%;
+    background-color: #d5efe0;
+    padding: 1rem;
+    margin: auto;
 }
 
 .bottom-1{

@@ -176,9 +176,8 @@ a:hover{
 /* .main-title h1, .main-title-mobile h1{ */
 
 .main-title{
-  background-image:url("/images/tashlogo.png");
-  background-position:center;
-  background-size:cover;
+  height:40%
+  margin-bottom:0;
 }
 
 .title-about-text{

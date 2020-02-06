@@ -175,6 +175,12 @@ a:hover{
 
 /* .main-title h1, .main-title-mobile h1{ */
 
+.main-title{
+  background-image:url("/images/tashlogo.png");
+  background-position:center;
+  background-size:cover;
+}
+
 .title-about-text{
   text-align:right;
   padding: 12rem 3rem 25rem;

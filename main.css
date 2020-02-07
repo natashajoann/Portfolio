@@ -1221,6 +1221,7 @@ white-space: normal;
 
 .web-title, .media-title, .blog-title{
   margin-top: 0rem;
+  padding-bottom:2rem;
 }
 
 .about-img{
@@ -1502,7 +1503,7 @@ padding: 2rem 0;
 }
 
 .testimonial-web{
-  padding:0;
+  padding:2rem 2rem 0;
 }
 
 }

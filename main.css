@@ -365,7 +365,7 @@ hr{
 .blog-title{
     text-align:center;
     padding-top:4rem;
-    margin-top:3rem;
+    margin-top:1rem;
     background-color:#d5efe0;
 }
 
@@ -390,6 +390,7 @@ hr{
 .blog h2{
   font-size: 70px;
   margin-left: 5rem;
+  padding-bottom:2rem;
   color: #99b6af;
 }
 
@@ -547,7 +548,7 @@ background-color:#d6e1dd;
 .featured{
   background: linear-gradient(to bottom,#d5efe0 72%, #fff 70%,#fff 100%);
   padding:5rem;
-  padding-left: 5rem;
+  padding-left: 7rem;
   padding-top:9rem;
 }
 
@@ -589,24 +590,27 @@ background-color:#d6e1dd;
   z-index:3;
   padding:6rem;
   margin-bottom:10px;
+  height:50vh;
 }
 
 .featured2{
   background-image:url("/images/wine-img.jpg");
   background-position:center;
   background-size: cover;
-  margin:10px;
+  margin:10px 0px 10px 10px;
   position:relative;
   z-index:3;
+  height:50vh;
 }
 
 .featured3{
   background-image:url("/images/IMG_9275.jpg");
   background-position:center;
   background-size: cover;
-  margin:10px;
+  margin:10px 0px 10px 10px;
   position:relative;
   z-index:3;
+  height:50vh;
 }
 
 /* Bottom Images */
@@ -646,7 +650,7 @@ background-color:#d6e1dd;
 }
 
 .bottom-2{
-  background-image: url("/images/5.png");
+  background-image: url("/images/ivystoneimg.png");
   background-position:center;
   background-size:cover;
   padding:6rem;
@@ -666,7 +670,7 @@ background-color:#d6e1dd;
 .media-title{
   text-align:center;
   padding-top:4rem;
-  margin-top:3rem;
+  margin-top:1rem;
   background-color:#d5efe0;
 }
 
@@ -689,7 +693,7 @@ background-color:#d6e1dd;
 }
 
 .social-testimonial{
-  background:linear-gradient(to bottom,#d5efe0 55%, #fff 16%,#fff 100%)
+  background-color:#d5efe0;
 }
 
 .social-testimonial h4{
@@ -698,7 +702,7 @@ background-color:#d6e1dd;
 }
 
 .social-testimonial{
-  padding: 4rem 6rem 0;
+  padding: 4rem 6rem 2rem;
 }
 
 .social-media hr{
@@ -945,7 +949,7 @@ h3 {
 .web-title{
   text-align:center;
   padding-top:4rem;
-  margin-top:3rem;
+  margin-top:1rem;
   background-color:#d5efe0;
 }
 

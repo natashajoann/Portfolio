@@ -670,7 +670,7 @@ background-color:#d6e1dd;
 }
 
 .web-page{
-  padding:2rem;
+  padding:6rem 2rem;
   padding-bottom:3rem;
 }
 
@@ -683,7 +683,11 @@ background-color:#d6e1dd;
 }
 
 .brand-info{
-  padding:2rem 0;
+  padding:2rem 6rem 0 2rem;
+}
+
+.services-info{
+  padding:0 2rem 0 2rem;
 }
 
 .web-button{

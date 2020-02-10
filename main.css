@@ -663,6 +663,37 @@ background-color:#d6e1dd;
   padding:6rem;
 }
 
+/*  Web Portfolio */
+.web-work{
+  padding: 5rem;
+  background-color: white;
+}
+
+.web-page{
+  padding:2rem;
+  padding-bottom:3rem;
+}
+
+.page-add img{
+  padding:1rem;
+}
+
+.web-work-title{
+  margin:auto;
+}
+
+.brand-info{
+  padding:2rem 0;
+}
+
+.web-button{
+  width:40%;
+  margin:auto;
+}
+
+.web-button:hover{
+  color:#b5979b;
+}
 
 
 /* Media*/

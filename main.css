@@ -628,6 +628,7 @@ background-color:#d6e1dd;
     padding: 1rem;
     margin: auto;
     text-align:center;
+    font-size:17px;
 }
 
 .bottom-1{
@@ -697,6 +698,10 @@ background-color:#d6e1dd;
 
 /* Media*/
 
+.mediah3{
+  font-size:24px;
+}
+
 .media-title{
   text-align:center;
   padding-top:4rem;
@@ -726,7 +731,7 @@ background-color:#d6e1dd;
   background-color:#d5efe0;
 }
 
-.social-testimonial h4{
+.social-testimonial p{
   font-size: 25px;
     text-align:center;
 }

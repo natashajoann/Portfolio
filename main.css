@@ -698,9 +698,6 @@ background-color:#d6e1dd;
 
 /* Media*/
 
-.mediah3 h3{
-  font-size:24px;
-}
 
 .media-title{
   text-align:center;
@@ -734,6 +731,8 @@ background-color:#d6e1dd;
 .social-testimonial p{
   font-size: 25px;
     text-align:center;
+    font-family: 'Josefin Sans', sans-serif;
+
 }
 
 .social-testimonial{
@@ -823,7 +822,7 @@ background-color:#d6e1dd;
 
 
 .social-media h3{
-  font-size:32px;
+  font-size:25px;
   text-align:center;
   margin-bottom:15px;
   margin-top:20px;

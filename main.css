@@ -67,35 +67,28 @@ a{
   background-position: center;
 }
 
-h1, h2{
-font-family: 'Fjalla One', sans-serif;
+h1, a{
+  font-family: 'Josefin Sans', sans-serif;
 }
 
-h3, h4{
-font-family: 'Mukta', sans-serif;
+h2, h3{
+font-family: 'Playfair Display', serif;
+
 }
 
-p, a{
-font-family: 'Fira Sans Condensed', sans-serif;
+h4, p{
+  font-family: 'Old Standard TT', serif;
 }
 
 h3{
-  font-weight:400;
+  font-size:25px;
 }
 
 h2{
-  font-size:24px;
+  font-size:34px;
 }
 
-h3{
-  font-size:20px;
-}
 
-p{
-  font-family: athelas, serif;
-
-font-size:20px;
-}
 
 html{
   scroll-behavior:smooth;
@@ -195,7 +188,6 @@ a:hover{
   line-height: 5px;
   color: #4a4a4a;
   margin-top: 12px;
-  font-family: athelas, serif;
   text-align:center;
 }
 
@@ -212,7 +204,6 @@ a:hover{
 } */
 
 .nav-menu h3{
-  font-family: athelas, serif;
   line-height: 0px;
   font-size:20px;
   padding: 10px;
@@ -266,8 +257,7 @@ a:hover{
   margin-top: 11rem;
 }
 
-.title h2{
-  font-family: blenny, sans-serif;
+.title h1{
   font-size: 86px;
   padding-top:5rem;
   text-align:right;
@@ -301,7 +291,7 @@ hr{
 .about-text p{
   padding: 0rem 11rem 6rem;
   text-align:center;
-  font-family: 'Josefin Sans', sans-serif;
+  /* font-family: 'Josefin Sans', sans-serif; */
   background-color:white;
 }
 
@@ -481,7 +471,7 @@ background-color:#d6e1dd;
   /* background-color: #F8F7F7; */
   margin: 2rem;
   margin-left:-30px;
-  font-family: 'Josefin Sans', sans-serif;
+  /* font-family: 'Josefin Sans', sans-serif; */
 
 }
 
@@ -678,7 +668,7 @@ background-color:#d6e1dd;
 }
 
 .web-page{
-  padding:6rem 2rem;
+  padding:2rem;
   padding-bottom:3rem;
 }
 
@@ -732,7 +722,7 @@ background-color:#d6e1dd;
   font-size: 20px;
   font-weight: 300;
   color: #C3BFBC;
-  font-family: 'Alegreya Sans SC', sans-serif;
+  /* font-family: 'Alegreya Sans SC', sans-serif; */
 }
 
 .social-testimonial{
@@ -954,9 +944,7 @@ background: linear-gradient(to bottom,#d5efe0 16%, #fff 16%,#fff 100%);
   background-color:white;
 }
 
-.featured-gallery p{
-  font-family:arial;
-}
+
 
 h3 {
   font-size:25px;
@@ -1211,7 +1199,6 @@ white-space: normal;
 
 .testimonial{
   padding:3rem;
-  font-family: athelas, serif;
   font-weight: 400;
   font-style: normal;
 }

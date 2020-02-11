@@ -67,11 +67,11 @@ a{
   background-position: center;
 }
 
-h1, a{
+h1, a, h2{
   font-family: 'Josefin Sans', sans-serif;
 }
 
-h2, h3{
+h3{
 font-family: 'Playfair Display', serif;
 
 }
@@ -258,11 +258,8 @@ a:hover{
 }
 
 .title h1{
-  font-size: 86px;
-  padding-top:5rem;
+  font-size: 30px;
   text-align:right;
-  color: #d5efe0;
-  line-height: 19px;
 }
 
 

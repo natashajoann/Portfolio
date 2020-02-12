@@ -371,7 +371,7 @@ text-align:center;
 }
 
 .featured-blog{
-  padding:2rem;
+  padding:2rem 6rem;;
   background-color:#d5efe0;
 }
 
@@ -391,7 +391,7 @@ text-align:center;
   color:#F8F4F0;
 }
 
-.featured-blog-info p:hover{
+.featured-blog-info h2:hover{
   color:#E2B600;
 }
 
@@ -459,7 +459,7 @@ text-align:center;
 }
 
 .blog-grid{
-  padding: 0 5rem 6rem;
+  padding: 3rem 5rem 6rem;
 }
 
 /* Testimonials */
@@ -1504,10 +1504,16 @@ padding-left: 1rem;
 
 /* Featured */
 
+.featured-blog{
+  padding:2rem;
+}
 
+.featured-blog-info{
+  padding:2rem 0;
+}
 
 .featured{
-  padding-left:5rem;
+  padding-left:3rem;
   background-color:white;
 }
 
@@ -1533,7 +1539,7 @@ padding-left: 1rem;
 }
 
 .about-text{
-  padding:0;
+  padding:10px;
 }
 
 .about-text p{
@@ -1546,7 +1552,7 @@ padding-left: 1rem;
 }
 
 .title-img{
-  padding:12rem;
+  padding:11rem;
   order:-1;
 }
 

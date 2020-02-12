@@ -824,7 +824,7 @@ background-color:#F8F4F0;
 }
 
 .social-media p, .social-media h2{
-  width:70%;
+  width:65%;
   margin:auto;
 }
 
@@ -849,6 +849,7 @@ background-color:#F8F4F0;
   text-align:center;
   margin-bottom:15px;
   margin-top:20px;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .social-media ul{

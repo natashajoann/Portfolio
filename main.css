@@ -360,6 +360,12 @@ color:#F8F4F0;
   font-style:italic;
 }
 
+.featured-blog-img{
+  background-position:center;
+  background-size:cover;
+  padding:10rem;
+}
+
 .featured-blog{
   padding:2rem;
   background-color:#d5efe0;

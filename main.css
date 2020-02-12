@@ -334,18 +334,41 @@ hr{
     text-align:center;
     padding-top:4rem;
     margin-top:1rem;
-    background-color:#d5efe0;
 }
 
 .writing-radio{
 }
 
 .blog-grid{
-  background: linear-gradient(to bottom,#d5efe0 45%, #fff 44%,#fff 100%);
+  /* background: linear-gradient(to bottom,#d5efe0 45%, #fff 44%,#fff 100%); */
 }
 
-.blog-loop-info h3{
-  color:#99b6af;
+.blog-loop-info h2{
+font-size: 30px;
+color:#F8F4F0;
+}
+
+.blog-loop-info p{
+  font-style:italic;
+  color:#F8F4F0;
+}
+
+.featured-blog{
+  padding:2rem;
+  background-color:#d5efe0;
+}
+
+.featured-blog-info{
+  text-align:left;
+  padding:2rem;
+}
+
+.featured-blog-info p{
+  font-style:italic;
+}
+
+.featured-blog-info p:hover{
+  color:#E2B600;
 }
 
 .post-preview a:hover{

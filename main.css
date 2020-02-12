@@ -637,6 +637,10 @@ background-color:#F8F4F0;
 
 /* Newsletter Form */
 
+.footer h2{
+  font-size:23px;
+}
+
 .contact-input{
 width: 58%;
 background-color: #111721;
@@ -644,6 +648,7 @@ border: 1px #111721 solid;
 border-bottom: 2px solid white;
 font-size: 20px;
 margin: 10px;
+margin-left:0;
 }
 
 .contact-button{
@@ -661,7 +666,7 @@ margin: 10px;
 .bottom-images{
   padding:0;
   background-color:white;
-  margin-bottom:17.5rem;
+  margin-bottom:20rem;
 }
 
 .pin-plug{
@@ -1618,6 +1623,14 @@ padding: 2rem 0;
 
 .testimonial-web{
   padding:2rem 2rem 0;
+}
+
+.contact-button{
+  width:36%
+}
+
+.bottom-images{
+  padding:29rem;
 }
 
 }

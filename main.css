@@ -418,7 +418,8 @@ hr{
 
 /* Testimonials */
 .testimonial{
-padding: 0 0rem 0 0;
+  padding: 3rem;
+  height: 42vh;
 background-color:#F8F4F0;
 }
 
@@ -463,6 +464,8 @@ background-color:#F8F4F0;
   z-index:4;
   margin-left:-2rem;
   background-color: #d5efe0;
+  margin-top:2rem;
+  margin-bottom:2rem;
 }
 
 .services-text h2{
@@ -507,7 +510,7 @@ background-color:#F8F4F0;
   background-color:white;
   padding:5rem;
   padding-left: 7rem;
-  padding-top:9rem;
+  padding-top:5rem;
 }
 
 .featured h2{
@@ -1173,7 +1176,11 @@ white-space: normal;
 
 .testimonial p{
   padding: 9rem;
-  height: 64vh;
+  text-align:center;
+}
+
+.testimonial{
+    height: 40vh;
 }
 
 

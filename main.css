@@ -1630,7 +1630,11 @@ padding: 2rem 0;
 }
 
 .bottom-images{
-  margin:20rem;
+  margin-bottom:29rem;
+}
+
+.about{
+  padding: 0.75rem;
 }
 
 }

@@ -1,8 +1,7 @@
 ---
 layout: blog
 title: 'Bogota, My Home Away From Home'
-description: >-
-  After finishing seventh grade, I found myself at the Tom Bradley International
+description: After finishing seventh grade, I found myself at the Tom Bradley International
   Terminal at LAX, where my mother put me on a plane headed to Bogotá, Colombia.
 featured_image: /uploads/verdon-houses-in-bogota.jpg
 author: Natasha Joann

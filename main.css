@@ -179,9 +179,13 @@ a:hover{
   padding: 12rem 3rem 25rem;
 }
 
-.title{
-  background: linear-gradient(to top,#d5efe0 40%, #fff 40%,#fff 100%)
+.title-about-text h2{
+  font-size:20px;
 }
+
+/* .title{
+  background: linear-gradient(to top,#d5efe0 40%, #fff 40%,#fff 100%)
+} */
 
 .nav-menu h1{
   font-size: 35px;
@@ -269,9 +273,9 @@ a:hover{
   font-size:30px;
 }
 
-.menu-img{
+.testimonial-img{
   height:50vh;
-  padding-left:5rem;
+  padding:5rem;
 }
 
 .menu-grid{
@@ -303,40 +307,6 @@ hr{
   padding:3rem;
 }
 
-.grid-blog-img{
-  background-image:url("/images/nmv-pancakes.jpg");
-  background-position:center;
-  background-size:cover;
-  padding:3rem;
-}
-
-
-.grid-web-img{
-  background-image:url("/images/2.png");
-  background-position:center;
-  background-size:cover;
-  padding:3rem;
-}
-
-.grid-marketing-img{
-  background-image:url("/images/3.png");
-  background-position:center;
-  background-size:cover;
-  padding:3rem;
-}
-
-.grid-blog-img{
-  background-image:url("/images/nmv-pancakes.jpg");
-  background-position:center;
-  background-size:cover;
-  padding:3rem;
-}
-
-.grid-filler{
-  background-image:url("/images/plant-pic.jpg");
-  background-position:center;
-  background-size:cover;
-}
 
 
 
@@ -446,54 +416,26 @@ hr{
 /* Testimonials */
 .testimonial{
 padding: 4rem;;
-background-color:#d6e1dd;
+background-color:#E2B51E;
 }
 
-.testimonial{
+/* .testimonial{
   background-image: url("/images/myface-dark.png");
   background-position:center;
   background-size:cover;
   background-attachment:fixed;
-}
+} */
 
-.testimonial p{
-  color:#F8F4F0;
-}
 
 
 .testimonial p{
   font-size:20px;
-  text-align:center;
-  padding:30px 3rem;
-  /* background-color: #F8F7F7; */
-  margin: 2rem;
-  margin-left:-30px;
-  /* font-family: 'Josefin Sans', sans-serif; */
-
+  text-align:right;
+  color:#F8F4F0;
+  font-family: 'Josefin Sans', sans-serif;
+  padding: 3rem;
 }
 
-
-.test-img-1{
-  background-image:url("/images/kalish-feed.png");
-  background-position:center;
-  background-size:cover;
-}
-
-.test-img-2{
-  background-image:url("/images/4.png");
-  background-position:center;
-  background-size:cover;
-}
-
-
-
-.intro-fixed{
-  background-image:url("/images/vietnampic.jpg");
-  background-position:center;
-  background-size:cover;
-  padding:7rem;
-  background-attachment:fixed;
-}
 
 /* Services */
 
@@ -541,7 +483,7 @@ background-color:#d6e1dd;
 /* FEATURED reg */
 
 .featured{
-  background: linear-gradient(to bottom,#d5efe0 72%, #fff 70%,#fff 100%);
+  background-color: #EBEBEB;
   padding:5rem;
   padding-left: 7rem;
   padding-top:9rem;
@@ -550,12 +492,23 @@ background-color:#d6e1dd;
 .featured h2{
   text-align:center;
   margin-bottom:20px;
-    font-size: 45px;
+  font-size: 45px;
+  transform: rotate(270deg);
+  font-style: italic;
 }
 
-.featured h4{
-  text-align:center;
-  margin-top:20px;
+.overlay h4{
+  text-align: right;
+  font-size: 32px;
+  margin-top: 12rem;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.overlay p{
+  font-style: italic;
+  font-size:15px;
+  text-align:right;
+  margin:5px 0;
 }
 
 .overlay{
@@ -565,7 +518,7 @@ background-color:#d6e1dd;
     padding: 5%;
     text-align: center;
     opacity: 0;
-    background-color: rgba(250,250,250,.8);
+    background-color: #31313194;
     color: #5a5a5a;
     top: 0;
     left:0;
@@ -624,11 +577,9 @@ background-color:#d6e1dd;
 
 .pin-plug h2{
   width: 36%;
-    background-color: #d5efe0;
-    padding: 1rem;
-    margin: auto;
-    text-align:center;
-    font-size:17px;
+  padding: 1rem 1rem 0;
+  font-style:italic;
+  font-size:45px;
 }
 
 .bottom-1{

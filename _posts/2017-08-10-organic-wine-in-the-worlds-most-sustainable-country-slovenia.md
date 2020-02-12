@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: 'Organic Wine in the World''s Most Sustainable Country, Slovenia'
+description: There is no shortage of activities to do while in Slovenia.But one thing you should definitely add to your agenda is a visit to the Istrian region in the south of the country for a glass of wine一or maybe even a whole bottle!
 featured_image: /images/wine-img.jpg
 ---
 

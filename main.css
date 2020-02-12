@@ -338,7 +338,6 @@ hr{
 }
 
 .writing-radio{
-  background: linear-gradient(to bottom,#d5efe0 16%, #fff 16%,#fff 100%);
 }
 
 .blog-grid{
@@ -826,7 +825,6 @@ background-color:#F8F4F0;
 .writing_radio{
   padding: 3rem 0rem;
 padding-left: 4rem;
-background: linear-gradient(to bottom,#d5efe0 16%, #fff 16%,#fff 100%);
 }
 
 .writing_radio div{
@@ -994,7 +992,6 @@ h3 {
 
 .web-dev{
   padding-left: 3rem;
-  background: linear-gradient(to bottom,#d5efe0 32%, #fff 32%,#fff 100%);
 }
 
 

@@ -382,8 +382,9 @@ text-align:center;
 }
 
 .featured-blog-info p{
-  font-style:italic;
+  text-align:left;
   color:#F8F4F0;
+
 }
 
 .featured-blog a:hover{
@@ -557,6 +558,7 @@ background-color:#F8F4F0;
   padding:5rem;
   padding-left: 7rem;
   padding-top:5rem;
+  justify-content:space-between;
 }
 
 .featured h2{

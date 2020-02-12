@@ -4,18 +4,15 @@ title: Writing + Radio
 main_heading: Writing + Radio
 ---
 
-<div class="blog-title">
-<h2> Blog </h2>
-</div>
 
 <div class="grid featured-blog">
     {% for post in site.posts limit: 1%}
   <div class="col-6_sm-12 featured-blog-img" style="background-image:url({{post.featured_image}})">
   </div>
 
-  <a class="col-6_sm-12 featured-blog-info">
+  <a href="{{post.url}}" class="col-6_sm-12 featured-blog-info">
     <h2> {{post.title}}</h2>
-    <p> Read More </p>
+    <a href="{{post.url}}"> Read More </a>
   </a>
 
     {% endfor %}
@@ -28,7 +25,7 @@ main_heading: Writing + Radio
         </div>
         <div class="blog-loop-info">
           <h2> {{post.title}}</h2>
-          <p> Read More </p>
+          <a href="{{post.url}}"> Read More </a>
         </div>
       </a>
     {% endfor %}

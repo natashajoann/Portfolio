@@ -341,7 +341,13 @@ hr{
 
 .blog-grid{
   /* background: linear-gradient(to bottom,#d5efe0 45%, #fff 44%,#fff 100%); */
+  background-color:white;
 }
+
+.blog-grid a{
+  font-style:italic;
+}
+
 
 .blog-loop-info h2{
 font-size: 30px;
@@ -350,7 +356,6 @@ color:#F8F4F0;
 
 .blog-loop-info p{
   font-style:italic;
-  color:#F8F4F0;
 }
 
 .featured-blog{
@@ -361,10 +366,16 @@ color:#F8F4F0;
 .featured-blog-info{
   text-align:left;
   padding:2rem;
+  color: #F8F4F0;
 }
 
 .featured-blog-info p{
   font-style:italic;
+  color:#F8F4F0;
+}
+
+.featured-blog a:hover{
+  color:#F8F4F0;
 }
 
 .featured-blog-info p:hover{

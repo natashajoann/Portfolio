@@ -635,6 +635,27 @@ background-color:#F8F4F0;
   height:50vh;
 }
 
+/* Newsletter Form */
+
+.contact-input{
+width: 58%;
+background-color: #111721;
+border: 1px #111721 solid;
+border-bottom: 2px solid white;
+font-size: 20px;
+margin: 10px;
+}
+
+.contact-button{
+  width: 16%;
+    background-color: #111721;
+    border: 1px #111721 solid;
+    /* border-bottom: 2px solid white; */
+    font-size: 20px;
+    /* margin: 10px; */
+    color: #f8f4f0;
+}
+
 /* Bottom Images */
 
 .bottom-images{

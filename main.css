@@ -28,6 +28,8 @@ a{
   color: #313131;
 }
 
+
+
 /* ---- GENERAL HELPER CLASSES --------------------------- */
 .tall         { min-height:100vh; }
 .med-height   { min-height: 50vh; }
@@ -340,16 +342,18 @@ hr{
 .blog-grid{
   /* background: linear-gradient(to bottom,#d5efe0 45%, #fff 44%,#fff 100%); */
   background-color:white;
+  justify-content:space-between;
 }
 
 .blog-grid a{
   font-style:italic;
+  text-align:center;
 }
 
 
 .blog-loop-info h2{
-font-size: 30px;
-color:#F8F4F0;
+font-size: 18px;
+text-align:center;
 }
 
 .blog-loop-info a:hover{

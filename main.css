@@ -524,8 +524,9 @@ background-color:#F8F4F0;
 .overlay h4{
   text-align: right;
   font-size: 32px;
-  margin-top: 12rem;
+  margin-top: 7rem;
   font-family: 'Josefin Sans', sans-serif;
+  color:#F8F4F0;;
 }
 
 .overlay p{
@@ -533,6 +534,7 @@ background-color:#F8F4F0;
   font-size:15px;
   text-align:right;
   margin:5px 0;
+  color:#F8F4F0;
 }
 
 .overlay{

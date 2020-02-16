@@ -717,6 +717,10 @@ margin-left:0;
   line-height:23px;
 }
 
+.web-info{
+  padding-top:2rem;
+}
+
 .web-info h2{
   font-family: classico-urw, sans-serif;
 }
@@ -728,6 +732,10 @@ margin-left:0;
 
 .services-info a{
   border-bottom:2px solid #313131;
+}
+
+.service-info h3{
+    margin-top: 2.75rem;
 }
 
 .web-page{
@@ -744,7 +752,7 @@ margin-left:0;
 }
 
 .brand-info{
-  padding:2rem 6rem 0 2rem;
+  padding:0rem 6rem 0 2rem;
 }
 
 .services-info{

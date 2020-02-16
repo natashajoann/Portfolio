@@ -721,8 +721,9 @@ margin-left:0;
   font-family: classico-urw, sans-serif;
 }
 
-.web-intro h3{
+.web-info h3{
   font-family: futura-pt, sans-serif;
+  font-size:20px;
 }
 
 .services-info a{

@@ -1659,4 +1659,16 @@ padding: 2rem 0;
   padding-top:1rem;
 }
 
+.web-work{
+  padding:0;
+}
+
+.web-info, .services-info{
+  padding:2rem;
+}
+
+.web-work h4{
+  margin-bottom:15px;
+}
+
 }

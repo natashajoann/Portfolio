@@ -1566,6 +1566,12 @@ padding-left: 1rem;
   padding:2rem 0;
 }
 
+.featured-blog-info h4{
+  font-family: futura-pt, sans-serif;
+  font-size:15px;
+  font-style:italic;
+}
+
 .featured{
   padding:3rem;
   background-color:white;

@@ -208,15 +208,11 @@ a:hover{
   z-index: 5;
 } */
 
-.nav-menu h3{
-  line-height: 0px;
-  font-size:20px;
-  padding: 10px;
-  color:#4a4a4a;
-}
+
 
 .nav-menu a{
   color:#4a4a4a;
+  justify-content:space-around;
 
 }
 

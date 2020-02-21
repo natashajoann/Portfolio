@@ -90,6 +90,10 @@ h2{
   font-size:34px;
 }
 
+.space-around{
+  justify-content:space-around;
+}
+
 
 
 html{

@@ -212,7 +212,6 @@ a:hover{
 
 .nav-menu a{
   color:#4a4a4a;
-  margin:0 10px;
 
 }
 
@@ -718,7 +717,7 @@ margin-left:0;
 }
 
 .web-info{
-  padding:2rem 0;
+  padding:5rem 0;
 }
 
 .web-info h2{
@@ -748,6 +747,9 @@ margin-left:0;
 
 .web-work-title{
   margin:auto;
+  background-position:center;
+  background-size:cover;
+  padding:10rem;
 }
 
 .brand-info{
@@ -1670,6 +1672,10 @@ padding: 2rem 0;
 
 .contact-media{
   padding-top:1rem;
+}
+
+.web-work-title{
+  padding:6rem;
 }
 
 .web-work{

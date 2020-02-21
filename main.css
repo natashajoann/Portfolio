@@ -212,7 +212,7 @@ a:hover{
 
 .nav-menu a{
   color:#4a4a4a;
-  justify-content:space-around;
+  margin:0 10px;
 
 }
 

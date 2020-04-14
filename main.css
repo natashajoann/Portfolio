@@ -163,13 +163,8 @@ a:hover{
   color:#e5bc5c;
 }
 
-.mobile-menu{
-  display:none;
-}
 
-.burger-menu{
-  display:none;
-}
+
 
 
 
@@ -463,17 +458,13 @@ text-align:center;
 /* Testimonials */
 .testimonial{
   padding: 3rem;
-  height: 42vh;
+  height: 52vh;
 background-color:#F8F4F0;
 }
 
-/* .testimonial{
-  background-image: url("/images/myface-dark.png");
-  background-position:center;
-  background-size:cover;
-  background-attachment:fixed;
-} */
-
+.testimonial-title{
+  margin-top:-30px;
+}
 
 
 .testimonial p{
@@ -481,6 +472,7 @@ background-color:#F8F4F0;
   text-align:right;
   font-family: 'Josefin Sans', sans-serif;
   padding: 3rem;
+  padding-top:6rem;
 }
 
 .testimonial span{
@@ -1284,8 +1276,12 @@ white-space: normal;
   text-align:center;
 }
 
+.slide1{
+  padding-top:6rem;
+}
+
 .testimonial{
-    height: 40vh;
+    height: 50vh;
 }
 
 
@@ -1589,7 +1585,7 @@ padding-left: 1rem;
 }
 
 .testimonial{
-    height:62vh;
+    height:65vh;
 }
 
 

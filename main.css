@@ -447,6 +447,7 @@ text-align:center;
 
 .ampersand{
   color:#D9EFE9;
+  font-size:105px;
 }
 
 /* Testimonials */
@@ -521,6 +522,7 @@ text-align:center;
   line-height:50px;
   font-size: 75px;
   border-left:2px solid black;
+  padding:10px;
 }
 
 .overlay h4{
@@ -1540,6 +1542,11 @@ padding-left: 1rem;
 .featured h2{
   /* transform: rotate(0deg); */
   text-align:left;
+  border-left:none;
+}
+
+.featured{
+  order:-1;
 }
 
 .featured1{

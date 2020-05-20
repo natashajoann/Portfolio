@@ -221,8 +221,10 @@ a:hover{
     background-position:center;
     background-size: cover;
     margin-top:1rem;
+    padding:5rem;
 
 }
+
 .intro-text{
   text-align:left;
   font-size:30px;
@@ -238,8 +240,9 @@ a:hover{
 }
 
 .title h1{
-  font-size: 30px;
+  font-size: 125px;
   text-align:right;
+  line-height:102px;
 }
 
 

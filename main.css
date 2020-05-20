@@ -164,6 +164,13 @@ a:hover{
   text-align:right;
 }
 
+.title-about-text{
+    padding: 4rem 4rem;
+    text-align:center;
+    width:60%;
+    margin:auto;
+}
+
 .title-quote h1{
   font-size: 50px;
 }
@@ -225,19 +232,6 @@ a:hover{
 
 }
 
-.intro-text{
-  text-align:left;
-  font-size:30px;
-  padding-top:9rem;
-  width:100%;
-  padding-bottom:6rem;
-}
-
-.intro-image{
-  padding:1rem;
-  margin:2rem;
-  margin-top: 11rem;
-}
 
 .title h1{
   font-size: 125px;
@@ -252,23 +246,7 @@ a:hover{
   font-size:30px;
 }
 
-.testimonial-img{
-  height:50vh;
-  background-image: url("/images/vietnampic.jpg");
-  background-position:center;
-  background-size:cover;
-  padding:5rem;
-}
 
-.menu-grid{
-  background-color:white;
-}
-
-hr{
-  width:80%;
-  margin:auto;
-  margin-top: 2rem;
-}
 
 
 .about-text p{
@@ -281,16 +259,6 @@ hr{
 .about-text span{
   font-weight:bold;
 }
-
-.my-face{
-  background-image:url("/images/myface.jpg");
-  background-position:center;
-  background-size:cover;
-  padding:3rem;
-}
-
-
-
 
 
 
@@ -471,7 +439,6 @@ text-align:center;
   text-align:right;
   font-family: 'Josefin Sans', sans-serif;
   padding: 3rem;
-  padding-top:6rem;
   color:white;
 }
 
@@ -1576,7 +1543,8 @@ padding-left: 1rem;
 .title-about-text{
   padding: 4rem 4rem;
   text-align:center;
-  width:60%;
+  width:90%;
+  margin:auto;
 }
 
 .title-img{

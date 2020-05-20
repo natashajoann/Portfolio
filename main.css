@@ -165,7 +165,7 @@ a:hover{
 }
 
 .title-about-text{
-    padding: 4rem 4rem;
+    padding: 4rem 4rem 0;
     text-align:center;
     width:80%;
     margin:auto;
@@ -499,6 +499,12 @@ text-align:center;
   padding:10px;
 }
 
+.featured-title{
+  margin: auto;
+  margin-left: 0;
+  margin-right: 0;
+}
+
 hr{
   border:1px solid black;
   margin:10px 0 17px;
@@ -583,8 +589,11 @@ hr{
 
 .footer-menu{
   position:absolute;
-  width:100%;
   bottom:2vh;
+}
+
+.footer-menu a{
+  margin:0 10px;
 }
 
 .contact-input{
@@ -593,7 +602,6 @@ hr{
   border-bottom: 2px solid #fff;
   font-size: 20px;
   margin: 10px;
-  margin-left: 0;
   padding: 6px 5px;
 }
 
@@ -1174,6 +1182,16 @@ white-space: normal;
   padding:3rem;
   font-weight: 400;
   font-style: normal;
+  position:relative;
+}
+
+.slide-dots{
+  position:absolute;
+  bottom:2vh;
+}
+
+.far, .fas{
+  rgba(250,250,250,0.2);
 }
 
 

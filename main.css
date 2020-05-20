@@ -1095,7 +1095,7 @@ background-color:#ffffff;
 }
 
 .form{
-  padding:4rem;
+  padding:6rem 4rem 0;
 }
 
 input{
@@ -1538,7 +1538,6 @@ padding-left: 1rem;
 .featured h2{
   /* transform: rotate(0deg); */
   text-align:left;
-  border-left: 2px solid black;
 }
 
 .featured1{

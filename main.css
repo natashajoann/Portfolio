@@ -439,11 +439,22 @@ text-align:center;
   padding: 3rem 5rem 6rem;
 }
 
+/* index services */
+.index-services{
+  padding:2rem 4rem;
+  background-color:#C3E0D9;
+}
+
+.ampersand{
+  color:#D9EFE9;
+}
+
 /* Testimonials */
 .testimonial{
   padding: 3rem;
   height: 52vh;
-background-color:#FBC931;
+  background-color:#FBC931;
+  color:white;
 }
 
 .quotemark h1{
@@ -505,11 +516,11 @@ background-color:#FBC931;
 }
 
 .featured h2{
-  text-align:center;
+  text-align:left;
   margin-bottom:20px;
-  font-size: 45px;
-  transform: rotate(270deg);
-  font-style: italic;
+  line-height:50px;
+  font-size: 75px;
+  border-left:2px solid black;
 }
 
 .overlay h4{
@@ -1234,15 +1245,6 @@ white-space: normal;
     height: 50vh;
 }
 
-/* index services */
-.index-services{
-  padding:2rem 4rem;
-  background-color:#C3E0D9;
-}
-
-.ampersand{
-  color:#D9EFE9;
-}
 
 
 .services h2{
@@ -1565,8 +1567,9 @@ padding-left: 1rem;
 }
 
 .title-about-text{
-  padding: 2rem 4rem;
+  padding: 4rem 4rem;
   text-align:center;
+  width:60%;
 }
 
 .title-img{

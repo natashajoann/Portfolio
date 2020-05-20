@@ -160,20 +160,13 @@ a:hover{
 
 /* .main-title h1, .main-title-mobile h1{ */
 
-
-
-.title-about-text{
+.title-quote{
   text-align:right;
-  padding: 15rem 3rem 3rem;
 }
 
-.title-about-text h2{
-  font-size:20px;
+.title-quote h1{
+  font-size: 50px;
 }
-
-/* .title{
-  background: linear-gradient(to top,#d5efe0 40%, #fff 40%,#fff 100%)
-} */
 
 .nav-menu h1{
   font-size: 35px;
@@ -447,14 +440,15 @@ text-align:center;
 .testimonial{
   padding: 3rem;
   height: 52vh;
-background-color:#F8F4F0;
+background-color:#FBC931;
 }
 
-.testimonial-title{
-  margin-top:-68px;
-  margin-left:-20px;
-  margin-bottom:20px;
+.quotemark h1{
+  line-height:0;
+  font:150px;
+  text-align:left;
 }
+
 
 
 .testimonial p{
@@ -463,6 +457,7 @@ background-color:#F8F4F0;
   font-family: 'Josefin Sans', sans-serif;
   padding: 3rem;
   padding-top:6rem;
+  color:white;
 }
 
 .testimonial span{
@@ -483,49 +478,10 @@ background-color:#F8F4F0;
   background-color:white;
 }
 
+
+
 /* Services */
 
-
-.services-text{
-  z-index:4;
-  margin-left:-2rem;
-  background-color: #d5efe0;
-  margin-top:2rem;
-  margin-bottom:2rem;
-  padding:2rem;
-}
-
-.services-text h2{
-  font-size:70px;
-  text-align:center;
-  padding:0rem 5rem;
-}
-
-.services-text h3{
-  padding:5px 1rem;
-  font-size:20px;
-  text-align:left;
-  font-family: 'Josefin Sans', sans-serif;
-}
-
-.services-text a{
-  font-style:italic;
-}
-
-.services-text span:hover{
-  color:#e5bc5c;
-}
-
-.services-text a:hover{
-  color:#e5bc5c;
-}
-
-/* slideshow AND/OR FEAUTRED */
-/* .slideshow-container{
-  position:relative;
-  margin:auto;
-
-}
 
 .mySlides{
   display:none;
@@ -600,7 +556,7 @@ background-color:#F8F4F0;
 }
 
 .featured2{
-  background-image:url("/images/wine-img.jpg");
+  background-image:url("/images/chasemobile.png");
   background-position:center;
   background-size: cover;
   margin:10px 0px 10px 10px;
@@ -1159,7 +1115,7 @@ background-color:#ffffff;
 }
 
 .about-img{
-  background-image: url("/images/myface.jpg");
+  background-image: url("/images/tash-bali.jpg");
   background-position:center;
   background-size:cover;
 }
@@ -1272,6 +1228,16 @@ white-space: normal;
 
 .testimonial{
     height: 50vh;
+}
+
+/* index services */
+.index-services{
+  padding:2rem 4rem;
+  background-color:#C3E0D9;
+}
+
+.ampersand{
+  color:#D9EFE9;
 }
 
 
@@ -1566,8 +1532,9 @@ padding-left: 1rem;
 }
 
 .featured h2{
-  transform: rotate(0deg);
-  text-align:center;
+  /* transform: rotate(0deg); */
+  text-align:left;
+  border-left: 2px solid black;
 }
 
 .featured1{
@@ -1595,7 +1562,7 @@ padding-left: 1rem;
 }
 
 .title-about-text{
-  padding: 2rem 3rem 3rem;
+  padding: 2rem 4rem;
   text-align:center;
 }
 

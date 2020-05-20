@@ -167,7 +167,7 @@ a:hover{
 .title-about-text{
     padding: 4rem 4rem;
     text-align:center;
-    width:60%;
+    width:80%;
     margin:auto;
 }
 
@@ -409,8 +409,13 @@ text-align:center;
 
 /* index services */
 .index-services{
-  padding:2rem 4rem;
+  padding:4rem 4rem 2rem;
   background-color:#C3E0D9;
+}
+
+.index-services p{
+  width:80%;
+  margin:auto;
 }
 
 .ampersand{
@@ -485,12 +490,19 @@ text-align:center;
 
 .featured h2{
   text-align:left;
+  margin:auto;
   margin-bottom:20px;
   line-height:50px;
   font-size: 75px;
   border-left:2px solid black;
   padding:10px;
 }
+
+hr{
+  border:1px solid black;
+  margin:10px 0;
+}
+
 
 .overlay h4{
   text-align: right;
@@ -1063,7 +1075,7 @@ h3 {
 /* ABOUT */
 
 .about{
-padding:0;
+padding: 8.5rem 0px 3rem;;
 background-color:#ffffff;
 }
 
@@ -1510,6 +1522,10 @@ padding-left: 1rem;
   /* transform: rotate(0deg); */
   text-align:left;
   border-left:none;
+}
+
+.featured-title{
+  order:-1;
 }
 
 .featured{

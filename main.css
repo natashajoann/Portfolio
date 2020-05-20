@@ -1093,17 +1093,24 @@ background-color:#ffffff;
 
 
 .footer{
-  padding: 4rem 4rem 4rem;
   position:fixed;
   bottom:0;
   z-index:-1;
 }
 
 .footer{
-  background-color:#111721;
+  background-color:#E7F2EA;
   width:100%;
   color:#f8f4f0;
 
+}
+
+.form{
+  padding:4rem;
+}
+
+input{
+  width:90%;
 }
 
 

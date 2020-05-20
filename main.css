@@ -225,11 +225,13 @@ a:hover{
 
 .title-img{
     background-image:url("/images/myface.jpg");
-    background-position:center;
+    background-position: center;
     background-size: cover;
-    margin-top:1rem;
-    padding:5rem;
-
+    margin-top: 0rem;
+    padding: 9rem;
+    width: 70%;
+    margin: auto;
+    height: 45vh;
 }
 
 
@@ -432,8 +434,8 @@ text-align:center;
 }
 
 .quotemark h1{
-  line-height:0;
-  font:150px;
+  line-height:70px;
+  font-size:168px;
   text-align:left;
 }
 
@@ -494,13 +496,12 @@ text-align:center;
   margin-bottom:20px;
   line-height:50px;
   font-size: 75px;
-  border-left:2px solid black;
   padding:10px;
 }
 
 hr{
   border:1px solid black;
-  margin:10px 0;
+  margin:10px 0 17px;
 }
 
 
@@ -547,7 +548,7 @@ hr{
   z-index:3;
   padding:6rem;
   margin-bottom:10px;
-  height:50vh;
+  height:38vh;
 }
 
 .featured2{
@@ -557,7 +558,7 @@ hr{
   margin:10px 0px 10px 10px;
   position:relative;
   z-index:3;
-  height:50vh;
+  height:38vh;
 }
 
 .featured3{
@@ -567,13 +568,23 @@ hr{
   margin:10px 0px 10px 10px;
   position:relative;
   z-index:3;
-  height:50vh;
+  height:38vh;
 }
 
 /* Newsletter Form */
 
 .footer h2{
   font-size:23px;
+}
+
+.about-img{
+  position:relative;
+}
+
+.footer-menu{
+  position:absolute;
+  width:100%;
+  bottom:2vh;
 }
 
 .contact-input{
@@ -591,53 +602,6 @@ hr{
   border: none;
   font-size: 20px;
   padding: 6px 5px;
-}
-
-/* Bottom Images */
-
-.bottom-images{
-  padding:0;
-  background-color:white;
-  margin-bottom:21rem;
-}
-
-.pin-plug{
-  z-index:10;
-  margin-bottom:-17px;
-}
-
-.pin-plug h3{
-  padding: 1rem 1rem 0;
-  font-style:italic;
-  font-size:25px;
-}
-
-.bottom-1{
-  background-image: url("/images/mex-oatbowl.jpg");
-  background-position:center;
-  background-size:cover;
-  padding:6rem;
-}
-
-.bottom-3{
-  background-image: url("/images/tash-tacos.jpg");
-  background-position:center;
-  background-size:cover;
-  padding:6rem;
-}
-
-.bottom-2{
-  background-image: url("/images/ivystoneimg.png");
-  background-position:center;
-  background-size:cover;
-  padding:6rem;
-}
-
-.bottom-4{
-  background-image: url("/images/vietnampic.jpg");
-  background-position:center;
-  background-size:cover;
-  padding:6rem;
 }
 
 /*  Web Portfolio */
@@ -1075,7 +1039,7 @@ h3 {
 /* ABOUT */
 
 .about{
-padding: 8.5rem 0px 3rem;;
+padding: 7.5rem 0 5rem;
 background-color:#ffffff;
 }
 
@@ -1522,6 +1486,10 @@ padding-left: 1rem;
   /* transform: rotate(0deg); */
   text-align:left;
   border-left:none;
+}
+
+hr{
+  display:none;
 }
 
 .featured-title{

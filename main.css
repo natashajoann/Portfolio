@@ -1087,7 +1087,10 @@ input{
 
 .contact-button{
   background-color:#C2D8C8;
+}
 
+.contact-button:hover{
+  background-color:#718b82;
 }
 
 

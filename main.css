@@ -434,6 +434,7 @@ text-align:center;
   display: flex;
   align-items: center;
   justify-content: center;
+  left:39%;
 }
 
 .quotemark h1{
@@ -593,13 +594,15 @@ hr{
 .footer-menu{
   position:absolute;
   bottom:2vh;
+  text-align: center;
+  width: 100%;
 }
 
 .footer-menu a{
   margin:0 10px;
 }
 
-.contact-input{
+input{
   width: 90%;
   border: none;
   border-bottom: 2px solid #fff;
@@ -644,6 +647,19 @@ hr{
 
 .service-info h3{
     margin-top: 2.75rem;
+}
+
+.service-info a{
+  border:1px solid black;
+}
+
+.service-info a:hover{
+  border:1px solid #f9c947;
+  color: #f9c947;
+}
+
+.service-info p{
+  margin-bottom:3rem;
 }
 
 .web-page{
@@ -1056,7 +1072,7 @@ background-color:#ffffff;
 
 
 .footer{
-  background-color:#E7F2EA;
+  background-color:#c9e1d8;
   width:100%;
 
 }
@@ -1121,6 +1137,10 @@ padding: 30rem 0;
 
   .mobile-up{
     order:1;
+  }
+
+  .title h1{
+    padding-right:15px;
   }
 
   .social-media div{
@@ -1544,6 +1564,10 @@ hr{
 
 }
 
+.about{
+  padding:4.5rem 0 5rem;
+}
+
 .about-text{
   padding:10px;
 }
@@ -1645,7 +1669,11 @@ padding: 2rem 0;
   position: absolute;
   bottom: 2vh;
   width: 80%;
-  left: 20px;
+  left: 30px;
+}
+
+.form{
+  padding:6rem 2rem 0;
 }
 
 }

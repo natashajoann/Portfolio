@@ -451,7 +451,7 @@ text-align:center;
   line-height:70px;
   font-size:168px;
   text-align:left;
-  margin-top:-12rem;
+  margin-top:-8rem;
   font-family:bosque;
 }
 
@@ -465,7 +465,7 @@ text-align:center;
   color:white;
 }
 
-.testimonial span{
+.testie-p p{
   font-style:italic;
 }
 

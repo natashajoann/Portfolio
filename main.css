@@ -99,6 +99,11 @@ h2{
   font-family:bosque;
 }
 
+@font-face{
+  src:url("/fonts/CollectionFree.otf");
+  font-family:collection-free;
+}
+
 
 
 html{
@@ -1103,6 +1108,10 @@ background-color:#ffffff;
   padding:6rem 4rem 0;
 }
 
+.form h2{
+  font-family: collection-free;
+}
+
 input{
   width:90%;
 }
@@ -1257,6 +1266,10 @@ white-space: normal;
 
 .testimonial{
     height: 100vh;
+}
+
+.testimonial span{
+  font-family:collection-free;
 }
 
 

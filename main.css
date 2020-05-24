@@ -94,6 +94,11 @@ h2{
   justify-content:space-around;
 }
 
+@font-face{
+  src:url("/fonts/BOSQUE.otf");
+  font-family:bosque;
+}
+
 
 
 html{
@@ -442,6 +447,7 @@ text-align:center;
   font-size:168px;
   text-align:left;
   margin-top:-12rem;
+  font-family:bosque;
 }
 
 

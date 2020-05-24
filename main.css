@@ -441,6 +441,7 @@ text-align:center;
   line-height:70px;
   font-size:168px;
   text-align:left;
+  margin-top:-12rem;
 }
 
 
@@ -581,6 +582,13 @@ hr{
   height:38vh;
 }
 
+.slide-dots{
+  position:absolute;
+  bottom:2vh;
+  display: flex;
+  justify-content: center;
+}
+
 /* Newsletter Form */
 
 .footer h2{
@@ -651,6 +659,7 @@ input{
 
 .service-info a{
   border:1px solid black;
+  padding:5px;
 }
 
 .service-info a:hover{
@@ -660,6 +669,8 @@ input{
 
 .service-info p{
   margin-bottom:3rem;
+  width:70%;
+  margin:auto;
 }
 
 .web-page{
@@ -1074,6 +1085,11 @@ background-color:#ffffff;
 .footer{
   background-color:#c9e1d8;
   width:100%;
+}
+
+.footer-overlay{
+  z-index:1;
+  background-color:rgba(250,250,250,0.3);
 
 }
 
@@ -1218,10 +1234,6 @@ white-space: normal;
   position:relative;
 }
 
-.slide-dots{
-  position:absolute;
-  bottom:2vh;
-}
 
 .far, .fas{
   rgba(250,250,250,0.2);
@@ -1233,12 +1245,12 @@ white-space: normal;
   text-align:center;
 }
 
-.slide2{
+/* .slide2{
   padding-top:6rem;
-}
+} */
 
 .testimonial{
-    height: 50vh;
+    height: 100vh;
 }
 
 

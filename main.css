@@ -468,7 +468,7 @@ text-align:center;
 .testie-p{
   font-style:italic;
   font-family:collection-free;
-
+  font-size:35px;
 }
 
 /* MENU */
@@ -595,11 +595,6 @@ hr{
   height:38vh;
 }
 
-.slide-dots{
-  display: flex;
-  justify-content: center;
-  margin-top: 2rem;
-}
 
 /* Newsletter Form */
 

@@ -595,16 +595,16 @@ hr{
 }
 
 .slide-dots{
-  bottom:2vh;
   display: flex;
   justify-content: center;
+  margin-top: 2rem;
 }
 
 /* Newsletter Form */
 
 .footer h2{
-  font-size: 59px;
-line-height: 26px;
+  font-size: 57px;
+  line-height: 45px;
 }
 
 .form h2{
@@ -613,7 +613,8 @@ line-height: 26px;
 }
 
 .footer h1{
-  font-size:50px;
+  font-size:42px;
+  line-height:30px
 }
 
 .about-img{
@@ -1239,11 +1240,11 @@ white-space: normal;
 } */
 
 .testimonial{
-  padding:3rem;
+  padding:2rem;
   font-weight: 400;
   font-style: normal;
   display: flex;
-  height:100vh;
+  height:109vh;
   align-items: center;
   justify-content: center;
 }
@@ -1267,8 +1268,9 @@ white-space: normal;
   padding-top:6rem;
 } */
 
-.testimonial{
-    height: 100vh;
+.far, .fas{
+  margin:5px;
+  margin-top:2rem;
 }
 
 

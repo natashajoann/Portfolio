@@ -1183,6 +1183,17 @@ padding: 30rem 0;
     margin-right:0;
   }
 }
+
+@media (max-width: 833px){
+  hr{
+    display:none;
+  }
+
+  .featured-title{
+    order:-1;
+  }
+}
+
 @media (max-width: 768px){
 .cv-img{
   padding: 14rem 0;
@@ -1568,13 +1579,6 @@ padding-left: 1rem;
   border-left:none;
 }
 
-hr{
-  display:none;
-}
-
-.featured-title{
-  order:-1;
-}
 
 .featured{
   order:-1;

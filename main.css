@@ -460,14 +460,15 @@ text-align:center;
 .testimonial p{
   font-size:20px;
   text-align:right;
-  /* font-family: 'Josefin Sans', sans-serif; */
-  font-family:collection-free;
+  font-family: 'Josefin Sans', sans-serif;
   padding: 3rem 3rem 3rem 5rem;
   color:white;
 }
 
 .testie-p{
   font-style:italic;
+  font-family:collection-free;
+
 }
 
 /* MENU */

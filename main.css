@@ -460,8 +460,9 @@ text-align:center;
 .testimonial p{
   font-size:20px;
   text-align:right;
-  font-family: 'Josefin Sans', sans-serif;
-  padding: 3rem;
+  /* font-family: 'Josefin Sans', sans-serif; */
+  font-family:collection-free;
+  padding: 3rem 3rem 3rem 5rem;
   color:white;
 }
 
@@ -604,6 +605,11 @@ hr{
 .footer h2{
   font-size: 59px;
 line-height: 26px;
+}
+
+.form h2{
+  font-family: collection-free;
+  font-size:30px;
 }
 
 .footer h1{
@@ -1265,9 +1271,6 @@ white-space: normal;
     height: 100vh;
 }
 
-.testimonial span{
-  font-family:collection-free;
-}
 
 
 
@@ -1671,11 +1674,6 @@ padding: 2rem 0;
   order:-1;
   margin-bottom:2rem;
 
-}
-
-.form h2{
-  font-family: collection-free;
-  font-size:30px;
 }
 
 .contact-media{

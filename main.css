@@ -438,7 +438,7 @@ text-align:center;
 /* Testimonials */
 .testimonial{
   padding: 3rem;
-  height: 52vh;
+  height: 68vh;
   background-color:#FBC931;
   color:white;
   display: flex;
@@ -448,7 +448,7 @@ text-align:center;
 }
 
 .quotemark h1{
-  line-height:70px;
+  line-height:0px;
   font-size:168px;
   text-align:left;
   margin-top:-8rem;

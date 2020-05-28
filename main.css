@@ -1719,4 +1719,8 @@ padding: 2rem 0;
   height:none;
 }
 
+.featured2, .featured3{
+  margin:10px 0;
+}
+
 }

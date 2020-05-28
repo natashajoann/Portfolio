@@ -447,6 +447,10 @@ text-align:center;
   left:39%;
 }
 
+.testi-slide{
+  height:70vh;
+}
+
 .quotemark h1{
   line-height:0px;
   font-size:168px;
@@ -1709,6 +1713,10 @@ padding: 2rem 0;
 
 .form{
   padding:6rem 2rem 0;
+}
+
+.testi-slide{
+  height:none;
 }
 
 }

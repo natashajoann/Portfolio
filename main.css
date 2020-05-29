@@ -1039,49 +1039,49 @@ h3 {
   background-image:url("/images/iocmattresscover.jpg");
   background-size:cover;
   background-position:center;
-  padding:6rem;
+  padding:8rem;
 }
 
 .media-img2{
   background-image:url("/images/miikacover.jpg");
   background-size:cover;
   background-position:center;
-  padding:6rem;
+  padding:8rem;
 }
 
 .media-img3{
   background-image:url("/images/phhcover.jpg");
   background-size:cover;
   background-position:center;
-  padding:6rem;
+  padding:8rem;
 }
 
 .media-img4{
   background-image:url("/images/hlaycover.jpg");
   background-size:cover;
   background-position:center;
-  padding:6rem;
+  padding:8rem;
 }
 
 .media-img5{
   background-image:url("/images/posebox-cover.png");
   background-size:cover;
   background-position:center;
-  padding:6rem;
+  padding:8rem;
 }
 
 .media-img6{
   background-image:url("/images/chasecover.jpg");
   background-size:cover;
   background-position:center;
-  padding:6rem;
+  padding:8rem;
 }
 
 .media-img7{
   background-image:url("/images/jesscover.jpg");
   background-size:cover;
   background-position:center;
-  padding:6rem;
+  padding:8rem;
 }
 
 .web-dev h2{
@@ -1092,7 +1092,6 @@ h3 {
 
 
 .web-dev div{
-  border-radius:5px;
   text-align:center;
   margin:auto;
 }

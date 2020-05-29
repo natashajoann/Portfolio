@@ -1035,6 +1035,55 @@ h3 {
   padding-bottom:3rem;
 }
 
+.media-img1{
+  background-image:url("/images/iocmattresscover.jpg");
+  background-size:cover;
+  background-position:center;
+  padding:6rem;
+}
+
+.media-img2{
+  background-image:url("/images/miikacover.jpg");
+  background-size:cover;
+  background-position:center;
+  padding:6rem;
+}
+
+.media-img3{
+  background-image:url("/images/phhcover.jpg");
+  background-size:cover;
+  background-position:center;
+  padding:6rem;
+}
+
+.media-img4{
+  background-image:url("/images/hlaycover.jpg");
+  background-size:cover;
+  background-position:center;
+  padding:6rem;
+}
+
+.media-img5{
+  background-image:url("/images/poseb-cover.jpg");
+  background-size:cover;
+  background-position:center;
+  padding:6rem;
+}
+
+.media-img6{
+  background-image:url("/images/chasecover.jpg");
+  background-size:cover;
+  background-position:center;
+  padding:6rem;
+}
+
+.media-img7{
+  background-image:url("/images/jesscover.jpg");
+  background-size:cover;
+  background-position:center;
+  padding:6rem;
+}
+
 .web-dev h2{
   padding-bottom:30px;
   font-weight:400;

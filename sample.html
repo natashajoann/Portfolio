@@ -2,14 +2,6 @@
 layout: default
 title: Gallery
 featured-gallery:
-  - featured_image: /images/BilhaArmyHead.jpeg
-    number: 1
-  - featured_image: /images/BilhaGrad.jpeg
-    number: 2
-  - featured_image: /images/Easel.jpg
-    number: 3
-  - featured_image: /images/BIlhaFamily.jpeg
-    number: 4
   - featured_image: /images/Isabel-Allende.jpg
     name: Isabel Allende
     subtitle: Chilean-American New York Times best-selling author and advocate for the rights of women and girls
@@ -96,24 +88,37 @@ featured-gallery:
     quote: I stand on the shoulder of strong women who are immigrants, my mother and my grandmother, who made sure I knew the value of hard work and of sharing all of my gifts with the community.
 ---
 
-<section class="grid featured-gallery" id="featured">
-  {% for item in page.featured-gallery %}
+<section class="grid gallery">
+<div class="col-12 centered gallery-text">
+  <h2> “The women I interviewed are all American immigrants who arrived here as infants, teenagers, and well into adulthood.  They came as long ago as 1936 and as recently as the 1980s, alone on a snowy evening or clutching familiar hands.  They escaped the atrocities of war, or fled wounds of a more emotional nature.  Their reasons for leaving the countries of their birth are as varied as their skin tones.  They are now all United States citizens.These women have achieved greatness; some are famous and some not so much.  You will see how much each made her neighborhood, her region, our planet a better place to live. Their stories are told in their own words.”</h2>
+<br>
+<h4>-Bilha Chesner Fish, from her Prologue</h4>
+</div>
 
-  <div class="col-4_sm-12-middle gallery-item">
-    <a href="{{item.featured_image}}" data-lightbox="featured" data-title="{{item.heading}}">
-      <div style="background-image:url({{item.featured_image}})" class="gallery-image">
-        <div class="overlay"> <br> {{item.heading}}</div>
+    {% for item in page.featured-gallery %}
+          <div class="col-4_sm-6_xs-12 gallery-item">
+
+        <a href="{{item.featured_image}}" data-lightbox="featured" data-title="{{item.heading}}">
+          <div style="background-image:url({{item.featured_image}})" class="gallery-image">
+            <div class="overlay"></div>
+          </div>
+        </a>
+
+          <div class="centered gallery-info">
+            <h2> {{item.name}} </h2>
+            <h4> {{item.subtitle}} </h4>
+            <br>
+            <p>"{{item.quote}}"</p>
+          </div>
+
       </div>
-        <div class="heading-mobile"> <br> {{item.heading}}</div>
-    </a>
-  </div>
 
-  {% endfor %}
+      {% endfor %}
 
 
-  {% for item in page.featured-gallery offset:8 %}
+      {% for item in page.featured-gallery offset:6 %}
 
-  <a href="{{item.featured_image}}" data-lightbox="featured" data-title="{{item.heading}}"></a>
+      <a href="{{item.featured_image}}" data-lightbox="featured" data-title="{{item.heading}}"></a>
 
-  {% endfor %}
+      {% endfor %}
 </section>

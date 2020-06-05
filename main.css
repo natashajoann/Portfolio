@@ -382,18 +382,6 @@ text-align:center;
   background-color:#f8f4f0;
 }
 
-.article-img{
-  position:fixed;
-  z-index:-11;
-}
-
-.article-text h2{
-  font-size:35px;
-  text-align:center;
-  width:50%;
-  margin:auto;
-  padding-bottom:30px;
-}
 
 .blog-read-more{
       background: linear-gradient(to top,#d5efe0 48%, #f8f4f0 16%, #f8f4f0 100%);
@@ -475,32 +463,9 @@ text-align:center;
   font-size:35px;
 }
 
-/* MENU */
-
-.menu-img{
-  background-image: url("/images/tash-tacos.jpg");
-  background-position:center;
-  background-size:cover;
-  padding:6rem;
-}
-
-.menu{
-  padding: 3rem 1rem 3rem 3rem;
-  background-color:white;
-}
 
 
 
-/* Services */
-
-
-.mySlides{
-  display:none;
-} */
-
-.mySlides p{
-  text-align:center;
-}
 
 /* FEATURED reg */
 
@@ -1201,19 +1166,6 @@ input{
 .padded-5 { padding: 5%; }
 .margin-bottom{margin-bottom:3rem;}
 
-/* CV */
-
-.cv-title{
-  text-align:center;
-}
-
-.cv-img{
-margin:auto;
-background-image:url("/images/nmvresume2019png.png");
-background-position:center;
-background-size:cover;
-padding: 30rem 0;
-}
 
 /* ARTICLES */
 
@@ -1296,10 +1248,6 @@ white-space: normal;
 }
 
 
-/* .parallax{
-  padding:11rem;
-} */
-
 .testimonial{
   padding:2rem;
   font-weight: 400;
@@ -1325,9 +1273,6 @@ white-space: normal;
   text-align:center;
 }
 
-/* .slide2{
-  padding-top:6rem;
-} */
 
 .far, .fas{
   margin:5px;

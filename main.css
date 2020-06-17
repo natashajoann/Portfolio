@@ -1253,7 +1253,7 @@ white-space: normal;
   font-weight: 400;
   font-style: normal;
   display: flex;
-  height:109vh;
+  min-height: 592px;
   align-items: center;
   justify-content: center;
 }
@@ -1717,4 +1717,11 @@ padding: 2rem 0;
   margin:10px 0;
 }
 
+}
+
+@media (max-width:500px;){
+
+  .title-about-text{
+    padding-top:20rem;
+  }
 }

@@ -1253,9 +1253,14 @@ white-space: normal;
   font-weight: 400;
   font-style: normal;
   display: flex;
-  min-height: 592px;
+  /* min-height: 592px; */
   align-items: center;
   justify-content: center;
+  height:auto;
+}
+
+.testi-slide{
+  height:inherit;
 }
 
 .mySlides{
@@ -1609,7 +1614,7 @@ padding-left: 1rem;
 }
 
 .title-about-text{
-  padding: 20rem 2rem;
+  padding: 4rem 2rem;
   text-align:center;
   width:100%;
   margin:auto;

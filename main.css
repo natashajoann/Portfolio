@@ -167,7 +167,9 @@ a:hover{
   border: none;
   background-color: inherit;
   margin: 0;
+  position:relative;
 }
+
 
 
 .navbar a:hover, .dropdown:hover .dropbtn {
@@ -202,9 +204,9 @@ a:hover{
 }
 
 .dropdown:hover .dropdown-content {
-  display: flex;
+  display: block;
   width: 100%;
-  left: 0;
+  right: 0;
 }
 
 

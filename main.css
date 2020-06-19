@@ -353,7 +353,7 @@ text-align:center;
 
 .blog-loop-background, .blog-loop-info h3, .blog-loop-info p {
   width: 80%;
-  margin:auto,
+  margin:auto;
 }
 
 .blog a: hover{

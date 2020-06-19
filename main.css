@@ -572,10 +572,14 @@ input{
   background-color: white;
 }
 
+.go-back a{
+  font-size:21px;
+}
+
 .fa-arrow-alt-circle-left{
   text-align:left;
-  padding: 10px 5px;
-  font-size:28px;
+  padding: 10px 5px 0;
+  font-size:25px;
 }
 
 .fa-arrow-alt-circle-left:hover{

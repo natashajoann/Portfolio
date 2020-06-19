@@ -330,6 +330,10 @@ a:hover{
   padding:4rem;
 }
 
+.article-text{
+  padding:6rem;
+}
+
 .blog-loop-background{
   padding: 6rem;
   margin: 2rem;
@@ -1582,6 +1586,9 @@ padding-left: 1rem;
   padding:0;
 }
 
+.blog, .article-text{
+  padding:2rem;
+}
 
 
 .blog-loop-background{

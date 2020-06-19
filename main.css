@@ -348,7 +348,7 @@ text-align:center;
   margin: 2rem;
   background-position: center;
   background-size: cover;
-  min-height:200px;
+  min-height:300px;
 }
 
 .blog-loop-background, .blog-loop-info h3, .blog-loop-info p {
@@ -1607,19 +1607,21 @@ padding-left: 1rem;
 
 .blog-loop-background{
   padding: 6rem;
-  margin: 2rem;
+  margin: 2rem 0 0;
   background-position: center;
   background-size: cover;
   min-height:200px;
+}
+
+.blog-loop-background, .blog-loop-info h3, .blog-loop-info p {
+  width: 100%;
+  margin:auto;
 }
 
 .padded-5-10{
   padding:5% 4%;
 }
 
-.blog h3{
-  margin-left:0;
-}
 
 
 .article-text h2{

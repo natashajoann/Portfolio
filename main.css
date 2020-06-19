@@ -1565,11 +1565,16 @@ padding-left: 1rem;
   padding:0;
 }
 
+.post-preview{
+  position:relative;
+}
+
 .blog-loop-background{
   padding: 6rem;
   margin: 2rem;
   background-position: center;
   background-size: cover;
+  min-height:200px;
 }
 
 .padded-5-10{

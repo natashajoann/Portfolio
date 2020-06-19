@@ -165,6 +165,7 @@ a:hover{
 .dropdown .dropbtn {
   font-size: 16px;
   font-family: futura-pt,sans-serif;
+  color:#313131;
   border: none;
   background-color: inherit;
   margin: 0;

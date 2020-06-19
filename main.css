@@ -1618,6 +1618,10 @@ padding-left: 1rem;
   margin:auto;
 }
 
+.article-text{
+  text-align: center;
+}
+
 .padded-5-10{
   padding:5% 4%;
 }

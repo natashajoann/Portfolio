@@ -170,6 +170,10 @@ a:hover{
   position:relative;
 }
 
+.dropdown{
+  position:relative;
+}
+
 
 
 .navbar a:hover, .dropdown:hover .dropbtn {
@@ -204,7 +208,7 @@ a:hover{
 
 .dropdown:hover .dropdown-content {
   display: block;
-  width: 100%;
+  width: 30%;
   right: 0;
 }
 

@@ -330,6 +330,14 @@ a:hover{
   padding:4rem;
 }
 
+.blog-loop-background{
+  padding: 6rem;
+  margin: 2rem;
+  background-position: center;
+  background-size: cover;
+  min-height:200px;
+}
+
 .blog-loop-background, .blog-loop-info h3, .blog-loop-info p {
   width: 80%;
   margin:auto,

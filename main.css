@@ -573,6 +573,7 @@ input{
 .fa-arrow-alt-circle-left{
   text-align:left;
   padding: 10px 5px;
+  font-size:28px;
 }
 
 .fa-arrow-alt-circle-left:hover{

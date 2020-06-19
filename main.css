@@ -337,6 +337,8 @@ a:hover{
 .article-text h2{
   width: 70%;
 padding: 2rem 0;
+margin:auto;
+text-align:center;
 }
 
 .blog-loop-background{

@@ -559,6 +559,15 @@ input{
   background-color: white;
 }
 
+.fa-arrow-alt-circle-left{
+  text-align:left;
+  padding: 0 5px;
+}
+
+.fa-arrow-alt-circle-left:hover{
+  color:#d5efe0;
+}
+
 .web-work h4{
   line-height:23px;
 }
@@ -1628,6 +1637,8 @@ padding: 2rem 0;
 .contact-media{
   padding-top:1rem;
 }
+
+
 
 .web-work-title{
   padding:6rem;

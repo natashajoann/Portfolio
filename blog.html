@@ -1,0 +1,21 @@
+---
+layout: default
+title: blog
+---
+
+<section class="grid blog">
+  <h1> All Blog Posts </h1>
+
+  {% for post in site.posts %}
+    <a href="{{post.url}}" class="col-6_sm-12 post-preview">
+      <div class="blog-loop-background" style="background-image:url({{post.featured_image}})">
+        <div class="overlay grid">
+          <p class="col-12-middle"> {{post.description}}</p>
+        </div>
+      </div>
+      <div class="blog-loop-info">
+        <h3> {{post.title}}</h3>
+        <p> by {{post.author}}</p>
+      </div>
+    </a>
+  {% endfor %}

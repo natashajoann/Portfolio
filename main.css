@@ -275,136 +275,18 @@ a:hover{
 
 
 /* Blog */
-.blog-loop-background{
-  padding: 6rem;
-  margin:1rem;
-  background-position:center;
-  background-size:cover;
-}
-
-.read-more-loop-background{
-  padding: 7rem;
-  margin:1rem;
-  background-position: center;
-  background-size: cover;
-}
-
-.blog-title{
-    text-align:center;
-    padding-top:4rem;
-    margin-top:1rem;
-}
-
-
-.blog-grid{
-  /* background: linear-gradient(to bottom,#d5efe0 45%, #fff 44%,#fff 100%); */
-  background-color:white;
-  justify-content:space-between;
-}
-
-.blog-grid a{
-  font-style:italic;
-  text-align:center;
-}
-
-
-.blog-loop-info h2{
-font-size: 18px;
-text-align:center;
-}
-
-.blog-loop-info a:hover{
-  color:#E2B600;
-}
-
-.blog-loop-info p{
-  font-style:italic;
-}
-
-.featured-blog-img{
-  background-position:center;
-  background-size:cover;
-  padding:10rem;
-}
-
-.featured-blog{
-  padding:2rem 6rem;;
-  background-color:#d5efe0;
-}
-
-.featured-blog-info{
-  text-align:left;
-  padding:2rem;
-  color: #F8F4F0;
-}
-
-.featured-blog-info p{
-  text-align:left;
-  color:#F8F4F0;
-
-}
-
-.featured-blog a:hover{
-  color:#F8F4F0;
-}
-
-.featured-blog-info h2:hover{
-  color:#E2B600;
-}
-
-.post-preview a:hover{
-  color:#E2B600;
-}
-
-
-
-.blog h2{
-  font-size: 70px;
-  margin-left: 5rem;
-  padding-bottom:2rem;
-  color: #99b6af;
-}
-
-.blog h4{
-  font-size: 30px;
-  padding-top: 30px;
-}
 
 .blog{
-      /* background: linear-gradient(to bottom,#244243 0,#244243 50%,#244243 50%,#fff 50%,#fff 100%); */
-      padding-bottom:3rem;
+  padding:4rem;
 }
 
-.article-text{
-  /* margin-top:26rem; */
-  padding: 3rem 6rem;
-  z-index:10;
-  background-color:#f8f4f0;
-}
-
-
-.blog-read-more{
-      background: linear-gradient(to top,#d5efe0 48%, #f8f4f0 16%, #f8f4f0 100%);
-}
-
-.blog-loop-info h3, .blog-loop-info h4{
+.blog-loop-background, .blog-loop-info h3, .blog-loop-info p {
   width: 80%;
-  margin: auto;
-  text-align: center;
+  margin:auto,
 }
 
-.blog-grid h3:hover{
-  color:#858ED8;
-}
-
-.read-more-info h3, .read-more-info h4{
-  width: 65%;
-  margin: auto;
-  text-align: center;
-}
-
-.blog-grid{
-  padding: 3rem 5rem 6rem;
+.blog a: hover{
+  color: #FBC931;
 }
 
 /* index services */

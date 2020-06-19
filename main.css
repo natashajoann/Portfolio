@@ -334,6 +334,11 @@ a:hover{
   padding:6rem;
 }
 
+.article-text h2{
+  width: 70%;
+padding: 2rem 0;
+}
+
 .blog-loop-background{
   padding: 6rem;
   margin: 2rem;
@@ -1611,11 +1616,6 @@ padding-left: 1rem;
 .article-text h2{
   width: 70%;
 padding: 2rem 0;
-}
-
-.article-text{
-  padding:2rem;
-  margin-top:14rem;
 }
 
 .blog-grid{

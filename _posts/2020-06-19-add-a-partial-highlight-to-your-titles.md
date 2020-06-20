@@ -7,15 +7,9 @@ date: 2020-06-19 16:00:00
 
 By now you've already seen this creative trend popping up on sites across the web. Adding a partial highlight to your text adds an extra dimension and helps it pop. The coloring comes from a simple combination HTML and CSS. Don't worry, I promise it's easy\!&nbsp;
 
-&nbsp;
-
-* Plus, for all you Squarespace developers and designers out there, I'll add in Squarespace specific instructions too\!
-
-&nbsp;
+Plus, for all you Squarespace developers and designers out there, I'll add in Squarespace specific instructions too\!
 
 Ready to get your coding on?
-
-&nbsp;
 
 ## Understanding the Basics -
 
@@ -25,13 +19,9 @@ Ready to get your coding on?
 
 First things first, create a section of text. This can be a title, subtitle, body text, or even a link\! We're going to stick to a nice big title (aka H1):&nbsp;
 
-&nbsp;
-
 > &lt;h1&gt; Hello There\! &lt;/h1&gt;
 
-&nbsp;
-
-* If you're using Squarespace: add a Markdown box to the section you want to add your text to before typing your code.&nbsp;
+\- **If you're using Squarespace:** add a Markdown box to the section you want to add your text to before typing your code.&nbsp;
 
 &nbsp;
 
@@ -69,14 +59,10 @@ We'll target our class:&nbsp;
 
 &nbsp;
 
-&nbsp;
-
 > .highlight\{
 >
 >
 > \}
-
-&nbsp;
 
 Now, we'll add our command:&nbsp;
 

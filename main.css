@@ -341,7 +341,7 @@ a:hover{
   padding:4rem;
 }
 
-.blog-post, .blog-post p{
+.blog-post{
   padding:2rem 6rem;
   /* text-align:center; */
 }

@@ -59,7 +59,11 @@ Now, we'll add our command:&nbsp;
 >
 > \}
 
-**Now the fun part:&nbsp;**
+### &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;![](/uploads/screen-shot-2020-06-19-at-5-24-57-pm.png){: width="564" height="143"}
+
+&nbsp;
+
+### **Now the fun part:&nbsp;**
 
 to add in a different color, replace "\#ECF1EB" with whatever color you like (you can use rgb/rgba codes too\!)
 
@@ -71,17 +75,27 @@ Want thinner lines? Yup\! Just increase your percentages:&nbsp;
 
 > background: linear-gradient(180deg,rgba(255,255,255,0) 76%, \#ECF1EB 76%);
 
-Done\! Easy right?
-
-Now that you know how to target specific sections of code using a span and class, you can do the exact same with any/all kinds of text\! For example...
+Now that you know how to target specific sections of code using a span and class, you can do the exact same with any/all kinds of text\! For example…
 
 **Body Text:&nbsp;**
 
 > &lt;p&gt; &lt;span class="highlight"&gt; **I am a Body Text** &lt;/span&gt; &lt;/p&gt;
 
+![](/uploads/screen-shot-2020-06-19-at-5-26-38-pm.png){: width="727" height="386"}
+
 **Links:&nbsp;**
 
 > &lt;a href="http://www.natashaverdon.com"&gt; &lt;span class="highlight&gt; **I am a Link\!** &lt;/span&gt; &lt;/a&gt;
+
+&nbsp;
+
+![](/uploads/screen-shot-2020-06-19-at-5-35-36-pm.png){: width="670" height="434"}
+
+Want to add a highlight to specific sections of your text? Not a problem\! Just wrap your span around the parts of your text that you want to highlight:
+
+> &lt;h1&gt; Hi There I'm a &lt;span class="highlight"&gt; Title\! &lt;/span&gt; &lt;/h1&gt;
+
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;![](/uploads/screen-shot-2020-06-19-at-5-33-11-pm.png){: width="531" height="119"}
 
 Since you're using the same class for each, the ".highlight" class in your css will automatically add highlights to each of these\!&nbsp;
 

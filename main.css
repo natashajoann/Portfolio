@@ -28,6 +28,15 @@ a{
   color: #313131;
 }
 
+blockquote{
+margin: 2rem 0;
+margin-left: 3rem;
+border-left: 7px solid #6a6a76;
+padding-left: 15px;
+text-decoration: italic;
+font-style: italic;
+}
+
 
 
 /* ---- GENERAL HELPER CLASSES --------------------------- */
@@ -334,6 +343,7 @@ a:hover{
 
 .blog-post{
   padding:2rem 6rem;
+  text-align:center;
 }
 
 .article-text h2{

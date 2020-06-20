@@ -2,7 +2,7 @@
 layout: blog
 title: My Favorite Park Is The Eccentric Heartbeat of New York
 featured_image: /uploads/oliver-niblett-wh-7gexxiti-unsplash.jpg
-date: January 30
+date: 2017-06-30 00:00:00
 ---
 
 When I was younger, growing up in Silverlake, I always wanted to move to New York City. It’s not that I didn’t love Los Angeles, but I was eager for change, to experience the beauty of the shifting colors of trees in the fall. I dreamed of wandering around the romantic streets of the West Village, and picnicking in Central Park.

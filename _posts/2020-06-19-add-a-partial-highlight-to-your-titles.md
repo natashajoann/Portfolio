@@ -15,6 +15,8 @@ Plus, for all you Squarespace developers and designers out there, I'll add in Sq
 
 Ready to get your coding on?
 
+&nbsp;
+
 ### *Understanding the Basics*
 
 &nbsp;

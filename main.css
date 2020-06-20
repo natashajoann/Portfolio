@@ -343,7 +343,7 @@ a:hover{
 
 .blog-post, .blog-post p{
   padding:2rem 6rem;
-  text-align:center;
+  /* text-align:center; */
 }
 
 .article-text h2{

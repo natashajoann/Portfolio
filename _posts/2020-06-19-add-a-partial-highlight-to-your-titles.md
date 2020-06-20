@@ -116,11 +116,19 @@ Want thicker lines? Decrease the percentages. For example:&nbsp;
 
 &nbsp;
 
+![](/uploads/screen-shot-2020-06-19-at-6-18-13-pm.png){: width="292" height="102"}
+
+&nbsp;
+
 Want thinner lines? Yup\! Just increase your percentages:&nbsp;
 
 &nbsp;
 
 > background: linear-gradient(180deg,rgba(255,255,255,0) 76%, \#ECF1EB 76%);
+
+&nbsp;
+
+![](/uploads/screen-shot-2020-06-19-at-6-18-19-pm.png){: width="297" height="86"}
 
 &nbsp;
 

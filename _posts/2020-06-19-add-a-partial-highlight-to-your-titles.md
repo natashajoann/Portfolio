@@ -203,6 +203,12 @@ Happy coding\!
 
 &nbsp;
 
+![](/uploads/add-a-partial-highlight-to-your-titles.png){: width="1000" height="1500"}
+
+&nbsp;
+
+&nbsp;
+
 ### \* Questions Corner
 
 \- Curious about the "/" in our code brackets? That signals the end of that particular section and type of code:&nbsp;

@@ -35,6 +35,8 @@ First things first, create a section of text. This can be a title, subtitle, bod
 
 &nbsp;
 
+## &nbsp;
+
 ## n&ordm; 2
 
 Now, we don't necessarily want to target ALL title fonts, so we're going to add in specifiers that will tell our browser to only add a highlight to THIS specific title in 2 steps:

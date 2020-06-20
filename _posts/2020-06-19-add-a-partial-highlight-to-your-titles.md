@@ -156,7 +156,7 @@ Want to add a highlight to specific sections of your text? Not a problem\! Just 
 
 &nbsp;
 
-> &lt;h1&gt; Hi There I'm a &lt;span class="highlight"&gt; Title\! &lt;/span&gt; &lt;/h1&gt;
+> &lt;h1&gt; Hey I'm a &lt;span class="highlight"&gt; Title\! &lt;/span&gt; &lt;/h1&gt;
 
 &nbsp;
 

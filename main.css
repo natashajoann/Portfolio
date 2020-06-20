@@ -374,6 +374,10 @@ a:hover{
   margin:auto;
 }
 
+.blog-loop-info{
+  padding-bottom:2rem;
+}
+
 .blog a: hover{
   color: #FBC931;
 }

@@ -28,9 +28,13 @@ a{
   color: #313131;
 }
 
+blockquote{
+    padding: 5px 0;
+}
+
 blockquote p{
 margin-left: 3rem;
-border-left: 7px solid #6a6a76;
+border-left: 7px solid #ddeae9;
 padding-left: 15px;
 text-decoration: italic;
 font-style: italic;

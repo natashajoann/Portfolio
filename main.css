@@ -1644,6 +1644,10 @@ padding-left: 1rem;
   padding:0;
 }
 
+.article-text{
+  width:100%;
+}
+
 
 .blog-loop-background{
   padding: 6rem;

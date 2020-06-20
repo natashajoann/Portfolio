@@ -7,7 +7,11 @@ date: 2020-06-19 16:00:00
 
 By now you've already seen this creative trend popping up on sites across the web. Adding a partial highlight to your text adds an extra dimension and helps it pop. The coloring comes from a simple combination HTML and CSS. Don't worry, I promise it's easy\!&nbsp;
 
+&nbsp;
+
 Plus, for all you Squarespace developers and designers out there, I'll add in Squarespace specific instructions too\!
+
+&nbsp;
 
 Ready to get your coding on?
 

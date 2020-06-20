@@ -361,6 +361,7 @@ a:hover{
 
 .article-title{
   width:60%;
+  margin:auto;
   padding-bottom:3rem;
   text-align:center;
 }

@@ -28,7 +28,7 @@ a{
   color: #313131;
 }
 
-blockquote{
+blockquote p{
 margin: 2rem 0;
 margin-left: 3rem;
 border-left: 7px solid #6a6a76;

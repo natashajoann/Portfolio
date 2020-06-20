@@ -100,7 +100,7 @@ Now, we'll add our command:&nbsp;
 
 ### &nbsp;
 
-### **Now the fun part:&nbsp;**
+### ***Now the fun part:&nbsp;***
 
 &nbsp;
 

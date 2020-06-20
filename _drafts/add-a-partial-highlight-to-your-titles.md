@@ -2,12 +2,12 @@
 layout: blog
 title: Add a Partial Highlight To Your Titles
 featured_image: /uploads/screen-shot-2020-06-19-at-4-39-06-pm.png
-date: 2001-01-30 00:00:00
+date: 2020-06-19 16:00:00
 ---
 
 By now you've already seen this creative trend popping up on sites across the web. Adding a partial highlight to your text adds an extra dimension and helps it pop. The coloring comes from a simple combination HTML and CSS. Don't worry, I promise it's easy\!&nbsp;
 
-Plus, for all you Squarespace developers and designers out there, I'll add in Squarespace specific instructions too\!
+* Plus, for all you Squarespace developers and designers out there, I'll add in Squarespace specific instructions too\!
 
 Ready to get your coding on?
 

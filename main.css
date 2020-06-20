@@ -1633,6 +1633,17 @@ padding-left: 1rem;
   padding:2rem;
 }
 
+.blog-post img{
+  display: flex;
+    margin: auto;
+    width: 86%;
+    height: 100%;
+}
+
+.blog-post{
+  padding:0;
+}
+
 
 .blog-loop-background{
   padding: 6rem;

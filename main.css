@@ -29,7 +29,6 @@ a{
 }
 
 blockquote p{
-margin: 2rem 0;
 margin-left: 3rem;
 border-left: 7px solid #6a6a76;
 padding-left: 15px;
@@ -344,6 +343,16 @@ a:hover{
 .blog-post{
   padding:2rem 6rem;
   /* text-align:center; */
+}
+
+.blog-post img{
+  display:flex;
+  margin:auto;
+}
+
+.article-text{
+  width:70%;
+  margin:auto;
 }
 
 .article-text h2{

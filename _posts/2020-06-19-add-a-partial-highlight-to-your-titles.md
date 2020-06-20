@@ -15,7 +15,7 @@ Plus, for all you Squarespace developers and designers out there, I'll add in Sq
 
 Ready to get your coding on?
 
-## Understanding the Basics -
+### *Understanding the Basics*
 
 &nbsp;
 
@@ -23,7 +23,11 @@ Ready to get your coding on?
 
 First things first, create a section of text. This can be a title, subtitle, body text, or even a link\! We're going to stick to a nice big title (aka H1):&nbsp;
 
+&nbsp;
+
 > &lt;h1&gt; Hello There\! &lt;/h1&gt;
+
+&nbsp;
 
 \- **If you're using Squarespace:** add a Markdown box to the section you want to add your text to before typing your code.&nbsp;
 
@@ -45,6 +49,8 @@ Now, we don't necessarily want to target ALL title fonts, so we're going to add 
 
 2\. To target that specific "span"/mini-container, we're going to give it a simple identifier. We call this a "class":&nbsp;
 
+&nbsp;
+
 > &lt;h1&gt; &lt;span class="highlight"&gt; Hello There\! &lt;/span&gt; &lt;/h1&gt;
 
 ## &nbsp;
@@ -55,7 +61,7 @@ Now that we've identified which part of our code we want to target, we're going 
 
 &nbsp;
 
-* For Squarespace: head to Design &gt; Custom CSS
+\- **For Squarespace:** head to Design &gt; Custom CSS
 
 &nbsp;
 
@@ -67,6 +73,8 @@ We'll target our class:&nbsp;
 >
 >
 > \}
+
+&nbsp;
 
 Now, we'll add our command:&nbsp;
 

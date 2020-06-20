@@ -1647,6 +1647,10 @@ padding-left: 1rem;
   width:100%;
 }
 
+.article-title{
+  width:100%;
+}
+
 .blockquote p{
   margin-left:0;
 }

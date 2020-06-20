@@ -203,9 +203,9 @@ Happy coding\!
 
 &nbsp;
 
-![](/uploads/add-a-partial-highlight-to-your-titles.png){: width="1000" height="1500"}
-
 &nbsp;
+
+[![](/uploads/screen-shot-2020-06-20-at-9-08-49-am.png){: width="252" height="378"}](https://ar.pinterest.com/natasha_joann/){: target="_blank"}
 
 &nbsp;
 

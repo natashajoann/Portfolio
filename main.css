@@ -359,6 +359,11 @@ a:hover{
   margin:auto;
 }
 
+.article-title{
+  width:60%;
+  padding-bottom:3rem;
+}
+
 
 
 .blog-loop-background{
@@ -1643,6 +1648,8 @@ padding-left: 1rem;
 .article-text{
   text-align: center;
 }
+
+
 
 .padded-5-10{
   padding:5% 4%;

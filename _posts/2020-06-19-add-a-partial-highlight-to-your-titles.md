@@ -203,6 +203,12 @@ Happy coding\!
 
 &nbsp;
 
+&nbsp;
+
+[![](/uploads/screen-shot-2020-06-20-at-9-08-49-am.png){: width="252" height="378"}](https://ar.pinterest.com/natasha_joann/){: target="_blank"}
+
+&nbsp;
+
 ### \* Questions Corner
 
 \- Curious about the "/" in our code brackets? That signals the end of that particular section and type of code:&nbsp;

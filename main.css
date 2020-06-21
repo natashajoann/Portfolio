@@ -570,6 +570,12 @@ hr{
   background-color:#718b82;
 }
 
+#mc_embed_signup #mce-success-response {
+    color: #e5bc5c;
+    display: none;
+    font-size: 18px;
+    width: 100%;
+
 .footer h2{
   font-size: 57px;
   line-height: 45px;

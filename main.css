@@ -549,6 +549,27 @@ hr{
 
 /* Newsletter Form */
 
+#mc_embed_signup form {
+    display: block;
+    position: relative;
+    text-align: left;
+    padding: 0px 0 0px 0%;
+    background-color: #c9e1d8;
+}
+
+.indicates-required{
+  display:none;
+}
+
+#mc_embed_signup .button{
+  background-color:#C2D8C8;
+  width:96%;
+}
+
+#mc_embed_signup .button:hover{
+  background-color:#718b82;
+}
+
 .footer h2{
   font-size: 57px;
   line-height: 45px;
@@ -579,14 +600,14 @@ hr{
   margin:0 10px;
 }
 
-input{
+/* input{
   width: 90%;
   border: none;
   border-bottom: 2px solid #fff;
   font-size: 15px;
   margin: 3px;
   padding: 6px 5px;
-}
+} */
 
 .contact-button{
   width: 90;

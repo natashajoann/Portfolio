@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Creating a Fixed Image Background in 4 Simple Steps
-featured_image: /uploads/oliver-niblett-wh-7gexxiti-unsplash.jpg
+featured_image: /uploads/untitled-design.gif
 date: 2020-06-24 00:04:00
 ---
 

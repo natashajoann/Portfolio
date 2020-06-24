@@ -45,13 +45,13 @@ A couple things: 1. we're going to give this particular section a class of "fixe
 
 &nbsp;
 
-\- For Squarespace: open up markup and add in the above code.&nbsp;
-
 &nbsp;
 
 The HTML side of things are all done so now we'll head to our css stylesheet. This is where the magic happens.&nbsp;
 
-\- For Squarespace: head over to your Custom CSS box to add in the below CSS commands.
+&nbsp;
+
+\- For Squarespace: add a markup box to your desired section and add in the HTML code above. Then head over to your Custom CSS box to add in the below CSS commands.
 
 &nbsp;
 

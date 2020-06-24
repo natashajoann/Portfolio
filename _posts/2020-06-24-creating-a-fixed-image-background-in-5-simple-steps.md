@@ -9,7 +9,7 @@ When I first started coding, I came across so many beautiful websites that had s
 
 &nbsp;
 
-First things first, what is a fixed background? It's exacly what it sounds like: you have an image working as a background with content that scrolls on top. Like this:
+First things first, what is a fixed background? It's exactly what it sounds like: you have an image working as a background with content that scrolls on top. Like this:
 
 See the Pen [Fixed Background](https://codepen.io/natashajoann/pen/GRoErBY) by natasha ([@natashajoann](https://codepen.io/natashajoann)) on [CodePen](https://codepen.io).
 {: .codepen}

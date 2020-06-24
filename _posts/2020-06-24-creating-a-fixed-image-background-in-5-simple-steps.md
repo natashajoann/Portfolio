@@ -9,24 +9,20 @@ When I first started coding, I came across so many beautiful websites that had s
 
 &nbsp;
 
-<<<<<<< HEAD
-<div class="mycodepen">
-<p class="codepen" data-height="336" data-theme-id="light" data-default-tab="html,result" data-user="natashajoann" data-slug-hash="GRoErBY" style="height: 336px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Fixed Background">
-  <span>See the Pen <a href="https://codepen.io/natashajoann/pen/GRoErBY">
-  Fixed Background</a> by natasha (<a href="https://codepen.io/natashajoann">@natashajoann</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-</div>
+For all you Squarespace devs, I'll be adding Squarespace-specific steps as well.&nbsp;
 
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
-=======
+&nbsp;
+
 First things first, what is a fixed background? It's exactly what it sounds like: you have an image working as a background with content that scrolls on top. Like this:
+
+&nbsp;
 
 See the Pen [Fixed Background](https://codepen.io/natashajoann/pen/GRoErBY) by natasha ([@natashajoann](https://codepen.io/natashajoann)) on [CodePen](https://codepen.io).
 {: .codepen}
 
 <script async="" src="https://static.codepen.io/assets/embed/ei.js"></script>
->>>>>>> 0db8a05a93ade501f4e87034c63c990f71d14667
+
+&nbsp;
 
 Pretty cool huh?
 
@@ -37,3 +33,119 @@ And it's pretty easy. Ready?
 &nbsp;
 
 ## no. 1
+
+Create a section where you want your content to live. We'll do this by adding in:&nbsp;
+
+&nbsp;
+
+> &lt;section class="fixed-background&gt;&lt;/section&gt;
+
+&nbsp;
+
+A couple things: 1. we're going to give this particular section a class of "fixed-background" so that you can target it in your css. 2. It might look strange having a section without any content inside but I promise that your image will show up\!
+
+&nbsp;
+
+\- For Squarespace: open up markup and add in the above code.&nbsp;
+
+&nbsp;
+
+The HTML side of things are all done so now we'll head to our css stylesheet. This is where the magic happens.&nbsp;
+
+\- For Squarespace: head over to your Custom CSS box to add in the below CSS commands.
+
+&nbsp;
+
+## no.2
+
+First things first, give your section a background. You'll do that by adding a "background-image".&nbsp;&nbsp;
+
+> .fixed-background\{
+>
+>
+> background-image:url("https://picsum.photos/200/300/?blur");
+
+&nbsp;
+
+You'll also need to add in some adjustment and styling commands to center your image and remove any image repetition (if that's your style, go ahead and just skip to the next step.)
+
+&nbsp;
+
+> .fixed-background\{
+>
+>
+> background-image:url("https://picsum.photos/200/300/?blur");
+>
+>
+> background-position: center;
+>
+>
+> background-size:cover;
+>
+>
+> \}
+
+&nbsp;
+
+## no. 3
+
+Ok now here is the most important step: making the background stationary so that it doesn't scroll. We do this by adding a position of fixed, which will make is stay in the exact same position:
+
+&nbsp;
+
+> .fixed-background\{
+>
+>
+> background-image:url("https://picsum.photos/200/300/?blur");
+>
+>
+> background-position: center;
+>
+>
+> background-size:cover;
+>
+>
+> background-attachment: fixed;
+>
+>
+> \}
+
+&nbsp;
+
+## no. 4
+
+The final step is creating a height for your section so that it can be seen. Without this, the above and below sections will end up overlapping on top of your fixed-background and you won't get to see that fun feature. Here's how you create some height:
+
+&nbsp;
+
+> .fixed-background\{
+>
+>
+> background-image:url("https://picsum.photos/200/300/?blur");
+>
+>
+> background-position: center;
+>
+>
+> background-size:cover;
+>
+>
+> background-attachment: fixed;
+>
+>
+> height: 20vh;
+>
+>
+> \}
+
+&nbsp;
+
+*note: you can change the height by increasing or decreasing the vh. You can also try playing around with the padding\!*
+
+&nbsp;
+
+Click save, and voila\!
+
+&nbsp;
+
+Want to keep playing around? Head over to [this link](https://codepen.io/natashajoann/pen/GRoErBY) and fork the existing Codepen so you can stylize your fixed-background however you like\!

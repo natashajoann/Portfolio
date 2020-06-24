@@ -344,6 +344,8 @@ a:hover{
 
 /* Blog */
 
+
+
 .blog{
   padding:4rem;
 }
@@ -391,6 +393,26 @@ a:hover{
 
 .blog a: hover{
   color: #FBC931;
+}
+
+/* blog fixed-background */
+
+/* BACKGROUND FIXED - parallax - */
+.blog-parallax{
+  background-image: url("/images/vietnampic.jpg");
+
+  /* Set a specific height */
+  min-height: 50vh;
+  max-height: 400px;
+
+  background-attachment: fixed;
+  background-position: top left;
+  background-size:cover;
+  padding-bottom:40%;
+}
+
+.blog-parallax div{
+  height: 30vh;
 }
 
 /* index services */

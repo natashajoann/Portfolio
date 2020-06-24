@@ -59,6 +59,8 @@ The HTML side of things are all done so now we'll head to our css stylesheet. Th
 
 First things first, give your section a background. You'll do that by adding a "background-image".&nbsp;&nbsp;
 
+&nbsp;
+
 > .fixed-background\{
 >
 >

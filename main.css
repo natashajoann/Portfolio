@@ -238,6 +238,10 @@ a:hover{
   text-align:right;
 }
 
+.main-title img{
+  width:90%;
+}
+
 .title-about-text{
     padding: 4rem 4rem 0;
     text-align:center;
@@ -1228,6 +1232,10 @@ input{
   padding: 14rem 0;
 }
 
+.nav-title img {
+  width:24%;
+}
+
 .taco-image{
   display:none;
 }
@@ -1236,6 +1244,8 @@ input{
 .main-title-name{
   position:relative;
 }
+
+.
 
 .mobile-title{
   display:block;
@@ -1781,5 +1791,9 @@ padding-left: 1rem;
 
   .title-about-text{
     padding-top:20rem;
+  }
+
+  .nav-title img {
+    width:50%;
   }
 }

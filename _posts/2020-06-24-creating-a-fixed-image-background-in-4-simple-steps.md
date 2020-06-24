@@ -17,7 +17,7 @@ First things first, what is a fixed background? It's exactly what it sounds like
 
 &nbsp;
 
-[![](/uploads/untitled-design.gif){: width="1066" height="598"}](https://codepen.io/natashajoann/pen/GRoErBY)
+[![](/uploads/untitled-design-1.gif){: width="500" height="500"}](https://codepen.io/natashajoann/pen/GRoErBY)
 
 <script async="" src="https://static.codepen.io/assets/embed/ei.js"></script>
 

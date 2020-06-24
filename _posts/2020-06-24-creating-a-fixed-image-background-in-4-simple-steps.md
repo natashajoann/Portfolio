@@ -15,9 +15,13 @@ For all you Squarespace devs, I'll be adding Squarespace-specific steps as well.
 
 First things first, what is a fixed background? It's exactly what it sounds like: you have an image working as a background with content that scrolls on top. Like this:
 
+&nbsp;
+
 [![](/uploads/untitled-design.gif){: width="1066" height="598"}](https://codepen.io/natashajoann/pen/GRoErBY)
 
 <script async="" src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+&nbsp;
 
 Pretty cool huh?
 

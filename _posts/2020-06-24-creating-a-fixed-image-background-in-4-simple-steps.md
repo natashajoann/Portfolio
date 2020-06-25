@@ -9,8 +9,6 @@ When I first started coding, I came across so many beautiful websites that had s
 
 &nbsp;
 
-For all you Squarespace devs, I'll be adding Squarespace-specific steps as well.&nbsp;
-
 &nbsp;
 
 First things first, what is a fixed background? It's exactly what it sounds like: you have an image working as a background with content that scrolls on top. Like this:
@@ -50,8 +48,6 @@ A couple things: 1. we're going to give this particular section a class of "fixe
 The HTML side of things are all done so now we'll head to our css stylesheet. This is where the magic happens.&nbsp;
 
 &nbsp;
-
-\- For Squarespace: add a markup box to your desired section and add in the HTML code above. Then head over to your Custom CSS box to add in the below CSS commands.
 
 &nbsp;
 

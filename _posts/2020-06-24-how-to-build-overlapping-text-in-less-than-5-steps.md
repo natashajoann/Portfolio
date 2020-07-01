@@ -295,7 +295,11 @@ Using your CSS, you're going to tell your code specifically, "Target the div cal
 
 Want to keep practicing? Check out [this demo](https://codepen.io/natashajoann/pen/gOPXEWw) and try it out for yourself\!
 
+&nbsp;
+
 ![](/uploads/add-a-partial-highlight-to-your-titles-1.png){: width="500" height="750"}
+
+&nbsp;
 
 ## \*Questions Corner
 

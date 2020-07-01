@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: How to
+title: How to Build Overlapping Text in Less than 5 Steps
 featured_image: /uploads/screen-shot-2020-07-01-at-11-59-32-am.png
 date: 2020-06-24 00:04:00
 ---
@@ -227,7 +227,7 @@ In your CSS stylesheet or Custom CSS box you'll start your media query:
 
 &nbsp;
 
-So now we tell our code how to behave on a screen size of 768px--this part is the exact same as regular CSS writing:&nbsp;
+So now we tell our code how to behave on a screen size of 768px–this part is the exact same as regular CSS writing:&nbsp;
 
 &nbsp;
 

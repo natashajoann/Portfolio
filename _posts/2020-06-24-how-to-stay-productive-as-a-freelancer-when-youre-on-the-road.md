@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: How to Stay Productive on the Road
+title: How to Stay Productive as a Freelancer When You're on the Road
 featured_image: /images/tash-bali.jpg
 date: 2020-06-24 00:04:00
 ---

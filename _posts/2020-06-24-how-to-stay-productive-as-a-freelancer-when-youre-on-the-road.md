@@ -25,7 +25,7 @@ I'm not going to lie, I too find it difficult to cut plans short or head to a ca
 
 &nbsp;
 
-![](/uploads/screen-shot-2020-07-03-at-6-06-20-pm.png){: width="581" height="441"}
+&nbsp;
 
 Yes, a *literal* day book.&nbsp;
 
@@ -104,7 +104,7 @@ If you're an digital nomad and have clients on different time zones, try to put 
 
 &nbsp;
 
-![Artwork by @shopsundae](/uploads/screen-shot-2020-07-03-at-6-08-37-pm.png "Artwork by @shopsundae"){: width="599" height="595"}
+&nbsp;
 
 &nbsp;
 
@@ -134,7 +134,7 @@ Thankfully most smartphone will force you off your favorite apps for you during 
 
 ### 6\. Take Advantage of Your Freedom and Flexibility
 
-![](/uploads/ebenezer-chelliah--hamopktunq-unsplash.jpg){: width="5472" height="3120"}
+&nbsp;
 
 Being a freelancer isn't always easy. There are lots of uncertain days, spotty wifi, and overbearing clients. But at the end of the day we've all started on this path because it lets us do whatever the hell we want. So take advantage\! If you want to take a Wednesday off to spend your day in the mountains. Do it\!&nbsp;
 

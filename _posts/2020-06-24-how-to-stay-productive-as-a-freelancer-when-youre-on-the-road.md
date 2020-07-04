@@ -142,6 +142,8 @@ Being a freelancer isn't always easy. There are lots of uncertain days, spotty w
 
 Your work will always be there, but time to have fun may not.&nbsp;
 
+[![](/uploads/screen-shot-2020-07-03-at-6-40-18-pm.png){: width="314" height="471"}](https://ar.pinterest.com/natasha_joann/){: target="_blank"}
+
 &nbsp;
 
 &nbsp;

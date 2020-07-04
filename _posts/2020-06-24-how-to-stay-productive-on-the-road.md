@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: How to Stay Productive on the Road
-featured_image: /uploads/untitled-design.gif
+featured_image: /images/tash-bali.jpg
 date: 2020-06-24 00:04:00
 ---
 
@@ -44,13 +44,13 @@ Look, everyone in the world will tell you the same thing: find a way to organize
 > 9:30am-11am: add content to new web pages for client Z
 >
 >
-> ...
+> …
 
 &nbsp;
 
 &nbsp;
 
-Not only does this help you keep track of how to space out your day, you will literally feel better every time you cross a task off your list. In fact, ***I'll even add in tasks I've already finished*** (make the bed, wipe down the counter...) because for some reason being able to see crossed off items *motivates me even more*.&nbsp;
+Not only does this help you keep track of how to space out your day, you will literally feel better every time you cross a task off your list. In fact, ***I'll even add in tasks I've already finished*** (make the bed, wipe down the counter…) because for some reason being able to see crossed off items *motivates me even more*.&nbsp;
 
 &nbsp;
 
@@ -94,7 +94,7 @@ Set times for yourself to get work done (I usually stick to a 9am-5pm schedule) 
 
 &nbsp;
 
-If you're an digital nomad and have clients on different time zones, try to put yourself on their workday schedule. I know some designers who stick to a New York time zone no matter where in the world they are--yes, even if it means waking up at 5am to "start the day".&nbsp;
+If you're an digital nomad and have clients on different time zones, try to put yourself on their workday schedule. I know some designers who stick to a New York time zone no matter where in the world they are–yes, even if it means waking up at 5am to "start the day".&nbsp;
 
 &nbsp;
 

@@ -231,8 +231,8 @@ a:hover{
   display:none !important;
 }
 
-div.wh-widget-send-button-wrapper div.wh-widget-send-button-wrapper-list>a.wh-widget-button div.wh-widget-button-icon.wh-messenger-bg-email {
-    background-color: #ffe08c;
+div.wh-widget-send-button-wrapper, div.wh-widget-send-button-wrapper-list>a.wh-widget-button, div.wh-widget-button-icon.wh-messenger-bg-email {
+    background-color: #ffe08c !important;
 }
 
 iframe{

@@ -235,6 +235,10 @@ div.wh-widget-send-button-wrapper, div.wh-widget-send-button-wrapper-list>a.wh-w
     background-color: #ffe08c !important;
 }
 
+div.wh-widget-send-button-wrapper{
+  background-color: #ffe08c !important;
+}
+
 iframe{
   background-image:none;
 }

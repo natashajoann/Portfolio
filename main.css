@@ -228,7 +228,7 @@ a:hover{
 
 
 .wh-widget-send-button-get-button{
-  display:none;
+  display:none !important;
 }
 
 iframe{

@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Easy CSS Tricks Every Web Developer Needs to Know
-featured_image: /uploads/here-is-an-element-with-lots-of-padding-green.gif
+featured_image: /uploads/ezgif-com-gif-maker-3.gif
 date: 2020-07-08 00:04:00
 ---
 

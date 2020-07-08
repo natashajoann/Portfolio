@@ -2,7 +2,7 @@
 layout: blog
 title: Easy CSS Tricks Every Web Developer Needs to Know
 featured_image: /uploads/here-is-an-element-with-lots-of-padding-green.gif
-date: 2020-06-24 00:04:00
+date: 2020-07-08 00:04:00
 ---
 
 Years into my own web design/development journey, I have to admit, I am always learning new css tricks. It seems like every day I stumble onto something new and exciting to add to the never-ending list of incredible online features.&nbsp;
@@ -35,7 +35,7 @@ You'll use a "." followed by a class to target the specific piece of code in you
 
 &nbsp;
 
-Next, you'll state a command--"property"--and how you want your code to present this property--"value".&nbsp;
+Next, you'll state a command–"property"–and how you want your code to present this property–"value".&nbsp;
 
 &nbsp;
 
@@ -128,7 +128,7 @@ For example, to change the background of your page you would write it as such:&n
 
 &nbsp;
 
-2\. Get Rid of Pesky Default Styling on Links
+### 2\. Get Rid of Pesky Default Styling on Links
 
 &nbsp;
 
@@ -294,7 +294,7 @@ For example, if I have a div I'm using for my services with a paragraph of text 
 > &lt;div class="services centered"&gt;
 >
 >
-> &lt;p&gt; Here is where my paragraph would go...&lt;/p&gt;
+> &lt;p&gt; Here is where my paragraph would go…&lt;/p&gt;
 >
 >
 > &lt;/div&gt;

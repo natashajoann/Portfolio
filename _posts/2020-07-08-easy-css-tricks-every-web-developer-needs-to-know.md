@@ -155,11 +155,13 @@ Target you all the links in your code (a), remove the underline using "text-deco
 
 &nbsp;
 
-3\. Adding in New Fonts
+### 3\. Adding in New Fonts
 
 &nbsp;
 
 There are two ways to add in a new font: the insanely straightforward way and a tricker but more flexible way.&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -190,6 +192,8 @@ Once you've imported the font, use the CSS rule provided in your stylesheet. It 
 >
 >
 > \}
+
+&nbsp;
 
 &nbsp;
 
@@ -343,7 +347,7 @@ To add a border, you just need to specify the thickness, the line style, and the
 
 &nbsp;
 
-Pro-Tip: you can also use RGB and hex codes for color here too\!
+*\-Pro-Tip*\: you can also use RGB and hex codes for color here too\!
 
 &nbsp;
 
@@ -351,11 +355,13 @@ Now, if you only want a border on the bottom you would specify your code like th
 
 &nbsp;
 
-div\{
-
-boder-bottom: 2px solid black;
-
-\}
+> div\{
+>
+>
+> border-bottom: 2px solid black;
+>
+>
+> \}
 
 &nbsp;
 
@@ -387,7 +393,7 @@ To add a background image to any element in your code, you will use the "backgro
 
 &nbsp;
 
-\-Pro-tip: want your image to be centered and non-repeating? Add:&nbsp;
+*\-Pro-tip*\: want your image to be centered and non-repeating? Add:&nbsp;
 
 &nbsp;
 

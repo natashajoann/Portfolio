@@ -607,6 +607,9 @@ hr{
 .contact-button{
   width:70% !important;
   border-radius: 3px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
 }
 
 form{

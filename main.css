@@ -594,9 +594,14 @@ hr{
 }
 
 .contact input, textarea{
-  width:70%;
+  width:100%;
   padding:5px;
   margin:5px 0;
+}
+
+.contact form{
+  width:80%;
+  margin:auto;
 }
 
 .contact-button{

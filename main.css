@@ -593,10 +593,15 @@ hr{
   padding:6rem;
 }
 
-input, textarea{
-  width:80%;
+.contact input, textarea{
+  width:70%;
   padding:5px;
   margin:5px 0;
+}
+
+.contact-button{
+  width:70% !important;
+  border-radius: 3px;
 }
 
 form{

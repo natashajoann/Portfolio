@@ -812,7 +812,7 @@ form{
   outline: 0;
   font-size: 15px;
   transition: .8s;
-    /* border-bottom: 3px solid #000; */
+  border-bottom: 3px solid #000;
   margin-bottom: 7px;
   width: 50%;
   margin: auto;
@@ -825,6 +825,7 @@ form{
 
 .active, .accordion:hover {
   color: #c9e1d8;
+  border-bottom: 3px solid #c9e1d8;
 }
 
 .accordion:after {
@@ -1155,57 +1156,8 @@ h3 {
 
 .media-img1, .media-img2, .media-img3, .media-img4{
   padding:1rem;
-  padding-bottom:3rem;
 }
 
-/* .media-img1{
-  background-image:url("/images/iocmattresscover.jpg");
-  background-size:cover;
-  background-position:center;
-  padding:8rem;
-}
-
-.media-img2{
-  background-image:url("/images/miikacover.jpg");
-  background-size:cover;
-  background-position:center;
-  padding:8rem;
-}
-
-.media-img3{
-  background-image:url("/images/phhcover.jpg");
-  background-size:cover;
-  background-position:center;
-  padding:8rem;
-}
-
-.media-img4{
-  background-image:url("/images/hlaycover.jpg");
-  background-size:cover;
-  background-position:center;
-  padding:8rem;
-}
-
-.media-img5{
-  background-image:url("/images/posebox-cover.png");
-  background-size:cover;
-  background-position:center;
-  padding:8rem;
-}
-
-.media-img6{
-  background-image:url("/images/chasecover.jpg");
-  background-size:cover;
-  background-position:center;
-  padding:8rem;
-}
-
-.media-img7{
-  background-image:url("/images/jesscover.jpg");
-  background-size:cover;
-  background-position:center;
-  padding:8rem;
-} */
 
 .web-dev h2{
   font-weight:400;
@@ -1510,9 +1462,7 @@ white-space: normal;
   padding:6rem;
 }
 
-.media-img2, .media-img3, .media-img4{
-  padding:1rem;
-}
+
 
 ul{
   padding-left:17px;
@@ -1920,6 +1870,13 @@ padding-left: 1rem;
 
 .featured2, .featured3{
   margin:10px 0;
+}
+
+.contact, .contact-form form{
+  padding:1rem;
+  width:90%;
+  margin:auto;
+  margin-bottom:5rem;
 }
 
 }

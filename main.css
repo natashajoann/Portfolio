@@ -1512,6 +1512,11 @@ ul{
   padding: 1rem 2rem 0;
 }
 
+/* Accordion */
+.accordion{
+  width:82%;
+}
+
 /* lightbox cols */
 
 [class*=grid-]>[class*=col-6], [class*=grid_]>[class*=col-6], [class~=grid]>[class*=col-6], [class*=grid-]>[class*=col-12], [class*=grid_]>[class*=col-12], [class~=grid]>[class*=col-12]{

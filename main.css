@@ -807,6 +807,10 @@ form{
 
 /* accordion */
 
+.web-accordion{
+  padding-bottom:3rem;
+}
+
 .accordion {
   background-color: #fff;
   cursor: pointer;

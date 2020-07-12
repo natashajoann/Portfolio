@@ -814,14 +814,15 @@ form{
   color: #c9e1d8;
 }
 
-.accordion:after {
+.accordion:before {
   content: '\002B';
   font-weight: bold;
   float: right;
   margin-left: 5px;
+  margin-top:-28px;
 }
 
-.active:after {
+.active:before {
   content: "\2212";
   color: #c9e1d8;
 }
@@ -1192,7 +1193,6 @@ h3 {
 } */
 
 .web-dev h2{
-  padding-bottom:30px;
   font-weight:400;
   font-size:30px;
 }

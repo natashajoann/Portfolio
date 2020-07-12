@@ -50,6 +50,10 @@ font-style: italic;
 .centered     { text-align: center; }
 .right        { text-align: right; }
 
+.italic{
+  font-style:italic;
+}
+
 .no-padding { padding: 0; }
 
 .padded-top-0{padding-top:0;}
@@ -785,6 +789,47 @@ form{
 
 .web-button:hover{
   color:#b5979b;
+}
+
+/* accordion */
+
+.accordion {
+  background-color:white;
+  cursor: pointer;
+  padding: 18px 18px 0;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.8s;
+  border-bottom: 3px solid black;
+  margin-bottom: 15px;
+}
+
+.active, .accordion:hover {
+  color: #c9e1d8;
+  border-bottom:3px solid #c9e1d8;
+}
+
+.accordion:after {
+  content: '\002B';
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+  color: #c9e1d8;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.9s ease-out;
 }
 
 

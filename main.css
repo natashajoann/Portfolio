@@ -800,6 +800,11 @@ form{
   color:#b5979b;
 }
 
+.web-intro{
+  width:70%;
+  margin:auto;
+}
+
 /* accordion */
 
 .accordion {
@@ -811,12 +816,12 @@ form{
   text-align: left;
   outline: 0;
   font-size: 15px;
-  transition: .8s;
-  border-bottom: 3px solid #000;
-  margin-bottom: 7px;
+  transition: .5s;
+  border-bottom: 3px solid white;
   width: 50%;
   margin: auto;
   text-align: center;
+    margin-bottom: 10px;
 }
 
 .accordion h2{
@@ -849,6 +854,7 @@ form{
   transition: max-height 0.9s ease-out;
   width:50%;
   margin:auto;
+  margin-bottom:6px !important;
 }
 
 
@@ -1167,9 +1173,7 @@ h3 {
 
 .web-dev div{
   text-align:center;
-  margin:auto;
-  /* padding:8px; */
-}
+  margin:auto;}
 
 .web-dev{
   background-color:white;
@@ -1475,6 +1479,11 @@ ul{
 
 .social-testimonial{
   padding: 1rem 2rem 0;
+}
+
+.web-intro{
+  width:100%;
+  margin:auto;
 }
 
 /* Accordion */

@@ -593,15 +593,24 @@ hr{
 
 /* Contact */
 
-.contact{
+.contact, .contact-form form{
   padding:6rem;
+  width: 60%;
+  margin: auto;
+  margin-bottom: 5rem;
 }
 
-.contact input, textarea{
-  width:100%;
-  padding:5px;
-  margin:5px 0;
+
+
+.contact-form input, textarea{
+width: 90%;
+border: none;
+padding: 10px 2px;
+margin: auto;
+margin-top: 4px;
+display: flex;
 }
+
 
 .contact form{
   width:80%;
@@ -1280,7 +1289,7 @@ background-color:#ffffff;
 
 
 input{
-  width:90%;
+  width: 90%;
 }
 
 .contact-button{

@@ -810,11 +810,15 @@ form{
   text-align: center;
 }
 
+.accordion h2{
+  padding-bottom:10px;
+}
+
 .active, .accordion:hover {
   color: #c9e1d8;
 }
 
-.accordion:before {
+.accordion:after {
   content: '\002B';
   font-weight: bold;
   float: right;
@@ -822,7 +826,7 @@ form{
   margin-top:-28px;
 }
 
-.active:before {
+.active:after {
   content: "\2212";
   color: #c9e1d8;
 }

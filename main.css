@@ -1201,7 +1201,7 @@ h3 {
 .web-dev div{
   text-align:center;
   margin:auto;
-  padding:8px;
+  /* padding:8px; */
 }
 
 .web-dev{

@@ -83,7 +83,7 @@ Now let's have some fun...
 > color: \#e5bc5c;
 >
 >
-> padding:3px;
+> padding:7px;
 >
 >
 > transition: 0.5s;
@@ -104,7 +104,7 @@ Now let's have some fun...
 > .button-style: hover\{
 >
 >
-> background-color: \#e5bc5c;
+> background-color:\#e5bc5c;
 >
 >
 > color: white;
@@ -420,3 +420,5 @@ Add in your hover styling:&nbsp;
 &nbsp;
 
 &nbsp;
+
+<div id="gtx-trans" style="position: absolute; left: 109px; top: 2757.52px;"><div class="gtx-trans-icon">&nbsp;</div></div>

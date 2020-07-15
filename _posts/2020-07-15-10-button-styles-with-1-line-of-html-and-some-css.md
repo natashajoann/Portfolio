@@ -2,7 +2,7 @@
 layout: blog
 title: 10 Button Styles With 1 Line of HTML and Some CSS
 featured_image: /uploads/ezgif-com-gif-maker-4.gif
-date: 2020-07-08 00:04:00
+date: 2020-07-15 00:04:00
 ---
 
 In a [previous post](https://natashaverdon.com/2020/07/08/easy-css-tricks-every-web-developer-needs-to-know.html){: target="_blank"}, I briefly mentioned a quick and easy CSS style (the Hover Effect) you could add to your links to make them stand out as clickable text.
@@ -47,7 +47,7 @@ Create your button and give it a class to target with CSS
 
 &nbsp;
 
-Now let's have some fun...
+Now let's have some fun…
 
 &nbsp;
 

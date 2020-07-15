@@ -552,6 +552,12 @@ Want to keep playing around with these styles? Check out [this CodePen](https://
 
 &nbsp;
 
+![](/uploads/screen-shot-2020-07-15-at-3-56-35-pm.png){: width="388" height="581"}
+
+&nbsp;
+
+&nbsp;
+
 Happy Coding\!
 
 &nbsp;

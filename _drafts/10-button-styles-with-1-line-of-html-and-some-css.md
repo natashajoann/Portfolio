@@ -300,7 +300,9 @@ I've come across plenty of versions of this same piece of code that have always 
 
 &nbsp;
 
-10\. Codepen button
+### 10\. Codepen button
+
+&nbsp;
 
 &nbsp;
 
@@ -308,7 +310,11 @@ This one starts off like button style 7 but then adds a bit more styling to make
 
 &nbsp;
 
+&nbsp;
+
 This particular style is a bit more complex than the others but it's worth playing around with to make it work. We're using hover, :after, and :before commands. the :before and :after will serve to add in the lines on top and below, and they will each need separate commands as well as additional hover commands.&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -356,13 +362,60 @@ Now we add in the preliminary hover commands:&nbsp;
 
 &nbsp;
 
-\*remember when I mentioned that you can add all kinds of fun feature
+\*remember when I mentioned that you can add all kinds of fun features to your transitions? Here's a prime example of that.&nbsp;
 
-.button-style9:after,.button-style9:before \{&nbsp; border: 1px solid rgba(250,250,250,0);&nbsp; content: " ";&nbsp; margin: 0 auto;&nbsp; transition: all 280ms ease-in-out;&nbsp; width: 0;\}
+&nbsp;
 
-.button-style9:hover:after,.button-style9:hover:before \{&nbsp; border: 1px solid blue;&nbsp; width: 70%; transition: width 0.5s ease-in-out;\}
+Now, we'll add the styling for your two before/after lines. One thing to note, make sure you create a transparent border of the same size your eventual lines will be. Without this border, when you hover over your cool button, it will shift your surrounding content as it makes space for the new border. Adding in this transparent border will give your hover a place to fill in without making everything else shift around.&nbsp;
 
-.button-style9:hover:before \{&nbsp; width: 70%;\}
+&nbsp;
+
+> .button-style9:after,.button-style9:before \{&nbsp;
+>
+>
+> border: 1px solid rgba(250,250,250,0);&nbsp;
+>
+>
+> content: " ";&nbsp;
+>
+>
+> margin: 0 auto;&nbsp;
+>
+>
+> transition: all 0.3s ease-in-out;&nbsp;
+>
+>
+> width: 0;\}
+
+&nbsp;
+
+&nbsp;
+
+Add in your hover styling:&nbsp;
+
+&nbsp;
+
+> .button-style9:hover:after, .button-style9:hover:before \{&nbsp;
+>
+>
+> border: 1px solid blue;&nbsp;
+>
+>
+> width: 70%;&nbsp;
+>
+>
+> transition: width 0.5s ease-in-out;
+>
+>
+> \}
+
+&nbsp;
+
+> .button-style9:hover:before \{&nbsp; width: 70%;\}
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 

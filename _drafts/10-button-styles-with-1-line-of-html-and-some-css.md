@@ -31,7 +31,7 @@ Create your button and give it a class to target with CSS
 
 &nbsp;
 
-One more thing I want to note, I add a transition property to ALL of my CSS properties so that they go into their effects more smoothly. The transition property is attached to your regular CSS command section, not the hover commands. You can add a whole slew of extra styling features but for the sake of this I'm gonna keep it simple. I sometimes will add a very slow transition so I can see what's happening, to do this just bump up your time so around 3 seconds. Otherwise, good time for transitions is around 0.3-0.8 second.&nbsp;
+***Pro-tip:*** I add a transition property to *ALL* of my CSS properties so that they go into their effects more smoothly. The transition property is attached to your regular CSS command section, not the hover commands. You can add a whole slew of extra styling features but for the sake of this I'm gonna keep it simple:
 
 &nbsp;
 
@@ -53,9 +53,39 @@ Now let's have some fun...
 
 &nbsp;
 
-1\. Color Hover Effect 2.0\*
+### 1\. Simple Underline Button
 
-\*you'll want to check out the linked post above to see the OG hover effect I used first.&nbsp;
+&nbsp;
+
+Target the border command to create an appearing/disappearing underline under your button. They key is to add in a transparent border in your regular CSS so that your content doesn't shift down when your hover border appears.&nbsp;
+
+&nbsp;
+
+#### The CSS:&nbsp;
+
+&nbsp;
+
+> .button-style\{
+>
+>
+> border-bottom: 2px solid rgba(250, 250, 250, 0);
+>
+>
+> \}
+
+&nbsp;
+
+#### The Hover Effect:&nbsp;
+
+&nbsp;
+
+> .button-style: hover\{
+>
+>
+> border-bottom: 2px solid \#E2B600;
+>
+>
+> \}
 
 &nbsp;
 
@@ -63,7 +93,7 @@ Now let's have some fun...
 
 &nbsp;
 
-### 2\.&nbsp; Bordered Button - filled and unfilled&nbsp;
+### 2\.&nbsp; Bordered Button&nbsp;
 
 &nbsp;
 
@@ -77,21 +107,18 @@ Now let's have some fun...
 > border: 1px solid \#e5bc5c;
 >
 >
-> width:30%;
->
->
 > color: \#e5bc5c;
 >
 >
 > padding:7px;
 >
 >
-> transition: 0.5s;
+> transition: 1s;
 >
 >
 > \}
 
-\*note: the width is totally adjustable, personally I like my buttons a bit smaller.&nbsp;
+&nbsp;
 
 &nbsp;
 
@@ -116,7 +143,7 @@ Now let's have some fun...
 
 &nbsp;
 
-### 3\. rounded button
+### 3\. Rounded
 
 &nbsp;
 
@@ -149,13 +176,13 @@ To get rounded edges on your element, you'll use "border-radius". No need to go 
 
 &nbsp;
 
-The Hover: see above.&nbsp;
+#### The Hover: see any of the above hover styles.&nbsp;
 
 &nbsp;
 
 &nbsp;
 
-### 4\. partial highlight change
+### 4\. Partial-Highlight + changing color hover
 
 &nbsp;
 
@@ -189,29 +216,33 @@ Your hover will use the exact same CSS just with a new background color.&nbsp;
 
 &nbsp;
 
-### 5\. change to uppercase&nbsp;
+### 5\. Sinking Button&nbsp;&nbsp;
 
 &nbsp;
 
-This is the easiest of easiest and requires just one line of CSS:
+Creating a sinking button effect is a lot easier than you would think. It's just a matter of aligning your colors properly.&nbsp;
 
 &nbsp;
 
-> .button-style\{
->
->
-> text-transform: uppercase;
->
->
-> \}
+Essentially, you will swap the colors from dark to light (except the border) and then add lighter shadows to the entire element and to the text.&nbsp;
 
-\*or try it with lowercase, italics, font-weight, or even changing the font altogether\!
+&nbsp;
+
+#### The CSS
+
+> .button-style5\{<br>&nbsp; border:2px solid \#c28e2f;<br>&nbsp; background-color:\#e3b053;<br>&nbsp; box-shadow: 1px 2px \#c28e2f;<br>&nbsp; color:white;<br>&nbsp; transition: 0.3s;<br>\}
+
+&nbsp;
+
+#### The Hover Effect
+
+> <br>.button-style5:hover\{<br>&nbsp; border: 2px solid \#c28e2f;<br>&nbsp; background-color: \#faebd0;<br>&nbsp; box-shadow: 1px 2px \#e7ddaf;<br>&nbsp; text-shadow: -1px -1px 0 \#c28e2f;<br>&nbsp; color: \#e7ddaf;<br>\}
 
 &nbsp;
 
 &nbsp;
 
-### 6\. box-shadow button
+### 6\. Box-shadow Button
 
 &nbsp;
 
@@ -274,7 +305,7 @@ This one is all about the hover. We're simply going to bump up the spacing betwe
 
 &nbsp;
 
-### 8\.&nbsp; display hidden icon on hover (like an arrow)
+### 8\.&nbsp; Display Hidden Icon on Hover
 
 &nbsp;
 
@@ -294,13 +325,41 @@ I've come across plenty of versions of this same piece of code that have always 
 
 &nbsp;
 
-9\.&nbsp;
+### 9\. Fill to the Right
+
+Now that we've conquered fills, transitions, and :after commands, let put them all together.&nbsp;
+
+&nbsp;
+
+#### Add in your button styling:&nbsp;
+
+&nbsp;
+
+> .button-style9\{<br>&nbsp; border: 2px solid \#333;<br>&nbsp; position: relative;<br>&nbsp; transition:.4s;<br>\}
 
 &nbsp;
 
 &nbsp;
 
-### 10\. Codepen button
+#### Create the filling effect with styling and coloring:&nbsp;
+
+&nbsp;
+
+> .button-style9:after\{<br>&nbsp; position: absolute;<br>&nbsp; content: "";<br>&nbsp; top: 0;<br>&nbsp; left: 0;<br>&nbsp; width: 0;<br>&nbsp; height: 100%;<br>&nbsp; background: \#ff003b;<br>&nbsp; transition: all .35s;<br>\}
+
+&nbsp;
+
+#### Pro-tip: make sure your fill takes up the space of the whole element by creating a width:&nbsp;
+
+&nbsp;
+
+> .button-style9:hover:after\{<br>&nbsp; width: 100%;<br>\}<br>&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+### 10\. Growing Borders
 
 &nbsp;
 
@@ -420,5 +479,3 @@ Add in your hover styling:&nbsp;
 &nbsp;
 
 &nbsp;
-
-<div id="gtx-trans" style="position: absolute; left: 109px; top: 2757.52px;"><div class="gtx-trans-icon">&nbsp;</div></div>

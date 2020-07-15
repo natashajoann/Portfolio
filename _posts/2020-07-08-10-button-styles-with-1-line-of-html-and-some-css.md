@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: 10 Button Styles With 1 Line of HTML and Some CSS
-featured_image: /uploads/ezgif-com-gif-maker-3.gif
+featured_image: /uploads/ezgif-com-gif-maker-4.gif
 date: 2020-07-08 00:04:00
 ---
 
@@ -57,6 +57,10 @@ Now let's have some fun...
 
 &nbsp;
 
+![](/uploads/1-1.png){: width="500" height="500"}
+
+&nbsp;
+
 Target the border command to create an appearing/disappearing underline under your button. They key is to add in a transparent border in your regular CSS so that your content doesn't shift down when your hover border appears.&nbsp;
 
 &nbsp;
@@ -94,6 +98,10 @@ Target the border command to create an appearing/disappearing underline under yo
 &nbsp;
 
 ### 2\.&nbsp; Bordered Button&nbsp;
+
+&nbsp;
+
+![](/uploads/2-1.png){: width="500" height="500"}
 
 &nbsp;
 
@@ -147,6 +155,10 @@ Target the border command to create an appearing/disappearing underline under yo
 
 &nbsp;
 
+![](/uploads/3.png){: width="500" height="500"}
+
+&nbsp;
+
 To get rounded edges on your element, you'll use "border-radius". No need to go too big with your value, a small number like 5px will work great\!
 
 &nbsp;
@@ -186,6 +198,10 @@ To get rounded edges on your element, you'll use "border-radius". No need to go 
 
 &nbsp;
 
+![](/uploads/4.png){: width="500" height="500"}
+
+&nbsp;
+
 Remember [this tutorial on creating partial highlights](https://natashaverdon.com/2020/06/19/add-a-partial-highlight-to-your-titles.html){: target="_blank"}? This trick also works great as a button style\! Add a color-based hover effect to indicate to your audience that it's a clickable button:&nbsp;
 
 &nbsp;
@@ -222,6 +238,10 @@ Your hover will use the exact same CSS just with a new background color.&nbsp;
 
 &nbsp;
 
+![](/uploads/5.png){: width="500" height="500"}
+
+&nbsp;
+
 Creating a sinking button effect is a lot easier than you would think. It's just a matter of aligning your colors properly.&nbsp;
 
 &nbsp;
@@ -249,6 +269,10 @@ Essentially, you will swap the colors from dark to light (except the border) and
 &nbsp;
 
 ### 6\. Box-shadow Button
+
+&nbsp;
+
+![](/uploads/6.png){: width="500" height="500"}
 
 &nbsp;
 
@@ -297,6 +321,10 @@ Add a retro box-shadow to your button then use a hover effect to change the colo
 
 &nbsp;
 
+![](/uploads/7.png){: width="500" height="500"}
+
+&nbsp;
+
 This one is all about the hover. We're simply going to bump up the spacing between letters:
 
 &nbsp;
@@ -319,6 +347,10 @@ This one is all about the hover. We're simply going to bump up the spacing betwe
 
 &nbsp;
 
+![](/uploads/8.png){: width="500" height="500"}
+
+&nbsp;
+
 I've come across plenty of versions of this same piece of code that have always seemed a bit too complicated for what it is\! I'm dialing it way back with this CSS trick by just adding in arrows (*using the code "\\00bb"*) and the *":after"* effect. This will add in a new child element at the end of your parent element. That's it\! One line of code.&nbsp;
 
 &nbsp;
@@ -338,6 +370,12 @@ I've come across plenty of versions of this same piece of code that have always 
 &nbsp;
 
 ### 9\. Fill to the Right
+
+&nbsp;
+
+![](/uploads/9.png){: width="500" height="500"}
+
+&nbsp;
 
 Now that we've conquered fills, transitions, and :after commands, let put them all together.&nbsp;
 
@@ -382,6 +420,10 @@ Now that we've conquered fills, transitions, and :after commands, let put them a
 &nbsp;
 
 ### 10\. Growing Borders
+
+&nbsp;
+
+![](/uploads/10.png){: width="500" height="500"}
 
 &nbsp;
 
@@ -506,6 +548,14 @@ Now, we'll add the styling for your two before/after lines. One thing to note, m
 
 &nbsp;
 
-&nbsp;
+Want to keep playing around with these styles? Check out [this CodePen](https://codepen.io/natashajoann/live/OJMoYYg){: target="_blank"} and try them out for yourself\!
 
 &nbsp;
+
+Happy Coding\!
+
+&nbsp;
+
+X
+
+Tash

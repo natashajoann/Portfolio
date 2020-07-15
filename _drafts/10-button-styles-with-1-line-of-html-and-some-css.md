@@ -176,7 +176,7 @@ To get rounded edges on your element, you'll use "border-radius". No need to go 
 
 &nbsp;
 
-#### The Hover: see any of the above hover styles.&nbsp;
+#### The Hover: see any of the above hover styles or keep on reading for some cool filling options.&nbsp;&nbsp;
 
 &nbsp;
 
@@ -187,6 +187,8 @@ To get rounded edges on your element, you'll use "border-radius". No need to go 
 &nbsp;
 
 Remember [this tutorial on creating partial highlights](https://natashaverdon.com/2020/06/19/add-a-partial-highlight-to-your-titles.html){: target="_blank"}? This trick also works great as a button style\! Add a color-based hover effect to indicate to your audience that it's a clickable button:&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -234,9 +236,13 @@ Essentially, you will swap the colors from dark to light (except the border) and
 
 &nbsp;
 
+&nbsp;
+
 #### The Hover Effect
 
 > <br>.button-style5:hover\{<br>&nbsp; border: 2px solid \#c28e2f;<br>&nbsp; background-color: \#faebd0;<br>&nbsp; box-shadow: 1px 2px \#e7ddaf;<br>&nbsp; text-shadow: -1px -1px 0 \#c28e2f;<br>&nbsp; color: \#e7ddaf;<br>\}
+
+&nbsp;
 
 &nbsp;
 
@@ -249,6 +255,8 @@ Essentially, you will swap the colors from dark to light (except the border) and
 Add a retro box-shadow to your button then use a hover effect to change the color of the button or even just the shadow\!
 
 #### &nbsp;
+
+&nbsp;
 
 #### The CSS
 
@@ -293,6 +301,8 @@ This one is all about the hover. We're simply going to bump up the spacing betwe
 
 &nbsp;
 
+&nbsp;
+
 > .button-style:hover\{
 >
 >
@@ -310,6 +320,8 @@ This one is all about the hover. We're simply going to bump up the spacing betwe
 &nbsp;
 
 I've come across plenty of versions of this same piece of code that have always seemed a bit too complicated for what it is\! I'm dialing it way back with this CSS trick by just adding in arrows (*using the code "\\00bb"*) and the *":after"* effect. This will add in a new child element at the end of your parent element. That's it\! One line of code.&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -331,7 +343,11 @@ Now that we've conquered fills, transitions, and :after commands, let put them a
 
 &nbsp;
 
+&nbsp;
+
 #### Add in your button styling:&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -345,11 +361,17 @@ Now that we've conquered fills, transitions, and :after commands, let put them a
 
 &nbsp;
 
+&nbsp;
+
 > .button-style9:after\{<br>&nbsp; position: absolute;<br>&nbsp; content: "";<br>&nbsp; top: 0;<br>&nbsp; left: 0;<br>&nbsp; width: 0;<br>&nbsp; height: 100%;<br>&nbsp; background: \#ff003b;<br>&nbsp; transition: all .35s;<br>\}
 
 &nbsp;
 
+&nbsp;
+
 #### Pro-tip: make sure your fill takes up the space of the whole element by creating a width:&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -360,8 +382,6 @@ Now that we've conquered fills, transitions, and :after commands, let put them a
 &nbsp;
 
 ### 10\. Growing Borders
-
-&nbsp;
 
 &nbsp;
 
@@ -404,6 +424,8 @@ Adding in "flex-direction:column" will keep your pretty lines from becoming two 
 
 &nbsp;
 
+&nbsp;
+
 Now we add in the preliminary hover commands:&nbsp;
 
 &nbsp;
@@ -425,7 +447,11 @@ Now we add in the preliminary hover commands:&nbsp;
 
 &nbsp;
 
+&nbsp;
+
 Now, we'll add the styling for your two before/after lines. One thing to note, make sure you create a transparent border of the same size your eventual lines will be. Without this border, when you hover over your cool button, it will shift your surrounding content as it makes space for the new border. Adding in this transparent border will give your hover a place to fill in without making everything else shift around.&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -450,7 +476,9 @@ Now, we'll add the styling for your two before/after lines. One thing to note, m
 
 &nbsp;
 
-Add in your hover styling:&nbsp;
+#### Add in your hover styling:&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -467,6 +495,8 @@ Add in your hover styling:&nbsp;
 >
 >
 > \}
+
+&nbsp;
 
 &nbsp;
 

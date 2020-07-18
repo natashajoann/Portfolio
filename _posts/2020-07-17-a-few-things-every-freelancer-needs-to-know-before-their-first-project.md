@@ -2,10 +2,10 @@
 layout: blog
 title: A Few Things Every Freelancer Needs to Know Before Their First Project
 featured_image: /uploads/ian-dooley-hpth5b6mo2s-unsplash.jpg
-date: 2020-07-15 00:04:00
+date: 2020-07-17 00:04:00
 ---
 
-As you start off on your digital nomad journey, there are tons and tons of articles and blog posts covering the basics: how to find the best places to work (stand outside a cafe and check your phone for their wifi name before going in), top destinations for freelancers, where to find work online (for the love of god, get the hell off of UpWork and try networking instead--it makes ALL the difference), what to pack in your bag, etc.
+As you start off on your digital nomad journey, there are tons and tons of articles and blog posts covering the basics: how to find the best places to work (stand outside a cafe and check your phone for their wifi name before going in), top destinations for freelancers, where to find work online (for the love of god, get the hell off of UpWork and try networking instead–it makes ALL the difference), what to pack in your bag, etc.
 
 &nbsp;
 
@@ -25,7 +25,7 @@ But if there are any things you can do right straight off the bat, it's these fo
 
 &nbsp;
 
-I can't tell you how many times I've started a stopwatch on my phone, forgotten about it for 3 days, gone back and had no idea when I started, what I was working on, or how long it took. Ask any freelancer out there--we've all been there. Instead, find a FREE online service that not only tracks your work schedule, but offers tools to track your time and tag your activities. My personal fave? [And.Co](https://www.and.co/){: target="_blank"} . While they will continuously promote their Pro-features, their free account does the trick. (note: it's tempting to want to upgrade and access their invoicing services but I'd rather use [this invoice generator](https://invoice-generator.com/){: target="_blank"}&nbsp;for FREE). Plus, you can even download your timesheet onto a handy-dandy spreadsheet to share with clients who insist on reviewing your hours and work summary.&nbsp;
+I can't tell you how many times I've started a stopwatch on my phone, forgotten about it for 3 days, gone back and had no idea when I started, what I was working on, or how long it took. Ask any freelancer out there–we've all been there. Instead, find a FREE online service that not only tracks your work schedule, but offers tools to track your time and tag your activities. My personal fave? [And.Co](https://www.and.co/){: target="_blank"} . While they will continuously promote their Pro-features, their free account does the trick. (note: it's tempting to want to upgrade and access their invoicing services but I'd rather use [this invoice generator](https://invoice-generator.com/){: target="_blank"}&nbsp;for FREE). Plus, you can even download your timesheet onto a handy-dandy spreadsheet to share with clients who insist on reviewing your hours and work summary.&nbsp;
 
 &nbsp;
 
@@ -35,11 +35,11 @@ I can't tell you how many times I've started a stopwatch on my phone, forgotten 
 
 ![@_jopaterson](/uploads/img-7855.jpeg "@_jopaterson"){: width="828" height="728"}
 
-### Stay organized from the beginning...without paying for any online services.&nbsp;
+### Stay organized from the beginning…without paying for any online services.&nbsp;
 
 &nbsp;
 
-Anyone else been confused by the complexity of Notion.io or frustrated with Asana boards?&nbsp; Instead try...&nbsp;
+Anyone else been confused by the complexity of Notion.io or frustrated with Asana boards?&nbsp; Instead try…&nbsp;
 
 &nbsp;
 
@@ -61,11 +61,11 @@ Organization is key. Before starting on any project, set up a folder dedicated t
 
 ![@littlegemstudio](/uploads/70840880-145936006661499-769916762110363447-n.jpg "@littlegemstudio"){: width="740" height="740"}
 
-### Stop Fussing over your portfolio...
+### Stop Fussing over your portfolio…
 
 &nbsp;
 
-I have re-built this website over 5x. In fact, most times after I finish a project I think of new ways I can update my site. Hell--when I first started building it, it took me almost 6 months to finally take the plunge and just launch it\!&nbsp;
+I have re-built this website over 5x. In fact, most times after I finish a project I think of new ways I can update my site. Hell–when I first started building it, it took me almost 6 months to finally take the plunge and just launch it\!&nbsp;
 
 &nbsp;
 
@@ -87,7 +87,7 @@ I'm embarrassed to say, it has taken me two years to finally figure out what I s
 
 &nbsp;
 
-*What does maintenance mean? How many alterations would I offer per maintenance period? How many files per alteration? *
+\*What does maintenance mean? How many alterations would I offer per maintenance period? How many files per alteration? \*
 
 &nbsp;
 

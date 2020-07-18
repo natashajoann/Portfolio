@@ -79,8 +79,6 @@ I always found reasons to hold off, update, re-make and re-structure my portfoli
 
 &nbsp;
 
-*\*plus, if you're not sure where to start with your portfolio? [Send me a message](https://natashaverdon.com/contact){: target="_blank"}, I'm always happy to help\!*
-
 &nbsp;
 
 &nbsp;
@@ -89,19 +87,29 @@ I always found reasons to hold off, update, re-make and re-structure my portfoli
 
 &nbsp;
 
-I'm embarrassed to say it has taken me two years to finally figure out what I should and shouldn't put in my client contracts. It wasn't until a few months ago that someone finally asked me, "what services do you NOT offer as part of your monthly maintenance?" It was something I had never considered.
+Just like time-tracking and invoicing, there are a billion resources for building your contract. Basically it goes something like, services + scope + relevant parties = contract. But there is not drop-down menu or text box for limitations on project scope. What won't you include as part of your services?&nbsp;
 
 &nbsp;
 
-*What does maintenance mean? How many alterations would I offer per maintenance period? How many files per alteration?&nbsp;*
+Now, you don't necessarily need to write in what you *will* *not* offer, but defining this for yourself will help you communicate what you *can and will* offer as part of your services.&nbsp;
 
 &nbsp;
 
-These were all things *I* knew but my client did not.
+*For example, as part of my web development services I offer 3 free alterations/month. This includes small updates ranging from changing font-types to uploading new files (7 files per alteration, actually). However, alterations do not cover any new pages or full-page re-designs. Nor do they include blog posts (since this is something my client can do themselves).&nbsp;*
 
 &nbsp;
 
-Set limits for your projects, define late-payment fees, determine what deliverables clients can use without paying for licensing, etc. &nbsp;And for the love of god, make sure they sign and return the contract ***before*** you start anything at all.&nbsp;
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 

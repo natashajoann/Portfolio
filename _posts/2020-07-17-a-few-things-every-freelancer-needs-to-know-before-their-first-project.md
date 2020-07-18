@@ -19,7 +19,7 @@ But if there are any things you can do right straight off the bat, it's these fo
 
 &nbsp;
 
-![](/uploads/catclock.gif){: width="326" height="480"}
+&nbsp;
 
 ### Find a reliable time-tracker AND STICK TO IT
 
@@ -61,10 +61,6 @@ Organization is key. Before starting on any project, set up a folder dedicated t
 
 &nbsp;
 
-![](/uploads/screen-shot-2020-07-17-at-7-08-01-pm.png){: width="432" height="431"}
-
-@littlegemstudio
-
 &nbsp;
 
 ### Stop Fussing over your portfolio…
@@ -73,13 +69,15 @@ Organization is key. Before starting on any project, set up a folder dedicated t
 
 I have re-built this website over 5x. In fact, most times after I finish a project I think of new ways I can update my site. Hell–when I first started building it, it took me almost 6 months to finally take the plunge and just launch it\!&nbsp;
 
-&nbsp;
-
 I always found reasons to hold off, update, re-make and re-structure my portfolio but at the end of the day I had to decide: launch the site and see what happens, or keep putting it off&nbsp; and miss ALL potential for new clients. Which one would you choose?
 
 &nbsp;
 
 &nbsp;
+
+&nbsp;
+
+![](/uploads/screen-shot-2020-07-17-at-7-08-01-pm.png){: width="432" height="431"}@littlegemstudio
 
 &nbsp;
 

@@ -89,7 +89,7 @@ I always found reasons to hold off, update, re-make and re-structure my portfoli
 
 &nbsp;
 
-I'm embarrassed to say, it has taken me two years to finally figure out what I should and shouldn't put in my client contracts. It wasn't until a few months ago that someone finally asked me, "what services do you NOT offer as part of your monthly maintenance?" It was something I had never considered.
+I'm embarrassed to say it has taken me two years to finally figure out what I should and shouldn't put in my client contracts. It wasn't until a few months ago that someone finally asked me, "what services do you NOT offer as part of your monthly maintenance?" It was something I had never considered.
 
 &nbsp;
 

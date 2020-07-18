@@ -31,9 +31,11 @@ I can't tell you how many times I've started a stopwatch on my phone, forgotten 
 
 &nbsp;
 
-&nbsp;
+![](/uploads/screen-shot-2020-07-17-at-7-08-17-pm.png){: width="313" height="275"}
 
-![@_jopaterson](/uploads/img-7855.jpeg "@_jopaterson"){: width="828" height="728"}
+@\_jopaterson
+
+&nbsp;
 
 ### Stay organized from the beginning…without paying for any online services.&nbsp;
 
@@ -59,7 +61,11 @@ Organization is key. Before starting on any project, set up a folder dedicated t
 
 &nbsp;
 
-![@littlegemstudio](/uploads/70840880-145936006661499-769916762110363447-n.jpg "@littlegemstudio"){: width="740" height="740"}
+![](/uploads/screen-shot-2020-07-17-at-7-08-01-pm.png){: width="432" height="431"}
+
+@littlegemstudio
+
+&nbsp;
 
 ### Stop Fussing over your portfolio…
 

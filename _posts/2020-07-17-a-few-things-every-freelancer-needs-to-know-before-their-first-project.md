@@ -97,7 +97,7 @@ I'm embarrassed to say it has taken me two years to finally figure out what I sh
 
 &nbsp;
 
-These were all things *I* knew but my client did not. If I couldn't communicate them well, they would take advantage of my services.&nbsp;
+These were all things *I* knew but my client did not.
 
 &nbsp;
 

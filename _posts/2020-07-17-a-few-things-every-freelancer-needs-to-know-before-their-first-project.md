@@ -77,6 +77,8 @@ I always found reasons to hold off, update, re-make and re-structure my portfoli
 
 &nbsp;
 
+&nbsp;
+
 ![](/uploads/screen-shot-2020-07-17-at-7-08-01-pm.png){: width="432" height="431"}@littlegemstudio
 
 &nbsp;

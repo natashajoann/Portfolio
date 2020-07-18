@@ -93,7 +93,7 @@ I'm embarrassed to say it has taken me two years to finally figure out what I sh
 
 &nbsp;
 
-\*What does maintenance mean? How many alterations would I offer per maintenance period? How many files per alteration? \*
+*What does maintenance mean? How many alterations would I offer per maintenance period? How many files per alteration?&nbsp;*
 
 &nbsp;
 

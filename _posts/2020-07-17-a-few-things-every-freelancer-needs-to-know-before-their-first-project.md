@@ -85,7 +85,7 @@ I always found reasons to hold off, update, re-make and re-structure my portfoli
 
 &nbsp;
 
-### Think about what you WON'T do when you're writing your contract
+### Think about what kind of work you WON'T do when writing your contract
 
 &nbsp;
 

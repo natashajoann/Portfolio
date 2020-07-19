@@ -79,7 +79,7 @@ I always found reasons to hold off, update, re-make and re-structure my portfoli
 
 &nbsp;
 
-![](/uploads/screen-shot-2020-07-17-at-7-08-01-pm.png){: width="432" height="431"}@littlegemstudio
+![](/uploads/screen-shot-2020-07-17-at-7-08-01-pm.png){: width="432" height="431"}
 
 &nbsp;
 
@@ -87,7 +87,7 @@ I always found reasons to hold off, update, re-make and re-structure my portfoli
 
 &nbsp;
 
-Just like time-tracking and invoicing, there are a billion resources for building your contract. Basically it goes something like, services + scope + relevant parties = contract. But there is not drop-down menu or text box for limitations on project scope. What won't you include as part of your services?&nbsp;
+Just like time-tracking and invoicing, there are a billion resources for building your contract. Basically it goes something like, services + scope + relevant parties = contract. But there is no drop-down menu or text box for limitations on project scope. What won't you include as part of your services?&nbsp;
 
 &nbsp;
 
@@ -95,11 +95,31 @@ Now, you don't necessarily need to write in what you *will* *not* offer, but def
 
 &nbsp;
 
-*For example, as part of my web development services I offer 3 free alterations/month. This includes small updates ranging from changing font-types to uploading new files (7 files per alteration, actually). However, alterations do not cover any new pages or full-page re-designs. Nor do they include blog posts (since this is something my client can do themselves).&nbsp;*
+*For example, as part of my web development services I offer 3 free alterations/month. This includes small updates ranging from changing font-types to uploading new files (7 files per alteration, actually). However, alterations do not cover any new pages or full-page re-designs. Nor do they include blog posts (since this is something my client can do themselves). I also note that I only allow 2 web design revisions before moving onto the build and 2 revisions post-build. If clients want more changes after their revisions are completed, they will have to accept the additional charges.&nbsp;*
+
+&nbsp;
+
+Knowing this and adding a small disclaimer into my contracts protects me from being pushed towards doing extra work I would usually charge for--and in fact it even lets me charge for it instead\! Plus, it helps get your clients a bit more organized and focused on the final outcome instead of "seeing how it goes".&nbsp;
 
 &nbsp;
 
 &nbsp;
+
+Alright. Now, the rest is up to you. And remember, you will make mistakes. But then you will learn from them and no matter what, you will survive them. What are you waiting for?
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+Illustrations by:&nbsp;
+
+&nbsp;
+
+@\_jopaterson
+
+@littlegemstudio
 
 &nbsp;
 

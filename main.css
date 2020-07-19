@@ -594,8 +594,8 @@ hr{
 /* Contact */
 
 .contact, .contact-form form{
-  padding:6rem;
-  width: 60%;
+  padding:3rem;
+  width: 70%;
   margin: auto;
   margin-bottom: 5rem;
 }
@@ -845,10 +845,10 @@ form{
   margin-top:-28px;
 }
 
-.active:after {
+/* .active:after {
   content: "\2212";
   color: #c9e1d8;
-}
+} */
 
 .panel {
   padding: 0 18px;
@@ -1181,7 +1181,7 @@ h3 {
 
 .web-dev{
   background-color:white;
-  padding:4rem;
+  padding:2rem;
 }
 
 
@@ -1335,10 +1335,12 @@ input{
   position:relative;
 }
 
-.
+.nav-title img{
+  width:40%;
+}
 
 .mobile-title{
-  display:block;
+  display:block !important;
 }
 
 .burger-button {
@@ -1433,7 +1435,7 @@ white-space: normal;
 }
 
 
-.social-media, .web-dev{
+.social-media{
   padding:0rem;
   padding-top:4rem;
 }

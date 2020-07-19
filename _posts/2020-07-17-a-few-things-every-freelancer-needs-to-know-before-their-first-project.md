@@ -99,7 +99,7 @@ Now, you don't necessarily need to write in what you *will* *not* offer, but def
 
 &nbsp;
 
-Knowing this and adding a small disclaimer into my contracts protects me from being pushed towards doing extra work I would usually charge for--and in fact it even lets me charge for it instead\! Plus, it helps get your clients a bit more organized and focused on the final outcome instead of "seeing how it goes".&nbsp;
+Knowing this and adding a small disclaimer into my contracts protects me from being pushed towards doing extra work I would usually charge for--and in fact it even lets me charge for it instead\! Plus, it helps get your clients a bit more organized before you jump into a project instead of "seeing how it goes" AKA clients not having any content ready for months or wanting complete re-designs of pages you spend hours building.&nbsp;
 
 &nbsp;
 

@@ -310,6 +310,8 @@ iframe{
 .nav-left{
   text-align:right;
     margin-top: 4rem;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .nav-right{

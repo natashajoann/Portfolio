@@ -808,6 +808,16 @@ form{
   margin:auto;
 }
 
+.web-faq{
+  margin: auto;
+    margin-top: 5rem;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 6vh;
+}
+
 /* accordion */
 
 .web-accordion{

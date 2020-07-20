@@ -229,7 +229,7 @@ a:hover{
 
 .dropdown:hover .dropdown-content {
   display: block;
-  width: 53%;
+  width: 200px;
   right: 0;
 }
 

@@ -297,8 +297,9 @@ iframe{
 
 
 
-.nav-menu a{
+.nav-menu a, button{
   color:#4a4a4a;
+  margin:0 5px;
 
 }
 
@@ -1190,7 +1191,7 @@ h3 {
 
 .web-dev div{
   text-align:center;
-  
+
 }
 
 .web-dev{

@@ -49,21 +49,27 @@ This is the ideal opportunity to transform a negative experience with a positive
 
 &nbsp;
 
-### What kinds of things can you add to your 404 page—other than just a huge 404 sign?
-
-&nbsp;
-
-\- A link to your services page
-
-\- A good CTA that inspires them to reach out and inquire about a product or service
-
-\- Links to your top blog posts (maybe one with an opt-in incentive list included?)
-
-\- Links to popular products or upcoming events
-
-\- A newsletter or event signup bar
-
-\- Downloadable content (like, oh I don't know, a design guide that includes 404 page designs)
+> ### What kinds of things can you add to your 404 page—other than just a huge 404 sign?
+>
+> &nbsp;
+>
+>
+> \- A link to your services page
+>
+>
+> \- A good CTA that inspires them to reach out and inquire about a product or service
+>
+>
+> \- Links to your top blog posts (maybe one with an opt-in incentive list included?)
+>
+>
+> \- Links to popular products or upcoming events
+>
+>
+> \- A newsletter or event signup bar
+>
+>
+> \- Downloadable content (like, oh I don't know, a design guide that includes 404 page designs)
 
 &nbsp;
 

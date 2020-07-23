@@ -1,8 +1,8 @@
 ---
 layout: blog
 title: Don't Forget This Important Page When Building Your Next Website
-featured_image: /uploads/ian-dooley-hpth5b6mo2s-unsplash.jpg
-date: 2020-07-17 00:04:00
+featured_image: /uploads/christina-wocintechchat-com-2jddn7isgh8-unsplash.jpg
+date: 2020-07-23 00:04:00
 ---
 
 ![](/uploads/404gif.mov)Contact page? Check.&nbsp;

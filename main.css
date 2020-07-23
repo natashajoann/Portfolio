@@ -156,8 +156,8 @@ html{
 /* Button Styles */
 
 .button-fill{
-  border: 2px solid #E2B600;
-  color:#E2B600;
+  background-color:#718b82;
+  color:white;
   position: relative;
   transition:.4s;
   padding:5px 7px;
@@ -171,8 +171,8 @@ html{
   left: 0;
   width: 0;
   height: 100%;
-  background: linear-gradient( to right, #E2B600, #e7cf7f, #ede0b3, #f6efd8);
-  transition: all .5s;
+  background-color:#c2d8c8;
+  transition: all .4s;
 }
 
 .button-fill span{
@@ -181,7 +181,7 @@ html{
 }
 
 .button-fill span:hover{
-  color:black;
+  color:white;
 }
 
 .button-fill:hover:after{

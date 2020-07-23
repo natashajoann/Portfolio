@@ -178,6 +178,7 @@ html{
 .button-fill span{
   position: relative;
   z-index: 2;
+  padding:5px;
 }
 
 .button-fill span:hover{
@@ -457,9 +458,6 @@ iframe{
   padding-bottom:3rem;
 }
 
-.blog a: hover{
-  color: #FBC931;
-}
 
 /* blog fixed-background */
 

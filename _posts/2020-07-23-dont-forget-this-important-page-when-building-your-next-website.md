@@ -80,6 +80,8 @@ Need a bit of inspiration to get your 404 page design started?&nbsp;[Click here]
 
 &nbsp;
 
+[![](/uploads/screen-shot-2020-07-23-at-4-53-31-pm.png){: width="386" height="583"}](https://ar.pinterest.com/natasha_joann/)
+
 Happy Coding\!
 
 &nbsp;

@@ -49,11 +49,7 @@ This is the ideal opportunity to transform a negative experience with a positive
 
 &nbsp;
 
-Round out your branding with a spot-on message that will have your audience sending messages to their friends about your great 404 page\!&nbsp;
-
-&nbsp;
-
-So to all you devs out there, I urge you, DO NOT SKIP THIS ONE\! And if you need a bit of inspiration to get your 404 page design started, click here and check out this board filled to the brim with brilliant 404 page designs\!
+Need a bit of inspiration to get your 404 page design started?&nbsp;[Click here](https://ar.pinterest.com/natasha_joann/amazing-404-page-designs/){: target="_blank" rel="noopener"} and check out this board filled to the brim with brilliant 404 page designs\!
 
 &nbsp;
 

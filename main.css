@@ -758,6 +758,10 @@ form{
   background-color: white;
 }
 
+.web-links a{
+  position:relative;
+}
+
 .go-back a{
   font-size:21px;
 }
@@ -1222,6 +1226,8 @@ h3 {
 .media-img1, .media-img2, .media-img3, .media-img4{
   padding:1rem;
 }
+
+.
 
 
 .web-dev h2{

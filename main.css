@@ -442,9 +442,15 @@ iframe{
   min-height:300px;
 }
 
-.blog-loop-background, .blog-loop-info h3, .blog-loop-info p {
+.blog-loop-background, .blog-loop-info p {
   width: 80%;
   margin:auto;
+}
+
+.blog-loop-info h3{
+  width:65%;
+  margin:auto;
+  padding-top:20px;
 }
 
 .blog-loop-info{

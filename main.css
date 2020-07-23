@@ -174,7 +174,12 @@ html{
   transition: all .5s;
 }
 
-.button-fill a:hover{
+.button-fill span{
+  position: relative;
+  z-index: 2;
+}
+
+.button-fill span:hover{
   color:black;
 }
 

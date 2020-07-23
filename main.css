@@ -153,6 +153,30 @@ html{
   padding:0;
 }
 
+/* Button Styles */
+
+.button-fill{
+  border: 2px solid #E2B600;
+  color:#E2B600;
+  position: relative;
+  transition:.4s;
+}
+
+.button-fill:after{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #f5e39682;
+  transition: all .35s;
+}
+
+.button-fill:hover:after{
+  width: 100%;
+}
+
 /* nav  */
 
 

@@ -21,7 +21,7 @@ A current blog + plenty of SEO key terms? Check, check, check.
 
 &nbsp;
 
-![](/uploads/404gif-1.mov)
+![](/uploads/ezgif-com-video-to-gif.gif){: width="600" height="369"}![](/uploads/404gif-1.mov)
 
 &nbsp;
 
@@ -45,11 +45,11 @@ It takes less than 1 second for someone to decide if they like your website or n
 
 &nbsp;
 
-This is the ideal opportunity to share more information and inspire a potential lead\! If your people are already familiar with your product, then maybe this is a great space to promote specific packages/courses/events\! My own website houses a handful of links that points potential clients in the right direction (AKA, "click here and let's start building your amazing website\!").
+This is the ideal opportunity to transform a negative experience with a positive one\! What's more, here is your chance to inspire a potential lead with great content. Maybe this is a great space to promote specific packages/courses/events. My own website houses a handful of links that points potential clients in the direction I want them to go in (AKA, "click here and let's start building your amazing website\!").
 
 &nbsp;
 
-And while your at it, take this opportunity to round out your branding with a spot-on message that will have your audience sending messages to their friends about your great 404 page\!&nbsp;
+Round out your branding with a spot-on message that will have your audience sending messages to their friends about your great 404 page\!&nbsp;
 
 &nbsp;
 

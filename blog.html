@@ -7,12 +7,14 @@ title: blog
   <h1 class="col-12 centered margin-bottom"> All Blog Posts </h1>
 
   {% for post in site.posts %}
-    <a href="{{post.url}}" class="col-6_sm-12 post-preview">
+    <div class="col-6_sm-12 post-preview">
       <div class="blog-loop-background" style="background-image:url({{post.featured_image}})">
       </div>
       <div class="blog-loop-info centered">
         <h3> {{post.title}}</h3>
+        <br>
+        <a href="{{post.url}}" class="button-fill"> Read More </a>
       </div>
-    </a>
+    </div>
   {% endfor %}
 </section>

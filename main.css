@@ -161,6 +161,7 @@ html{
   position: relative;
   transition:.4s;
   padding:5px 7px;
+  border-radius:4px;
 }
 
 .button-fill:after{

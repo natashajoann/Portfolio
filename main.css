@@ -88,6 +88,10 @@ li{
   background-position: center;
 }
 
+.mobile-display{
+  display:none;
+}
+
 h1, a, h2{
   font-family: futura-pt, sans-serif;
 }

@@ -1425,6 +1425,10 @@ margin:auto;
   width:40%;
 }
 
+.mobile-display{
+  display:block;
+}
+
 .mobile-title{
   display:block !important;
 }
@@ -1639,7 +1643,7 @@ width:100%;
 }
 
 .media-side-img{
-  display:none;
+  order:-1;
 }
 
 

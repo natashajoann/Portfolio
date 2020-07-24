@@ -586,6 +586,12 @@ hr{
   color:#F8F4F0;
 }
 
+.overlay h3{
+  margin:auto;
+  width:80%;
+  text-align:right;
+}
+
 .overlay{
   position: absolute;
     height: 100%;

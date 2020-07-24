@@ -915,13 +915,17 @@ form{
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.9s ease-out;
-  width:50%;
+  width:70%;
   margin:auto;
   margin-bottom:6px !important;
 }
 
 
 /* Media*/
+
+.social-accordion{
+  padding-left:3rem;
+}
 
 
 .media-title{

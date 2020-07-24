@@ -1376,6 +1376,10 @@ margin:auto;
     padding-right:15px;
   }
 
+  .featured-title{
+    order:-1;
+  }
+
   .social-media div{
     margin:auto;
     margin-left:0;

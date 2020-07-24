@@ -758,7 +758,7 @@ form{
   background-color: white;
 }
 
-.web-links img{
+.web-links a{
   position:relative;
 }
 
@@ -1223,11 +1223,11 @@ h3 {
   font-size:30px;
 }
 
-.media-img1, .media-img2, .media-img3, .media-img4{
+/* .media-img1, .media-img2, .media-img3, .media-img4{
   padding:1rem;
-}
+} */
 
-.
+
 
 
 .web-dev h2{

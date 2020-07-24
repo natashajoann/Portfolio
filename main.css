@@ -662,6 +662,10 @@ margin-top: 4px;
 display: flex;
 }
 
+textarea{
+  padding:10px 2px 300px;
+}
+
 
 .contact form{
   width:80%;

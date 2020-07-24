@@ -663,7 +663,8 @@ display: flex;
 }
 
 textarea{
-  padding:10px 2px 300px;
+  padding:10px 2px 150px;
+  resize:none;
 }
 
 

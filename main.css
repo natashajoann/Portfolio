@@ -958,6 +958,14 @@ form{
   background-color:white;
 }
 
+.social-accordion{
+  position:relative;
+}
+
+.fixed{
+  position:absolute;
+}
+
 .social-media nav a {
   display:inline-block;
   text-decoration: none;

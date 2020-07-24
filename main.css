@@ -812,7 +812,7 @@ form{
     margin-top: 2.75rem;
 }
 
-.service-info a{
+/* .service-info a{
   border:1px solid black;
   padding:5px;
 }
@@ -820,7 +820,7 @@ form{
 .service-info a:hover{
   border:1px solid #f9c947;
   color: #f9c947;
-}
+} */
 
 .service-info p{
   width:70%;

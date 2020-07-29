@@ -453,9 +453,10 @@ iframe{
 }
 
 .blog-loop-info h3{
-  width:65%;
-  margin:auto;
-  padding-top:20px;
+  width: 80%;
+  margin: auto;
+  padding-top: 20px;
+  font-size: 20px;
 }
 
 .blog-loop-info{

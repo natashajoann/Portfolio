@@ -232,7 +232,7 @@ And remember, for the love of all that is good, DO NOT start your project until 
 
 &nbsp;
 
-Ready to build your contract? [***Click here***](https://mailchi.mp/ecef0b1f1c9c/contract-collector){: target="_blank" rel="noopener"} to snag your contract download\!
+Ready to build your contract? [***Click here***](https://mailchi.mp/31ae55be54bd/contract-builder){: target="_blank" rel="noopener"} to snag your contract download\!
 
 x
 

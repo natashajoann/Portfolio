@@ -193,6 +193,14 @@ html{
   width: 100%;
 }
 
+/* announcement */
+
+.announcement{
+  padding:20px;
+  width:100%;
+  background-color:#d9efe9;
+}
+
 /* nav  */
 
 

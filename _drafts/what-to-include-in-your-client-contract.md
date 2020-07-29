@@ -13,7 +13,7 @@ Sadly, contracts also tend to make that list.
 
 &nbsp;
 
-Over time all of us have felt backed into a corner or taken advantage of by clients wanting to get more than originally bargained more. Sometimes clients just fail to...pay on time? Other times they'll ask for 10 additional revisions when normally you only offer 3? These are all things to consider before sending in your contract.&nbsp;
+Over time all of us have felt backed into a corner or taken advantage of by clients wanting to get more than originally bargained more. Sometimes clients just fail to…pay on time? Other times they'll ask for 10 additional revisions when normally you only offer 3? These are all things to consider before sending in your contract.&nbsp;
 
 &nbsp;
 
@@ -120,7 +120,7 @@ Tash"
 
 &nbsp;
 
-Along those lines...
+Along those lines…
 
 &nbsp;
 
@@ -189,13 +189,13 @@ Define a minimum amount of time they have to announce they will no longer be req
 > &nbsp;
 >
 >
-> Either Party may terminate this Agreement at any time, with or without cause, upon 14 days written notice...&nbsp;
+> Either Party may terminate this Agreement at any time, with or without cause, upon 14 days written notice…&nbsp;
 >
 >
 > &nbsp;
 >
 >
-> ...If this Agreement is terminated earlier by Client without cause, Client agrees to pay Contractor any and all sums which are due and payable for: (i) services provided as of the date of termination; and (ii) expenses already incurred, including those from documented non-cancelable commitments. Failure to provide proper notice of termination will result in a termination fee of one billing period of bi-weekly or monthly hourly rate.&nbsp; Contractor agrees to use the best efforts to minimize such costs and expenses.
+> …If this Agreement is terminated earlier by Client without cause, Client agrees to pay Contractor any and all sums which are due and payable for: (i) services provided as of the date of termination; and (ii) expenses already incurred, including those from documented non-cancelable commitments. Failure to provide proper notice of termination will result in a termination fee of one billing period of bi-weekly or monthly hourly rate.&nbsp; Contractor agrees to use the best efforts to minimize such costs and expenses.
 >
 >
 > &nbsp;
@@ -218,7 +218,11 @@ I mentioned before in one of my posts, consider the things you wouldn't want you
 
 Then, for the love of all that is good, DO NOT start your project until you have a nice client signature on your contract\!
 
-&nbsp;
+ADD TO CODE:
+
+&lt;\!-- Begin Mailchimp Signup Form --&gt;<br>&lt;link href="//cdn-images.mailchimp.com/embedcode/classic-10\_7.css" rel="stylesheet" type="text/css"&gt;<br>&lt;style type="text/css"&gt;<br>&nbsp;&nbsp; &nbsp;\#mc\_embed\_signup\{background:\#fff; clear:left; font:14px Helvetica,Arial,sans-serif; \}<br>&nbsp;&nbsp; &nbsp;/\* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.<br>&nbsp;&nbsp; &nbsp; &nbsp; We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. \*/<br>&lt;/style&gt;<br>&lt;div id="mc\_embed\_signup"&gt;<br>&lt;form action="https://natashaverdon.us10.list-manage.com/subscribe/post?u=ca53903035e98efb63de0ca4d&amp;id=154e6903d5" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="\_blank" novalidate&gt;<br>&nbsp; &nbsp; &lt;div id="mc\_embed\_signup\_scroll"&gt;<br>&nbsp;&nbsp; &nbsp;&lt;h2&gt;Sign up below to get a contract sent right to your inbox\!&lt;/h2&gt;<br>&lt;div class="indicates-required"&gt;&lt;span class="asterisk"&gt;\*&lt;/span&gt; indicates required&lt;/div&gt;<br>&lt;div class="mc-field-group"&gt;<br>&nbsp;&nbsp; &nbsp;&lt;label for="mce-FNAME"&gt;First Name &lt;/label&gt;<br>&nbsp;&nbsp; &nbsp;&lt;input type="text" value="" name="FNAME" class="" id="mce-FNAME"&gt;<br>&lt;/div&gt;<br>&lt;div class="mc-field-group"&gt;<br>&nbsp;&nbsp; &nbsp;&lt;label for="mce-EMAIL"&gt;Email Address &nbsp;&lt;span class="asterisk"&gt;\*&lt;/span&gt;<br>&lt;/label&gt;<br>&nbsp;&nbsp; &nbsp;&lt;input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL"&gt;<br>&lt;/div&gt;<br>&lt;div class="mc-field-group"&gt;<br>&nbsp;&nbsp; &nbsp;&lt;label for="mce-group\[17161\]"&gt;I want to get... &lt;/label&gt;<br>&nbsp;&nbsp; &nbsp;&lt;select name="group\[17161\]" class="REQ\_CSS" id="mce-group\[17161\]"&gt;<br>&nbsp;&nbsp; &nbsp;&lt;option value=""&gt;&lt;/option&gt;<br>&nbsp;&nbsp; &nbsp;&lt;option value="1"&gt;A Fill In Contract&lt;/option&gt;
+
+&nbsp;&nbsp; &nbsp;&lt;/select&gt;<br>&lt;/div&gt;<br>&nbsp;&nbsp; &nbsp;&lt;div id="mce-responses" class="clear"&gt;<br>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&lt;div class="response" id="mce-error-response" style="display:none"&gt;&lt;/div&gt;<br>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&lt;div class="response" id="mce-success-response" style="display:none"&gt;&lt;/div&gt;<br>&nbsp;&nbsp; &nbsp;&lt;/div&gt; &nbsp; &nbsp;&lt;\!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups--&gt;<br>&nbsp; &nbsp; &lt;div style="position: absolute; left: -5000px;" aria-hidden="true"&gt;&lt;input type="text" name="b\_ca53903035e98efb63de0ca4d\_154e6903d5" tabindex="-1" value=""&gt;&lt;/div&gt;<br>&nbsp; &nbsp; &lt;div class="clear"&gt;&lt;input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"&gt;&lt;/div&gt;<br>&nbsp; &nbsp; &lt;/div&gt;<br>&lt;/form&gt;<br>&lt;/div&gt;<br>&lt;script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'&gt;&lt;/script&gt;&lt;script type='text/javascript'&gt;(function($) \{window.fnames = new Array(); window.ftypes = new Array();fnames\[1\]='FNAME';ftypes\[1\]='text';fnames\[0\]='EMAIL';ftypes\[0\]='email';fnames\[3\]='ADDRESS';ftypes\[3\]='address';fnames\[4\]='PHONE';ftypes\[4\]='phone';\}(jQuery));var $mcj = jQuery.noConflict(true);&lt;/script&gt;<br>&lt;\!--End mc\_embed\_signup--&gt;
 
 &nbsp;
 

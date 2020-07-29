@@ -230,6 +230,9 @@ I mentioned before in one of my posts, consider the things you wouldn't want you
 
 And remember, for the love of all that is good, DO NOT start your project until you have a nice client signature on your contract\! Without it, you and your work are completely vulnerable–yes, even if you've known your "client" for year and trust them to be good people because you know what? Most people suck at some point or another.
 
+&nbsp;
+
+Ready to build your contract? [***Click here***](https://mailchi.mp/ecef0b1f1c9c/contract-collector){: target="_blank" rel="noopener"} to snag your contract download\!
 
 x
 

@@ -1,0 +1,15 @@
+p.callout {
+  border: 1px solid #417bfd;
+  border-radius: 3px;
+  padding: 10px 15px;
+  background-color: #edf1ff;
+}
+
+strong.warning-text {
+  color: red;
+}
+
+h2 {
+  font-family: Helvetica, sans-serif;
+  font-weight: 300;
+}

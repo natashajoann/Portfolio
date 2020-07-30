@@ -5,6 +5,9 @@ description:
 featured_image: /uploads/flavia-carpio-p3pfi8thbus-unsplash.jpg
 author: Natasha Joann
 date: 2001-08-12 00:00:00
+_options:
+  content:
+    styles: /css/editor.css
 ---
 
 \*originally written for and posted on [Zocalo Public Square](https://www.zocalopublicsquare.org/2015/08/12/bogota-my-home-away-from-home/chronicles/where-i-go/){: target="_blank"}

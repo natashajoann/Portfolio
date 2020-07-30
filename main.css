@@ -418,7 +418,15 @@ iframe{
 
 /* Blog */
 
+.index-blog h1{
+  font-size:20px;
+}
 
+.index-blog{
+  padding:4rem;
+  background-color: DAABB9;
+  color:white;
+}
 
 .blog{
   padding:4rem;

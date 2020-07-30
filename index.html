@@ -113,3 +113,18 @@ title: Natasha Joann
 </div>
 
   </section>
+
+  <section class="grid index-blog">
+    <h1 class="centered col-12"> Hot Off The Press </h1>
+
+    {% for post in site.posts limit:3 %}
+      <div class="col-4_sm-12 post-preview">
+        <div class="blog-loop-background" style="background-image:url({{post.featured_image}})">
+        </div>
+        <div class="blog-loop-info centered">
+          <h1> {{post.title}}</h1>
+          <br>
+          <a href="{{post.url}}" class="button-fill"><span> Read More</span> </a>
+        </div>
+      </div>
+    {% endfor %}

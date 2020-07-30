@@ -119,18 +119,18 @@ title: Natasha Joann
 
     {% for post in site.posts limit:3 %}
       <div class="col-4_sm-12 post-preview">
-        <div class="blog-loop-background" style="background-image:url({{post.featured_image}})">
+        <div class="blog-loop-background index-blog-img" style="background-image:url({{post.featured_image}})">
         </div>
         <div class="blog-loop-info centered">
-          <h1> {{post.title}}</h1>
+          <h3> {{post.title}}</h3>
           <br>
-          <a href="{{post.url}}" class="button-fill"><span> Read More</span> </a>
+          <a href="{{post.url}}" class="button-spread"><span> Read More</span> </a>
         </div>
       </div>
     {% endfor %}
 
-    <div class="col-12 read-all">
-      <a href="/blog" class="button-fill"><span> See All Posts </span></a>
+    <div class="col-12 read-all centered">
+      <a href="/blog" class="button-fill-second"><span> See All Posts </span></a>
     </div>
 
   </section>

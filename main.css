@@ -239,7 +239,7 @@ html{
 .announcement{
   padding:10px;
   width:100%;
-  background-color:#d9efe9;
+  background-color:#E07A5F;
   color:#494949;
 }
 
@@ -461,14 +461,14 @@ iframe{
 
 .index-blog h1{
   font-size: 46px;
-margin-bottom: 20px;
+  margin-bottom: 20px;
+  color:white;
 
 }
 
 .index-blog{
   padding:4rem;
-  background-color: #DAABB9;
-  color:white;
+  background-color: #E07A5F;
   justify-content: center;
 }
 

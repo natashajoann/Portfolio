@@ -203,12 +203,13 @@ html{
 }
 
 .button-fill-second{
-  background-color:#c2d8c8;
-  color:white;
+  background-color:#fffff9;
+  color:#f9c947;
   position: relative;
   transition:.4s;
-  padding:5px 7px;
-  border-radius:4px;
+  padding: 13px 48px;
+  border-radius: 4px;
+  font-size: 20px;
 }
 
 .button-fill-second:after{
@@ -218,7 +219,7 @@ html{
   left: 0;
   width: 0;
   height: 100%;
-  background-color:#b3c8c0;
+  background-color:#f9c947;
   transition: all .4s;
   border-radius:4px;
 }
@@ -241,7 +242,7 @@ html{
 .announcement{
   padding:10px;
   width:100%;
-  background-color:#E07A5F;
+  background-color:#f9ede5;
   color:#494949;
 }
 
@@ -464,13 +465,12 @@ iframe{
 .index-blog h1{
   font-size: 46px;
   margin-bottom: 20px;
-  color:white;
 
 }
 
 .index-blog{
   padding:4rem;
-  background-color: #E07A5F;
+  background-color: #f9ede5;
   justify-content: center;
 }
 

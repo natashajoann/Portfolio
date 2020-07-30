@@ -1629,6 +1629,10 @@ white-space: normal;
   position:relative;
 }
 
+.social-accordion{
+  padding-left:0;
+}
+
 .web-title, .media-title, .blog-title{
   margin-top: 0rem;
   padding-bottom:2rem;
@@ -1664,7 +1668,7 @@ ul{
 
 /* Accordion */
 .accordion{
-  width:82%;
+  width:90%;
 }
 
 .panel{

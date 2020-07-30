@@ -1625,8 +1625,8 @@ white-space: normal;
   margin-bottom:20px;
 }
 
-.web-dev{
-  padding-left: 0rem;
+.web-accordion{
+  position:relative;
 }
 
 .web-title, .media-title, .blog-title{

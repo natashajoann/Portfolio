@@ -177,6 +177,7 @@ html{
   height: 100%;
   background-color:#c2d8c8;
   transition: all .4s;
+  border-radius:4px;
 }
 
 .button-fill span{
@@ -219,6 +220,7 @@ html{
   height: 100%;
   background-color:#b3c8c0;
   transition: all .4s;
+  border-radius:4px;
 }
 
 .button-fill-second span{

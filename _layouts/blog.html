@@ -27,10 +27,11 @@ layout: default
     <div class="col-4_sm-12 post-preview">
       <div class="blog-loop-background" style="background-image:url({{post.featured_image}})">
         </div>
-      <a href="{{post.url}}" class="post-info">
+      <div class="post-info">
         <div class="blog-loop-info">
           <h3> {{post.title}}</h3>
         </div>
+      <a href="{{post.url}}" class="button-spread"> Read More
       </a>
   </div>
   {% endfor %}

@@ -4,6 +4,9 @@ p.partial-highlight-mint{
   width: fit-content;
 }
 
+p.mint{
+  color:#d5efe0;
+}
 
 
 p.yellow{
@@ -23,9 +26,7 @@ h4.yellow{
   color:#f9c947;
 }
 
-p.mint{
-  color:#d5efe0;
-}
+
 
 img.one-third {
   display: inline-block;

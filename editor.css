@@ -6,11 +6,11 @@ p.callout {
 }
 
 p.partial-highlight-mint{
-  background: linear-gradient(white 17%,#d5efe0 0%, #d5efe0 60%, #d5efe0 80%, white 25%);
+  background: linear-gradient(white 62%,#d5efe0 0,#d5efe0 39%,#d5efe0 80%);
 }
 
 
-p.yellow{
+p.yellow, h2.yellow, h3.yellow, h4.yellow{
   color:#f9c947;
 }
 

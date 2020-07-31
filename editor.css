@@ -5,14 +5,10 @@ p.callout {
   background-color: #edf1ff;
 }
 
-strong.warning-text {
-  color: red;
+.partial-highlight-mint{
+  background: linear-gradient(white 17%,#d5efe0 0%, #d5efe0 60%, #d5efe0 80%, white 25%);
 }
 
-h2 {
-  font-family: Helvetica, sans-serif;
-  font-weight: 300;
-}
 
 .yellow{
   color:#f9c947;

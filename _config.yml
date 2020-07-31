@@ -1,0 +1,52 @@
+_options:
+  heading_html:
+    format: p h1 h2 h3 h4 h5 h6
+    bold: true
+    italic: true
+    underline: true
+    right: align-to-right
+    center: align-to-center
+    left: align-to-left
+    styles: /assets/editor.css
+  body-content_html:
+    blockquote: true
+    horizontalrule: true
+    format: p h1 h2 h3 h4 h5 h6
+    bold: true
+    italic: true
+    numberedlist: true
+    embed: true
+    link: true
+    undo: true
+    redo: true
+    underline: true
+    strike: true
+    image: true
+    bulletedlist: true
+    right: align-to-right
+    center: align-to-center
+    left: align-to-left
+    styles: /assets/editor.css
+  content:
+    blockquote: true
+    horizontalrule: true
+    format: p h1 h2 h3 h4 h5 h6
+    bold: true
+    italic: true
+    numberedlist: true
+    code: true
+    table: true
+    right: align-to-right
+    center: align-to-center
+    left: align-to-left
+    embed: true
+    link: true
+    undo: true
+    redo: true
+    underline: true
+    strike: true
+    image: true
+    bulletedlist: true
+    styles: /assets/editor.css
+  embed-code_html:
+    embed: true

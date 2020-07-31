@@ -13,10 +13,12 @@ date: 2001-08-12 00:00:00
 &nbsp;
 {: .clear-images-paragraph}
 
-<span class="yellow">After finishing</span> seventh grade, I found myself at the Tom Bradley International Terminal at LAX, where my mother put me on a plane headed to Bogot&aacute;, Colombia.
-{: .mint}
+### <span class="yellow">After finishing</span> seventh grade, I found myself at the Tom Bradley International Terminal at LAX, where my mother put me on a plane headed to Bogot&aacute;, Colombia.
+{: .yellow}
 
-![](/uploads/tash-tacos.jpg){: .float-right width="900" height="1125"}
+&nbsp;
+
+![](/uploads/tash-tacos.jpg){: .float-left width="900" height="1125"}
 
 It wasn’t as crazy as it might sound. I was a blonde, fair-skinned California girl, daughter of a Colombian mother and an American father, with a very superficial understanding of my mother’s culture and language. The plan was for me to spend six months in Bogot&aacute; with my Aunt Olga, learn Spanish, and then return home to finish the year at my French school in Los Angeles.
 

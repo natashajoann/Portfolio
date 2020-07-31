@@ -7,9 +7,10 @@ author: Natasha Joann
 date: 2001-08-12 00:00:00
 ---
 
-\*originally written for and posted on [Zocalo Public Square](https://www.zocalopublicsquare.org/2015/08/12/bogota-my-home-away-from-home/chronicles/where-i-go/){: target="_blank"}
+<span class="partial-highlight-mint">*originally written for and posted on <a target="_blank" href="https://www.zocalopublicsquare.org/2015/08/12/bogota-my-home-away-from-home/chronicles/where-i-go/">Zocalo Public Square</a></span>
 
 &nbsp;
+{: .clear-images-paragraph}
 
 After finishing seventh grade, I found myself at the Tom Bradley International Terminal at LAX, where my mother put me on a plane headed to Bogot&aacute;, Colombia.
 
@@ -27,7 +28,7 @@ I arrived at El Dorado airport in Bogot&aacute; on a Sunday in early August 2009
 
 &nbsp;
 
-It was the perfect opportunity to see the city I would call home for the next few months. And it dispelled any lingering misconceptions I might have carried from America. For hours, we rode through the brick jungle that is Bogot&aacute;: from our quiet neighborhood in Puente Largo to the small park on 93rd Street, where people relaxed on the lush green grass. We rode up along&nbsp;[La Carrera S&eacute;ptima](https://en.wikipedia.org/wiki/Carrera_S%C3%A9ptima_&#40;Bogot%C3%A1&#41;), where old buildings sat sandwiched between newer modern ones. We passed through the Plaza Bol&iacute;var, where in the weeks and months ahead I would return often to drink traditional Colombian hot chocolate next to the old Primatial Cathedral of Bogot&aacute; and the Palace of Justice, which had suffered damage from riots many years before.
+It was the perfect opportunity to see the city I would call home for the next few months. And it dispelled any lingering misconceptions I might have carried from America. For hours, we rode through the brick jungle that is Bogot&aacute;: from our quiet neighborhood in Puente Largo to the small park on 93rd Street, where people relaxed on the lush green grass. We rode up along&nbsp;[La Carrera Séptima](https://en.wikipedia.org/wiki/Carrera_S%C3%A9ptima_&#40;Bogot%C3%A1&#41;), where old buildings sat sandwiched between newer modern ones. We passed through the Plaza Bol&iacute;var, where in the weeks and months ahead I would return often to drink traditional Colombian hot chocolate next to the old Primatial Cathedral of Bogot&aacute; and the Palace of Justice, which had suffered damage from riots many years before.
 
 &nbsp;
 

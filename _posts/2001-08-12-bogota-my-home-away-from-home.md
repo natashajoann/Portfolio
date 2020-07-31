@@ -18,7 +18,7 @@ date: 2001-08-12 00:00:00
 
 &nbsp;
 
-![](/uploads/tash-tacos.jpg){: .float-right width="900" height="1125"}
+![](/uploads/tash-tacos.jpg){: .float-left width="900" height="1125"}
 
 It wasn’t as crazy as it might sound. I was a blonde, fair-skinned California girl, daughter of a Colombian mother and an American father, with a very superficial understanding of my mother’s culture and language. The plan was for me to spend six months in Bogot&aacute; with my Aunt Olga, learn Spanish, and then return home to finish the year at my French school in Los Angeles.
 

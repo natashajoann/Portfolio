@@ -5,15 +5,15 @@ p.callout {
   background-color: #edf1ff;
 }
 
-.partial-highlight-mint{
+span.partial-highlight-mint{
   background: linear-gradient(white 17%,#d5efe0 0%, #d5efe0 60%, #d5efe0 80%, white 25%);
 }
 
 
-.yellow{
+h2.yellow, h3.yellow, h4.yellow, p.yellow{
   color:#f9c947;
 }
 
-.mint{
+h2.mint, h3.mint, h4.mint, p.mint{
   color:#d5efe0;
 }

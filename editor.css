@@ -1,9 +1,3 @@
-p.callout {
-  border: 1px solid #417bfd;
-  border-radius: 3px;
-  padding: 10px 15px;
-  background-color: #edf1ff;
-}
 
 p.partial-highlight-mint{
   background: linear-gradient(white 62%,#d5efe0 0,#d5efe0 39%,#d5efe0 80%);
@@ -16,9 +10,10 @@ p.yellow{
   color:#f9c947;
 }
 
- h2.yellow{
+
+h2.yellow{
    color:#f9c947;
- }
+}
 
 h3.yellow{
   color:#f9c947;

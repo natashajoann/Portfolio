@@ -47,6 +47,6 @@ _options:
     strike: true
     image: true
     bulletedlist: true
-    styles: /assets/editor.css
+    styles: editor.css
   embed-code_html:
     embed: true

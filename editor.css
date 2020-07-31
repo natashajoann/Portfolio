@@ -48,12 +48,14 @@ img.one-half {
 
 img.float-left {
   max-width:50%;
+  max-height:50%;
   float: left;
   margin: 0 2rem 0.5rem 0 !important;
 }
 
 img.float-right {
   max-width:50%;
+  max-height:50%;
   float: right;
   margin: 0 0 0.5rem 2rem !important;
 }

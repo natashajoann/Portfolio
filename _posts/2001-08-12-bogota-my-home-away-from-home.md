@@ -8,6 +8,7 @@ date: 2001-08-12 00:00:00
 ---
 
 <span class="partial-highlight-mint">*originally written for and posted on <a target="_blank" href="https://www.zocalopublicsquare.org/2015/08/12/bogota-my-home-away-from-home/chronicles/where-i-go/">Zocalo Public Square</a></span>
+{: .partial-highlight-mint}
 
 &nbsp;
 {: .clear-images-paragraph}

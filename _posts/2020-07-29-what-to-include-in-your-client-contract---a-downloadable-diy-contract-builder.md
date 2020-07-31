@@ -1,5 +1,5 @@
 ---
-layout: blog-embedded
+layout: blog
 title: >-
   What to Include in Your Client Contract  ( + a downloadable DIY contract
   builder!)

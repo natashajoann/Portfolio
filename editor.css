@@ -10,7 +10,19 @@ p.partial-highlight-mint{
 }
 
 
-p.yellow, h2.yellow, h3.yellow, h4.yellow{
+p.yellow{
+  color:#f9c947;
+}
+
+ h2.yellow{
+   color:#f9c947;
+ }
+
+h3.yellow{
+  color:#f9c947;
+}
+
+h4.yellow{
   color:#f9c947;
 }
 

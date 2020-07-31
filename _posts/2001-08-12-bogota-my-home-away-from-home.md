@@ -13,8 +13,10 @@ date: 2001-08-12 00:00:00
 &nbsp;
 {: .clear-images-paragraph}
 
-<span class="yellow">After finishing</span> seventh grade, I found myself at the Tom Bradley International Terminal at LAX, where my mother put me on a plane headed to Bogot&aacute;, Colombia.
-{: .mint}
+### <span class="yellow">After finishing</span> seventh grade, I found myself at the Tom Bradley International Terminal at LAX, where my mother put me on a plane headed to Bogot&aacute;, Colombia.
+{: .yellow}
+
+&nbsp;
 
 ![](/uploads/tash-tacos.jpg){: .float-right width="900" height="1125"}
 

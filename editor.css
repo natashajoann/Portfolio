@@ -5,12 +5,12 @@ p.callout {
   background-color: #edf1ff;
 }
 
-span.partial-highlight-mint{
+p.partial-highlight-mint{
   background: linear-gradient(white 17%,#d5efe0 0%, #d5efe0 60%, #d5efe0 80%, white 25%);
 }
 
 
-span.yellow{
+p.yellow{
   color:#f9c947;
 }
 

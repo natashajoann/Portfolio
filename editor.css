@@ -31,31 +31,31 @@ h4.yellow{
 img.one-third {
   display: inline-block;
   width: calc(33% - 1rem);
-  margin: 0.5rem;
+  margin: 0.5rem !important;
 }
 
 img.two-thirds {
   display: inline-block;
   width: calc(66% - 1rem);
-  margin: 0.5rem;
+  margin: 0.5rem !important;
 }
 
 img.one-half {
   display: inline-block;
   width: calc(50% - 1rem);
-  margin: 0.5rem;
+  margin: 0.5rem !important;
 }
 
 img.float-left {
   max-width:50%;
   float: left;
-  margin: 0 2rem 0.5rem 0;
+  margin: 0 2rem 0.5rem 0 !important;
 }
 
 img.float-right {
   max-width:50%;
   float: right;
-  margin: 0 0 0.5rem 2rem;
+  margin: 0 0 0.5rem 2rem !important;
 }
 
 img.small-centered {

@@ -10,11 +10,11 @@ span.partial-highlight-mint{
 }
 
 
-h2.yellow, h3.yellow, h4.yellow, p.yellow{
+span.yellow{
   color:#f9c947;
 }
 
-h2.mint, h3.mint, h4.mint, p.mint{
+p.mint{
   color:#d5efe0;
 }
 

@@ -7,7 +7,9 @@ p.callout {
 
 p.partial-highlight-mint{
   background: linear-gradient(white 62%,#d5efe0 0,#d5efe0 39%,#d5efe0 80%);
+  width: fit-content;
 }
+
 
 
 p.yellow{

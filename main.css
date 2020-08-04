@@ -157,6 +157,10 @@ html{
   padding:0;
 }
 
+.justify{
+  justify-content:center;
+}
+
 /* Button Styles */
 
 .button-fill{

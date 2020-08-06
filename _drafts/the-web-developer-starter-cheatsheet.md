@@ -18,7 +18,7 @@ By now you should know that HTML controls the foundation, skeleton, and content 
 
 &nbsp;
 
-Let's take it back a bit and start the build from the bottom up.&nbsp; Here are my top tips and "to-dos" but fear not, I've created an entire cheatsheet with whole slew of helpful content, html breakdowns, and css tricks\!&nbsp;&nbsp;
+Let's take it back a bit and start the build from the bottom up.&nbsp; Here are my top tips and "to-dos" but fear not, I've created an entire cheatsheet with whole slew of helpful content, html breakdowns, and css tricks\!
 
 &nbsp;
 

@@ -14,7 +14,6 @@ By now you should know that HTML controls the foundation, skeleton, and content 
 &nbsp;
 
 *\*If you're just starting off, take a look at places like Skillshare, where there are tons of great guides and tutorials to get you started\!\**
-{: .yellow}
 
 &nbsp;
 
@@ -25,7 +24,6 @@ Let's take it back a bit and start the build from the bottom up.&nbsp; Here are 
 &nbsp;
 
 **Outline and break down your wireframe (link to mine)**
-{: .partial-highlight-mint}
 
 &nbsp;
 
@@ -46,7 +44,6 @@ After I have all my design files ready to use (hex codes, images, fonts, spacing
 &nbsp;
 
 **Brainstorm your classes**
-{: .partial-highlight-mint}
 
 &nbsp;
 
@@ -69,7 +66,6 @@ Remember that helpful cheatsheet I mentioned? It's also got all the helper class
 &nbsp;
 
 **Know which values, elements, and properties to target**
-{: .partial-highlight-mint}
 
 &nbsp;
 
@@ -77,7 +73,7 @@ Padding, margins, borders, elements, divs, sections, textareas…the web dev jar
 
 &nbsp;
 
-Knowing what&nbsp; values target and how to target them helps you to avoid redundancy and ensures your code is displaying exactly the way you want it to. In other words, instead of having:
+Knowing what properties to target and how to target them helps you to avoid redundancy and ensures your code is displaying exactly the way you want it to. In other words, instead of having:
 
 &nbsp;
 
@@ -114,8 +110,7 @@ All this to say: make sure you know which property is doing the job you want don
 
 &nbsp;
 
-### 1\. the order of your commands
-{: .yellow}
+### 1\. The Order of Command:
 
 > CSS is a cascading sheet, that means that it is read from top to bottom. In other words, whatever comes later in the cascade is what is displayed. This means that if you have command for a background-color for your header at the top of your stylesheet but then added in a new command for background-color for your header later in the stylesheet, then the second command is what will be displayed.&nbsp;
 >
@@ -132,10 +127,9 @@ All this to say: make sure you know which property is doing the job you want don
 
 &nbsp;
 
-### 2\. the targeted value:&nbsp;
-{: .yellow}
+### 2\. Is it the right property?&nbsp;
 
-> Sometimes the problem isn't the order or the wrong class at all but rather that you've been targeting the wrong value. I can't tell you how many times I used to confuse font-size and font-weight when I was first starting out. I couldn't understand what I was doing wrong and sometimes would just re-copy my style commands lower in my stylesheet in the hopes that that would fix my code.
+> Sometimes the problem isn't the order or the wrong class at all but rather that you've been targeting the wrong property. I can't tell you how many times I used to confuse font-size and font-weight when I was first starting out. I couldn't understand what I was doing wrong and sometimes would just re-copy my style commands lower in my stylesheet in the hopes that that would fix my code.
 >
 >
 > &nbsp;
@@ -151,7 +145,6 @@ All this to say: make sure you know which property is doing the job you want don
 &nbsp;
 
 **Familiarize yourself with "Inspect"**
-{: .partial-highlight-mint}
 
 &nbsp;
 
@@ -164,7 +157,6 @@ Not only does this tool let you explore the code on your own page (in other word
 &nbsp;
 
 ### To access it is super simple\!&nbsp;
-{: .yellow}
 
 > 1\. Hold down your ctrl button while you right click on your mouse.&nbsp;
 >
@@ -201,8 +193,6 @@ Happy Coding\!
 X
 
 Tash
-
-&nbsp;
 
 &nbsp;
 

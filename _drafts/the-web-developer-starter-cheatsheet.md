@@ -23,7 +23,8 @@ Let's take it back a bit and start the build from the bottom up.&nbsp; Here are 
 
 &nbsp;
 
-**Outline and break down your wireframe (link to mine)**
+**Outline and break down your wireframe**
+{: .partial-highlight-mint}
 
 &nbsp;
 
@@ -44,6 +45,7 @@ After I have all my design files ready to use (hex codes, images, fonts, spacing
 &nbsp;
 
 **Brainstorm your classes**
+{: .partial-highlight-mint}
 
 &nbsp;
 
@@ -66,6 +68,7 @@ Remember that helpful cheatsheet I mentioned? It's also got all the helper class
 &nbsp;
 
 **Know which values, elements, and properties to target**
+{: .partial-highlight-mint}
 
 &nbsp;
 
@@ -153,6 +156,7 @@ All this to say: make sure you know which property is doing the job you want don
 &nbsp;
 
 **Familiarize yourself with "Inspect"**
+{: .partial-highlight-mint}
 
 &nbsp;
 
@@ -179,6 +183,10 @@ Not only does this tool let you explore the code on your own page (in other word
 >
 >
 > 5\. Take some time to play around with inspect. Change padding, find colors, see which classes are being used and where etc. Then make those changes in your stylesheet. THEN push live.
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 

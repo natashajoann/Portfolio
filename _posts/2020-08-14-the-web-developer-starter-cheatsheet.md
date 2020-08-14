@@ -39,7 +39,9 @@ After I have all my design files ready to use (hex codes, images, fonts, spacing
 
 &nbsp;
 
-![](/uploads/my-morning-timeline.png){: .one-half width="794" height="1285"}![](/uploads/my-morning-timeline-1.png){: .one-half width="800" height="1285"}
+&nbsp;
+
+![](/uploads/untitled-design-2.png){: width="1920" height="1080"}
 
 &nbsp;
 

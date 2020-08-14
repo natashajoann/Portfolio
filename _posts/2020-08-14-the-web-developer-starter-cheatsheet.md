@@ -2,7 +2,7 @@
 layout: blog
 title: The Web Developer Starter Cheatsheet
 featured_image: /uploads/content-pixie-0z7dmskp70e-unsplash.jpg
-date: 2020-07-29 00:04:00
+date: 2020-08-14 00:04:00
 ---
 
 ![](/uploads/add-a-partial-highlight-to-your-titles-12.png){: .one-half width="1000" height="1500"}
@@ -28,7 +28,7 @@ Let's take it back a bit and start the build from the bottom up.&nbsp; Here are 
 
 &nbsp;
 
-**Outline and break down your wireframe**
+## **Outline and break down your wireframe**
 {: .partial-highlight-mint}
 
 &nbsp;
@@ -47,7 +47,7 @@ After I have all my design files ready to use (hex codes, images, fonts, spacing
 
 &nbsp;
 
-**Brainstorm your classes**
+## **Brainstorm your classes**
 {: .partial-highlight-mint}
 
 &nbsp;
@@ -68,7 +68,7 @@ Remember that helpful cheatsheet I mentioned? It's also got all the helper class
 
 &nbsp;
 
-**Know which values, elements, and properties to target**
+## **Values, Elements, and Properties**
 {: .partial-highlight-mint}
 
 &nbsp;
@@ -162,7 +162,7 @@ Which brings me to my next point…
 
 &nbsp;
 
-**Familiarize yourself with "Inspect"**
+## **Familiarize yourself with "Inspect"**
 {: .partial-highlight-mint}
 
 &nbsp;
@@ -195,7 +195,7 @@ Not only does this tool let you explore the code on your own page (in other word
 
 &nbsp;
 
-![](/uploads/i-highly-recommend-dr-bilhas-fish-book-invincible-womenthe-book-describes-in-vivid--personal-interviews-the-incredible-contribution-of-women-immigrants-to-our-society--it-is-refreshing-to-read-such-personal-stori-3.png){: width="940" height="788"}
+![](/uploads/i-highly-recommend-dr-bilhas-fish-book-invincible-womenthe-book-describes-in-vivid--personal-interviews-the-incredible-contribution-of-women-immigrants-to-our-society--it-is-refreshing-to-read-such-personal-stori-3.png){: .one-half width="940" height="788"}
 
 &nbsp;
 

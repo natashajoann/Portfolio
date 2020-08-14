@@ -8,6 +8,10 @@ p.mint{
   color:#d5efe0;
 }
 
+h2.mint{
+  color:#d5efe0;
+}
+
 
 p.yellow{
   color:#f9c947;
@@ -31,18 +35,21 @@ h4.yellow{
 img.one-third {
   display: inline-block;
   width: calc(33% - 1rem);
+  height:33%;
   margin: 0.5rem !important;
 }
 
 img.two-thirds {
   display: inline-block;
   width: calc(66% - 1rem);
+  height:66%;
   margin: 0.5rem !important;
 }
 
 img.one-half {
   display: inline-block;
   width: calc(50% - 1rem);
+  height:50%;
   margin: 0.5rem !important;
 }
 

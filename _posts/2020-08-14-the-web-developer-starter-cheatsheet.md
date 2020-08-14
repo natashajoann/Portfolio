@@ -2,7 +2,7 @@
 layout: blog
 title: The Web Developer Starter Cheatsheet
 featured_image: /uploads/content-pixie-0z7dmskp70e-unsplash.jpg
-date: 2020-07-29 00:04:00
+date: 2020-08-14 00:04:00
 ---
 
 ![](/uploads/add-a-partial-highlight-to-your-titles-12.png){: .one-half width="1000" height="1500"}

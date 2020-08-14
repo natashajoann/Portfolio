@@ -76,6 +76,8 @@ Knowing what properties to target and how to target them helps you to avoid redu
 
 &nbsp;
 
+&nbsp;
+
 > .div\{
 >
 >
@@ -150,6 +152,8 @@ All this to say: make sure you know which property is doing the job you want don
 &nbsp;
 
 Which brings me to my next point...
+
+&nbsp;
 
 &nbsp;
 

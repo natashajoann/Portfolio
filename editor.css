@@ -41,21 +41,18 @@ img.one-third {
   display: inline-block;
   width: calc(33% - 1rem);
   height:33%;
-  margin: 0.5rem !important;
 }
 
 img.two-thirds {
   display: inline-block;
   width: calc(66% - 1rem);
   height:66%;
-  margin: 0.5rem !important;
 }
 
 img.one-half {
   display: inline-block;
   width: calc(50% - 1rem);
   height:50%;
-  margin: 0.5rem !important;
 }
 
 img.float-left {

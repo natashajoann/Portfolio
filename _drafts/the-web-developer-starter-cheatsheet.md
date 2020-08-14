@@ -34,7 +34,7 @@ After I have all my design files ready to use (hex codes, images, fonts, spacing
 
 &nbsp;
 
-(image)
+![](/uploads/my-morning-timeline.png){: .one-half width="794" height="1285"}
 
 &nbsp;
 

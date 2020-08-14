@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: The Web Developer Starter Cheatsheet
-featured_image: /uploads/kaitlyn-baker-vzjdyl5jvxy-unsplash.jpg
+featured_image: /uploads/content-pixie-0z7dmskp70e-unsplash.jpg
 date: 2020-07-29 00:04:00
 ---
 
@@ -156,7 +156,7 @@ All this to say: make sure you know which property is doing the job you want don
 
 &nbsp;
 
-Which brings me to my next point...
+Which brings me to my next point…
 
 &nbsp;
 

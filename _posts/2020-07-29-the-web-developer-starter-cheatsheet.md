@@ -5,6 +5,11 @@ featured_image: /uploads/kaitlyn-baker-vzjdyl5jvxy-unsplash.jpg
 date: 2020-07-29 00:04:00
 ---
 
+![](/uploads/add-a-partial-highlight-to-your-titles-12.png){: .one-half width="1000" height="1500"}
+{: .align-to-center}
+
+&nbsp;
+
 Ready to embark on your web development career? I know how daunting and confusing web dev can be, but with enough practice and help from your friends (aka me\!) it gets all the more easy\!
 
 &nbsp;
@@ -17,7 +22,7 @@ But wait, I'm getting ahead of myself.&nbsp;
 
 &nbsp;
 
-Let's take it back a bit and start the build from the bottom up.&nbsp; Here are my top tips and "to-dos" but fear not, I've created an entire cheatsheet with whole slew of helpful content, html breakdowns, and css tricks\!
+Let's take it back a bit and start the build from the bottom up.&nbsp; Here are my top tips and "to-dos" but fear not, [I've created an entire cheatsheet](https://mailchi.mp/78b8ec9d838f/cheatsheet){: target="_blank" rel="noopener"} with whole slew of helpful content, html breakdowns, and css tricks\!
 
 &nbsp;
 
@@ -55,7 +60,7 @@ Brainstorming your classes before coding keeps you from repeating the same class
 
 &nbsp;
 
-Remember that helpful cheatsheet I mentioned? It's also got all the helper classes I use on every single one of my builds and you can get it&nbsp;**here**. Write the tag and values you want in your CSS stylesheet once (I'd keep them higher up on the stylesheet) and then just add the class to your HTML elements as needed\!&nbsp;
+Remember that helpful cheatsheet I mentioned? It's also got all the helper classes I use on every single one of my builds and you can get it&nbsp;[**here**](https://mailchi.mp/78b8ec9d838f/cheatsheet). Write the tag and values you want in your CSS stylesheet once (I'd keep them higher up on the stylesheet) and then just add the class to your HTML elements as needed\!&nbsp;
 
 &nbsp;
 
@@ -203,7 +208,7 @@ This is just the beginning\! Inspect is an incredibly powerful tool that can tel
 
 &nbsp;
 
-This is just the tip of the iceberg. Before jumping into your project, **take a look at this super helpful cheatsheet I've put together**. On it are all the things I wish I had had on hand while I was muddling through my first few projects (like good helper classes and how to use the 'display' property). Keeping this handy is sure save you some time and plenty of frustrations throughout the entirety of your build\!
+This is just the tip of the iceberg. Before jumping into your project, [**take a look at this super helpful cheatsheet I've put together**](https://mailchi.mp/78b8ec9d838f/cheatsheet). On it are all the things I wish I had had on hand while I was muddling through my first few projects (like good helper classes and how to use the 'display' property). Keeping this handy is sure save you some time and plenty of frustrations throughout the entirety of your build\!
 
 &nbsp;
 

@@ -27,9 +27,9 @@ Let's take it back a bit and start the build from the bottom up.&nbsp; Here are 
 
 &nbsp;
 
-I always start off every project with a pencil and paper--I know I know, it's like being in the middle ages but it helps get the creativity flowing. I'll draw or print out wireframes to help guide my preliminary design process. (*I've actually digitized my wireframes and you can snag those****here*.)&nbsp;**Once I'm happy with the preliminary design, I'll switch over to Adobe XD so I can add in colors, images, and fonts.&nbsp;
+I always start off every project with a pencil and paper–I know I know, it's like being in the middle ages but it helps get the creativity flowing. I'll draw or print out wireframes to help guide my preliminary design process. (*I've actually digitized my wireframes and you can snag those****here*.)&nbsp;**Once I'm happy with the preliminary design, I'll switch over to Adobe XD so I can add in colors, images, and fonts.&nbsp;
 
-After I have all my design files ready to use (hex codes, images, fonts, spacing etc.) I'll actually turn back to my original, paper-drawn design and write out the sections of code in the margins of my sketch. Think of this kind of like outlining an essay. Having things pre-determined allows me to write my code even faster and helps me define spacing or difficult sections of code before I even get to my coding apps. It ends up looking something like this:&nbsp;
+After I have all my design files ready to use (hex codes, images, fonts, spacing etc.) I'll actually turn back to my original, paper-drawn design and write out the sections of code in the margins of my sketch. Think of this kind of like outlining an essay. Having things pre-determined allows me to write my code even faster and helps me define spacing or difficult sections of code before I even get writing (note: faster coding\!). It ends up looking something like this:&nbsp;
 
 &nbsp;
 
@@ -51,7 +51,7 @@ Once you've broken down your wireframe and design, it's time to take the next st
 
 &nbsp;
 
-Brainstorming your classes before coding keeps you from repeating the same classes or creating redundant pieces of code (more on this later). On top of your more specific classes, create a set of general classes, or "helper classes", that you can add to any element so you don't have to keep adjusting the same values for different elements in your code. This can be things like pre-determined padding/margins, buttons, text formatting etc.&nbsp;
+Brainstorming your classes before coding keeps you from repeating the same classes or creating redundant pieces of code. On top of your more specific classes, create a set of general classes, or "helper classes", that you can add to any element so you don't have to keep adjusting the same style values in different elements in your code. This can be things like pre-determined padding/margins, buttons, text formatting etc.&nbsp;
 
 &nbsp;
 
@@ -106,13 +106,13 @@ figure out which property you really need so you can have cleaner code:
 
 &nbsp;
 
-All this to say: make sure you know which property is doing the job you want done and then use ***just that one***. This is something that becomes easier to define over time but for now there are two things to consider here:
+All this to say: make sure you know which property is doing the job you want done and then use ***just that one***. This is something that becomes easier to define over time but if you're not seeing the right styles display on your page there are a couple things to check:
 
 &nbsp;
 
 ### 1\. The Order of Command:
 
-> CSS is a cascading sheet, that means that it is read from top to bottom. In other words, whatever comes later in the cascade is what is displayed. This means that if you have command for a background-color for your header at the top of your stylesheet but then added in a new command for background-color for your header later in the stylesheet, then the second command is what will be displayed.&nbsp;
+> CSS is a cascading sheet, that means that it is read from top to bottom. In other words, whatever comes later in the cascade trumps code written earlier in your stylesheet and will be what displays. This means that if you have command for a background-color for your header at the top of your stylesheet but then added in a new command for background-color for your header later in the stylesheet, then the second command is what will be displayed.&nbsp;
 >
 >
 > (visual)
@@ -122,6 +122,12 @@ All this to say: make sure you know which property is doing the job you want don
 >
 >
 > If you have code that just refuses to listen to your commands, take a look at the rest of your stylesheet and make sure you haven't repeated yourself. This is also where pre-determining your classes comes in handy\!
+>
+>
+> &nbsp;
+>
+>
+> \*there are ways of working around this but when you're starting off, understanding the hierarchy of your commands helps reduce clutter and redundancy.&nbsp;
 
 &nbsp;
 
@@ -141,6 +147,8 @@ All this to say: make sure you know which property is doing the job you want don
 > &nbsp;
 
 &nbsp;
+
+\[TRANSITION\]
 
 &nbsp;
 
@@ -180,7 +188,7 @@ This is just the beginning\! Inspect is an incredibly powerful tool that can tel
 
 &nbsp;
 
-&nbsp;These are just the beginning. Before jumping into your project, **take a look at this super helpful cheatsheet I've put together**. On it are all the things I wish I had had on hand while I was muddling through my first few projects (like good helper classes and easy but stylish styling properties). Keeping this handy is sure save you some time and plenty of frustrations throughout the entirety of your build\!
+This is just the tip of the iceberg. Before jumping into your project, **take a look at this super helpful cheatsheet I've put together**. On it are all the things I wish I had had on hand while I was muddling through my first few projects (like good helper classes and how to use the 'display' property). Keeping this handy is sure save you some time and plenty of frustrations throughout the entirety of your build\!
 
 &nbsp;
 
@@ -193,8 +201,6 @@ Happy Coding\!
 X
 
 Tash
-
-&nbsp;
 
 &nbsp;
 

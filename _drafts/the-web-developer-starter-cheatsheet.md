@@ -5,15 +5,15 @@ featured_image: /uploads/kaitlyn-baker-vzjdyl5jvxy-unsplash.jpg
 date: 2020-07-29 00:04:00
 ---
 
-Ready to embark on your web development career? I know how daunting and confusing web dev can be but with enough practice and help from your friends (aka me\!) it gets all the more easy\!
+Ready to embark on your web development career? I know how daunting and confusing web dev can be, but with enough practice and help from your friends (aka me\!) it gets all the more easy\!
 
 &nbsp;
 
-By now you should know that HTML controls the foundation, skeleton, and content on your website while CSS controls the styling and spacing. Javascript helps add in motion, interactivity, data collection, and reactions to specific triggers. You've set up your github/Git desktop and downloaded an application to write your code in (I use Atom). Maybe you've even found a place to to push your code so you can see the live version of your creations. But wait, I'm getting ahead of myself.&nbsp;
+By now you should know that HTML controls the foundation, skeleton, and content on your website while CSS controls the styling and spacing. Javascript helps add in motion, interactivity, data collection, and reactions to specific triggers. You've set up your github/Git desktop and downloaded an application to write your code in (I use Atom). Maybe you've even found a place to to push your code so you can see the live version of your creations.
 
 &nbsp;
 
-*\*If you're just starting off, take a look at places like Skillshare, where there are tons of great guides and tutorials to get you started\!\**
+But wait, I'm getting ahead of myself.&nbsp;
 
 &nbsp;
 
@@ -28,15 +28,13 @@ Let's take it back a bit and start the build from the bottom up.&nbsp; Here are 
 
 &nbsp;
 
-I always start off every project with a pencil and paper–I know I know, it's like being in the middle ages but it helps get the creativity flowing. I'll draw or print out wireframes to help guide my preliminary design process. (*I've actually digitized my wireframes and you can snag those****here*.)&nbsp;**Once I'm happy with the preliminary design, I'll switch over to Adobe XD so I can add in colors, images, and fonts.&nbsp;
+I always start off every project with a pencil and paper–I know I know, it's like being in the middle ages but it helps get the creativity flowing. I'll draw or print out wireframes to help guide my preliminary design process. (*I've actually digitized my wireframes and you can snag those&nbsp;***[*here*](/images/wireframe-cheatsheet.pdf).)&nbsp;**Once I'm happy with the preliminary design, I'll switch over to Adobe XD so I can add in colors, images, and fonts.&nbsp;
 
 After I have all my design files ready to use (hex codes, images, fonts, spacing etc.) I'll actually turn back to my original, paper-drawn design and write out the sections of code in the margins of my sketch. Think of this kind of like outlining an essay. Having things pre-determined allows me to write my code even faster and helps me define spacing or difficult sections of code before I even get writing (note: faster coding\!). It ends up looking something like this:&nbsp;
 
 &nbsp;
 
-![](/uploads/my-morning-timeline.png){: .one-half width="794" height="1285"}
-
-&nbsp;
+![](/uploads/my-morning-timeline.png){: .one-half width="794" height="1285"}![](/uploads/my-morning-timeline-1.png){: .one-half width="800" height="1285"}
 
 &nbsp;
 
@@ -60,8 +58,6 @@ Brainstorming your classes before coding keeps you from repeating the same class
 Remember that helpful cheatsheet I mentioned? It's also got all the helper classes I use on every single one of my builds and you can get it&nbsp;**here**. Write the tag and values you want in your CSS stylesheet once (I'd keep them higher up on the stylesheet) and then just add the class to your HTML elements as needed\!&nbsp;
 
 &nbsp;
-
-(image)
 
 &nbsp;
 
@@ -113,6 +109,8 @@ All this to say: make sure you know which property is doing the job you want don
 
 &nbsp;
 
+&nbsp;
+
 ### 1\. The Order of Command:
 
 > CSS is a cascading sheet, that means that it is read from top to bottom. In other words, whatever comes later in the cascade trumps code written earlier in your stylesheet and will be what displays. This means that if you have command for a background-color for your header at the top of your stylesheet but then added in a new command for background-color for your header later in the stylesheet, then the second command is what will be displayed.&nbsp;
@@ -151,7 +149,7 @@ All this to say: make sure you know which property is doing the job you want don
 
 &nbsp;
 
-\[TRANSITION\]
+Which brings me to my next point...
 
 &nbsp;
 
@@ -165,6 +163,8 @@ Inspect, aka the holy grail of web dev. If there's anything you take away from t
 &nbsp;
 
 Not only does this tool let you explore the code on your own page (in other words, figure out what the hell is broken and how to change it) and sample different css styles, but it also let's you peek in at other peoples' code as well\! Have you ever been to a website and absolutely loved that fade-in feature or wanted to find out what kind of CSS styling makes those buttons pop? Inspect can help\!&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -186,13 +186,16 @@ Not only does this tool let you explore the code on your own page (in other word
 
 &nbsp;
 
-&nbsp;
+![](/uploads/i-highly-recommend-dr-bilhas-fish-book-invincible-womenthe-book-describes-in-vivid--personal-interviews-the-incredible-contribution-of-women-immigrants-to-our-society--it-is-refreshing-to-read-such-personal-stori-3.png){: width="940" height="788"}
 
 &nbsp;
 
 This is just the beginning\! Inspect is an incredibly powerful tool that can tell you so much more than just the structure and styling of a page. Inspect will also tell you things like why your JS isn't working properly or how to uncover bugs in your code. But for now, we'll stick to the basic elements panel.
 
 &nbsp;
+
+### \- - - -
+{: .yellow.align-to-center}
 
 &nbsp;
 

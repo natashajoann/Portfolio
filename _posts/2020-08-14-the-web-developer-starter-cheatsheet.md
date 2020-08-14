@@ -43,6 +43,8 @@ After I have all my design files ready to use (hex codes, images, fonts, spacing
 
 ![](/uploads/untitled-design-2.png){: width="1920" height="1080"}
 
+![](/uploads/untitled-design-2.png){: width="1920" height="1080"}
+
 &nbsp;
 
 &nbsp;

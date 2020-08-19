@@ -1801,7 +1801,7 @@ padding-left: 1rem;
     transition: 1s;
   }
 
-  .burger-button.active span{
+  .burger-button.activate span{
     background-color:#e3b053;
   }
 
@@ -1817,7 +1817,7 @@ padding-left: 1rem;
     bottom:2px;
   }
 
-  .burger-button.active .burger-middle{
+  .burger-button.activate .burger-middle{
 /*   transform: rotateZ(270deg); */
   border-color: rgba(0,0,0,0);
   background-color:rgba(0,0,0,0);
@@ -1826,13 +1826,13 @@ padding-left: 1rem;
 /* make sure this has the same bottom as the burger button has padding*/
 
 /* make sure this has the same top as the burger button has padding*/
-.burger-button.active .burger-top{
+.burger-button.activate .burger-top{
   position: absolute;
   top: 8px;
   transform: rotateZ(45deg);
 }
 
-.burger-button.active .burger-bottom{
+.burger-button.activate .burger-bottom{
   position: absolute;
   bottom: 8px;
   transform: rotateZ(-45deg);

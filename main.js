@@ -1,9 +1,5 @@
 $(document).ready(function() {
 
-  $('.slick').slick({
-   autoplay: true,
-   autoplaySpeed: 5000
- });
 
 // BURGER menu
 
@@ -40,6 +36,15 @@ $(document).ready(function() {
          }
        });
      }
+
+     $(document).ready(function(){
+       $('.slick').slick({
+         slidesToShow: 3,
+         slidesToScroll: 1,
+         autoplay: true,
+         autoplaySpeed: 2000,
+       });
+     });
 
 // var slideIndex = 1;
 //   showSlides(slideIndex);

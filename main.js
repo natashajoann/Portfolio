@@ -1,4 +1,10 @@
 $(document).ready(function() {
+
+  $('.slick').slick({
+   autoplay: true,
+   autoplaySpeed: 5000
+ });
+
 // BURGER menu
 
    $(".burger-button").click(function(){
@@ -12,11 +18,6 @@ $(document).ready(function() {
      $(".burger-menu").slideToggle();
    });
 
-
-   $('.slick').slick({
-		autoplay: true,
-  	autoplaySpeed: 5000
-	});
 
 
    $( document ).ready(function() {

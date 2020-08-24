@@ -7,7 +7,7 @@ _options:
     right: align-to-right
     center: align-to-center
     left: align-to-left
-    styles: /assets/editor.css
+    styles: editor.css
   body-content_html:
     blockquote: true
     horizontalrule: true
@@ -26,7 +26,7 @@ _options:
     right: align-to-right
     center: align-to-center
     left: align-to-left
-    styles: /assets/editor.css
+    styles: editor.css
   content:
     blockquote: true
     horizontalrule: true

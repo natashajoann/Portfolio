@@ -22,7 +22,7 @@ Let's be honest, finding clients when you're first starting off in your freelanc
 
 &nbsp;
 
-## **Freelance or **
+## Freelance or&nbsp;
 {: .partial-highlight-mint}
 
 ## **Remote Work Postings**

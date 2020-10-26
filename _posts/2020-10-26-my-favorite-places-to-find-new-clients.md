@@ -2,7 +2,7 @@
 layout: blog
 title: My Favorite Places to Find New Clients
 featured_image: /uploads/ben-kolde-ajcipx1vdxi-unsplash.jpg
-date: 2020-08-14 00:04:00
+date: 2020-10-26 00:04:00
 ---
 
 Let's be honest, finding clients when you're first starting off in your freelancing career isn't always the easiest. You may have heard people saying how important networking is, and it is, but that isn't the only outlet for reaching new clients. Here are some of my favorite online and IRL resources to help get you started\!
@@ -22,7 +22,10 @@ Let's be honest, finding clients when you're first starting off in your freelanc
 
 &nbsp;
 
-## **Freelance or Remote Work Postings**
+## **Freelance or **
+{: .partial-highlight-mint}
+
+## **Remote Work Postings**
 {: .partial-highlight-mint}
 
 * [ilovecreatives](https://ilovecreatives.com/ads/category/Job){: target="_blank"}

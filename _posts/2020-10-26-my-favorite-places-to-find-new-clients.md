@@ -10,51 +10,59 @@ Let's be honest, finding clients when you're first starting off in your freelanc
 &nbsp;
 
 ## **Full-time Job Postings**
-{: .partial-highlight-mint}
+{: .partial-highlight-mint.align-to-center}
 
 * [Indeed](https://www.indeed.com/){: target="_blank"}
-
+  {: .align-to-center}
 * [LinkedIn](https://www.linkedin.com/in/jessie-bosley/){: target="_blank"}
-
+  {: .align-to-center}
 * [Glassdoor](https://www.glassdoor.com/){: target="_blank"}
+  {: .align-to-center}
 
 &nbsp;
+{: .align-to-center}
 
 &nbsp;
+{: .align-to-center}
 
 ## Freelance or&nbsp;
-{: .partial-highlight-mint}
+{: .partial-highlight-mint.align-to-center}
 
 ## **Remote Work Postings**
-{: .partial-highlight-mint}
+{: .partial-highlight-mint.align-to-center}
 
 * [ilovecreatives](https://ilovecreatives.com/ads/category/Job){: target="_blank"}
-
+  {: .align-to-center}
 * [We Work Remotely](https://weworkremotely.com/){: target="_blank"}
-
+  {: .align-to-center}
 * [icreatives](https://www.icreatives.com/find-work/?){: target="_blank"}
-
+  {: .align-to-center}
 * [Expat Jobs](https://expatjobs.io/){: target="_blank"}
-
+  {: .align-to-center}
 * [Remote Woman](https://remotewoman.com/){: target="_blank"}
+  {: .align-to-center}
 
 &nbsp;
+{: .align-to-center}
 
 &nbsp;
+{: .align-to-center}
 
 ## **Facebook Groups**
-{: .partial-highlight-mint}
+{: .partial-highlight-mint.align-to-center}
 
 * [Doers/Jobs/Gigs](https://www.facebook.com/groups/ddoers.jobs.gigs/){: target="_blank"}
-
+  {: .align-to-center}
 * [Freelancing Females](https://www.facebook.com/groups/freelancingfems/){: target="_blank"}
-
+  {: .align-to-center}
 * [Remote Jobs](https://www.facebook.com/groups/901954586546769/){: target="_blank"}
+  {: .align-to-center}
 
 &nbsp;
+{: .align-to-center}
 
 ## Networking
-{: .partial-highlight-mint}
+{: .partial-highlight-mint.align-to-center}
 
 &nbsp;
 
@@ -67,3 +75,5 @@ Now I tell ABSOLUTELY EVERYONE I meet, whether it's my taxi driver or that curio
 &nbsp;
 
 &nbsp;If you're shy (like me, hey\!) start off telling friends and family ( I didn't start talking about my clients until this year\!) and once you've conquered that, let the world know. And yes, posting on IG or Tiktok works too\!&nbsp;
+
+<div id="gtx-trans" style="position: absolute; left: 337px; top: 1356.06px;"><div class="gtx-trans-icon">&nbsp;</div></div>

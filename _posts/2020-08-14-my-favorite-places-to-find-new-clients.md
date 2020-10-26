@@ -53,6 +53,8 @@ Let's be honest, finding clients when you're first starting off in your freelanc
 ## Networking
 {: .partial-highlight-mint}
 
+&nbsp;
+
 Now, I'm not going to lie, most of the work I've gotten has come from word of mouth. When I first started out, I pushed back against this and told myself I could find plenty of work by just applying for positions online. But it wasn't until I started telling everyone I met that I was working in web development that I actually started getting clients more regularly.&nbsp;
 
 &nbsp;

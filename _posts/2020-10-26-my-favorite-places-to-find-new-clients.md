@@ -12,11 +12,11 @@ Let's be honest, finding clients when you're first starting off in your freelanc
 ## **Full-time Job Postings**
 {: .partial-highlight-mint.align-to-center}
 
-* [Indeed](https://www.indeed.com/){: target="_blank"}
+[Indeed](https://www.indeed.com/){: target="_blank"}
 
-* [LinkedIn](https://www.linkedin.com/in/jessie-bosley/){: target="_blank"}
+[LinkedIn](https://www.linkedin.com/in/jessie-bosley/){: target="_blank"}
 
-* [Glassdoor](https://www.glassdoor.com/){: target="_blank"}
+[Glassdoor](https://www.glassdoor.com/){: target="_blank"}
 
 &nbsp;
 
@@ -28,15 +28,15 @@ Let's be honest, finding clients when you're first starting off in your freelanc
 ## **Remote Work Postings**
 {: .partial-highlight-mint}
 
-* [ilovecreatives](https://ilovecreatives.com/ads/category/Job){: target="_blank"}
+[ilovecreatives](https://ilovecreatives.com/ads/category/Job){: target="_blank"}
 
-* [We Work Remotely](https://weworkremotely.com/){: target="_blank"}
+[We Work Remotely](https://weworkremotely.com/){: target="_blank"}
 
-* [icreatives](https://www.icreatives.com/find-work/?){: target="_blank"}
+[icreatives](https://www.icreatives.com/find-work/?){: target="_blank"}
 
-* [Expat Jobs](https://expatjobs.io/){: target="_blank"}
+[Expat Jobs](https://expatjobs.io/){: target="_blank"}
 
-* [Remote Woman](https://remotewoman.com/){: target="_blank"}
+[Remote Woman](https://remotewoman.com/){: target="_blank"}
 
 &nbsp;
 
@@ -45,11 +45,11 @@ Let's be honest, finding clients when you're first starting off in your freelanc
 ## **Facebook Groups**
 {: .partial-highlight-mint}
 
-* [Doers/Jobs/Gigs](https://www.facebook.com/groups/ddoers.jobs.gigs/){: target="_blank"}
+[Doers/Jobs/Gigs](https://www.facebook.com/groups/ddoers.jobs.gigs/){: target="_blank"}
 
-* [Freelancing Females](https://www.facebook.com/groups/freelancingfems/){: target="_blank"}
+[Freelancing Females](https://www.facebook.com/groups/freelancingfems/){: target="_blank"}
 
-* [Remote Jobs](https://www.facebook.com/groups/901954586546769/){: target="_blank"}
+[Remote Jobs](https://www.facebook.com/groups/901954586546769/){: target="_blank"}
 
 &nbsp;
 

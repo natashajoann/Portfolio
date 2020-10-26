@@ -13,56 +13,48 @@ Let's be honest, finding clients when you're first starting off in your freelanc
 {: .partial-highlight-mint.align-to-center}
 
 * [Indeed](https://www.indeed.com/){: target="_blank"}
-  {: .align-to-center}
+
 * [LinkedIn](https://www.linkedin.com/in/jessie-bosley/){: target="_blank"}
-  {: .align-to-center}
+
 * [Glassdoor](https://www.glassdoor.com/){: target="_blank"}
-  {: .align-to-center}
 
 &nbsp;
-{: .align-to-center}
 
 &nbsp;
-{: .align-to-center}
 
 ## Freelance or&nbsp;
-{: .partial-highlight-mint.align-to-center}
+{: .partial-highlight-mint}
 
 ## **Remote Work Postings**
-{: .partial-highlight-mint.align-to-center}
+{: .partial-highlight-mint}
 
 * [ilovecreatives](https://ilovecreatives.com/ads/category/Job){: target="_blank"}
-  {: .align-to-center}
+
 * [We Work Remotely](https://weworkremotely.com/){: target="_blank"}
-  {: .align-to-center}
+
 * [icreatives](https://www.icreatives.com/find-work/?){: target="_blank"}
-  {: .align-to-center}
+
 * [Expat Jobs](https://expatjobs.io/){: target="_blank"}
-  {: .align-to-center}
+
 * [Remote Woman](https://remotewoman.com/){: target="_blank"}
-  {: .align-to-center}
 
 &nbsp;
-{: .align-to-center}
 
 &nbsp;
-{: .align-to-center}
 
 ## **Facebook Groups**
-{: .partial-highlight-mint.align-to-center}
+{: .partial-highlight-mint}
 
 * [Doers/Jobs/Gigs](https://www.facebook.com/groups/ddoers.jobs.gigs/){: target="_blank"}
-  {: .align-to-center}
+
 * [Freelancing Females](https://www.facebook.com/groups/freelancingfems/){: target="_blank"}
-  {: .align-to-center}
+
 * [Remote Jobs](https://www.facebook.com/groups/901954586546769/){: target="_blank"}
-  {: .align-to-center}
 
 &nbsp;
-{: .align-to-center}
 
 ## Networking
-{: .partial-highlight-mint.align-to-center}
+{: .partial-highlight-mint}
 
 &nbsp;
 

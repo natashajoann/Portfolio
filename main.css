@@ -967,7 +967,7 @@ form{
 }
 
 .accordion {
-  background-color: #fff;
+  background-color: transparent;
   cursor: pointer;
   padding: 18px 4px 0;
   width: 100%;

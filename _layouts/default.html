@@ -84,24 +84,44 @@
 
 <!-- burger menu -->
 
-<div class="mobile-title">
-  <a href="/" class="col-4 nav-title"><img src="/images/tash-logo-index.png"></a>
-</div>
-<nav class="mobil-menu">
-    <div class="burger-button">
-        <span class="burger-top"></span>
-        <span class="burger-middle"></span>
-        <span class="burger-bottom"></span>
-    </div>
-    <div class="burger-menu">
-      <a href="/">Home</a>
-      <!-- <a href="/food">Food</a> -->
-      <a href="/web-dev">Web Dev</a>
-      <a href="/media">Marketing</a>
-      <a href="/blog">Blog</a>
-    </div>
-</nav>
-</section>
+<section class="header">
+    <div class="wrapper">
+      <nav class="nav">
+        <div class="nav__container">
+          <ul class="mobile-menu burger-menu">
+            <li class="menu-item">      <a href="/">Home</a></li>
+
+            <li class="menu-item">
+            <a href="/web-dev">Web Design & Development</a>
+          </li>
+
+            <li class="menu-item">
+              <a href="/media">Digital Marketing</a>
+            </li>
+
+            <li class="menu-item">
+              <a href="/blog">Blog</a>
+            </li>
+
+            <li class="menu-item">
+              <a href="/contact">Contact</a>
+            </li>
+          </ul>
+
+        </div>
+
+    </nav>
+
+    <button class="hamburger__container mobile">
+      <div class="hamburger">
+        <i></i>
+        <i></i>
+        <i></i>
+      </div>
+    </button>
+  </div>
+
+  </section>
 
 {{content}}
 

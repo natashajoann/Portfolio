@@ -1,20 +1,20 @@
 $(document).ready(function() {
 
 
-// BURGER menu
+  $('.hamburger__container').click(function() {
+              $('.nav').toggleClass('open');
+              $(this).children().first().toggleClass('open');
+              $('html, body').toggleClass('noscroll');
+          });
 
-   $(".burger-button").click(function(){
-     $(".burger-button").toggleClass("activate");
-     $(".burger-menu").slideToggle();
-   });
-
-
-   $(".burger-menu").click(function(){
-     $(".burger-button").toggleClass("activate");
-     $(".burger-menu").slideToggle();
-   });
-
-
+          // Bacon Ipsum
+          $.ajax({
+              url: 'https://baconipsum.com/api/?type=all-meat&paras=2&start-with-lorem=1&format=html',
+              success: function(data) {
+                  $('#content').html(data);
+              }
+          });
+});
 
    $( document ).ready(function() {
    $(".dropdown-nav").click(function(){

@@ -912,7 +912,8 @@ hr{
 
 .featured1, .featured2, .featured3{
   margin:5px;
-  max-width:49% !important;
+  margin-bottom:10px;
+  max-width:47% !important;
 }
 
 .featured1{

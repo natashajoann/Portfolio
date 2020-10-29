@@ -584,7 +584,7 @@ iframe{
 /* Testimonials */
 .testimonial{
   padding: 3rem;
-  height: 68vh;
+  height: 60vh;
   background-color:#212422;
   color:#DBDBDB;
   display: flex;
@@ -643,7 +643,7 @@ iframe{
       line-height: 48px;
       top: 3vh;
       font-size: 43px;
-      z-index:1;
+      z-index:7;
 }
 
 .featured h2{
@@ -723,7 +723,6 @@ hr{
   background-image:url("/images/chase-desert.jpg");
   background-position:center;
   background-size: cover;
-  margin:10px 0px 10px 10px;
   position:relative;
   z-index:3;
   height:38vh;
@@ -733,7 +732,6 @@ hr{
   background-image:url("/images/jess-vsco.jpg");
   background-position:center;
   background-size: cover;
-  margin:10px 0px 10px 10px;
   position:relative;
   z-index:3;
   height:38vh;

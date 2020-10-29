@@ -533,7 +533,7 @@ iframe{
   min-height:300px;
 }
 
-.blog-loop-background, .blog-loop-info p {
+ .blog-loop-info p {
   width: 80%;
   margin:auto;
 }
@@ -815,16 +815,16 @@ form{
 }
 
 #mc_embed_signup .button{
-  background-color:#C2D8C8;
+  background-color:transparent;
   width:96%;
 }
 
 #mc_embed_signup .button:hover{
-  background-color:#718b82;
+  background-color:transparent;
 }
 
 #mc_embed_signup #mce-success-response {
-    color: #e5bc5c;
+    color: white;
     display: none;
     font-size: 18px;
     width: 100%;
@@ -832,6 +832,10 @@ form{
 .footer h2{
   font-size: 57px;
   line-height: 45px;
+}
+
+.footer{
+  background-color:#212422;
 }
 
 .form h2{

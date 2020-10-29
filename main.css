@@ -730,6 +730,7 @@ hr{
   margin: auto;
   margin-bottom: 5rem;
   font-family: playfair-display, serif;
+  color:#DBDBDB;
 }
 
 .contact-form{
@@ -740,16 +741,20 @@ hr{
 
 .contact-form input, textarea{
 width: 90%;
-border: none;
 padding: 10px 2px;
 margin: auto;
 margin-top: 4px;
 display: flex;
 }
 
+.contact-form input{
+  border-bottom:2px solid #DBDBDB;
+}
+
 textarea{
   padding:10px 2px 150px;
   resize:none;
+  border:2px solid #DBDBDB;
 }
 
 
@@ -1005,7 +1010,6 @@ form{
 
 .panel {
   padding: 0 18px;
-  background-color: white;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.9s ease-out;
@@ -1422,11 +1426,10 @@ input{
 }
 
 .contact-button{
-  background-color:#C2D8C8;
+  background-color:transparent;
 }
-
 .contact-button:hover{
-  background-color:#718b82;
+  letter-spacing:1.3px;
 }
 
 

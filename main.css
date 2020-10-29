@@ -581,6 +581,17 @@ iframe{
 .index-services{
   padding:4rem 4rem 2rem;
   background-color:#ECE6DC;
+  position:relative;
+}
+
+.fixed1{
+  text-align: left;
+      position: absolute;
+      left: 4vh;
+      line-height: 48px;
+      top: 3vh;
+      font-size: 43px;
+      z-index:7;
 }
 
 .index-services p{

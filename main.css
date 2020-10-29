@@ -796,9 +796,7 @@ iframe{
   left:39%;
 }
 
-.testi-slide{
-  height:70vh;
-}
+
 
 .quotemark h1{
   line-height:0px;
@@ -813,15 +811,14 @@ iframe{
 .testimonial p{
   font-size:24px;
   text-align:center;
-  font-family: futura-pt,sans-serif;
+  font-family: 'Playfair Display',serif;
   padding: 3rem 3rem 3rem 5rem;
   color:white;
 }
 
 .testie-p{
   font-style:italic;
-  font-family:collection-free;
-  font-size:35px;
+  font-family:futura-pt,sans-serif;
 }
 
 
@@ -832,9 +829,9 @@ iframe{
 
 .featured{
   background-color:white;
-  padding:5rem;
-  padding-left: 7rem;
-  padding-top:5rem;
+  padding:3rem;
+  padding-left: 3rem;
+  padding-top:4rem;
   justify-content:space-between;
   position:relative;
 }
@@ -842,9 +839,9 @@ iframe{
 .featured h1{
   text-align: right;
       position: absolute;
-      right: 12vh;
+      right: 3vh;
       line-height: 48px;
-      top: 3vh;
+      top: 0;
       font-size: 43px;
       z-index:7;
 }
@@ -1810,9 +1807,7 @@ margin:auto;
   height:auto;
 }
 
-.testi-slide{
-  height:inherit;
-}
+
 
 
 .mySlides{
@@ -2221,9 +2216,6 @@ padding-left: 1rem;
   padding:6rem 2rem 0;
 }
 
-.testi-slide{
-  height:none;
-}
 
 .featured2, .featured3{
   margin:10px 0;

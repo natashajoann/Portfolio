@@ -92,39 +92,35 @@ li{
   display:none;
 }
 
-h1, a, h2{
+h1{
+  font-family: 'Playfair Display', serif;
+  font-weight:700;
+  font-size:35px;
+}
+
+h2{
+  font-family: 'Playfair Display', serif;
+  font-weight:600;
+  font-size:28px;
+}
+
+a{
   font-family: futura-pt, sans-serif;
 }
 
 h3{
-font-family: classico-urw, sans-serif;
+font-family: futura-pt, sans-serif;
 
 }
 
 h4, p{
 font-family: playfair-display, serif;
+font-weight:400;
 }
 
-h3{
-  font-size:25px;
-}
-
-h2{
-  font-size:34px;
-}
 
 .space-around{
   justify-content:space-around;
-}
-
-@font-face{
-  src:url("/fonts/BOSQUE.otf");
-  font-family:bosque;
-}
-
-@font-face{
-  src:url("/fonts/CollectionFree.otf");
-  font-family:collection-free;
 }
 
 

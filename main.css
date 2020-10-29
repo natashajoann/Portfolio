@@ -767,7 +767,7 @@ hr{
 
 
 
-.contact-form input, textarea{
+.contact input, .contact-form input, textarea{
 width: 90%;
 padding: 10px 2px;
 border:none;
@@ -778,7 +778,7 @@ font-family: futura-pt,sans-serif;
 color:#272727;
 }
 
-.contact-form input{
+.contact, .contact-form input{
   border-bottom:2px solid #272727;
   background-color:transparent;
 }
@@ -1490,7 +1490,9 @@ input{
 
 .contact-button{
   background-color:transparent;
+  border-bottom:none !important;
 }
+
 .contact-button:hover{
   letter-spacing:1.3px;
 }

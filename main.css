@@ -830,6 +830,7 @@ hr{
 
 .featured1, .featured2, .featured3{
   margin:5px;
+  max-width:49% !important;
 }
 
 .featured1{
@@ -1769,7 +1770,10 @@ white-space: normal;
 }
 
 
-
+.featured1, .featured2, .featured3{
+  margin:5px;
+  max-width:100% !important;
+}
 
 
 .services h2{

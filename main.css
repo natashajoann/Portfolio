@@ -366,7 +366,7 @@ iframe{
 }
 
 .title-about-text{
-    padding: 4rem 4rem 0;
+    padding: 4rem;
     text-align:center;
     width:80%;
     margin:auto;
@@ -444,7 +444,7 @@ iframe{
   padding:2rem;
 }
 
-.title-img img{
+.title-img-wrapper img{
   width:80%;
 }
 

@@ -665,8 +665,10 @@ iframe{
 .index-blog h1{
   font-size: 46px;
   margin-bottom: 20px;
+  font-family:futura-pt,sans-serif;
 
 }
+
 
 .index-blog{
   padding:4rem;
@@ -712,7 +714,7 @@ iframe{
 
 .blog-loop-background{
   padding: 6rem;
-  margin: 2rem;
+  margin: 1rem;
   background-position: center;
   background-size: cover;
   min-height:300px;
@@ -723,11 +725,13 @@ iframe{
   margin:auto;
 }
 
+
 .blog-loop-info h3{
   width: 80%;
   margin: auto;
   padding-top: 20px;
   font-size: 20px;
+  font-family:'Playfair Display',serif;
 }
 
 .blog-loop-info{

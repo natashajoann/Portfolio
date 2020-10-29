@@ -732,6 +732,10 @@ hr{
   font-family: playfair-display, serif;
 }
 
+.contact-form{
+  background-color:#ECE6DC;
+}
+
 
 
 .contact-form input, textarea{
@@ -764,7 +768,6 @@ textarea{
 
 form{
   padding:3rem;
-  background-color:#d9efe9
 }
 
 
@@ -973,7 +976,6 @@ form{
   outline: 0;
   font-size: 15px;
   transition: .5s;
-  border-bottom: 3px solid white;
   width: 70%;
   margin: auto;
   text-align: center;
@@ -986,16 +988,15 @@ form{
 
 .active, .accordion:hover {
   color: #c9e1d8;
-  border-bottom: 3px solid #c9e1d8;
 }
 
-.accordion:after {
+/* .accordion:after {
   content: '\002B';
   font-weight: bold;
   float: right;
   margin-left: 5px;
   margin-top:-28px;
-}
+} */
 
 /* .active:after {
   content: "\2212";
@@ -1147,7 +1148,7 @@ form{
 
 .social-media div{
   margin-bottom: 20px;
-  margin:auto;
+  /* margin:auto; */
 }
 
 

@@ -253,7 +253,7 @@ html{
 .announcement{
   padding:10px;
   width:100%;
-  background-color:#f9ede5;
+  background-color:#eae7e1;
   color:#494949;
 }
 
@@ -454,7 +454,7 @@ iframe{
   text-align:right;
   position:absolute;
   bottom:20vh;
-  right:0;
+  right:2vh;
   width:80%;
 }
 
@@ -680,7 +680,7 @@ iframe{
   position:relative;
 }
 
-.fixed1 h1{
+.fixed1{
   text-align: left;
       position: absolute;
       left: 2vh;

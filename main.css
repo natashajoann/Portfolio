@@ -362,6 +362,9 @@ iframe{
 
 .title-quote{
   text-align:right;
+  position:absolute;
+  bottom:4vh;
+  right:0;
 }
 
 .main-title img{
@@ -439,7 +442,7 @@ iframe{
     width: 100%;
     margin: auto;
     text-align:right;
-    height: 45vh;
+    height: 105vh;
 }
 
 .title-img-wrapper{
@@ -452,9 +455,12 @@ iframe{
   width:80%;
 }
 
+.title{
+  height:105vh;
+}
 
 .title h1{
-  font-size: 125px;
+  font-size: 50px;
   text-align:right;
   line-height:102px;
 }

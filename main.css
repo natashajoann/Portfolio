@@ -633,6 +633,17 @@ iframe{
   padding-left: 7rem;
   padding-top:5rem;
   justify-content:space-between;
+  position:relative;
+}
+
+.featured h1{
+  text-align: right;
+      position: absolute;
+      right: 12vh;
+      line-height: 48px;
+      top: 3vh;
+      font-size: 43px;
+      z-index:1;
 }
 
 .featured h2{

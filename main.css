@@ -157,6 +157,8 @@ html{
   padding:0;
 } */
 
+[class*=grid-]>[class*=col-6], [class*=grid_]>[class*=col-6], [class~=grid]>[class*=col-6]{max-width:49%;}
+
 .justify{
   justify-content:center;
 }
@@ -711,6 +713,10 @@ hr{
 .overlay:hover{
   transition:0.7s;
   opacity:1;
+}
+
+.featured1, .featured2, .featured3{
+  margin:5px;
 }
 
 .featured1{

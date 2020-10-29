@@ -701,7 +701,7 @@ hr{
     padding: 5%;
     text-align: center;
     opacity: 0;
-    background-color: #262626;
+    background-color: #262626ad;
     color: white;
     top: 0;
     left:0;
@@ -1374,6 +1374,10 @@ h3 {
 .web-dev{
   background-color:white;
   padding:2rem;
+}
+
+.web-dev a{
+  position:relative;
 }
 
 

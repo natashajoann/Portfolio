@@ -780,7 +780,7 @@ color:#272727;
 
 .contact-form input{
   border-bottom:2px solid #272727;
-  background-color:transparent'
+  background-color:transparent;
 }
 
 textarea{
@@ -807,6 +807,12 @@ textarea{
 
 form{
   padding:3rem;
+}
+
+/* lightwidget */
+
+.lightwidget{
+  padding:1rem;
 }
 
 
@@ -1404,9 +1410,9 @@ h3 {
 }
 
 
-.web-dev div{
-  text-align:center;
-
+.web-dev div {
+    text-align: center;
+    width: 90%;
 }
 
 .web-dev{
@@ -1416,6 +1422,7 @@ h3 {
 
 .web-dev a{
   position:relative;
+  margin-bottom:3rem;
 }
 
 

@@ -431,13 +431,13 @@ iframe{
 
 
 .title-img{
-    /* background-image:url("/images/myface.jpg");
+    background-image:url("/images/myface.jpg");
     background-position: center;
     background-size: cover;
     margin-top: 0rem;
-    padding: 9rem; */
-    /* width: 100%;
-    margin: auto; */
+    padding: 9rem;
+    width: 100%;
+    margin: auto;
     text-align:right;
     height: 45vh;
 }

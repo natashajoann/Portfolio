@@ -209,8 +209,7 @@ html{
 }
 
 .button-spread:hover{
-  letter-spacing:5px;
-  color:#ECE6DC;
+  letter-spacing:2px;
 }
 
 .button-fill-second{
@@ -370,9 +369,6 @@ a{
   display:in-line block;
 }
 
-a:hover{
-  color:#e5bc5c;
-}
 
 /* dropdown */
 .dropdown .dropbtn {

@@ -424,14 +424,19 @@ iframe{
 
 
 .title-img{
-    background-image:url("/images/myface.jpg");
+    /* background-image:url("/images/myface.jpg");
     background-position: center;
     background-size: cover;
     margin-top: 0rem;
-    padding: 9rem;
-    width: 70%;
-    margin: auto;
+    padding: 9rem; */
+    /* width: 100%;
+    margin: auto; */
+    text-align:right;
     height: 45vh;
+}
+
+.title-img img{
+  width:100%;
 }
 
 
@@ -1942,10 +1947,10 @@ padding-left: 1rem;
   margin:auto;
 }
 
-.title-img{
+/* .title-img{
   padding:11rem;
   order:-1;
-}
+} */
 
 .menu-img{
   padding:6rem;

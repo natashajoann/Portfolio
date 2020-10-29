@@ -786,7 +786,8 @@ color:#272727;
 textarea{
   padding:10px 2px 150px;
   resize:none;
-  border:2px solid #7a7a7a;
+  margin-top:1rem;
+  border:2px solid #272727;
   background-color:transparent;
 }
 

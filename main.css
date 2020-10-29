@@ -133,7 +133,7 @@ html{
   scroll-behavior:smooth;
 }
 
-[class*=col-], [class*=col_], [class~=col]{
+/* [class*=col-], [class*=col_], [class~=col]{
   padding:0;
 }
 
@@ -155,7 +155,7 @@ html{
 
 [class*=col-], [class*=col_], [class~=col]{
   padding:0;
-}
+} */
 
 .justify{
   justify-content:center;

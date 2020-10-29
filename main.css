@@ -821,6 +821,7 @@ form{
     background-color: #212422;
     font-family: futura-pt, sans-serif;
     text-transform: lowercase;
+    padding-bottom:0;
 }
 
 .indicates-required{

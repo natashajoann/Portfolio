@@ -200,6 +200,7 @@ html{
 
 .button-spread{
   transition:0.8s;
+  text-transform: lowercase;
 }
 
 .button-spread:hover{
@@ -479,7 +480,7 @@ iframe{
 
 .index-blog{
   padding:4rem;
-  background-color: #f9ede5;
+  background-color: #D9E2E0;
   justify-content: center;
 }
 
@@ -567,7 +568,7 @@ iframe{
 /* index services */
 .index-services{
   padding:4rem 4rem 2rem;
-  background-color:#C3E0D9;
+  background-color:#ECE6DC;
 }
 
 .index-services p{
@@ -576,7 +577,7 @@ iframe{
 }
 
 .ampersand{
-  color:#D9EFE9;
+  color:#F8F3EA;
   font-size:105px;
 }
 
@@ -584,8 +585,8 @@ iframe{
 .testimonial{
   padding: 3rem;
   height: 68vh;
-  background-color:#FBC931;
-  color:white;
+  background-color:#212422;
+  color:#DBDBDB;
   display: flex;
   align-items: center;
   justify-content: center;

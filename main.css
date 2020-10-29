@@ -725,12 +725,10 @@ hr{
 /* Contact */
 
 .contact, .contact-form form{
-  padding:3rem;
+  padding:0 3rem;
   width: 70%;
   margin: auto;
   margin-bottom: 5rem;
-  font-family: futura-pt,sans-serif;
-  color:#272727;
 }
 
 .contact-form{
@@ -746,16 +744,20 @@ border:none;
 margin: auto;
 margin-top: 4px;
 display: flex;
+font-family: futura-pt,sans-serif;
+color:#272727;
 }
 
 .contact-form input{
   border-bottom:2px solid #272727;
+  background-color:transparent'
 }
 
 textarea{
   padding:10px 2px 150px;
   resize:none;
-  border:2px solid #DBDBDB;
+  border:2px solid #7a7a7a;
+  background-color:transparent;
 }
 
 
@@ -1016,7 +1018,6 @@ form{
   transition: max-height 0.9s ease-out;
   width:70%;
   margin:auto;
-  margin-bottom:6px !important;
 }
 
 
@@ -1092,9 +1093,6 @@ form{
   font-style: italic;
 }
 
-.media-side-img{
-  padding-top:2rem;
-}
 
 
 .dropdown-nav {

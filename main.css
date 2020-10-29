@@ -205,6 +205,7 @@ html{
 
 .button-spread:hover{
   letter-spacing:5px;
+  color:#ECE6DC;
 }
 
 .button-fill-second{
@@ -806,17 +807,22 @@ form{
     display: block;
     position: relative;
     text-align: left;
-    padding: 0px 0 0px 0%;
-    background-color: #c9e1d8;
+    padding: 2rem;
+    background-color: #212422;
+    font-family: futura-pt, sans-serif;
+    text-transform: lowercase;
 }
 
 .indicates-required{
   display:none;
 }
 
-#mc_embed_signup .button{
-  background-color:transparent;
-  width:96%;
+#mc_embed_signup .button {
+    background-color: transparent;
+    width: 96%;
+    color: #DBDBDB;
+    font-family: futura-pt, sans-serif;
+    text-transform: lowercase;
 }
 
 #mc_embed_signup .button:hover{
@@ -828,14 +834,39 @@ form{
     display: none;
     font-size: 18px;
     width: 100%;
-
-.footer h2{
-  font-size: 57px;
-  line-height: 45px;
 }
 
-.footer{
+#mc_embed_signup .mc-field-group label {
+    display: block;
+    /* margin-bottom: 3px; */
+    line-height: 0;
+    color: #DBDBDB;
+}
+
+#mc_embed_signup .mc-field-group input {
+    display: block;
+    width: 100%;
+    padding: 0;
+    text-indent: 2%;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid #DBDBDB;
+}
+
+
+footer h2 {
+  font-size: 57px;
+  line-height: 45px;
+  color: #DBDBDB;
+}
+
+footer h3{
+  color:#DBDBDB;
+}
+
+footer{
   background-color:#212422;
+  color: #DBDBDB;
 }
 
 .form h2{
@@ -843,15 +874,7 @@ form{
   font-size:50px;
 }
 
-.footer h1{
-  font-size:42px;
-  line-height:30px
-}
 
-.about-img{
-  position:relative;
-  padding:6rem;
-}
 
 .footer-menu{
   position:absolute;
@@ -2013,7 +2036,6 @@ padding-left: 1rem;
 
 .blog-loop-background{
   padding: 6rem;
-  margin: 2rem 0 0;
   background-position: center;
   background-size: cover;
   min-height:200px;

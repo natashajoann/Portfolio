@@ -486,9 +486,9 @@ iframe{
 /* Title */
 
 .primary-logo{
-  width:50%;
-  position:fixed;
-  top:3vh;
+  width:15%;
+  position:absolute;
+  top:6vh;
   left:2vh;
 }
 
@@ -1632,7 +1632,7 @@ h3 {
 /* ABOUT */
 
 .about{
-padding: 0 0 4rem;
+padding:0;
 background-color:#ffffff;
 }
 
@@ -1727,6 +1727,26 @@ margin:auto;
   padding: 14rem 0;
 }
 
+.mobile-order{
+  order:2;
+}
+
+.title-quote{
+  position:relative;
+  padding:2rem;
+}
+
+.primary-logo{
+  width:35%;
+  position:relative;
+  top:6vh;
+  left:2vh;
+}
+
+.title{
+  height:auto;
+}
+
 .nav-title img {
   width:24%;
 }
@@ -1773,6 +1793,10 @@ padding:4rem;
 
 .ampersand{
   padding: 1rem 0 4rem;
+}
+
+.ampersand h1{
+  font-size:105px !important;
 }
 
 .mobile-display{
@@ -1843,6 +1867,10 @@ padding:4rem;
   max-width:100% !important;
 }
 
+
+.index-blog{
+  padding:4rem 2rem;
+}
 
 .services h2{
   padding:0 5rem;
@@ -2092,7 +2120,7 @@ padding-left: 1rem;
 }
 
 .about{
-  padding:4.5rem 0 5rem;
+  padding:0;
 }
 
 .about-text{
@@ -2155,7 +2183,7 @@ padding-left: 1rem;
   padding: 6rem;
   background-position: center;
   background-size: cover;
-  min-height:200px;
+  min-height:300px;
 }
 
 .blog-loop-background, .blog-loop-info h3, .blog-loop-info p {

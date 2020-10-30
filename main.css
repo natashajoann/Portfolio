@@ -1615,6 +1615,11 @@ h3 {
     width: 90%;
 }
 
+.mobile-contact{
+  padding: 2rem 0;
+    margin: 2rem 0;
+}
+
 .web-dev{
   background-color:white;
   padding:2rem;
@@ -1924,6 +1929,19 @@ padding:4rem;
 .web-dev h3{
   text-align:center;
   margin-bottom:20px;
+}
+
+.web-dev div{
+  width:100%;
+}
+
+.web-dev{
+  padding:0;
+}
+
+.media-img2{
+  width:80%;
+  margin:auto;
 }
 
 .web-accordion{

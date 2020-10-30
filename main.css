@@ -1734,13 +1734,17 @@ margin:auto;
 .title-quote{
   position:relative;
   padding:2rem;
+  top:0;
+  right:0;
+  width:100%;
+
 }
 
 .primary-logo{
   width:35%;
   position:relative;
-  top:6vh;
-  left:2vh;
+  top:1vh;
+  left:1vh;
 }
 
 .title{
@@ -1771,12 +1775,14 @@ margin:auto;
 
 .title-quote h1{
   text-align:center;
+  line-height:60px;
+  padding-bottom:20px;
 }
 
 .title-quote{
 text-align: center;
 padding:4rem;
-
+padding-bottom:2rem;
 }
 
 .hamburger__container{
@@ -1832,7 +1838,7 @@ padding:4rem;
 }
 
 .testi-slide{
-  height: 59vh;
+  height: 85vh;
     background-color: #212422;
     margin: auto;
     display: flex;

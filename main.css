@@ -958,6 +958,7 @@ textarea{
   margin: auto;
   display: flex;
   justify-content: center;
+  transition:0.8s;
 }
 
 form{

@@ -931,10 +931,10 @@ margin-top: 4px;
 display: flex;
 font-family: futura-pt,sans-serif;
 color:#272727;
+border-bottom:2px solid #272727;
 }
 
 .contact, .contact-form input{
-  border-bottom:2px solid #272727;
   background-color:transparent;
 }
 
@@ -1260,6 +1260,8 @@ footer{
 
 .social-media{
   background-color:white;
+  padding-top: 4rem;
+    padding-right: 4rem;
 }
 
 .social-image{

@@ -863,7 +863,7 @@ hr{
     background-color: #262626ad;
     color: white;
     top: 0;
-    left:0vh;
+    left:3vh;
 }
 
 .overlay:hover{
@@ -878,7 +878,7 @@ hr{
 }
 
 .featured1{
-  background-image:url("/images/featured-2.jpg");
+  background-image:url("/images/featured-2.png");
   background-position:center;
   background-size:cover;
   margin-top:10px;
@@ -890,7 +890,7 @@ hr{
 }
 
 .featured2{
-  background-image:url("/images/featured-3.jpg");
+  background-image:url("/images/featured-3.png");
   background-position:center;
   background-size: cover;
   position:relative;
@@ -899,7 +899,7 @@ hr{
 }
 
 .featured3{
-  background-image:url("/images/featured-1.jpg");
+  background-image:url("/images/featured-1.png");
   background-position:center;
   background-size: cover;
   position:relative;
@@ -908,7 +908,7 @@ hr{
 }
 
 .featured3{
-  background-image:url("/images/featured-4.jpg");
+  background-image:url("/images/featured-4.png");
   background-position:center;
   background-size: cover;
   position:relative;

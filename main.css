@@ -878,7 +878,7 @@ hr{
 }
 
 .featured1{
-  background-image:url("/images/millesime-cover.jpg");
+  background-image:url("/images/featured-2.jpg");
   background-position:center;
   background-size:cover;
   margin-top:10px;
@@ -890,7 +890,7 @@ hr{
 }
 
 .featured2{
-  background-image:url("/images/chase-desert.jpg");
+  background-image:url("/images/featured-3.jpg");
   background-position:center;
   background-size: cover;
   position:relative;
@@ -899,7 +899,16 @@ hr{
 }
 
 .featured3{
-  background-image:url("/images/jess-vsco.jpg");
+  background-image:url("/images/featured-1.jpg");
+  background-position:center;
+  background-size: cover;
+  position:relative;
+  z-index:3;
+  height:38vh;
+}
+
+.featured3{
+  background-image:url("/images/featured-4.jpg");
   background-position:center;
   background-size: cover;
   position:relative;

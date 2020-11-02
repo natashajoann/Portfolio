@@ -877,8 +877,8 @@ hr{
   max-width:47% !important;
 }
 
-.featured h3{
-  font-size:30px;
+.featured h4{
+  font-size:20px;
   font-family:'Playfair Display',serif;
   font-weight: 600;
 }

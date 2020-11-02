@@ -892,7 +892,7 @@ hr{
   z-index:3;
   padding:6rem;
   margin-bottom:10px;
-  height:38vh;
+  height:60vh;
 }
 
 .featured2{
@@ -901,7 +901,7 @@ hr{
   background-size: cover;
   position:relative;
   z-index:3;
-  height:38vh;
+  height:60vh;
 }
 
 .featured3{
@@ -910,7 +910,7 @@ hr{
   background-size: cover;
   position:relative;
   z-index:3;
-  height:38vh;
+  height:60vh;
 }
 
 .featured4{
@@ -919,7 +919,7 @@ hr{
   background-size: cover;
   position:relative;
   z-index:3;
-  height:38vh;
+  height:60vh;
 }
 
 /* Contact */

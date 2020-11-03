@@ -1703,9 +1703,6 @@ input{
 .padded-5 { padding: 5%; }
 .margin-bottom{margin-bottom:3rem;}
 
-.margin-bottom{
-  max-width: 100% !important;
-}
 
 /* ARTICLES */
 
@@ -1751,6 +1748,10 @@ margin:auto;
 @media (max-width: 768px){
 .cv-img{
   padding: 14rem 0;
+}
+
+.margin-bottom{
+  max-width: 100% !important;
 }
 
 .mobile-order{

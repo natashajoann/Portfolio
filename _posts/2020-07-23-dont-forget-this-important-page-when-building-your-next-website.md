@@ -11,7 +11,7 @@ Services page with package information? Check and check.&nbsp;
 
 A current blog + plenty of SEO key terms? Check, check, check.
 
-&nbsp;
+&nbsp; &nbsp;&nbsp;
 
 *Ok, so what am I missing?&nbsp;*
 
@@ -76,7 +76,7 @@ This is the ideal opportunity to transform a negative experience with a positive
 
 &nbsp;
 
-Need a bit of inspiration to get your 404 page design started?&nbsp;[Click here](https://ar.pinterest.com/natasha_joann/amazing-404-page-designs/){: target="_blank" rel="noopener"} and check out this board filled to the brim with brilliant 404 page designs\!
+Need a bit of inspiration to get your 404 page design started?&nbsp;[Click here](https://ar.pinterest.com/natasha_joann/amazing-404-page-designs/){: target="_blank"} and check out this board filled to the brim with brilliant 404 page designs\!
 
 &nbsp;
 

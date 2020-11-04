@@ -11,7 +11,7 @@ There are plenty of aspects about freelancing that you learn through trial and e
 
 &nbsp;
 
-Sadly, contracts also tend to make that list.
+Sadly, contracts also tend to make that list.&nbsp;
 
 &nbsp;
 
@@ -232,7 +232,7 @@ And remember, for the love of all that is good, DO NOT start your project until 
 
 &nbsp;
 
-Ready to build your contract? [***Click here***](https://mailchi.mp/31ae55be54bd/contract-builder){: target="_blank" rel="noopener"} to snag your contract download\!
+Ready to build your contract? [***Click here***](https://mailchi.mp/31ae55be54bd/contract-builder){: target="_blank"} to snag your contract download\!
 
 x
 

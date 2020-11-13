@@ -1770,14 +1770,14 @@ margin:auto;
 }
 
 .primary-logo{
-  width:35%;
+  /* width:35%; */
   position:relative;
   top:1vh;
   left:1vh;
 }
 
 .primary-logo img{
-  width:35%;
+  /* width:35%; */
 }
 
 .title{

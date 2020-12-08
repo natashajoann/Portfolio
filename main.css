@@ -488,7 +488,7 @@ iframe{
 .primary-logo{
   width:15%;
   position:absolute;
-  top:6vh;
+  top:0vh;
   left:2vh;
 }
 
@@ -1772,7 +1772,7 @@ margin:auto;
 .primary-logo{
   /* width:35%; */
   position:relative;
-  top:1vh;
+  top:0vh;
   left:1vh;
 }
 

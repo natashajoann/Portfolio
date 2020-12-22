@@ -495,16 +495,16 @@ iframe{
 /* .main-title h1, .main-title-mobile h1{ */
 
 .title-overlay{
-  position: absolute;
-  height: 100%;
-  width: 100%;
+  position:absolute;
+  height:100%;
+  width:100%;
   padding: 5%;
   text-align: center;
-  opacity: 0;
-  background-color: #262626ad;
-  color: white;
-  top: 0;
-  left:3vh;
+  background-color: #2424248f;
+  color:rgb(250,250,250);
+  top:0;
+  left:0;
+  z-index:3;
   display:flex;
   align-items: center;
 }

@@ -276,9 +276,6 @@ nav{
   display:none;
 }
 
-.desktop-menu{
-  display: block;
-}
 
 .mobil-menu{
   display:block;
@@ -513,7 +510,7 @@ iframe{
   width:100%;
   padding: 5%;
   text-align: center;
-  background-color: #2424248f;
+  background-color: #24242447;
   color:rgb(250,250,250);
   top:0;
   left:0;

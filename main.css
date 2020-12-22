@@ -511,8 +511,12 @@ iframe{
 }
 
 .title-quote{
-  width:80%;
-  margin:auto;
+margin:auto;
+width: 50%;
+margin: auto;
+text-align: left;
+position: absolute;
+bottom: 32vh;
 }
 
 .main-title img{
@@ -770,7 +774,11 @@ iframe{
 /* Slick slider */
 
 .single-item{
-  height:100vh;
+  height:50vh;
+  height: 50vh;
+display: flex;
+align-items: center;
+text-align: center;
 }
 
 .slick-blog-container {
@@ -1718,15 +1726,14 @@ margin:auto;
 
 .primary-logo{
   /* width:35%; */
-  position:relative;
-  top:0vh;
-  left:1vh;
+  top:2vh;
+  left:2vh;
   z-index:1000;
 }
 
-.primary-logo img{
+/* .primary-logo img{
   width:15%;
-}
+} */
 
 .title{
   height:auto;
@@ -1749,10 +1756,6 @@ margin:auto;
   width:40%;
 }
 
-.title-img{
-  height:45vh;
-  order:-1;
-}
 
 .title-quote h1{
   text-align:center;
@@ -1766,9 +1769,9 @@ padding:4rem;
 padding-bottom:2rem;
 }
 
-.hamburger__container{
+/* .hamburger__container{
   top:9.5vh;
-}
+} */
 
 .nav{
   width:80% !important;
@@ -2265,9 +2268,14 @@ padding-left: 1rem;
   margin-bottom:5rem;
 }
 
+.vl-top{
+  padding-top:20px;
+}
+
 .vl{
   border-right:none;
   border-bottom:1px solid black;
+  padding-bottom:20px;
 }
 
 }

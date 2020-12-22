@@ -41,6 +41,36 @@ data-aos-duration="2000">
   </div>
 </section>
 
+<section class="slideshow mobile-slideshow" >
+
+  <div class="single-item">
+
+    {% for post in site.posts limit:3 %}
+    <div class="slidecontainer relative" style="background-image:url({{post.mobile_image}})">
+      <div class="title-overlay">
+        <div class="title-centered">
+          <div class="border-top"></div>
+          <h3> {{post.place}} | {{post.author}}</h3>
+          <h1> {{post.title}}</h1>
+          <p> {{post.description_html}}</p>
+
+          <div class="border-btm"></div>
+
+          <br/><br/>
+          <a href="{{post.url}}" class="spacing-button"> Read Their Story</a>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+
+
+
+
+</div>
+
+</section>
+
+
 <section class="testi-slide">
 <div class=" slides testimonial">
   <div class="slideshow-container">

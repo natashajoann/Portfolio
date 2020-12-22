@@ -2347,6 +2347,11 @@ padding-left: 1rem;
   margin-bottom:5rem;
 }
 
+.vl{
+  border-left:none;
+  border-bottom:1px solid black;
+}
+
 }
 
 @media (max-width:687px;){

@@ -3,6 +3,13 @@
 
     $(document).ready(function() {
 
+      // Slick Slider
+
+      $('.single-item').slick({
+        autoplay: true,
+        autoplaySpeed: 10000,
+      });
+
         $('.hamburger__container').click(function() {
             $('.nav').toggleClass('open');
             $(this).children().first().toggleClass('open');
@@ -34,12 +41,7 @@
       });
     }
 
-    // Slick Slider
 
-    $('.single-item').slick({
-      autoplay: true,
-      autoplaySpeed: 10000,
-    });
 
 
       $(".dropdown-nav").click(function(){

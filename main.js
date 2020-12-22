@@ -35,17 +35,11 @@
     }
 
     // Slick Slider
-    $('.autoplay').slick({
-      slidesToShow: 3,
-      slidesToScroll: 1,
+
+    $('.single-item').slick({
       autoplay: true,
       autoplaySpeed: 10000,
     });
-
-$('.single-item').slick({
-  autoplay: true,
-  autoplaySpeed: 10000,
-  });
 
 
       $(".dropdown-nav").click(function(){

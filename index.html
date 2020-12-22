@@ -10,26 +10,25 @@ testimonials:
     client: Me3
 ---
 
-<section class="grid title about">
-  <div class="col-6_sm-12" style="position:relative;">
-    <div class="title-quote">
-      <h1> Hey! I'm Tash, </h1>
-      <p>I’m a front-end web developer, digital marketer, and anthropologist.
-      <br><br>
-      I’m here to help bring your brand to life…</p>
-    </div>
-  </div>
+<section class="title-img about relative">
 
-  <div class="col-6_sm-12 title-img-wrapper">
-      <div class="title-img"></div>
-  </div>
+    <div class="title-overlay">
+      <div class=" title-quote">
+        <h1> Hey! I'm Tash, </h1>
+        <p>I’m a front-end web developer, digital marketer, and anthropologist.
+        <br><br>
+        I’m here to help bring your brand to life…</p>
+      </div>
+    </div>
+
+
+
 </section>
 
 
 <section class="grid index-services animate" data-aos="fade"
 data-aos-duration="2000">
 
-<!-- <h1 class="col-12 fixed1"> I'm looking for...</h1> -->
 
   <div class="col-5_sm-12 service-info centered">
     <h2> Web Design <br> & Development</h2>
@@ -42,67 +41,10 @@ data-aos-duration="2000">
   </div>
 
   <div class="col-5_sm-12 service-info centered">
-    <h2> Social Media <br> Marketing</h2>
+    <h2> Coding & <br> Design Guides</h2>
     <br>
-    <a href="/media" class="button-spread"> <span>explore</span> </a>
+    <a href="/blog" class="button-spread"> <span>explore</span> </a>
   </div>
-</section>
-
-<section class="slideshow mobile-slideshow" >
-
-  <div class="single-item">
-
-    {% for item in page.testimonials %}
-    <div class="slidecontainer relative">
-        <p> {{item.quote}} </p>
-
-          <br><br>- <h4 class="testie-p">{{item.client}} </h4>
-      </div>
-    </div>
-    {% endfor %}
-
-  </div>
-
-</section>
-
-
-<section class="testi-slide">
-<div class=" slides testimonial">
-  <div class="slideshow-container">
-
-    <div class="mySlides slide1  fade">
-      <p> We came to Natasha with no clear design criteria, except we wanted “clean” and “sophisticated.” With that pittance of direction Natasha delivered beyond all of our expectations. <br> <br>
-        <!-- I would, without reservation, recommend Natasha for the design and build of your website.  -->
-
-        I am proud to provide our clients, potential clients, friends, family, competitors and colleagues with our URL to “check” out us and our practice. All thanks to Natasha! <br><br>- <span class="testie-p">Marcy P., PHH Law Group</span>
-          </p>
-        </div>
-
-    <div class="mySlides slide2  fade">
-        <p> Natasha is super talented and creative! She did a fantastic job with grasping my vision and excecuting it. She is also a great communicator. <br> She is so hands on and always available to help when you need it the most. <br><br> - <span class="testie-p"> Kalish N., The Pose Box</span> </p>
-
-      </div>
-
-    <div class="mySlides slide2  fade">
-      <p> I am grateful to the creative talent and professionalism of Natasha.
-      I found that in the process of her building a Website for me,the communication among Natasha, myself and my publisher and publicist were always accommodated with patience  and  respect.
-      <br><br>
-      I Recommend Natasha whole heartedly <br><br> - <span class="testie-p"> Bilha Fish MD, Invisible Women Book</span> </p>
-    </div>
-
-    <div class="mySlides slide2  fade">
-      <p> Natasha is such a pleasure to work with, from start to finish. I came to her with a website idea and she brought my vision to life almost instantly.
-        <!-- Her organization, thoroughness, and expectation setting made for an extremely smooth & positive experience. -->
-       <br><br> I’m so excited about the finished product that she created! I will absolutely be working with her again. <br><br> - <span class="testie-p"> Jessie Bosley, JB Creative Consulting LLC </span> </p>
-  </div>
-
-  <div class="mySlides slide2  fade">
-    <p> Working with Natasha on my website was such a breeze. She listened well and was able to bring my vision to life in a short period of time. The product is playful and professional and exactly as I hoped. I would highly recommend her.  <br><br> - <span class="testie-p"> Chase Wilmot, Chase Wilmot Coaching </span> </p>
-</div>
-
-  </div>
-
-</div>
 </section>
 
 
@@ -111,47 +53,39 @@ data-aos-duration="2000">
 
 <h1> Latest <br> Work </h1>
 
+  {% for item in page.latest-work limit:4 %}
 
   <div class="col-6_sm-12 centered margin-bottom animate" data-aos="fade"
   data-aos-duration="2000">
-    <div class="featured1"></div>
+    <div class="featured1" style="background-image{{item.featured_image}}"></div>
     <br>
-      <h4> Miika Kivilo Re-Design</h4>
-      <a href="https://natashaverdon.com/miika-art" class="button-spread"> See More </a>
+      <h4> {{item.project-name}}</h4>
+      <a href="{{item.url}}" class="button-spread"> See More </a>
   </div>
 
 
-  <div class="col-6_sm-12 margin-bottom animate" data-aos="fade"
-  data-aos-duration="2000" data-aos-delay="500">
-    <div class="featured2"></div>
-    <br>
-      <h4> JB Creative Consulting Web Build</h4>
-      <a href="https://natashaverdon.com/jessie-b-creative" class="centered button-spread"> See More</a>
-  </div>
-
-
-  <div class="col-6_sm-12 margin-bottom animate" data-aos="fade"
-  data-aos-duration="2000">
-    <div class="featured3"></div>
-    <br>
-      <h4> Here's Looking At You Re-design (demo)</h4>
-      <a href="https://natashaverdon.com/hlay-demo" class="centered button-spread"> See More </a>
-  </div>
-
-  <div class="col-6_sm-12 margin-bottom animate" data-aos="fade"
-  data-aos-duration="2000" data-aos-delay="1000">
-    <div class="featured4"></div>
-    <br>
-      <h4> Sobremesa Stories</h4>
-      <a href="https://sobremesastories.co" class="centered button-spread">See More
-    </a>
-  </div>
+  {% endfor %}
 
 
   <div class="col-12 centered">
     <a href="/web-dev" class="button-spread"> See all my work </a>
   </div>
+  </section>
 
+  <section class="slideshow mobile-slideshow" >
+
+    <div class="single-item">
+
+      {% for item in page.testimonials %}
+      <div class="slidecontainer relative">
+          <p> {{item.quote}} </p>
+
+            <br><br>- <h4 class="testie-p">{{item.client}} </h4>
+        </div>
+      </div>
+      {% endfor %}
+
+    </div>
 
   </section>
 

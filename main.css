@@ -942,7 +942,7 @@ hr{
   font-weight: 600;
 }
 
-.featured{
+.featured-work{
   background-position:center;
   background-size:cover;
   margin-top:10px;
@@ -1108,14 +1108,6 @@ footer{
   margin:0 10px;
 }
 
-/* input{
-  width: 90%;
-  border: none;
-  border-bottom: 2px solid #fff;
-  font-size: 15px;
-  margin: 3px;
-  padding: 6px 5px;
-} */
 
 .contact-button{
   width: 90;
@@ -1695,7 +1687,7 @@ background-color:#ffffff;
 
 
 .form{
-  padding:4rem;
+  padding:2rem 4rem;
 }
 
 

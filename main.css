@@ -766,17 +766,23 @@ iframe{
   border-right:1px solid black;
 }
 
-/* Slick */
+/* Slick slider */
 
-/* .single-item{
+.single-item{
   height:100vh;
-} */
+}
 
+.slick-blog-container {
+  padding: 5% 15%;
+}
 
 .slick-next {
   right: 1rem;
 }
 
+.slick-slide img {
+  display: inline-block;
+}
 
 .slick-prev {
   left: 1rem;
@@ -785,12 +791,34 @@ iframe{
 .slick-next:before, .slick-prev:before {
   font-family: inherit;
   font-weight: bold;
-  color: black;
+  color: white;
 }
 
 .slick-blog-loop:not(.slick-initialized) .hidden {display: none}
 
 
+.slick-blog-loop h2 {
+  // font-family: p22-underground, sans-serif;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  // text-transform: uppercase;
+  line-height: 1.1;
+  // letter-spacing: 3px;
+  // font-weight: 200;
+}
+
+.slick-slider .overlay {
+  position: absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background: linear-gradient(0deg, rgba(0,0,0,0.6) 0%, rgba(255,255,255,0) 50%);
+}
+
+.slick-slider .banner {
+  min-height: 70vh;
+}
 
 /* Testimonials */
 .testimonial, .testimonial_color{

@@ -1,6 +1,13 @@
 ---
 layout: default
 title: Natasha Joann
+testimonials:
+  - quote: Hi
+    client: Me1
+  - quote: Bye
+    client: Me2
+  -quote: Okay
+    client: Me3
 ---
 
 <section class="grid title about">
@@ -45,28 +52,16 @@ data-aos-duration="2000">
 
   <div class="single-item">
 
-    {% for post in site.posts limit:3 %}
-    <div class="slidecontainer relative" style="background-image:url({{post.mobile_image}})">
-      <div class="title-overlay">
-        <div class="title-centered">
-          <div class="border-top"></div>
-          <h3> {{post.place}} | {{post.author}}</h3>
-          <h1> {{post.title}}</h1>
-          <p> {{post.description_html}}</p>
+    {% for item in page.testimonials %}
+    <div class="slidecontainer relative">
+        <p> {{item.quote}} </p>
 
-          <div class="border-btm"></div>
-
-          <br/><br/>
-          <a href="{{post.url}}" class="spacing-button"> Read Their Story</a>
-        </div>
+          <br><br>- <h4 class="testie-p">{{item.client}} </h4>
       </div>
     </div>
     {% endfor %}
 
-
-
-
-</div>
+  </div>
 
 </section>
 

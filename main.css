@@ -844,6 +844,11 @@ text-align: center;
   min-height: 70vh;
 }
 
+.slidecontainer p{
+  width:80%;
+  margin:auto;
+}
+
 /* Testimonials */
 .testimonial, .testimonial_color{
   background-color:#212422;

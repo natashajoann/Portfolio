@@ -1784,6 +1784,8 @@ margin:auto;
   color: white;
   top: 0;
   left:3vh;
+  display:flex;
+  align-items: center;
 }
 
 .title-quote{

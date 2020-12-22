@@ -173,6 +173,11 @@ html{
   position:relative;
 }
 
+.align-center{
+  display: flex;
+align-items: center;
+}
+
 /* Button Styles */
 
 .button-fill{
@@ -1737,6 +1742,7 @@ margin:auto;
 .relative{
   position:relative;
 }
+
 
 
 .primary-logo{

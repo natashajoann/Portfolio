@@ -495,10 +495,10 @@ iframe{
 
 .primary-logo{
   width:15%;
-  position:absolute;
+  /* position:absolute;
   top:0vh;
   left:2vh;
-  z-index:1000;
+  z-index:1000; */
 }
 
 /* .main-title h1, .main-title-mobile h1{ */

@@ -8,11 +8,11 @@ intro:
       <p>I'm a front-end web designer and developer. I create empowering
       websites for the bold and inspired.&nbsp;</p><p>Let's get started.</p>
 testimonials:
-  - quote: Hi
+  - quote_html: Hi
     client: Me1
-  - quote: Bye
+  - quote_html: Bye
     client: Me2
-  - quote: Okay
+  - quote_html: Okay
     client: Me3
 latest-work:
   - featured_image: /uploads/miikacover.png
@@ -109,7 +109,7 @@ data-aos-duration="2000" <style="margin:auto;">
       {% for item in page.testimonials %}
       <div class="slidecontainer relative">
         <div>
-          <p> {{item.quote}} </p>
+          <p> {{item.quote_html}} </p>
 
           <br><br><h4 class="testie-p"> - {{item.client}} </h4>
         </div>

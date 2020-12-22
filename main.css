@@ -763,7 +763,7 @@ iframe{
 } */
 
 .vl{
-  border-left:1px solid black;
+  border-right:1px solid black;
 }
 
 /* Slick */
@@ -2348,7 +2348,7 @@ padding-left: 1rem;
 }
 
 .vl{
-  border-left:none;
+  border-right:none;
   border-bottom:1px solid black;
 }
 

@@ -976,6 +976,7 @@ hr{
 
 .featured-work-padded{
   padding:3rem;
+  padding-left:4rem;
 }
 
 
@@ -2287,6 +2288,10 @@ padding-left: 1rem;
   width:90%;
   margin:auto;
   margin-bottom:5rem;
+}
+
+.featured-work-padded{
+  padding:2rem;
 }
 
 .vl-top{

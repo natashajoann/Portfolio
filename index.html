@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Natasha Joann
+testimonial_color:
 testimonials:
   - quote: Hi
     client: Me1
@@ -22,6 +23,14 @@ latest-work:
     project-name: Chase Wilmot Life Coaching
     url: /chase-wilmot-coaching.html
 ---
+
+<style>
+
+.testimonial_color{
+  background-color:{{page.testimonial_color}}
+}
+
+</style>
 
 <section class="title-img about relative">
 
@@ -87,7 +96,7 @@ data-aos-duration="2000">
   </div>
   </section>
 
-  <section class="slideshow desktop-slideshow">
+  <section class="testimonial testimonial_color slideshow desktop-slideshow">
 
     <div class="single-item">
 

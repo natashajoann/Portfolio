@@ -78,9 +78,10 @@ data-aos-duration="2000">
 
       {% for item in page.testimonials %}
       <div class="slidecontainer relative">
+        <div>
           <p> {{item.quote}} </p>
 
-            <br><br>- <h4 class="testie-p">{{item.client}} </h4>
+          <br><br><h4 class="testie-p"> - {{item.client}} </h4>
         </div>
       </div>
       {% endfor %}

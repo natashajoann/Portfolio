@@ -53,7 +53,7 @@ data-aos-duration="2000">
 
 
   <div class="col-6_sm-12 service-info centered vl">
-    <h2> Web Design <br> & Development Services</h2>
+    <h2> Web Design <br> & Development <br> Services</h2>
     <br>
     <a href="/web-dev" class="button-spread"><span> explore</span> </a>
   </div>
@@ -68,7 +68,7 @@ data-aos-duration="2000">
 
 
 
-<section class="grid featured-work centered" <style="margin:auto;">
+<section class="grid featured-work-padded centered" <style="margin:auto;">
 
 <h1 class="col-12"> Latest Work </h1>
 
@@ -111,11 +111,11 @@ data-aos-duration="2000">
 
   </section>
 
-  <section class="grid index-blog">
+  <section class="grid index-blog  animate" data-aos="fade"
+  data-aos-duration="2000">
     <h1 class="centered col-12"> Hot Off The Press </h1>
 
-    <div class="grid justify animate" data-aos="fade"
-    data-aos-duration="2000">
+    <div class="grid justify">
 
     {% for post in site.posts limit:3 %}
       <div class="col-4_sm-12 post-preview">

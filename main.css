@@ -735,7 +735,7 @@ iframe{
 
 /* index services */
 .index-services{
-  padding:7rem 4rem;
+  padding:4rem;
   /* background-color:#ECE6DC; */
   position:relative;
 }
@@ -768,9 +768,9 @@ iframe{
 
 /* Slick */
 
-.single-item{
+/* .single-item{
   height:100vh;
-}
+} */
 
 
 .slick-next {
@@ -921,7 +921,10 @@ hr{
   position:relative;
   z-index:3;
   margin-bottom:10px;
+}
 
+.featured-work-padded{
+  padding:3rem;
 }
 
 

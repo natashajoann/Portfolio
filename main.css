@@ -815,7 +815,7 @@ text-align: center;
 .slick-next:before, .slick-prev:before {
   font-family: inherit;
   font-weight: bold;
-  color: white;
+  color: black;
 }
 
 .slick-blog-loop:not(.slick-initialized) .hidden {display: none}

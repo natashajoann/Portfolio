@@ -490,6 +490,7 @@ iframe{
   position:absolute;
   top:0vh;
   left:2vh;
+  z-index:1000;
 }
 
 /* .main-title h1, .main-title-mobile h1{ */
@@ -1753,7 +1754,7 @@ margin:auto;
   order:-1;
 }
 
-/* .title-quote h1{
+.title-quote h1{
   text-align:center;
   line-height:60px;
   padding-bottom:20px;
@@ -1763,7 +1764,7 @@ margin:auto;
 text-align: center;
 padding:4rem;
 padding-bottom:2rem;
-} */
+}
 
 .hamburger__container{
   top:9.5vh;

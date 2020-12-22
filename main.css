@@ -589,7 +589,7 @@ iframe{
     width: 100%;
     margin: auto;
     text-align:right;
-    height: 105vh;
+    height: 100vh;
 }
 
 .title-img-wrapper{
@@ -1720,6 +1720,7 @@ margin:auto;
   position:relative;
   top:0vh;
   left:1vh;
+  z-index:1000;
 }
 
 .primary-logo img{

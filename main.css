@@ -1882,6 +1882,17 @@ padding-bottom:2rem;
 }
 
 
+.slideshow-container{
+  position:relative;
+
+}
+
+.slidecontainer{
+  height:100vh;
+  background-position:center;
+  background-size:cover;
+}
+
 
 
 .mySlides{

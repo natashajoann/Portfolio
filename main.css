@@ -494,7 +494,25 @@ iframe{
 
 /* .main-title h1, .main-title-mobile h1{ */
 
+.title-overlay{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  padding: 5%;
+  text-align: center;
+  opacity: 0;
+  background-color: #262626ad;
+  color: white;
+  top: 0;
+  left:3vh;
+  display:flex;
+  align-items: center;
+}
 
+.title-quote{
+  width:80%;
+  margin:auto;
+}
 
 .main-title img{
   width:90%;
@@ -1767,25 +1785,6 @@ margin:auto;
   position:relative;
 }
 
-.title-overlay{
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  padding: 5%;
-  text-align: center;
-  opacity: 0;
-  background-color: #262626ad;
-  color: white;
-  top: 0;
-  left:3vh;
-  display:flex;
-  align-items: center;
-}
-
-.title-quote{
-  width:80%;
-  margin:auto;
-}
 
 .primary-logo{
   /* width:35%; */

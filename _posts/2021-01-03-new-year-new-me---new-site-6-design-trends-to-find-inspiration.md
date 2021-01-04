@@ -17,8 +17,6 @@ Happy New Year\! Hopefully we have left behind the worst of 2020 and can start a
 
 ### 1\. Cool Fonts
 
-&nbsp;
-
 The only thing my last client of 2020 asked for during the design of their new website was, "I want to keep it minimal but with really cool fonts." Everything comes back around (hopefully everything except low-rise blue jeans) and typography is no exception. Where once designers chose to use sleek sans-serif fonts, there is a new push towards stylized, edgy, retro font styles.&nbsp;
 
 &nbsp;
@@ -51,12 +49,19 @@ I would head over to [Typewolf](https://www.typewolf.com/){: target="_blank" rel
 
 Sometimes your page just needs a little extra *umph* without adding in whole new sections of code or content. Enter the parallax or fixed background scrolling. These effects make your page more dynamic, add personality, and even add room for your content to breathe when used correctly. I love using a parallax highlight important information (think things like a telling quote, a short testimonial, a link to a sale's page etc.) or to add in an easy 'wow factor' with beautiful imagery. Here are some gorgeous examples of parallax scrolling.&nbsp;
 
+&nbsp;
+
 Love it? Click [here](https://natashaverdon.com/2020/06/24/creating-a-fixed-image-background-in-4-simple-steps.html){: target="_blank" rel="noopener"} for my very own guide on adding a parallax to your website in under 20 min.&nbsp;
+
+&nbsp;
 
 &nbsp;
 {: .align-to-center}
 
 ![](/uploads/d062cb854b8c3d1327fa3ea70d368102.gif){: width="500" height="500"}
+{: .align-to-center}
+
+&nbsp;
 {: .align-to-center}
 
 &nbsp;
@@ -73,13 +78,19 @@ Could it be that the utter chaos of 2020 has us all reaching for more stability 
 
 &nbsp;
 
-![](/uploads/c5f7d66fa5795d2e82e0a427ec867961.jpg){: .one-half width="304" height="541"}&nbsp;
+![](/uploads/c5f7d66fa5795d2e82e0a427ec867961.jpg){: .one-third width="304" height="541"}&nbsp;
+{: .align-to-center}
+
+&nbsp;
 {: .align-to-center}
 
 &nbsp;
 {: .align-to-center}
 
 &nbsp;![](/uploads/screencapture-fellowstudios-au-2021-01-03-11-33-57.png){: .one-half width="1289" height="2067"}
+{: .align-to-center}
+
+&nbsp;
 {: .align-to-center}
 
 &nbsp;
@@ -94,21 +105,34 @@ Could it be that the utter chaos of 2020 has us all reaching for more stability 
 
 &nbsp;
 
+&nbsp;
+
 ## 5\. Gradients and Blurs
 
 While abstract elements made a splash in 2019 and 2020, softer blurs and gradients are taking center stage–and sometimes even the whole stage–in 2021. &nbsp;I love how the below designers rely on gradients to pull focus towards titles, CTAs, or even personal messages. Delicate and engaging at the same time.&nbsp;
 
 &nbsp;
 
-[![](/uploads/screen-shot-2021-01-03-at-12-50-04-pm.png){: width="1280" height="763"}](studiocleo.co){: target="_blank" rel="noopener"}
+&nbsp;
+
+[![](/uploads/screen-shot-2021-01-03-at-12-50-04-pm.png){: .two-thirds width="1280" height="763"}](studiocleo.co){: target="_blank" rel="noopener"}
+{: .align-to-center}
 
 &nbsp;
 
-![](/uploads/screen-shot-2021-01-03-at-12-47-28-pm.png){: width="800" height="599"}
+&nbsp;
+
+![](/uploads/screen-shot-2021-01-03-at-12-47-28-pm.png){: .two-thirds width="800" height="599"}
+{: .align-to-center}
 
 &nbsp;
 
-![](/uploads/screen-shot-2021-01-03-at-12-47-35-pm.png){: width="797" height="591"}
+&nbsp;
+
+![](/uploads/screen-shot-2021-01-03-at-12-47-35-pm.png){: .two-thirds width="797" height="591"}
+{: .align-to-center}
+
+&nbsp;
 
 &nbsp;
 
@@ -117,6 +141,8 @@ While abstract elements made a splash in 2019 and 2020, softer blurs and gradien
 ## 6\. Moving Elements
 
 While this might be more than just a 'refresh' to your website, I've personally become so inspired by dynamic and interactive websites that use moving elements to tell a story or showcase the brand. I particularly love this design by [Chungi Yoo](https://www.chungiyoo.com/){: target="_blank" rel="noopener"}&nbsp;– see a little snippet below.&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -130,6 +156,8 @@ While this might be more than just a 'refresh' to your website, I've personally 
 {: .align-to-center}
 
 I also love how playful the [Mack and Pouya](https://mackpouya.webflow.io/){: target="_blank" rel="noopener"}&nbsp;website is\! Everything on their page is fun, exciting, and perfected down to the smallest pixel. Plus, who doesn't love a good interactive element? While this is a more extreme moving element featured on their page, the whole site has lots of inspiration on how and where to add moving pieces for just a dash of something extra.&nbsp;
+
+&nbsp;
 
 &nbsp;
 

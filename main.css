@@ -271,6 +271,9 @@ align-items: center;
 
 /* nav  */
 
+.destop-menu{
+  display:flex; justify-content: center;
+}
 
 nav{
   text-align:center;

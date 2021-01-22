@@ -1,19 +1,19 @@
 ---
 layout: blog
-title: The Fastest (and lest stressful!) Way to Troublshoot
+title: The Fastest (and least stressful!) Way to Troublshoot
 description: >-
   Sometimes your code just won't listen to your demands. Other times, your code
   just won't do anything at all! Before you panic, click the button below.
-featured_image: /uploads/flavia-carpio-p3pfi8thbus-unsplash.jpg
+featured_image:
 author: Natasha Joann
-date: 2021-01-19 09:58:23
+date: 2021-01-22 10:18:28
 ---
 
 Two weeks ago, while working on a client website, I refreshed a newly updated page and lo and behold, it was all gone. No, sorry it was still there but all of my styling was gone. But weirdly enough, my styling commands were still working on half of the site, the other half was a mess. A week later, I refreshed yet another client page to see absolutely no content on the page\! I knew there was content on that page but for some reason it just wouldn't show up\! Shit happens.&nbsp;
 
 &nbsp;
 
-When I was first starting out on my dev journey, moments like these would bring me close to tears. I would try anything and everything to get my code to work again, typing in random commands or deleting whole page and starting again from scratch. This is NOT the answer\! Troubleshooting is a pain but it absolutely doesn't mean you should give up on your code...or on yourself (anyone else considered quitting and taking on an 'easier' job?)&nbsp;
+When I was first starting out on my dev journey, moments like these would bring me close to tears. I would try anything and everything to get my code to work again, typing in random commands or deleting whole page and starting again from scratch. This is NOT the answer\! Troubleshooting is a pain but it absolutely doesn't mean you should give up on your code…or on yourself (anyone else considered quitting and taking on an 'easier' job?)&nbsp;
 
 &nbsp;
 

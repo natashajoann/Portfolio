@@ -1,12 +1,14 @@
 ---
 layout: blog
-title: The Fastest (and least stressful!) Way to Troubleshoot
+title: >-
+  5 Ways to Troubleshoot that will Make You Fall in Love with Coding All Over
+  Again
 description: >-
   Sometimes your code just won't listen to your demands. Other times, your code
   just won't do anything at all! Before you panic, click the button below.
 featured_image:
 author: Natasha Joann
-date: 2021-01-28 11:06:48
+date: 2021-01-28 11:28:40
 ---
 
 Two weeks ago, while working on a client website, I refreshed a newly updated page and lo and behold, it was all gone. Actually, it *was* still there but all of my styling was gone. Weirdly enough, my styling commands were still working on half of the site, while the other half was a total mess. A week later, I refreshed yet another client page to see absolutely ***no*** content on the page\! I knew there was content on that page but for some reason it just wouldn't show up\!&nbsp;

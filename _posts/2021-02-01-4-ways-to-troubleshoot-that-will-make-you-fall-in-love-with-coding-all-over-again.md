@@ -8,7 +8,7 @@ description: >-
   just won't do anything at all! Before you panic, click the button below.
 featured_image: /uploads/137312525-797004304363332-5016339505265937699-n.jpg
 author: Natasha Joann
-date: 2021-01-28 11:28:00
+date: 2021-02-01 11:28:00
 ---
 
 Two weeks ago, while working on a client website, I refreshed a newly updated page and lo and behold, it was all gone. Actually, it *was* still there but all of my styling was gone. Weirdly enough, my styling commands were still working on half of the site, while the other half was a total mess. A week later, I refreshed yet another client page to see absolutely ***no*** content on the page\! I knew there was content on that page but for some reason it just wouldn't show up\!&nbsp;
@@ -85,7 +85,7 @@ Now shoo\! Go take a break\! Seriously, just 5 minutes. C'mon you can do it\!
 
 &nbsp;
 
-\*\*And if you're really at your edge, send me a message\! Teamwork makes the dreamwork, amirite?\*\*
+\*\*And if you're really at your wit's end, send me a message\! Teamwork makes the dreamwork, amirite?\*\*
 
 &nbsp;
 

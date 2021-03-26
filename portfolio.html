@@ -1,0 +1,52 @@
+---
+layout: default
+title: Web Development
+main_heading: Web Development
+featured_image: /images/1.png
+description_html: Your website is like a second skin, it displays who you are: your hopes, your goals, your business dreams. It’s time to show the world (wide web) exactly who you are, one piece of code at a time.
+process:
+  - title_html: Service One
+    process_html: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+---
+
+<section class="grid web-dev">
+  <div class="col-6_sm-12 mobile-none">
+    <img src="{{page.featured_image}}">
+  </div>
+
+  <div class="col-6_sm-12 web-dev-title centered">
+    <h2> Web Design + Development </h2>
+    <p>{{page.description_html}} </p>
+    <a href="/contact.html" class="primary-button">Book a consult </a>
+  </div>
+
+  {% for project in site.projects limit:6 %}
+  <a href="{{project.url}}" class="col-4_sm-6 xs_12 project-loop">
+    <div class="project-img" style="background-image:url({{project.featured_image}})"></div>
+
+
+      <h3 class="project-info">{{project.brand_title}}</h3>
+  </a>
+
+  {% endfor %}
+
+  <a href="/archive.html" class="col-12 secondary-button"> See more </a>
+
+
+  <div class="col-12 the-process">
+    <h2> The Process </h2>
+    <div class="grid">
+      {% for item in page.process %}
+
+      <div class="col-3_md-6_sm-12">
+        <h3>{{item.title_html}}</h3>
+        <p>{{item.process_html}}</p>
+      </div>
+
+      {% endfor %}
+
+      <h4> Want to know more? Book a consultation call for a customized review!</h4>
+      <a href="/contact.html"> Book a consult </a>
+  </div>
+
+</section>

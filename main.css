@@ -1714,7 +1714,6 @@ margin:auto;
 word-wrap: initial !important;
 }
 
-}
 
 
 
@@ -1723,6 +1722,7 @@ word-wrap: initial !important;
   from { transform: translateX(-0%) }
 
   to { transform: translateX(-100%) }
+}
 }
 
 

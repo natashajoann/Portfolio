@@ -66,7 +66,11 @@ testimonials:
 </header>
 
 <div class="marquee">
+  <div class="content-wrapper">
+    <div class="block-content">
   <p>{{page.marquee}}</p>
+    </div>
+  </div>
 </div>
 
 <section class="index-quote grid">
@@ -103,7 +107,7 @@ testimonials:
     <h2> Latest <br> Work</h2>
   </div>
 
-  <div class="col-9_sm-12 latest-slider animate slick">
+  <div class="col-9_sm-12 latest-slider animate">
     <div class="multiple-items">
       {% for project in page.projects limit:3 %}
 

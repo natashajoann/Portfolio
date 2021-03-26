@@ -1686,6 +1686,46 @@ margin:auto;
 }
 
 
+/* NEW CODE 2021 */
+
+.marquee{
+  min-height:initial !important;
+  overflow-x: hidden !important;
+  overflow-y:hidden;
+    background-color:#ccc;
+
+
+  .block-content {
+  display: flex !important;
+  min-width: 100%;
+  animation: moveLeft 10s linear infinite;
+ }
+
+
+ .content-wrapper {
+    max-width:100%;
+    padding-top:5px !important;
+    padding-bottom:5px !important;
+
+  }
+
+
+.block-content *:not(h1):not(h2):not(h3) {
+word-wrap: initial !important;
+}
+
+}
+
+
+
+//DEFINE KEYFRAMES
+@keyframes moveLeft {
+  from { transform: translateX(-0%) }
+
+  to { transform: translateX(-100%) }
+}
+
+
 /* media queries */
 
 @media (max-width: 1024){

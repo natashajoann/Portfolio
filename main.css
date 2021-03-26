@@ -1688,40 +1688,29 @@ margin:auto;
 
 /* NEW CODE 2021 */
 
-.marquee{
-  min-height:initial !important;
-  overflow-x: hidden !important;
-  overflow-y:hidden;
-    background-color:#ccc;
-
-
-  .block-content {
-  display: flex !important;
-  min-width: 100%;
-  animation: moveLeft 10s linear infinite;
- }
-
-
- .content-wrapper {
-    max-width:100%;
-    padding-top:5px !important;
-    padding-bottom:5px !important;
-
-  }
-
-
-.block-content *:not(h1):not(h2):not(h3) {
-word-wrap: initial !important;
+.marquee {
+height: 50px;
+overflow: hidden;
+position: relative;
 }
-
-
-
-
-//DEFINE KEYFRAMES
-@keyframes moveLeft {
-  from { transform: translateX(-0%) }
-
-  to { transform: translateX(-100%) }
+.marquee h1 {
+font-size: 2em;
+color: turquoise;
+position: absolute;
+width: 100%;
+height: 100%;
+margin: 0;
+line-height: 50px;
+text-align: center;
+transform:translateX(100%);
+animation: marquee 10s linear infinite;
+}
+@keyframes marquee {
+0% {
+transform: translateX(100%);
+}
+100% {
+transform: translateX(-100%);
 }
 }
 

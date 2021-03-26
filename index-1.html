@@ -1,0 +1,147 @@
+---
+layout: default
+title: home
+desktop-header_image:
+mobile-header_image:
+header-title_html: Hi there!
+marquee: Now Booking August 2021    |    Now Booking August 2021    |    Now Booking August 2021    |    Now Booking August 2021    |    Now Booking August 2021    |    Now Booking August 2021    |    Now Booking August 2021    |    Now Booking August 2021    |    Now Booking August 2021    |    Now Booking August 2021    |    Now Booking August 2021    |    Now Booking August 2021
+quote_html:
+intro-text_html:
+service-1_image:
+first-service-title:
+first-service_html:
+first_url:
+service-2_image:
+second-service-title:
+second-service_html:
+second_url:
+testimonials:
+  - quote_html: >-
+      <p>We came to Natasha with no clear design criteria, except we wanted
+      &ldquo;<em>clean</em>&rdquo; and &ldquo;<em>sophisticated</em>.&rdquo;
+      With that pittance of direction Natasha delivered beyond all of our
+      expectations.</p><p>&nbsp;</p><p>I am proud to provide our clients,
+      potential clients, friends, family, competitors and colleagues with our
+      URL to &ldquo;check&rdquo; out us and our practice. All thanks to
+      Natasha!</p>
+    client: 'Marcy Pettitt, PHH Law Group'
+  - quote_html: >-
+      <p>Natasha is such a pleasure to work with, from start to finish. I came
+      to her with a website idea and she brought my vision to life almost
+      instantly.</p><p>&nbsp;</p><p>I&rsquo;m so excited about the finished
+      product that she created! I will absolutely be working with her
+      again.&nbsp;</p>
+    client: 'Jessie Bosley, JB Creative Consulting'
+  - quote_html: >-
+      <p>Tash is super friendly and so switched on, she totally got my project
+      and brought it to life. She worked around the clock and was always
+      available to help. I got incredible value from her and would recommend her
+      to anyone wanting to start or update their website.</p>
+    client: 'Hugo Worsley, All Day Knives'
+  - quote_html: >-
+      <p>Working with Natasha on my website was such a breeze. She listened well
+      and was able to bring my vision to life in a short period of time. The
+      product is playful and professional and exactly as I hoped. I would highly
+      recommend her. &nbsp;</p>
+    client: 'Chase Wilmot, Chase Wilmot Life Coaching'
+  - quote_html: >-
+      <p>You get exactly what you ask for when you work with Natasha. She makes
+      sure you are happy throughout the whole process and communicates really
+      well. She will customize all of your wants and needs to your satisfaction.
+      I'm overjoyed because my visions have come to life. My website looks
+      exactly how I always dreamed it would. &nbsp;</p>
+    client: 'Miika Kivilo, Miika Kivilo Art'
+---
+
+<header class="grid primary-header" style="background-image:url({{page.desktop-header_image}})">
+  <div class="text-overlay">
+    <h2>{{page.header-title_html}}</h2>
+  </div>
+</header>
+
+<header class="grid mobile-header" style="background-image:url({{page.mobile-header_image}})">
+  <div class="text-overlay">
+    <h2>{{page.header-title_html}}</h2>
+  </div>
+</header>
+
+<div class="marquee">
+  <p>{{page.marquee}}</p>
+</div>
+
+<section class="index-quote grid">
+  <div class="col-6_sm-12 quote">
+    <h1>{{page.quote_html}}</h1>
+  </div>
+
+  <div class="col-6_sm-12 intro-text">
+    <p> {{page.intro-text_html}}</p>
+  </div>
+</section>
+
+<section class="grid index-services">
+  <div class="col-6_sm-12 service-img" style="background-image:url({{page.service-1_image}})"></div>
+
+  <div class="col-6_sm-12 service-title-one">
+    <h2>{{page.first-service-title}}</h2>
+    <p>{{page.first-service_html}}</p>
+    <a href="{{page.first_url}}" class="primary-button"> Learn More </a>
+  </div>
+
+  <div class="col-6_sm-12 service-title-second">
+    <h2>{{page.second-service-title}}</h2>
+    <p>{{page.second-service_html}}</p>
+    <a href="{{page.second_url}}" class="primary-button"> Learn More </a>
+  </div>
+
+  <div class="col-6_sm-12 service-img" style="background-image:url({{page.service-2_image}})"></div>
+
+</section>
+
+<section class="grid latest-work-loop">
+  <div class="col-3_sm-12 latest-title">
+    <h2> Latest <br> Work</h2>
+  </div>
+
+  <div class="col-9_sm-12 latest-slider animate slick">
+    <div class="multiple-items">
+      {% for project in page.projects limit:3 %}
+
+      <div class="col-6_sm-12 centered margin-bottom">
+        <div class="featured-work">
+          <img src="{{project.featured_image}}">
+        </div>
+        <br>
+          <h4> {{project.brand_title}}</h4>
+          <a href="{{project.url}}" class="primary-button"> Discover </a>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class=" testimonial_color slideshow desktop-slideshow animate" data-aos="fade"
+data-aos-duration="2000">
+
+  <div class="single-item">
+
+    {% for item in page.testimonials %}
+    <div class="slidecontainer relative">
+      <div>
+        <p> {{item.quote_html}} </p>
+
+        <br><br><h4 class="testie-p"> - {{item.client}} </h4>
+      </div>
+    </div>
+    {% endfor %}
+
+  </div>
+
+</section>
+
+<div class="lightwidget">
+
+  <!-- LightWidget WIDGET -->
+  <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="https://cdn.lightwidget.com/widgets/9cb0df7740155db992aa1183c220f928.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
+
+</div>

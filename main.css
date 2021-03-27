@@ -1730,6 +1730,28 @@ margin:auto;
   width: 100%;
 }
 
+/* nav */
+
+header{
+  background-position: center;
+  background-size:cover;
+  height:80vh;
+}
+
+.text-overlay{
+  position:absolute;
+  height:100%;
+  width:100%;
+  padding: 5%;
+  text-align: center;
+  color:blue;
+  top:0;
+  left:0;
+  z-index:3;
+  display:flex;
+  align-items: center;
+}
+
 
 /* new portfolio pg */
 
@@ -1761,7 +1783,7 @@ margin:auto;
 }
 
 #marquee p{
-  font-size: 32px;
+  font-size: 14px;
   white-space:pre !important;
   min-width: 100%;
   text-align: center;

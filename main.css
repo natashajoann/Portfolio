@@ -1735,6 +1735,7 @@ margin:auto;
 header{
   background-position: center;
   background-size:cover;
+  height:80vh;
 }
 
 .mobile-header{
@@ -1775,7 +1776,7 @@ header{
 #marquee {
   bottom: 15%;
   position: absolute;
-  -webkit-animation: linear infinite;
+  -webkit-animation: linear infinite loop;
   -webkit-animation-name: run;
   -webkit-animation-duration: 120s;
   min-height:initial !important;

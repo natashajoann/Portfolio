@@ -20,7 +20,10 @@ process:
     <a href="/contact.html" class="primary-button">Book a consult </a>
   </div>
 
-  {% for project in site.projects limit:6 %}
+<div class="col-12 portfolio">
+  <div class="grid">
+  {% for project in site.projects %}
+  
   <a href="{{project.url}}" class="col-4_sm-6 xs_12 project-loop">
     <div class="project-img" style="background-image:url({{project.featured_image}})"></div>
 
@@ -29,8 +32,10 @@ process:
   </a>
 
   {% endfor %}
+</div>
 
   <a href="/archive.html" class="col-12 secondary-button"> See more </a>
+</div>
 
 
   <div class="col-12 the-process">

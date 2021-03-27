@@ -45,7 +45,7 @@ process:
 
 <div class="col-12 portfolio">
   <div class="grid">
-    {% for project in site.projects %}
+    {% for project in site.projects limit:6 %}
 
     <div class="col-6_sm-12 project-sample centered">
       <img src="{{project.featured_image}}"/>

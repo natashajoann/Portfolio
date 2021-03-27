@@ -1688,7 +1688,7 @@ margin:auto;
 
 /* NEW CODE 2021 */
 
-.marquee {
+#marquee {
   bottom: 15%;
   position: absolute;
   -webkit-animation: linear infinite;
@@ -1700,14 +1700,13 @@ margin:auto;
 
 }
 
-.marquee p{
+#marquee p{
   font-size: 32px;
   white-space:pre !important;
   min-width: 100%;
   text-align: center;
   line-height:1em;
   color:red;
-
 }
 
 

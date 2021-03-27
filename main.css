@@ -1707,6 +1707,7 @@ margin:auto;
 
 .primary-button{
   background-color: #BCC5CA;
+  font-size:12px;
   padding: 10px 15px;
   color:white;
   letter-spacing:3px;
@@ -1741,6 +1742,10 @@ margin:auto;
   margin:auto;
 }
 
+.web-dev-title{
+  margin-top:10%;
+}
+
 
 #marquee {
   bottom: 15%;
@@ -1769,6 +1774,16 @@ margin:auto;
   from { transform: translateX(-0%) }
 
   to { transform: translateX(-100%) }
+}
+
+.the-process{
+  bakcground-color:#D49260;
+}
+
+.process-text{
+  width:80%;
+  margin:auto;
+  margin-bottom:2rem;
 }
 
 

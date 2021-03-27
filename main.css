@@ -1601,6 +1601,7 @@ h3 {
 .web-dev div {
     text-align: center;
     width: 90%;
+    margin:auto;
 }
 
 .mobile-contact{

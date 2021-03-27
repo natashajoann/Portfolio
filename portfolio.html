@@ -49,9 +49,9 @@ process:
     {% for project in site.projects limit:6 %}
 
     <div class="col-4_md-6_sm-12 project-sample centered">
-      <img src="{{project.featured_image}}"/>
+      <a href="{{project.url}}" style="background-image:url({{project.featured_image}}); height:350px;"/></a>
       <br>
-      <h2> {{project.project-name}} </h2>
+      <h2> {{project.brand_title}} </h2>
       <a href="{{project.url}}"><span class="work-together low-light editable"> Explore </span></a>
     </div>
 

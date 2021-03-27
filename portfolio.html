@@ -5,7 +5,7 @@ main_heading: Web Development
 featured_image: /images/1.png
 description_html: Your website is like a second skin, it displays who you are, your hopes, your goals, your business dreams. It’s time to show the world (wide web) exactly who you are, one piece of code at a time.
 process:
-  - title_html: Service One
+  - title: Service One
     process_html: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 ---
 
@@ -23,7 +23,7 @@ process:
 <div class="col-12 portfolio">
   <div class="grid">
   {% for project in site.projects %}
-  
+
   <a href="{{project.url}}" class="col-4_sm-6 xs_12 project-loop">
     <div class="project-img" style="background-image:url({{project.featured_image}})"></div>
 
@@ -44,7 +44,7 @@ process:
       {% for item in page.process %}
 
       <div class="col-3_md-6_sm-12">
-        <h3>{{item.title_html}}</h3>
+        <h3>{{item.title}}</h3>
         <p>{{item.process_html}}</p>
       </div>
 

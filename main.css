@@ -1698,7 +1698,7 @@ margin:auto;
   position: absolute;
   -webkit-animation: linear infinite;
   -webkit-animation-name: run;
-  -webkit-animation-duration: 30s;
+  -webkit-animation-duration: 120s;
   min-height:initial !important;
   overflow-x: hidden !important;
   overflow-y:hidden;

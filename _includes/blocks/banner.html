@@ -1,0 +1,8 @@
+<section class="{% if block.resize-and-crop == true %} banner-background {% else %} banner {% endif %}" {% if block.resize-and-crop == true %} style="background-image:url({{block.featured_image}}); height:500px;" {% endif %}>
+
+{% if block.resize-and-crop == false %}
+
+  <img src ="{{block.featured_image}}"/>
+
+{% endif %}
+</section>

@@ -1,0 +1,19 @@
+<section class="grid quote-img-right" style="background-color:{{block.background_color}}">
+
+
+
+  <div class="col-6_xs-12 title-quote width-80">
+    <h1> {{block.heading}} </h1>
+    <p> {{block.text_html}} </p>
+  </div>
+
+
+  <div class="col-6_xs-12 title-img-wrapper quote-img {% if block.resize-and-crop == true %} quote-img-bk {% endif %}" {% if block.resize-and-crop == true %} style="background-image:url({{block.featured_image}})" {% endif %} >
+
+    {% if block.resize-and-crop == false %}
+      <img src="{{block.featured_image}}"/>
+
+    {% endif %}
+  </div>
+
+</section>

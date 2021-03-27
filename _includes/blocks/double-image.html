@@ -1,0 +1,22 @@
+<section class="grid double-image">
+
+
+  <div class="col-6_xs-12 title-img-wrapper quote-img {% if block.resize-and-crop == true %} resize-and-crop {% endif %}" {% if block.resize-and-crop == true %} style="background-image:url({{block.first_image}}); height:550px;margin-bottom:0;" {% endif %}>
+
+    {% if block.resize-and-crop == false %}
+
+      <img src ="{{block.first_image}}"/>
+
+    {% endif %}
+  </div>
+
+  <div class="col-6_xs-12 title-img-wrapper quote-img {% if block.resize-and-crop-second == true %} resize-and-crop {% endif %}" {% if block.resize-and-crop-second == true %} style="background-image:url({{block.second_image}}); height:550px; margin-bottom:0;" {% endif %}>
+
+    {% if block.resize-and-crop-second == false %}
+
+      <img src="{{block.second_image}}"/>
+
+    {% endif %}
+  </div>
+
+</section>

@@ -1,0 +1,65 @@
+---
+layout: default
+title: Project Layout
+---
+
+
+<section class="{% if page.resize-and-crop == true %} project-main-img {% else %} project-main-contain {% endif %}" style="background-image:url({{page.header-background_image}}); height:500px; {% if page.resize-and-crop == false %} background-color:{{page.header-bk_color}} {% endif %}">
+
+<!-- {% if item.resize-and-crop == false %}
+
+  <img src ="{{item.header-background_image}}"/>
+
+{% endif %} -->
+</section>
+
+
+<section class="project-template ">
+
+
+
+<div class="project-info grid">
+
+  <div class="col-12">
+    <a href="/portfolio"><span class="low-light work-together"> See all Projects</span> </a>
+  </div>
+
+  <div class="col-7_sm-12" style="padding-bottom:20px;">
+    <h1>{{page.project-name}}</h1>
+    <br>
+    <p> {{page.project-description_html}}</p>
+    <br>
+
+
+
+    <a href="{{page.project_url}}"> <span class="low-light work-together"> {{page.project-url-text}} </span> </a>
+
+
+  </div>
+
+  <div class="col-5_sm-12 role centered">
+    <div class="grid">
+      <div class="col-12_sm-6" style="padding-bottom:20px;">
+        <h2> Role </h2>
+        <p>{{page.role_html}}</p>
+      </div>
+
+
+      <div class="col-12_sm-6">
+        <h2> Services </h2>
+        <p>{{page.services_html}}</p>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div class="project-blocks">
+  {% for block in page.page_blocks %}
+
+    {% include blocks/{{block._id}}.html block=block %}
+
+  {% endfor %}
+</div>
+
+</section>

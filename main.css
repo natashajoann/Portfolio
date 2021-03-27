@@ -1703,9 +1703,6 @@ margin:auto;
 .marquee p{
   font-size: 32px;
   white-space:pre !important;
-  @media (max-width:640px) {
-    font-size:18px;
-  }
   min-width: 100%;
   text-align: center;
   line-height:1em;

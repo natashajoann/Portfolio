@@ -1693,6 +1693,37 @@ margin:auto;
 
 /* NEW CODE 2021 */
 
+/* helper */
+.relative{
+  position:relative;
+}
+
+.space-around{
+  display: flex;
+  justify-content: space-around;
+}
+
+.centered{text-align:center;}
+
+.primary-button{
+  background-color: #BCC5CA;
+  padding: 10px 15px;
+  color:white;
+  letter-spacing:3px;
+}
+
+
+/* new portfolio pg */
+
+.web-dev {
+  padding:1rem 0 3rem;
+}
+
+.web-dev div{
+  width:90;
+  margin:auto;
+}
+
 
 #marquee {
   bottom: 15%;

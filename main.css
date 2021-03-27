@@ -1753,6 +1753,7 @@ header{
   left:0;
   z-index:3;
   display:flex;
+  align-items: center;
   justify-content: center;
 }
 
@@ -1813,12 +1814,13 @@ header{
 
 .latest-slider .slick-prev, .latest-slider
 .slick-next{
-bottom:-50%;
+bottom:-8%;
+top:unset;
 }
 
 .latest-slider
 .slick-next{
-right:3rem;
+left:3rem;
 
 }
 

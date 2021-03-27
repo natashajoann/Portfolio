@@ -95,6 +95,10 @@ li a{
   background-position: center;
 }
 
+.relative{
+  position:relative;
+}
+
 .mobile-display{
   display:none;
 }
@@ -1687,6 +1691,7 @@ margin:auto;
 
 
 /* NEW CODE 2021 */
+
 
 #marquee {
   bottom: 15%;

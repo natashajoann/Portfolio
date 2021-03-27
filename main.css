@@ -1771,7 +1771,15 @@ header{
   align-items:center;
 }
 
+/* latest */
+.project-sample a{
+  display:block;
+  background-position:center;
+  background-size:cover;
+}
+
 /* testimonials */
+
 
 .testimonial{
   padding:2rem;

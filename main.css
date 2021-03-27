@@ -1735,7 +1735,10 @@ margin:auto;
 header{
   background-position: center;
   background-size:cover;
-  height:80vh;
+}
+
+.mobile-header{
+  display:none;
 }
 
 .text-overlay{

@@ -1702,7 +1702,8 @@ margin:auto;
   min-height:initial !important;
   overflow-x: hidden !important;
   overflow-y:hidden;
-
+  padding:20px 0;
+  background-color: #F0C044;
 }
 
 #marquee p{
@@ -1711,7 +1712,7 @@ margin:auto;
   min-width: 100%;
   text-align: center;
   line-height:1em;
-  color:red;
+  color:white;
 }
 
 

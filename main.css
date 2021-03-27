@@ -1710,6 +1710,23 @@ margin:auto;
   padding: 10px 15px;
   color:white;
   letter-spacing:3px;
+  text-transform:uppercase;
+  transition:0.4s;
+}
+
+.primary-button:after{
+  position: absolute;
+  content: “”;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #40575E;
+  transition: all .35s;
+}
+
+.primary-button:hover:after{
+  width: 100%;
 }
 
 

@@ -1735,7 +1735,7 @@ margin:auto;
 header{
   background-position: center;
   background-size:cover;
-  height:80vh;
+  height:90vh;
 }
 
 .mobile-header{
@@ -1753,7 +1753,7 @@ header{
   left:0;
   z-index:3;
   display:flex;
-  align-items: center;
+  justify-content: center;
 }
 
 

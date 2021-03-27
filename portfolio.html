@@ -22,16 +22,16 @@ process:
 
 <div class="col-12 portfolio">
   <div class="grid">
-  {% for project in site.projects %}
+    {% for project in site.projects %}
 
-  <a href="{{project.url}}" class="col-4_sm-6 xs_12 project-loop">
-    <div class="project-img" style="background-image:url({{project.featured_image}})"></div>
+    <div class="col-6_sm-12 project-sample centered">
+      <img src="{{project.featured_image}}"/>
+      <br>
+      <h2> {{project.project-name}} </h2>
+      <a href="{{project.url}}"><span class="work-together low-light editable"> Explore </span></a>
+    </div>
 
-
-      <h3 class="project-info">{{project.brand_title}}</h3>
-  </a>
-
-  {% endfor %}
+    {% endfor %}
 </div>
 
   <a href="/archive.html" class="col-12 secondary-button"> See more </a>

@@ -1680,6 +1680,33 @@ margin:auto;
 
 /* NEW CODE 2021 */
 
+body{
+  background-color:#FDFCF4;
+}
+
+/* fonts */
+
+@font-face {
+  font-family: "Bon Vivant";
+  src: url("BonVivantSerif.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Apfel Grotezk";
+  src: url("ApfelGrotezk-Regular.woff") format("woff"),
+      url("ApfelGrotezk-Regular") format("woff"),
+}
+
+h1, h2, h3{
+  font-family: "Bon Vivant";
+}
+
+p, a{
+  font-family: "Apfel Grotezk";
+}
+
+
+
 /* helper */
 .relative{
   position:relative;
@@ -1724,7 +1751,7 @@ margin:auto;
 .primary-nav-links{
   border-top:1px solid black;
   border-bottom:1px solid black;
-  padding:20px 0;
+  margin-top:10px;
 }
 
 .primary-nav-links a{

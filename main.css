@@ -1777,6 +1777,7 @@ header{
 
 .latest-work-loop{
   background-color: #D49260;
+  padding: 3rem 2rem;
 }
 .project-sample a{
   display:block;

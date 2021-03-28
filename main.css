@@ -1773,6 +1773,17 @@ header{
   padding-left:2rem;
 }
 
+/* index-service */
+
+.service-img{
+  background-position:center;
+  background-size: cover;
+  height:350px;
+}
+.service-title-one, .service-title-second{
+  padding:3rem;
+}
+
 /* latest */
 
 .latest-work-loop{

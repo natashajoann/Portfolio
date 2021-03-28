@@ -11,29 +11,29 @@ marquee: >-
   Booking August 2021    |    Now Booking August 2021    |    Now Booking August
   2021    |    Now Booking August 2021    |    Now Booking August 2021Now
   Booking August 2021    |    Now Booking August 2021    |    Now Booking August
-  2021    |    Now Booking August 2021    |    Now Booking August 2021    |
-  Now Booking August 2021    |    Now Booking August 2021    |    Now Booking
-  August 2021    |    Now Booking August 2021    |    Now Booking August 2021
-  |    Now Booking August 2021    |    Now Booking August 2021 Now Booking
-  August 2021    |    Now Booking August 2021    |    Now Booking August 2021
-  |    Now Booking August 2021    |    Now Booking August 2021    |    Now
+  2021    |    Now Booking August 2021    |    Now Booking August 2021    | Now
   Booking August 2021    |    Now Booking August 2021    |    Now Booking August
-  2021    |    Now Booking August 2021    |    Now Booking August 2021    |
-  Now Booking August 2021    |    Now Booking August 2021
+  2021    |    Now Booking August 2021    |    Now Booking August 2021 |    Now
+  Booking August 2021    |    Now Booking August 2021 Now Booking August 2021   
+  |    Now Booking August 2021    |    Now Booking August 2021 |    Now Booking
+  August 2021    |    Now Booking August 2021    |    Now Booking August 2021   
+  |    Now Booking August 2021    |    Now Booking August 2021    |    Now
+  Booking August 2021    |    Now Booking August 2021    | Now Booking August
+  2021    |    Now Booking August 2021
 quote_html: <h1>BIEN</h1><h1>VENI</h1><h1>DXS</h1>
 intro-text_html: >-
   <p>I&lsquo;m an extroverted, people-loving anthropologist and web developer.
   I&rsquo;ve lived around the world, building a collection of memories of people
   that have inspired my web design style. I strive to build pages that showcase
   each of my clients&rsquo; vibrant personalities.&nbsp;</p>
-service-1_image:
+service-1_image: /uploads/myface.jpg
 first-service-title: Custom Coded Websites
 first-service_html: >-
   <p>Your website is like a second skin, it displays who you are: your hopes,
   your goals, your business dreams. It&rsquo;s time to show the world (wide web)
   exactly who you are, one piece of code at a time.&nbsp;<br />&nbsp;</p>
 first_url: /portfolio.html
-service-2_image:
+service-2_image: /uploads/myface.jpg
 second-service-title: Code + Design Guides
 second-service_html: >-
   <p>Whether you&rsquo;re just starting out &nbsp;on your design journey or
@@ -113,14 +113,14 @@ testimonials:
   <div class="col-6_sm-12 service-title-one">
     <h2>{{page.first-service-title}}</h2>
     <p>{{page.first-service_html}}</p>
-    <br>
+    <br />
     <a href="{{page.first_url}}" class="primary-button"> Learn More </a>
   </div>
 
   <div class="col-6_sm-12 service-title-second right">
     <h2>{{page.second-service-title}}</h2>
     <p>{{page.second-service_html}}</p>
-    <br>
+    <br />
     <a href="{{page.second_url}}" class="primary-button"> Learn More </a>
   </div>
 
@@ -130,7 +130,7 @@ testimonials:
 
 <!-- <section class="grid latest-work-loop">
   <div class="col-4_sm-12 latest-title">
-    <h2> Latest <br> Work</h2>
+    <h2> Latest <br /> Work</h2>
   </div>
 
   <div class="col-8_sm-12 latest-slider">
@@ -138,9 +138,9 @@ testimonials:
       {% for project in site.projects limit:4 %}
 
       <div class="col-4_md-6_sm-12 project-sample centered">
-        <a href="{{project.url}}" style="background-image:url({{project.featured_image}}); min-height:350px;"/></a>
+        <a href="{{project.url}}" style="background-image:url({{project.featured_image}}); min-height:350px;"></a>
         <h3> {{project.brand_title}} </h3>
-        <br>
+        <br />
         <a href="{{project.url}}"><span class="work-together low-light editable"> Explore </span></a>
       </div>
 
@@ -151,7 +151,11 @@ testimonials:
 
 </section> -->
 
+<<<<<<< HEAD
 <section class="slideshow desktop-slideshow animate">
+=======
+<section class="slideshow desktop-slideshow animate" data-aos="fade" data-aos-duration="2000">
+>>>>>>> 8362dbfedc81ba1e2264979c442cf49fcaa42cd8
 
   <div class="single-item">
 
@@ -160,7 +164,7 @@ testimonials:
       <div>
         <p> {{item.quote_html}} </p>
 
-        <br><br><h4 class="client"> - {{item.client}} </h4>
+        <br /><br /><h4 class="client"> - {{item.client}} </h4>
       </div>
     </div>
     {% endfor %}

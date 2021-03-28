@@ -1819,7 +1819,7 @@ header{
 
 .latest-slider .slick-prev, .latest-slider
 .slick-next{
-bottom:-8%;
+bottom:0%;
 top:unset;
 }
 

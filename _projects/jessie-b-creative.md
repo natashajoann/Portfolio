@@ -1,5 +1,6 @@
 ---
 layout: web-work
+landing_image: /images/allday.png
 featured_image: /images/jess-vsco.jpg
 brand_title: JB Creative Consulting
 brand_info: JB Creative Consulting helps brands define their vision, develop unique content, and create strategies that bring ideas to life.

@@ -1,5 +1,6 @@
 ---
 layout: web-work
+landing_image: /images/allday.png
 featured_image: /images/miika-title.png
 brand_title: Miika Kivilo Art
 brand_info: >-
@@ -15,4 +16,3 @@ services: >-
 web_page_image: /uploads/productimages.png
 brand_url: 'https://miikakiviloart.com/'
 ---
-

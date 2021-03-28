@@ -1,5 +1,6 @@
 ---
 layout: web-work
+landing_image: /images/allday.png
 featured_image: /images/wine-hlay.jpg
 brand_title: Here's Looking At You Demo
 brand_info: Here's Looking At You is a Los Angeles based restaurant. While their original website showcases images and menu, I believe there are more effective methods for curating and presenting content that appeals to food lovers.

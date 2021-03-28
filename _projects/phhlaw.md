@@ -1,5 +1,6 @@
 ---
 layout: web-work
+landing_image: /images/allday.png
 featured_image: /images/phh-titleimg.jpg
 brand_title: PHH Law Group
 brand_info: PHH Law Group is a Californian boutique Appelate group providing a variety of legal support to local communities. <br> This group needed a website that provided information and accessibility for any and all clients or individuals looking for answers and support.

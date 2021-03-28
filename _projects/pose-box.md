@@ -1,5 +1,6 @@
 ---
 layout: project-layout
+landing_image: /images/allday.png
 featured_image: /images/IMG_9662.jpg
 brand_title: The Pose Box
 brand_info: The Pose Box is a bi-monthly womens' fashion and lifestyle subscription box. Each box is tailored to suit YOUR vibrancy and personality! <br> The Pose Box founder and CEO, Kalish, needed a website refresh that reflected the elegant and fun vision of the brand.

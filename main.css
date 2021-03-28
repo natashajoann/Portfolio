@@ -1721,6 +1721,10 @@ margin:auto;
 
 /* nav */
 
+.primary-nav-links{
+  border:1px solid black;
+}
+
 header{
   background-position: center;
   background-size:cover;
@@ -1882,12 +1886,16 @@ text-align: center;
 
 /* new portfolio pg */
 
+.portfolio{
+  padding: 1rem 0;
+}
+
 .web-dev {
   padding:1rem 0 3rem;
 }
 
 .web-dev div{
-  width:90;
+  width:90%;
   margin:auto;
 }
 
@@ -1925,8 +1933,14 @@ text-align: center;
   to { transform: translateX(-100%) }
 }
 
+.web-dev a {
+    position: relative;
+    margin-bottom: 1rem;
+}
+
 .the-process{
-  bakcground-color:#D49260;
+  background-color:#D49260;
+  padding:3rem 0 0;
 }
 
 .process-text{

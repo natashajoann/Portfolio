@@ -1686,7 +1686,7 @@ body{
 
 /* fonts */
 
-@font-face {
+/* @font-face {
   font-family: "Bon Vivant";
   src: url("BonVivantSerif.woff") format("woff");
 }
@@ -1695,7 +1695,7 @@ body{
   font-family: "Apfel Grotezk";
   src: url("ApfelGrotezk-Regular.woff") format("woff"),
       url("ApfelGrotezk-Regular") format("woff"),
-}
+} */
 
 h1, h2, h3{
   font-family: "Bon Vivant";

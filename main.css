@@ -1724,15 +1724,18 @@ margin:auto;
 .primary-nav-links{
   border-top:1px solid black;
   border-bottom:1px solid black;
+  padding:20px 0;
 }
 
 .primary-nav-links a{
   border-right:1px solid black;
+  border-left: 1px solid black;
+  padding: 0 7px;
 }
 
-.nav-border-right{
+/* .nav-border-right{
   border-left:1px solid black;
-}
+} */
 
 .logo img{
   width:30%;

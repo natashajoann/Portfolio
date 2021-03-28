@@ -1722,7 +1722,16 @@ margin:auto;
 /* nav */
 
 .primary-nav-links{
-  border:1px solid black;
+  border-top:1px solid black;
+  border-bottom:1px solid black;
+}
+
+.primary-nav-links a{
+  border-right:1px solid black;
+}
+
+.nav-border-right{
+  border-left:1px solid black;
 }
 
 .logo img{

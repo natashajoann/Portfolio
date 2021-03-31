@@ -14,9 +14,9 @@ marquee: >-
   2021    |    Now Booking August 2021    |    Now Booking August 2021    | Now
   Booking August 2021    |    Now Booking August 2021    |    Now Booking August
   2021    |    Now Booking August 2021    |    Now Booking August 2021 |    Now
-  Booking August 2021    |    Now Booking August 2021 Now Booking August 2021   
+  Booking August 2021    |    Now Booking August 2021 Now Booking August 2021
   |    Now Booking August 2021    |    Now Booking August 2021 |    Now Booking
-  August 2021    |    Now Booking August 2021    |    Now Booking August 2021   
+  August 2021    |    Now Booking August 2021    |    Now Booking August 2021
   |    Now Booking August 2021    |    Now Booking August 2021    |    Now
   Booking August 2021    |    Now Booking August 2021    | Now Booking August
   2021    |    Now Booking August 2021
@@ -126,23 +126,22 @@ testimonials:
     <a href="{{page.second_url}}" class="primary-button"> Learn More </a>
   </div>
 
-  <div class="col-6_sm-12 service-img" style="background-image:url({{page.service-2_image}})"></div>
+  <div class="col-6_sm-12 service-img service-image-second" style="background-image:url({{page.service-2_image}})"></div>
 
 </section>
 
 <section class="grid latest-work-loop">
-  <div class="col-3_sm-12 latest-title">
+  <div class="col-2_sm-12 latest-title">
     <h2> Latest <br /> Work</h2>
   </div>
 
-  <div class="col-9_sm-12 latest-slider">
+  <div class="col-10_sm-12 latest-slider">
     <div class="grid">
       {% for project in site.projects limit:3 %}
 
       <div class="col-4_sm-12 project-sample centered">
-        <a href="{{project.url}}" style="background-image:url({{project.featured_image}}); min-height:200px; width:90%; margin:auto;"></a>
+        <a href="{{project.url}}" style="background-image:url({{project.featured_image}}); width:90%; margin:auto;"></a>
         <h3> {{project.brand_title}} </h3>
-        <br />
         <a href="{{project.url}}"><span class="work-together low-light editable"> Explore </span></a>
       </div>
 

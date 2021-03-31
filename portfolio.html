@@ -52,7 +52,6 @@ process:
     <div class="col-4_md-6_sm-12 project-sample centered">
       <a href="{{project.url}}" style="background-image:url({{project.landing_image}}); min-height:350px;"/></a>
       <h3> {{project.brand_title}} </h3>
-      <br>
       <a href="{{project.url}}"><span class="work-together low-light editable"> Explore </span></a>
     </div>
 
@@ -65,7 +64,7 @@ process:
 
   <div class="col-12 the-process">
     <h2> The Process </h2>
-    <div class="grid">
+    <div class="grid" style="padding:3rem 0;">
       {% for item in page.process %}
 
       <div class="col-3_sm-12 process-text">

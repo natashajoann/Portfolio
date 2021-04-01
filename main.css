@@ -1619,13 +1619,13 @@ header{
 
 .index-services{
   padding: 4rem 0 0;
-  background-position: center;
-  background-size:cover;
 }
 
 .service-box{
-  min-height:500px;
-}
+  background-position: center;
+  background-size:cover;
+min-height:90vh;}
+
 
 .service-overlay{
   position: absolute;
@@ -1993,9 +1993,13 @@ footer .vl{
     text-align: center;
   }
 
-  .index-services{
-    padding:2rem;
+  .service-box{
+    min-height:50vh;
   }
+
+  /* .index-services{
+    padding:2rem;
+  } */
 
   .index-quote{
     padding:2rem;

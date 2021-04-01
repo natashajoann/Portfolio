@@ -1,6 +1,6 @@
 ---
 layout: web-work
-landing_image: /uploads/chasecover.png
+landing_image: /uploads/chasecover-1.png
 featured_image: /uploads/tumblr-p3fuyyklt91u2gtieo1-1280.jpg
 brand_title: Chase Wilmot Coaching
 brand_info: >-

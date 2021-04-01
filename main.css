@@ -983,10 +983,19 @@ hr{
 /* Contact */
 
 .contact, .contact-form form{
-  padding:2rem 0;
+  padding:3rem 0;
   width: 70%;
   margin: auto;
   margin-bottom: 5rem;
+}
+
+.contact-intro{
+  padding:3rem 0;
+  background-color: #D49260;
+}
+
+.contact form{
+  padding: 2rem 0;
 }
 
 .contact-form{

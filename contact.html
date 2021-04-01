@@ -7,14 +7,18 @@ contact-info: Because each business is unique, we would love to get to know you 
 ---
 
 <section class="grid contact">
-<div class="col-6_sm-12 contact-img">
-  <img src="{{page.featured_image}}">
-</div>
+  <div class="col-12 contact-intro">
+    <div class="grid">
+      <div class="col-6_sm-12 contact-img">
+        <img src="{{page.featured_image}}">
+      </div>
 
-<div class="col-6_sm-12 contact-text">
-  <h2>{{page.contact-title}}</h2>
-  <p>{{page.contact-info}}</p>
-</div>
+      <div class="col-6_sm-12 contact-text">
+        <h2>{{page.contact-title}}</h2>
+        <p>{{page.contact-info}}</p>
+      </div>
+    </div>
+  </div>
 
   <form class="col-12" action="https://formspree.io/natashamverdon@gmail.com" method="POST">
     <input type="text" name="name" placeholder="Your Name"></input>

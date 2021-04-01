@@ -1054,8 +1054,8 @@ form{
     position: relative;
     text-align: left;
     padding: 2rem;
-    background-color: #212422;
-    font-family: futura-pt, sans-serif;
+    background-color: transparent;
+font-family: 'ApfelGrotezk';
     text-transform: lowercase;
     padding-bottom:0;
 }
@@ -1065,19 +1065,19 @@ form{
 }
 
 #mc_embed_signup .button {
-    background-color: transparent;
+    background-color: #BCC5CA;
     width: 96%;
-    color: #DBDBDB;
-    font-family: futura-pt, sans-serif;
+    color: white;
+    font-family: 'ApfelGrotezk';
     text-transform: lowercase;
 }
 
 #mc_embed_signup .button:hover{
-  background-color:transparent;
+  background-color:#40575E;
 }
 
 #mc_embed_signup #mce-success-response {
-    color: white;
+    color: #40575E;
     display: none;
     font-size: 18px;
     width: 100%;
@@ -1087,7 +1087,6 @@ form{
     display: block;
     /* margin-bottom: 3px; */
     line-height: 0;
-    color: #DBDBDB;
 }
 
 #mc_embed_signup .mc-field-group input {
@@ -1104,16 +1103,8 @@ form{
 footer h2 {
   font-size: 57px;
   line-height: 45px;
-  color: #DBDBDB;
 }
 
-footer h3{
-  color:#DBDBDB;
-}
-
-footer{
-  color: #DBDBDB;
-}
 
 .form h2{
   font-family: 'ApfelGrotezk';

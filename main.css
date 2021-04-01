@@ -1621,7 +1621,26 @@ header{
   padding: 4rem 0;
 }
 
-.service-img-first{
+.service-box{
+  min-height:500px;
+}
+
+.service-overlay{
+  position: absolute;
+  height: 60%;
+  width: 100%;
+  padding: 5%;
+  text-align: left;
+  top: 15%;
+  background-color: #40575D;
+  opacity: 75%;
+  left: 0;
+  z-index: 3;
+  display: flex;
+  align-items: flex-start;
+}
+
+/* .service-img-first{
   text-align:center;
 }
 
@@ -1639,7 +1658,7 @@ header{
 .service-title-one, .service-title-second{
   padding:3rem;
   margin:auto;
-}
+} */
 
 /* latest */
 

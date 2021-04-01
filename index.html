@@ -17,20 +17,21 @@ intro-text_html: >-
   I&rsquo;ve lived around the world, building a collection of memories of people
   that have inspired my web design style. I strive to build pages that showcase
   each of my clients&rsquo; vibrant personalities.&nbsp;</p>
-service-1_image: /uploads/untitled-design-3.png
-first-service-title: Custom Coded Websites
-first-service_html: >-
+services:
+  - service_image: /uploads/untitled-design-3.png
+    service-title: Custom Coded Websites
+    service_html: >-
   <p>Your website is like a second skin, it displays who you are: your hopes,
   your goals, your business dreams. It&rsquo;s time to show the world (wide web)
   exactly who you are, one piece of code at a time.&nbsp;<br />&nbsp;</p>
-first_url: /web-dev
-service-2_image: /uploads/guides.png
-second-service-title: Code + Design Guides
-second-service_html: >-
+    service_url: /web-dev
+  - service_image: /uploads/guides.png
+    service-title: Code + Design Guides
+    service_html: >-
   <p>Whether you&rsquo;re just starting out &nbsp;on your design journey or
   you&rsquo;re a veteran hacker, these tips and tricks are aimed at streamlining
   your code/design process so you can work smarter not harder.&nbsp;</p>
-second_url: /blog.html
+  service_url: /blog.html
 testimonials:
   - quote_html: >-
       <p>We came to Natasha with no clear design criteria, except we wanted
@@ -103,6 +104,21 @@ testimonials:
 </section>
 
 <section class="grid index-services">
+{% for item in page.services %}
+  <div class="col-6_sm-12 service-box relative" style="background-image:url({{item.service_image}})">
+    <div class="service-overlay">
+      <div class="service-overlay-text">
+        <h2>{{page.service-title}}</h2>
+        <p>{{page.ervice_html}}</p>
+        <br />
+        <a href="{{page.service_url}}" class="primary-button"> Learn More </a>
+    </div>
+  </div>
+  </div>
+{% endfor %}
+</section>
+
+<!-- <section class="grid index-services">
   <div class="col-6_sm-12 service-img-first">
 <img src="{{page.service-1_image}}" />
   </div>
@@ -127,7 +143,7 @@ testimonials:
     <img src="{{page.service-2_image}}" />
   </div>
 
-</section>
+</section> -->
 
 <section class="grid latest-work-loop">
   <div class="col-3_sm-12 latest-title">

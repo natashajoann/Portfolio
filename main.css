@@ -2539,10 +2539,9 @@ padding-left: 1rem;
 }
 
 .contact, .contact-form form{
-  padding:1rem;
-  width:90%;
+  padding:1rem 0;
   margin:auto;
-  margin-bottom:5rem;
+  margin-bottom:2rem;
 }
 
 .featured-work-padded{

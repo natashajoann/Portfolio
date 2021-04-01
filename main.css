@@ -862,14 +862,14 @@ text-align: center;
 .testimonial p{
   font-size:24px;
   text-align:center;
-  font-family: 'Playfair Display',serif;
+  font-family: "ApfelGrotezk";
   padding: 3rem 3rem 3rem 5rem;
   color:white;
 }
 
 .testie-p{
   font-style:italic;
-  font-family:futura-pt,sans-serif;
+  font-family:'BonVivantSerif';
 }
 
 

@@ -60,16 +60,10 @@
   <a href="/" class="logo">
     <img src="/images/nv-logo-black.png">
   </a>
-
-  <!-- <div class="primary-nav-links">
-    <a href="/portfolio.html" class="nav-border-right"> Web Dev </a>
-    <a href="/blog.html"> Web Guides </a>
-    <a href="/contact.html"> Contact </a>
-  </div> -->
-
 </nav>
 
 {% include double-burger-menu.html %}
+{% include burger-menu.html %}
 
 
 
@@ -79,62 +73,7 @@
 
 {% include ig-grid.html %}
 
-<footer class="grid footer">
-
-  <div class="col-3_sm-12 footer-site-menu">
-
-
-        {% for link in site.data.footer-site-menu %}
-        <a class="footer-link" href="{{link.url}}">{{link.title}}</a><br>
-        {% endfor %}
-
-</div>
-
-<div class="col-3_sm-12 footer-site-more">
-        {% for link in site.data.footer-site-more %}
-        <a class="footer-link" href="{{link.url}}">{{link.title}}</a><br>
-        {% endfor %}
-      </div>
-  </div>
-
-  <div class="col-1 mobile-none"></div>
-
-  <div class="col-5_sm-12 form centered">
-    <h3>Snag my Simple Responsive CSS Overlays Guide!</h3>
-    <br>
-    <!-- Begin Mailchimp Signup Form -->
-  <div id="mc_embed_signup">
-  <form action="https://natashaverdon.us10.list-manage.com/subscribe/post?u=ca53903035e98efb63de0ca4d&amp;id=154e6903d5" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-      <div id="mc_embed_signup_scroll">
-  <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
-  <div class="mc-field-group">
-  	<label for="mce-FNAME">First Name </label>
-  	<input type="text" value="" name="FNAME" class="" id="mce-FNAME">
-  </div>
-  <div class="mc-field-group">
-  	<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
-  </label>
-  	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-  </div>
-  	<div id="mce-responses" class="clear">
-  		<div class="response" id="mce-error-response" style="display:none"></div>
-  		<div class="response" id="mce-success-response" style="display:none"></div>
-  	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-      <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_ca53903035e98efb63de0ca4d_154e6903d5" tabindex="-1" value=""></div>
-      <div class="clear"><input type="submit" value="Send Me The Goods!" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-      </div>
-  </form>
-  </div>
-  <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[1]='FNAME';ftypes[1]='text';fnames[0]='EMAIL';ftypes[0]='email';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
-  <!--End mc_embed_signup-->
-</div>
-
-
-<h5 class="col-12"> © Natasha Verdon 2020. All rights reserved. </h5>
-
-
-
-</footer>
+{% include footer.html %}
 
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 

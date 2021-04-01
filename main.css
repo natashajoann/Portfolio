@@ -2055,6 +2055,12 @@ text-align: center;
 
   /* new shit  */
 
+  .double-hamburger-menu{
+    display:none;
+  }
+
+  .hamburger-menu{display:block;}
+
   .mobile-none{display:none;}
 
   .primary-nav-links{

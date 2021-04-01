@@ -4,15 +4,15 @@ title: Archive
 ---
 
 <section class="archive grid">
-  {% for project in site.projects %}
 
-  <div class="col-6_sm-12 project-sample centered">
-    <img src="{{project.featured_image}}"/>
-    <br>
-    <h4> {{project.role-for-landing}}</h4>
-    <h2> {{project.project-name}} </h2>
-    <a href="{{project.url}}"><span class="work-together low-light editable"> Explore </span></a>
-  </div>
+      {% for project in site.projects limit:6 %}
 
-  {% endfor %}
+      <div class="col-4_md-6_sm-12 project-sample centered">
+        <a href="{{project.url}}">
+          <img src="{{project.landing_image}}" style="width:90%; margin:auto;"></a>
+        <h3> {{project.brand_title}} </h3>
+        <a href="{{project.url}}"><span class="work-together low-light editable"> Explore </span></a>
+      </div>
+
+      {% endfor %}
 </section>

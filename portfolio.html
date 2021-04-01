@@ -2,7 +2,7 @@
 layout: default
 title: Web Development
 main_heading: Web Development
-featured_image: /uploads/web-dev.png
+featured_image: /uploads/website-design.gif
 description_html: >-
   <p>Your website is like a second skin, it displays who you are, your hopes,
   your goals, your business dreams. It&rsquo;s time to show the world (wide web)
@@ -34,14 +34,14 @@ process:
 
 <section class="grid web-dev">
   <div class="col-5_sm-12 mobile-none">
-    <img src="{{page.featured_image}}">
+    <img src="{{page.featured_image}}" />
   </div>
 
   <div class="col-7_sm-12 web-dev-title centered">
     <h2> Web Design + Development </h2>
-    <br>
+    <br />
     <p>{{page.description_html}} </p>
-    <br>
+    <br />
     <a href="/contact.html" class="primary-button">Book a consult </a>
   </div>
 
@@ -50,7 +50,7 @@ process:
     {% for project in site.projects limit:6 %}
 
     <div class="col-4_md-6_sm-12 project-sample centered">
-      <a href="{{project.url}}" style="background-image:url({{project.landing_image}}); min-height:350px;width:90%; margin:auto;"/></a>
+      <a href="{{project.url}}" style="background-image:url({{project.landing_image}}); min-height:350px;width:90%; margin:auto;"></a>
       <h3> {{project.brand_title}} </h3>
       <a href="{{project.url}}"><span class="work-together low-light editable"> Explore </span></a>
     </div>
@@ -76,7 +76,7 @@ process:
   </div>
 
   <h4> Want to know more? Book a consultation call for a customized review!</h4>
-  <br>
+  <br />
   <a href="/contact.html" class="primary-button"> Book a consult </a>
 
-</section>
+</div></section>

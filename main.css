@@ -1669,11 +1669,19 @@ header{
   padding: 4rem 0;
 }
 
+.service-img-first{
+  text-align:center;
+}
+
 .service-img{
   background-position:center;
   background-size: cover;
-  height:350px;
 }
+
+.service-img-second{
+  .min-height:350px;
+}
+
 .service-title-one, .service-title-second{
   padding:3rem;
 }
@@ -1801,7 +1809,7 @@ input{background-color:transparent;}
 /* new portfolio pg */
 
 .portfolio{
-  padding: 1rem 0;
+  padding: 1rem 0 3rem;
 }
 
 .web-dev {
@@ -1811,6 +1819,7 @@ input{background-color:transparent;}
 .web-dev-title{
   margin:auto;
   margin-top:10%;
+  padding: 3rem 0;
 }
 
 .portfolio, .the-process{

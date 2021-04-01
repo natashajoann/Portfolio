@@ -107,7 +107,7 @@ testimonials:
 
 <section class="grid index-services">
 {% for item in page.services %}
-  <div class="col-6_sm-12 service-box relative" style="background-image:url({{item.service_image}})">
+  <div class="col-6_sm-12 service-box relative" style="background-image:url({{item.service_image}}); background-position:center; background-size:cover;">
     <div class="service-overlay">
       <div class="service-overlay-text">
         <h2>{{item.service-title}}</h2>
@@ -123,7 +123,7 @@ testimonials:
 <!-- <section class="grid index-services">
   <div class="col-6_sm-12 service-img-first">
 <img src="{{page.service-1_image}}" />
-  
+
 
   <div class="col-6_sm-12 service-title-one">
     <h2>{{page.first-service-title}}</h2>

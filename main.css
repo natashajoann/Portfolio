@@ -2055,6 +2055,9 @@ text-align: center;
 
   /* new shit  */
 
+  header{
+    height:92vh;
+  }
 
   .mobile-none{display:none;}
 

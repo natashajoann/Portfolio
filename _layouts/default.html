@@ -81,23 +81,23 @@
 
 <footer class="grid footer">
 
-  <div class="col-5_sm-12 footer-menu">
-    <div class="grid">
-      <div class="col-6_sm-12 footer-site-menu">
+  <div class="col-3_sm-12 footer-site-menu">
+
+
         {% for link in site.data.footer-site-menu %}
         <a class="footer-link" href="{{link.url}}">{{link.title}}</a><br>
         {% endfor %}
-      </div>
 
-      <div class="col-6_sm-12 footer-site-more">
+</div>
+
+<div class="col-3_sm-12 footer-site-more">
         {% for link in site.data.footer-site-more %}
         <a class="footer-link" href="{{link.url}}">{{link.title}}</a><br>
         {% endfor %}
       </div>
   </div>
-</div>
 
-  <div class="col-2 mobile-none"></div>
+  <div class="col-1 mobile-none"></div>
 
   <div class="col-5_sm-12 form centered">
     <h3>Snag my Simple Responsive CSS Overlays Guide!</h3>

@@ -306,8 +306,8 @@ nav{
     cursor: pointer;
     margin-left: auto;
     position: absolute;
-    top: 5vh;
-    right: 2vh;
+    top: 4vh;
+    right: 4vh;
     background-color:transparent;
     border:none;
 }
@@ -1740,6 +1740,7 @@ p, a{
   margin-top:10px;
 }
 
+nav{padding-top:20px;}
 
 
 .primary-nav-links a{

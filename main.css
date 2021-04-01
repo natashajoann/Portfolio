@@ -1848,7 +1848,7 @@ input{background-color:transparent;}
 
 #marquee {
   bottom: 15%;
-  /* position: absolute; */
+  position: absolute;
   -webkit-animation: linear infinite loop;
   -webkit-animation-name: run;
   -webkit-animation-duration: 60s;

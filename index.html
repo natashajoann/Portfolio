@@ -18,20 +18,10 @@ intro-text_html: >-
   that have inspired my web design style. I strive to build pages that showcase
   each of my clients&rsquo; vibrant personalities.&nbsp;</p>
 services:
-  - service_image: /uploads/untitled-design-3.png
-    service-title: Custom Coded Websites
-    service_html: >-
-  <p>Your website is like a second skin, it displays who you are: your hopes,
-  your goals, your business dreams. It&rsquo;s time to show the world (wide web)
-  exactly who you are, one piece of code at a time.&nbsp;<br />&nbsp;</p>
-    service_url: /web-dev
-  - service_image: /uploads/guides.png
-    service-title: Code + Design Guides
-    service_html: >-
-  <p>Whether you&rsquo;re just starting out &nbsp;on your design journey or
-  you&rsquo;re a veteran hacker, these tips and tricks are aimed at streamlining
-  your code/design process so you can work smarter not harder.&nbsp;</p>
-  service_url: /blog.html
+  - service_image:
+    service-title:
+    service_html:
+    service_url:
 testimonials:
   - quote_html: >-
       <p>We came to Natasha with no clear design criteria, except we wanted
@@ -108,10 +98,10 @@ testimonials:
   <div class="col-6_sm-12 service-box relative" style="background-image:url({{item.service_image}})">
     <div class="service-overlay">
       <div class="service-overlay-text">
-        <h2>{{page.service-title}}</h2>
-        <p>{{page.ervice_html}}</p>
+        <h2>{{item.service-title}}</h2>
+        <p>{{item.service_html}}</p>
         <br />
-        <a href="{{page.service_url}}" class="primary-button"> Learn More </a>
+        <a href="{{item.service_url}}" class="primary-button"> Learn More </a>
     </div>
   </div>
   </div>

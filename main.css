@@ -1796,7 +1796,7 @@ input{background-color:transparent;}
 
 .the-process{
   padding:4rem;
-  margin-bottom: 2rem;
+  margin-bottom: 2rem !important;
 }
 
 

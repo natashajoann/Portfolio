@@ -1796,7 +1796,10 @@ input{background-color:transparent;}
   margin-bottom: 2rem !important;
 }
 
-
+.process-text p{
+  width:80%;
+  margin:auto;
+}
 
 
 .marquee {

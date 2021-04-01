@@ -1112,27 +1112,14 @@ footer h3{
 }
 
 footer{
-  background-color:#212422;
   color: #DBDBDB;
 }
 
 .form h2{
-  font-family: collection-free;
+  font-family: 'ApfelGrotezk';
   font-size:50px;
 }
 
-
-
-.footer-menu{
-  position:absolute;
-  bottom:2vh;
-  text-align: center;
-  width: 100%;
-}
-
-.footer-menu a{
-  margin:0 10px;
-}
 
 
 .contact-button{
@@ -1781,7 +1768,7 @@ header{
 
 .text-overlay{
   position:absolute;
-  height:100%;
+  height:60%;
   width:100%;
   padding: 5%;
   text-align: left;
@@ -2672,13 +2659,6 @@ padding-left: 1rem;
   margin-bottom:15px;
 }
 
-
-.footer-menu{
-  position: absolute;
-  bottom: 2vh;
-  width: 80%;
-  left: 30px;
-}
 
 .form{
   padding:2rem 2rem 0;

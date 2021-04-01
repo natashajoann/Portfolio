@@ -1862,7 +1862,20 @@ input{background-color:transparent;}
   margin:auto;
   margin-bottom:2rem;
 }
+/* new footer */
+.footer-site-menu{
+text-align: left;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
 
+.footer-site-more{
+text-align: left;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
 
 /* media queries */
 

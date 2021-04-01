@@ -1870,14 +1870,14 @@ input{background-color:transparent;}
 }
 /* new footer */
 .footer-site-menu{
-text-align: left;
+text-align: center;
     display: flex;
     flex-direction: column;
     margin: auto;
 }
 
 .footer-site-more{
-text-align: left;
+text-align: center;;
     display: flex;
     flex-direction: column;
     margin: auto;

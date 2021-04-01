@@ -1634,7 +1634,8 @@ min-height:90vh;}
   padding: 5%;
   text-align: left;
   top: 0;
-  background-color: #40575d6e;
+  /* background-color: #40575d6e; */
+  background-color:#19191996;
   color:white;
   left: 0;
   z-index: 3;

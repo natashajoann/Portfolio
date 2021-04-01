@@ -459,7 +459,7 @@ nav{
 
     .nav__container {
         position: absolute;
-        /* padding: 10rem 20px 30px; */
+        padding: 0 20px 30px;
         top: 0;
         left: 0;
         width: 100%;

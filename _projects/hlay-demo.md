@@ -1,6 +1,6 @@
 ---
 layout: web-work
-landing_image: /uploads/hlaycover.png
+landing_image: /uploads/hlaycov.png
 featured_image: /images/wine-hlay.jpg
 brand_title: Here's Looking At You Demo
 brand_info: >-

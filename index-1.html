@@ -143,11 +143,11 @@ testimonials:
   </div>
 
   <div class="col-10_sm-12 latest-slider">
-    <div class="grid margin-bottom">
+    <div class="grid" style="margin-bottom:20px; justify-content:center;">
       {% for project in site.projects limit:3 %}
 
       <div class="col-4_sm-12 project-sample centered">
-        <a href="{{project.url}}" style="background-image:url({{project.featured_image}}); width:90%;min-height:250px; margin:auto;"></a>
+        <a href="{{project.url}}" style="background-image:url({{project.featured_image}}); width:90%;min-height:250px; margin:auto; margin-bottom:20px;"></a>
         <h3> {{project.brand_title}} </h3>
         <a href="{{project.url}}"><span class="work-together low-light editable"> Explore </span></a>
       </div>

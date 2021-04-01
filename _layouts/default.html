@@ -56,7 +56,7 @@
 <body>
 
 <!-- NEW -->
-<!-- <nav class="primay-nav">
+<nav class="primay-nav">
   <a href="/" class="logo">
     <img src="/images/nv-logo-black.png">
   </a>
@@ -66,10 +66,10 @@
     <a href="/blog.html"> Web Guides </a>
     <a href="/contact.html"> Contact </a>
   </div>
-</nav> -->
+</nav>
 
 <!-- END -->
-  <nav class="desktop-menu grid">
+  <!-- <nav class="desktop-menu grid">
 
   <div class="col-2 space-around menu-left align-center" style="text-align:right;">
     <a href="/"> Home </a>
@@ -89,7 +89,7 @@
     <a href="/contact"> Contact </a>
 
   </div>
-</nav>
+</nav> -->
 
 <!-- burger menu -->
 
@@ -138,11 +138,34 @@
 
 
 <footer class="grid footer">
-  <div class="col-6_sm-12 form centered">
-    <h3 style="font-family: 'Playfair Display', serif;">Snag my Simple Responsive CSS Overlays Guide!</h3>
 
+  <div class="col-12 lightwidget">
+
+    <!-- LightWidget WIDGET -->
+    <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="https://cdn.lightwidget.com/widgets/9cb0df7740155db992aa1183c220f928.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
+
+  </div>
+
+  <div class="col-5_sm-12 footer-menu">
+    <div class="grid">
+      <div class="col-6_sm-12 footer-site-menu">
+        {% for link in site.data.footer-site-menu %}
+        <a class="footer-link" href="{{link.url}}">{{link.title}}</a>
+        {% endfor %}
+      </div>
+
+      <div class="col-6_sm-12 footer-site-more">
+        {% for link in site.data.footer-site-more %}
+        <a class="footer-link" href="{{link.url}}">{{link.title}}</a>
+        {% endfor %}
+      </div>
+  </div>
+
+  <div class="col-2 mobile-none"></div>
+
+  <div class="col-5_sm-12 form centered">
+    <h3>Snag my Simple Responsive CSS Overlays Guide!</h3>
     <br>
-
     <!-- Begin Mailchimp Signup Form -->
   <div id="mc_embed_signup">
   <form action="https://natashaverdon.us10.list-manage.com/subscribe/post?u=ca53903035e98efb63de0ca4d&amp;id=154e6903d5" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
@@ -168,30 +191,12 @@
   </div>
   <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[1]='FNAME';ftypes[1]='text';fnames[0]='EMAIL';ftypes[0]='email';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
   <!--End mc_embed_signup-->
-
-
-
-    <div class="contact-media">
-      <span class="social-icon">
-        <a  href="http://www.instagram.com/natashaverdon" class="fa fa-instagram"></a>
-
-        <a href="http://www.tiktok.com/@natashaverdon" class="fa fa-tiktok"></a>
-
-        <a href="http://www.facebook.com/natashaverdon" class="fa fa-facebook-square"></a>
-
-        <a href="https://ar.pinterest.com/natashajoan2194/" class="fa fa-pinterest"></a>
-      </span>
-    </div>
-
-    <h5> © Natasha Verdon 2020. All rights reserved. </h5>
 </div>
 
-  <div class="col-6_sm-12 lightwidget">
 
-    <!-- LightWidget WIDGET -->
-    <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="https://cdn.lightwidget.com/widgets/9cb0df7740155db992aa1183c220f928.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
+<h5 class="col-12"> © Natasha Verdon 2020. All rights reserved. </h5>
 
-  </div>
+
 
 </footer>
 

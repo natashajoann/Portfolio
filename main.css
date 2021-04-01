@@ -1773,7 +1773,7 @@ p, a{
 header{
   background-position: center;
   background-size:cover;
-  height:85vh;
+  height:90vh;
 }
 
 .mobile-header{
@@ -1811,12 +1811,21 @@ header{
 
 .quote{
   text-align: right;
-  padding-right:2rem;
+  padding-right:0rem;
   border-right:2px solid black;
 }
 
+.quote h1{
+  font-size: 65px;
+    line-height: 60px;
+    letter-spacing: 13px;}
+
 .index-quote{
-  padding:4rem 2rem;
+  padding:6rem 2rem;
+}
+
+.intro-text p{
+  font-size:20px;
 }
 
 .intro-text{
@@ -1841,6 +1850,11 @@ header{
 .latest-work-loop{
   background-color: #D49260;
   padding: 3rem 2rem;
+}
+
+.latest-work-loop h2{
+  font-size:45px;
+  letter-spacing:6px;
 }
 
 .margin-bottom{margin-bottom:20px;}
@@ -1876,14 +1890,13 @@ header{
 .testimonial p{
   font-size:24px;
   text-align:center;
-  font-family: 'Playfair Display',serif;
   padding: 3rem 3rem 3rem 5rem;
   color:white;
 }
 
 .client{
   font-style:italic;
-  font-family:futura-pt,sans-serif;
+  font-family:'BonVivantSerif';
 }
 
 /* Slick slider */
@@ -2076,6 +2089,8 @@ text-align: center;
     text-align:center;
     border-right:none;
   }
+
+
 
   .intro-text{
     text-align: center;

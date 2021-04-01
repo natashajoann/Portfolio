@@ -1992,6 +1992,7 @@ footer .vl{
 
   .intro-text{
     text-align: center;
+    padding-left:0;
   }
 
   .service-box{

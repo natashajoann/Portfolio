@@ -983,7 +983,7 @@ hr{
 /* Contact */
 
 .contact, .contact-form form{
-  padding:0 3rem;
+  padding:2rem 0;
   width: 70%;
   margin: auto;
   margin-bottom: 5rem;
@@ -1001,6 +1001,7 @@ padding: 10px 10px;
 border:none;
 margin: auto;
 margin-top: 4px;
+margin-bottom:20px;
 display: flex;
 font-family: "ApfelGrotezk";
 color:#272727;
@@ -1014,8 +1015,8 @@ border-bottom:1px solid #272727;
 textarea{
   padding:10px 2px 150px;
   resize:none;
-  margin-top:1rem;
-  border:1px solid #272727;
+  margin-top:2rem;
+  /* border:1px solid #272727; */
   background-color:transparent;
 }
 

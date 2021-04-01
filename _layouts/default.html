@@ -61,78 +61,17 @@
     <img src="/images/nv-logo-black.png">
   </a>
 
-  <div class="primary-nav-links">
+  <!-- <div class="primary-nav-links">
     <a href="/portfolio.html" class="nav-border-right"> Web Dev </a>
     <a href="/blog.html"> Web Guides </a>
     <a href="/contact.html"> Contact </a>
-  </div>
+  </div> -->
+
+  {% include 'burger-menu' %}
 </nav>
 
-<!-- END -->
-  <!-- <nav class="desktop-menu grid">
 
-  <div class="col-2 space-around menu-left align-center" style="text-align:right;">
-    <a href="/"> Home </a>
-    <a href="/web-dev"> Portfolio </a>
 
-  </div>
-
-  <div class="col-2">
-    <a href="/" class="primary-logo">
-      <img src="/images/temporarylogo.png">
-    </a>
-  </div>
-
-  <div class="col-2 space-around menu-right align-center" style="text-align:left;">
-
-    <a href="/blog"> Blog </a>
-    <a href="/contact"> Contact </a>
-
-  </div>
-</nav> -->
-
-<!-- burger menu -->
-
-<section class="burgz-menu">
-
-<div class="header">
-    <div class="wrapper">
-      <nav class="nav">
-        <div class="nav__container">
-          <ul class="mobile-menu burger-menu">
-            <li class="menu-item">      <a href="/">Home</a></li>
-
-            <li class="menu-item">
-            <a href="/web-dev">Web Design &<br> Development</a>
-          </li>
-
-            <!-- <li class="menu-item">
-              <a href="/media">Digital Marketing</a>
-            </li> -->
-
-            <li class="menu-item">
-              <a href="/blog">Blog</a>
-            </li>
-
-            <li class="menu-item">
-              <a href="/contact">Contact</a>
-            </li>
-          </ul>
-
-        </div>
-
-    </nav>
-
-    <button class="hamburger__container mobile">
-      <div class="hamburger">
-        <i></i>
-        <i></i>
-        <i></i>
-      </div>
-    </button>
-  </div>
-</div>
-  </section>
 
 {{content}}
 

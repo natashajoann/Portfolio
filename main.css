@@ -1546,6 +1546,9 @@ p, a, h5{
   letter-spacing:3px;
   text-transform:uppercase;
   transition:0.4s;
+  border-bottom:none !important;
+  justify-content: center;
+text-align:center;
 }
 
 .primary-button:hover{

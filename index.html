@@ -1,13 +1,36 @@
 ---
 layout: default
-title: Natasha Joann
-testimonial_color: '#eafae7'
-intro:
-  - initial: 'Hey I''m Tash,'
-    text_html: >-
-      <p>I'm a front-end web designer and developer. I create</p><p>empowering
-      websites for the bold and inspired.&nbsp;</p><p>&nbsp;</p><p>Let's get
-      started.</p>
+title: home
+desktop-header_image: /uploads/website-design--development.png
+mobile-header_image: /uploads/mobile-header.png
+header-title_html: <p>inclusive</p><p>website&nbsp;</p><p>design + development</p>
+icon_image: /uploads/bracket.png
+marquee: >-
+  now booking august 2021  //  now booking august 2021  //  now booking august
+  2021  //  now booking august 2021  //  now booking august 2021  //  now
+  booking august 2021  //now booking august 2021  //  now booking august 2021
+  //  now booking august 2021  //  now booking august 2021  //  now booking
+  august 2021  //  now booking august 2021  //
+quote_html: <h1>BIEN</h1><h1>VENI</h1><h1>DXS</h1>
+intro-text_html: >-
+  <p>I&lsquo;m an extroverted, people-loving anthropologist and web developer.
+  I&rsquo;ve lived around the world, building a collection of memories of people
+  that have inspired my web design style. I strive to build pages that showcase
+  each of my clients&rsquo; vibrant personalities.&nbsp;</p>
+service-1_image: /uploads/untitled-design-3.png
+first-service-title: Custom Coded Websites
+first-service_html: >-
+  <p>Your website is like a second skin, it displays who you are: your hopes,
+  your goals, your business dreams. It&rsquo;s time to show the world (wide web)
+  exactly who you are, one piece of code at a time.&nbsp;<br />&nbsp;</p>
+first_url: /portfolio.html
+service-2_image: /uploads/myface.jpg
+second-service-title: Code + Design Guides
+second-service_html: >-
+  <p>Whether you&rsquo;re just starting out &nbsp;on your design journey or
+  you&rsquo;re a veteran hacker, these tips and tricks are aimed at streamlining
+  your code/design process so you can work smarter not harder.&nbsp;</p>
+second_url: /blog.html
 testimonials:
   - quote_html: >-
       <p>We came to Natasha with no clear design criteria, except we wanted
@@ -44,95 +67,88 @@ testimonials:
       I'm overjoyed because my visions have come to life. My website looks
       exactly how I always dreamed it would. &nbsp;</p>
     client: 'Miika Kivilo, Miika Kivilo Art'
-latest-work:
-  - featured_image: /images/alldaywebp.png
-    project-name: Allday Knives
-    url: /alldayknives.html
-  - featured_image: /uploads/miikacover.png
-    project-name: Miika Kivilo Art
-    url: /miika-art.html
-  - featured_image: /images/6.png
-    project-name: Sobremesa Stories
-    url: 'https://www.sobremesastories.co'
-  - featured_image: /images/jessiecover.png
-    project-name: JB Creative Consulting
-    url: /jessie-b-creative.html
 ---
 
-<style>
+<header class="grid primary-header relative" style="background-image:url({{page.desktop-header_image}})">
+  <div class="text-overlay">
+    <h2>{{page.header-title_html}}</h2>
+  </div>
+  <div class="icon-overlay">
+    <img src="{{page.icon_image}}" />
+  </div>
+</header>
 
-.testimonial_color{
-  background-color:{{page.testimonial_color}}
-}
+<header class="grid mobile-header relative" style="background-image:url({{page.mobile-header_image}})">
+  <div class="text-overlay">
+    <h2>{{page.header-title_html}}</h2>
+  </div>
+</header>
 
-</style>
+<section class="marquee relative">
+<div id="marquee">
+<p>{{page.marquee}} </p>
+</div>
+</section>
 
-<section class="title-img about relative">
 
-  {% for item in page.intro limit:1 %}
+<section class="index-quote grid">
+  <div class="col-5_sm-12 quote">
+    <h1>{{page.quote_html}}</h1>
+  </div>
 
-      <div class="title-overlay">
-        <div class="title-quote">
-          <h1> {{item.initial}}</h1>
-          <p> {{item.text_html}}</p>
-        </div>
+  <div class="col-6_sm-12 intro-text">
+    <p> {{page.intro-text_html}}</p>
+  </div>
+</section>
+
+<section class="grid index-services">
+  <div class="col-6_sm-12 service-img-first">
+<img src="{{page.service-1_image}}"/>
+  </div>
+
+  <div class="col-6_sm-12 service-title-one">
+    <h2>{{page.first-service-title}}</h2>
+    <p>{{page.first-service_html}}</p>
+    <br />
+    <a href="{{page.first_url}}" class="primary-button"> Learn More </a>
+  </div>
+
+  <div class="col-12" style="padding:1rem;"></div>
+
+  <div class="col-6_sm-12 service-title-second right">
+    <h2>{{page.second-service-title}}</h2>
+    <p>{{page.second-service_html}}</p>
+    <br />
+    <a href="{{page.second_url}}" class="primary-button"> Learn More </a>
+  </div>
+
+  <div class="col-6_sm-12 service-img service-image-second" style="background-image:url({{page.service-2_image}})"></div>
+
+</section>
+
+<section class="grid latest-work-loop">
+  <div class="col-2_sm-12 latest-title">
+    <h2> Latest <br /> Work</h2>
+  </div>
+
+  <div class="col-10_sm-12 latest-slider">
+    <div class="grid" style="margin-bottom:20px; justify-content:center;">
+      {% for project in site.projects limit:3 %}
+
+      <div class="col-4_sm-12 project-sample centered">
+        <a href="{{project.url}}" style="background-image:url({{project.featured_image}}); width:90%;min-height:250px; margin:auto; margin-bottom:20px;"></a>
+        <h3> {{project.brand_title}} </h3>
+        <a href="{{project.url}}"><span class="work-together low-light editable"> Explore </span></a>
       </div>
-    </div>
 
-{% endfor %}
+      {% endfor %}
+    </div>
+  </div>
 
 
 </section>
 
-
-<section class="grid index-services animate" data-aos="fade"
-data-aos-duration="2000">
-
-
-  <div class="col-6_sm-12 service-info centered vl">
-    <h2> Web Design <br> & Development <br> Services</h2>
-    <br>
-    <a href="/web-dev" class="button-spread"><span> explore</span> </a>
-  </div>
-
-
-  <div class="col-6_sm-12 service-info centered vl-top">
-    <h2> Coding & <br> Design E-Guides</h2>
-    <br>
-    <a href="/blog" class="button-spread"> <span>explore</span> </a>
-  </div>
-</section>
-
-
-
-<section class="grid featured-work-padded centered animate" data-aos="fade"
-data-aos-duration="2000" <style="margin:auto;">
-
-<h1 class="col-12"> Latest Work </h1>
-
-  {% for item in page.latest-work limit:4 %}
-
-  <div class="col-6_sm-12 centered margin-bottom animate" data-aos="fade"
-  data-aos-duration="2000" >
-    <div class="featured-work">
-      <img src="{{item.featured_image}}">
-    </div>
-    <br>
-      <h4> {{item.project-name}}</h4>
-      <a href="{{item.url}}" class="button-spread"> See More </a>
-  </div>
-
-
-  {% endfor %}
-
-
-  <div class="col-12 centered">
-    <a href="/web-dev" class="button-spread"> See all my work </a>
-  </div>
-  </section>
-
-  <section class=" testimonial_color slideshow desktop-slideshow animate" data-aos="fade"
-  data-aos-duration="2000">
+  <section class=" testimonial_color slideshow desktop-slideshow">
 
     <div class="single-item">
 
@@ -150,25 +166,4 @@ data-aos-duration="2000" <style="margin:auto;">
 
   </section>
 
-  <section class="grid index-blog">
-    <h1 class="centered col-12"> Hot Off The Press </h1>
-
-    <div class="grid justify">
-
-    {% for post in site.posts limit:3 %}
-      <div class="col-4_sm-12 post-preview">
-        <div class="blog-loop-background index-blog-img" style="background-image:url({{post.featured_image}})">
-        </div>
-        <div class="blog-loop-info centered">
-          <h3> {{post.title}}</h3>
-          <br>
-          <a href="{{post.url}}" class="button-spread"><span> Read More</span> </a>
-        </div>
-      </div>
-    {% endfor %}
-
-    <div class="col-12 read-all centered">
-      <a href="/blog" class="button-spread"><span> See All Posts </span></a>
-    </div>
-</div>
-  </section>
+{% include ig-grid.html %}

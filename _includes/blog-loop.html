@@ -1,0 +1,22 @@
+<section class="grid index-blog">
+  <h1 class="centered col-12"> Hot Off The Press </h1>
+
+  <div class="grid justify">
+
+  {% for post in site.posts limit:3 %}
+    <div class="col-4_sm-12 post-preview">
+      <div class="blog-loop-background index-blog-img" style="background-image:url({{post.featured_image}})">
+      </div>
+      <div class="blog-loop-info centered">
+        <h3> {{post.title}}</h3>
+        <br>
+        <a href="{{post.url}}" class="button-spread"><span> Read More</span> </a>
+      </div>
+    </div>
+  {% endfor %}
+
+  <div class="col-12 read-all centered">
+    <a href="/blog" class="button-spread"><span> See All Posts </span></a>
+  </div>
+</div>
+</section>

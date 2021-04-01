@@ -997,7 +997,7 @@ hr{
 
 .contact input, .contact-form input, textarea{
 width: 90%;
-padding: 10px 2px;
+padding: 10px 10px;
 border:none;
 margin: auto;
 margin-top: 4px;
@@ -1985,6 +1985,10 @@ input{background-color:transparent;}
   .contact-img{
     width:80%;
     margin:auto;
+  }
+
+  .contact-text{
+    text-align:center;
   }
 
 /* end  */

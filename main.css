@@ -1066,13 +1066,17 @@ form{
 
 /* Newsletter Form */
 
+#mc_embed_signup{
+  background-color: #fdfcf5 !important;
+}
+
 #mc_embed_signup form {
     display: block;
     position: relative;
     text-align: left;
     padding: 2rem;
-    background-color: #fdfcf5;
-font-family: 'ApfelGrotezk';
+    background-color: #fdfcf5 !important;
+font-family: 'ApfelGrotezk' !important;
     text-transform: lowercase;
     padding-bottom:0;
 }

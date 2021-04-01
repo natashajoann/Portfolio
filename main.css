@@ -1841,12 +1841,13 @@ header{
   background-color: #D49260;
   padding: 3rem 2rem;
 }
+
+.margin-bottom{margin-bottom:20px;}
+
 .project-sample a{
   display:block;
   background-position:center;
   background-size:cover;
-  min-height: 250px;
-  margin-bottom:20px;
 }
 
 .project-sample{

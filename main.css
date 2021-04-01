@@ -1174,16 +1174,20 @@ footer h2 {
 }
 
 .web-info h2{
-  font-family: classico-urw, sans-serif;
+  font-family: 'BonVivantSerif';
 }
 
 .web-info h3{
-  font-family: futura-pt, sans-serif;
+  font-family: 'BonVivantSerif';
   font-size:20px;
 }
 
 .services-info a{
   border-bottom:2px solid #313131;
+}
+
+.services-info a:hover{
+  border-bottom:2px solid #bcc5ca;
 }
 
 .service-info h3{

@@ -1873,7 +1873,7 @@ input{background-color:transparent;}
 @-webkit-keyframes run {
   from { transform: translateX(0%) }
 
-  to { transform: translateX(-50%) }
+  to { transform: translateX(-100%) }
 }
 
 .web-dev a {

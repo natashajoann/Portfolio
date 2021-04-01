@@ -1906,6 +1906,7 @@ footer .vl{
   border-top:1px solid black;
   width:80%;
   margin:auto;
+  order:-1;
 }
 
 /* media queries */
@@ -2574,15 +2575,7 @@ padding-left: 1rem;
   padding:2rem;
 }
 
-.vl-top{
-  padding-top:20px;
-}
 
-.vl{
-  border-right:none;
-  border-bottom:1px solid black;
-  padding-bottom:20px;
-}
 
 }
 

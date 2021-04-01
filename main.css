@@ -1730,7 +1730,7 @@ p, a{
   transition:0.4s;
 }
 
-.primary-button:after{
+.primary-button:hover{
   position: absolute;
   content: “”;
   top: 0;
@@ -1834,6 +1834,10 @@ header{
 }
 
 /* index-service */
+
+.index-services{
+  padding: 4rem 0;
+}
 
 .service-img{
   background-position:center;

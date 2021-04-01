@@ -1002,9 +1002,9 @@ border:none;
 margin: auto;
 margin-top: 4px;
 display: flex;
-font-family: futura-pt,sans-serif;
+font-family: "ApfelGrotezk";
 color:#272727;
-border-bottom:2px solid #272727;
+border-bottom:1px solid #272727;
 }
 
 .contact, .contact-form input{
@@ -1015,7 +1015,7 @@ textarea{
   padding:10px 2px 150px;
   resize:none;
   margin-top:1rem;
-  border:2px solid #272727;
+  border:1px solid #272727;
   background-color:transparent;
 }
 
@@ -1141,7 +1141,7 @@ footer h2 {
 }
 
 .fa-arrow-alt-circle-left:hover{
-  color:#d5efe0;
+  color:#BCC5CA;
 }
 
 .web-work h4{
@@ -1169,15 +1169,6 @@ footer h2 {
     margin-top: 2.75rem;
 }
 
-/* .service-info a{
-  border:1px solid black;
-  padding:5px;
-}
-
-.service-info a:hover{
-  border:1px solid #f9c947;
-  color: #f9c947;
-} */
 
 .service-info p{
   width:70%;
@@ -1214,7 +1205,7 @@ footer h2 {
 }
 
 .web-button:hover{
-  color:#b5979b;
+  color:#BCC5CA;
 }
 
 .web-intro h4{
@@ -1942,7 +1933,9 @@ text-align: center;
   width:80%;
   margin:auto;
 }
+/* contact */
 
+input{background-color:transparent;}
 
 /* new portfolio pg */
 
@@ -2146,6 +2139,11 @@ text-align: center;
 
   .portfolio{
     padding:2rem;
+  }
+
+  .contact form{
+    width:100%;
+    padding-top:2rem;
   }
 
 /* end  */

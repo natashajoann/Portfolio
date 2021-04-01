@@ -2089,7 +2089,9 @@ text-align: center;
     align-items: flex-start;
 }
 
-
+  .process-text{
+    padding:2rem;
+  }
 
   .intro-text{
     text-align: center;

@@ -33,11 +33,11 @@ process:
 ---
 
 <section class="grid web-dev">
-  <div class="col-6_sm-12 mobile-none">
+  <div class="col-5_sm-12 mobile-none">
     <img src="{{page.featured_image}}">
   </div>
 
-  <div class="col-6_sm-12 web-dev-title centered">
+  <div class="col-7_sm-12 web-dev-title centered">
     <h2> Web Design + Development </h2>
     <br>
     <p>{{page.description_html}} </p>
@@ -50,7 +50,7 @@ process:
     {% for project in site.projects limit:6 %}
 
     <div class="col-4_md-6_sm-12 project-sample centered">
-      <a href="{{project.url}}" style="background-image:url({{project.landing_image}}); min-height:350px;"/></a>
+      <a href="{{project.url}}" style="background-image:url({{project.landing_image}}); min-height:350px;width:90%; margin:auto;"/></a>
       <h3> {{project.brand_title}} </h3>
       <a href="{{project.url}}"><span class="work-together low-light editable"> Explore </span></a>
     </div>

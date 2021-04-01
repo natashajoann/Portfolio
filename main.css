@@ -1810,17 +1810,21 @@ input{background-color:transparent;}
 
 .web-dev-title{
   margin:auto;
+  margin-top:10%;
 }
 
-.web-dev div{
+.portfolio, .the-process{
   width:90%;
   margin:auto;
   margin-top:0;
 }
 
-.web-dev-title{
-  margin-top:10%;
+.the-process{
+  padding:4rem;
+  margin-bottom: 2rem;
 }
+
+
 
 
 
@@ -1959,6 +1963,10 @@ footer .vl{
     z-index: 3;
     display: flex;
     align-items: flex-start;
+}
+
+.the-process{
+  padding:2rem;
 }
 
   .process-text{

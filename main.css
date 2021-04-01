@@ -1566,7 +1566,7 @@ p, a, h5{
   left: 0;
   width: 0;
   height: 100%;
-  background: #40575E;
+  background: #40575eb3;
   transition: all .35s;
 }
 

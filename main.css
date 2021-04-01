@@ -1311,9 +1311,6 @@ footer h2 {
 }
 
 
-
-
-
 .dropdown-nav {
   position:relative;
   cursor: pointer;
@@ -1325,167 +1322,6 @@ footer h2 {
   margin: auto;
 }
 
-
-.social-media-clients{
-  margin-bottom:20px;
-  margin-left:10%;
-}
-
-
-
-.social-media-clients img{
-  width:146px;
-  margin:3%;
-}
-
-.enemon-bk{
-  background-color: rgb(100,100,100);
-}
-
-
-.social-media-clients h3{
-  margin:auto;
-  padding: 3rem 0;
-}
-
-
-.social-media div{
-  margin-top:0;
-}
-
-.social-media p, .social-media h2{
-  width:100%;
-  margin:auto;
-}
-
-.social_media ul{
-  margin: 0px 21px;
-}
-
-.social-media span{
-  font-weight:800;
-  color: #8aa4a9;
-}
-
-
-.social-media div{
-  margin-bottom: 20px;
-  /* margin:auto; */
-}
-
-
-
-.social-media h3{
-  font-size:25px;
-  text-align:center;
-  margin-bottom:15px;
-  margin-top:20px;
-  font-family: futura-pt, sans-serif;
-}
-
-.social-media ul{
-  margin-left:74px;
-}
-
-.nashjo-img{
-  background-image: url("/images/nashjoeats.png");
-  background-size:cover;
-  padding:10rem;
-}
-
-
-.writing span{
-  font-style:italic;
-}
-
-.writing_radio h3{
-  font-weight: 300;
-}
-
-.writing_radio{
-  padding: 3rem 0rem;
-padding-left: 4rem;
-}
-
-.writing_radio div{
-    text-align: center;
-    transition:0.2s;
-  }
-
-  .writing_radio a{
-    border-radius: 5px;
-    margin-bottom:20px;
-  }
-
-  .writing_radio h3{
-    width:80%;
-    margin:auto;
-  }
-
-.writing-bk-img{
-  background-size:cover;
-  background-position:center;
-  padding:7rem;
-  margin:auto;
-  width:90%;
-}
-
-.thesis-bk-img{
-  background-image: url("/images/nmv-pancakes.jpeg");
-}
-
-.pd-bk-img{
-  background-image: url("/images/mex-oatbowl.jpg");
-}
-
-.bgt-bk-img{
-  background-image: url("/images/Verdon-houses-in-Bogota.jpg");
-}
-
-
-.wsp-bk-img{
-  background-image: url("/images/Verdon-piece-photo.jpg");
-}
-
-.wine-bk-img{
-  background-image: url("/images/tashwine.jpg");
-}
-
-.stpatty-bk-img{
-  background-image: url("/images/st.pattyday.jpg");
-}
-
-.thesis{
-  margin:0;
-  margin-bottom:50px;
-}
-
-.blue-hover:hover{
-  color: #94b3ba;
-}
-
-.orange-hover:hover{
-  color: #BB5C2f;
-}
-
-.pink-hover:hover{
-  color:#e4cabc;
-}
-
-.yellow-hover:hover{
-  color:#e5bc5c;
-}
-
-.purple-hover:hover{
-  color: #c8b0b4;
-}
-
-
-/* lightbox - Food */
-
-[class*=grid-]>[class*=col-4], [class*=grid_]>[class*=col-4], [class~=grid]>[class*=col-4]{
-  max-width:31.3333%;
-}
 
 
 .gallery-image{
@@ -2144,6 +1980,11 @@ input{background-color:transparent;}
   .contact form{
     width:100%;
     padding-top:2rem;
+  }
+
+  .contact-img{
+    width:80%;
+    margin:auto;
   }
 
 /* end  */

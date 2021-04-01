@@ -1625,7 +1625,7 @@ header{
   text-align:center;
 }
 
-.service-img-first img{
+.service-img-first img, .service-img-second{
   text-align:center;
   width:70%;
 }
@@ -1635,9 +1635,6 @@ header{
   background-size: cover;
 }
 
-.service-img-second{
-  .min-height:450px;
-}
 
 .service-title-one, .service-title-second{
   padding:3rem;

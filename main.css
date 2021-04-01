@@ -989,6 +989,10 @@ hr{
   margin-bottom: 5rem;
 }
 
+.contact-text{
+  padding-left:2rem;
+}
+
 .contact-intro{
   padding:3rem 0;
   background-color: #D49260;
@@ -1999,7 +2003,9 @@ input{background-color:transparent;}
 
   .contact-text{
     text-align:center;
+    padding:0;
   }
+
 
 /* end  */
 

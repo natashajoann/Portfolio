@@ -1627,7 +1627,7 @@ header{
 
 .text-overlay p{
   font-family: 'BonVivantSerif';
-  font-size:17px;
+  font-size:27px;
 }
 
 .icon-overlay{
@@ -1676,17 +1676,23 @@ header{
   text-align:center;
 }
 
+.service-img-first img{
+  text-align:center;
+  width:70%;
+}
+
 .service-img{
   background-position:center;
   background-size: cover;
 }
 
 .service-img-second{
-  .min-height:350px;
+  .min-height:450px;
 }
 
 .service-title-one, .service-title-second{
   padding:3rem;
+  margin:auto;
 }
 
 /* latest */
@@ -1892,6 +1898,10 @@ text-align: center;
     flex-direction: column;
     margin: auto;
     font-family: 'BonVivantSerif'
+}
+
+.footer-site-menu a, .footer-site-more a{
+      font-family: 'BonVivantSerif' !important;
 }
 
 .footer-site-more{

@@ -1785,13 +1785,17 @@ header{
   height:100%;
   width:100%;
   padding: 5%;
-  text-align: center;
-  top:0;
+  text-align: left;
+  bottom:7%;
   left:0;
   z-index:3;
   display:flex;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-end;
+}
+
+.text-overlay p{
+  font-family: 'BonVivantSerif';
+  font-size:17px;
 }
 
 .quote{

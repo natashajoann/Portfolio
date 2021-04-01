@@ -1054,7 +1054,7 @@ form{
     position: relative;
     text-align: left;
     padding: 2rem;
-    background-color: transparent;
+    background-color: #fdfcf5;
 font-family: 'ApfelGrotezk';
     text-transform: lowercase;
     padding-bottom:0;
@@ -2073,6 +2073,19 @@ text-align: center;
     border-right:none;
   }
 
+  .text-overlay {
+    position: absolute;
+    height: 60%;
+    width: 100%;
+    padding: 5%;
+    text-align: left;
+    top: 15%;
+    left: 0;
+    z-index: 3;
+    display: flex;
+    align-items: flex-start;
+}
+
 
 
   .intro-text{
@@ -2097,15 +2110,16 @@ text-align: center;
   }
 
   .service-title-second{
-    order:3;
-  }
-
-  .service-image-second{
     order:4;
   }
 
+  .service-image-second{
+    order:3;
+  }
+
   .slick-next, .slick-prev{
-    bottom: 20% !important;
+    bottom: 10%!important;
+    align-items: flex-end;
   }
 
   .slick-next{
@@ -2114,6 +2128,10 @@ text-align: center;
 
   .slick-prev{
     left:40%;
+  }
+
+  .footer-site-menu, .footer-site-more{
+    text-align:center;
   }
 
 /* end  */
@@ -2624,7 +2642,6 @@ padding-left: 1rem;
 
 
 .form{
-  order:2;
   margin-bottom:2rem;
   padding: 2rem 2rem 0;
 

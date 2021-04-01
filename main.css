@@ -1009,8 +1009,9 @@ hr{
 
 .contact form, .contact-form {
   padding: 2rem 0;
-  width:70%;
-  margin:auto;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 5rem;
 }
 
 
@@ -1881,6 +1882,12 @@ text-align: center;;
     display: flex;
     flex-direction: column;
     margin: auto;
+}
+
+footer .vl{
+  border-top:1px solid black;
+  width:80%;
+  margin:auto;
 }
 
 /* media queries */

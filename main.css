@@ -1248,57 +1248,6 @@ footer h2 {
     top: 6vh;
 }
 
-/* accordion */
-
-.web-accordion{
-  padding-bottom:3rem;
-}
-
-.accordion {
-  background-color: transparent;
-  cursor: pointer;
-  padding: 18px 4px 0;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: 0;
-  font-size: 15px;
-  transition: .5s;
-  width: 70%;
-  margin: auto;
-  text-align: center;
-    margin-bottom: 10px;
-}
-
-.accordion h2{
-  padding-bottom:10px;
-}
-
-.active, .accordion:hover {
-  color: #7a7a7a;
-}
-
-/* .accordion:after {
-  content: '\002B';
-  font-weight: bold;
-  float: right;
-  margin-left: 5px;
-  margin-top:-28px;
-} */
-
-.active:after {
-  /* content: "\2212"; */
-  color: #7a7a7a;
-}
-
-.panel {
-  padding: 0 18px;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.9s ease-out;
-  width:70%;
-  margin:auto;
-}
 
 
 /* Media*/
@@ -1699,7 +1648,7 @@ header{
 
 .latest-work-loop{
   background-color: #D49260;
-  padding: 3rem 2rem;
+  padding: 7rem 4rem 3rem;
 }
 
 .latest-work-loop h2{
@@ -1761,6 +1710,14 @@ top:unset;
 .slick-next{
 left:3rem;
 
+}
+
+.slick-prev:before {
+    content: '←';
+}
+
+.slick-next:before {
+    content: '→';
 }
 
 .single-item{
@@ -1853,9 +1810,15 @@ height: 200px;
 overflow-x: hidden;
 }
 
+.marquee-content{
+  padding: 9px 20px;
+  background-color:#E6CA82;
+}
+
 .marquee p{
-font-size: 34px;
-color:#E6CA82;
+font-size: 24px;
+color:white;
+letter-spacing: 6px;
 }
 
 .track {
@@ -1870,36 +1833,6 @@ from { transform: translateX(0); }
 to { transform: translateX(-50%); }
 }
 
-
-/* #marquee {
-  bottom: 15%;
-  position: absolute;
-  -webkit-animation: linear infinite loop;
-  -webkit-animation-name: run;
-  -webkit-animation-duration: 60s;
-  min-height:initial !important;
-  overflow-x: hidden !important;
-  overflow-y:hidden;
-  padding:20px 0;
-  background-color: #E6CA82;
-  white-space: nowrap;
-}
-
-#marquee p{
-  font-size: 14px;
-  white-space:pre !important;
-  min-width: 100%;
-  text-align: center;
-  line-height:1em;
-  color:white;
-}
-
-
-@-webkit-keyframes run {
-  from { transform: translateX(0%) }
-
-  to { transform: translateX(-100%) }
-} */
 
 .web-dev a {
     position: relative;
@@ -2050,6 +1983,10 @@ footer .vl{
 
   .service-image-second{
     order:3;
+  }
+
+  .latest-work-loop{
+    padding: 3rem 2rem;
   }
 
   .slick-next, .slick-prev{

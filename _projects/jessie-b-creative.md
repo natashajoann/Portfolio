@@ -1,6 +1,6 @@
 ---
 layout: web-work
-landing_image: /images/jessiecover.png
+landing_image: /uploads/jessiecover.png
 featured_image: /images/jess-vsco.jpg
 brand_title: JB Creative Consulting
 brand_info: >-

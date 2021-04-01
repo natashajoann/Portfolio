@@ -1574,7 +1574,6 @@ h3 {
 }
 
 .web-dev{
-  background-color:white;
   padding:8rem 0rem 5rem;
 
 }
@@ -2145,6 +2144,10 @@ text-align: center;
     order:-1;
   }
 
+  .portfolio{
+    padding:2rem;
+  }
+
 /* end  */
 
 .burgz-menu{
@@ -2178,40 +2181,8 @@ text-align: center;
 
 
 
-.primary-logo{
-  /* width:35%; */
-  top:2vh;
-  left:2vh;
-  z-index:1000;
-}
 
 
-.title{
-  height:auto;
-}
-
-.nav-title img {
-  width:24%;
-}
-
-
-
-.main-title-name{
-  position:relative;
-}
-
-.nav-title img{
-  width:40%;
-}
-
-.web-dev {
-    padding: 2rem;
-}
-
-
-/* .hamburger__container{
-  top:9.5vh;
-} */
 
 .nav{
   width:80% !important;
@@ -2228,18 +2199,6 @@ text-align: center;
 
 .mobile-title{
   display:block !important;
-}
-
-.intro-text h3 {
-    padding:4rem 2rem 2rem;
-}
-
-.intro-text{
-  padding:0;
-}
-
-.intro-fixed{
-  padding:2rem;
 }
 
 

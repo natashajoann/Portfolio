@@ -1981,7 +1981,7 @@ text-align: center;
   position: absolute;
   -webkit-animation: linear infinite loop;
   -webkit-animation-name: run;
-  -webkit-animation-duration: 30s;
+  -webkit-animation-duration: 60s;
   min-height:initial !important;
   overflow-x: hidden !important;
   overflow-y:hidden;

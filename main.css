@@ -1548,16 +1548,15 @@ p, a, h5{
   color:white;
   letter-spacing:3px;
   text-transform:uppercase;
-  transition:0.4s;
-  border-bottom:none !important;
+  border:none;
   justify-content: center;
-text-align:center;
-position:relative;
+  position: relative;
+  transition:.4s;
 }
 
-.primary-button:hover{
+.primary-button:after{
   position: absolute;
-  content: “”;
+  content: "";
   top: 0;
   left: 0;
   width: 0;

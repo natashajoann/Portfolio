@@ -1798,6 +1798,16 @@ header{
   font-size:17px;
 }
 
+.icon-overlay{
+  position:absolute;
+  padding: 5%;
+  top:7%;
+  right:5vh;
+  z-index:3;
+  display:flex;
+  align-items: flex-start;
+}
+
 .quote{
   text-align: right;
   padding-right:2rem;

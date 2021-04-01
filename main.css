@@ -1942,11 +1942,17 @@ footer .vl{
     width: 100%;
     padding: 5%;
     text-align: left;
-    top: 15%;
+    bottom: 15%;
     left: 0;
     z-index: 3;
     display: flex;
-    align-items: flex-start;
+    align-items: flex-end;
+}
+
+.text-overlay p{
+  color: #fdfcf4;
+  font-size:20px;
+
 }
 
 .the-process{

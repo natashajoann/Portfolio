@@ -984,13 +984,22 @@ hr{
 
 .contact, .contact-form form{
   padding:3rem 0;
-  width: 70%;
   margin: auto;
   margin-bottom: 5rem;
 }
 
 .contact-text{
-  padding-left:2rem;
+  padding:2rem;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 80%;
+}
+
+.contact-img img{
+  width:60%;
+  margin:auto;
+  display:flex;
 }
 
 .contact-intro{
@@ -1000,11 +1009,10 @@ hr{
 
 .contact form{
   padding: 2rem 0;
+  width:70%;
+  margin:auto;
 }
 
-.contact-form{
-  /* background-color:#ECE6DC; */
-}
 
 
 
@@ -1033,11 +1041,6 @@ textarea{
   background-color:transparent;
 }
 
-
-.contact form{
-  width:80%;
-  margin:auto;
-}
 
 .contact-button{
   width:70% !important;

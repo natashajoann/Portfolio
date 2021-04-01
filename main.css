@@ -2564,7 +2564,8 @@ padding-left: 1rem;
 @media (max-width:687px;){
 
   .service-image-second img{
-    margin-right:2rem;
+    margin-right:0rem;
+    width:80%;
   }
 
   .title-about-text{

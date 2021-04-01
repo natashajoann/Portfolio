@@ -1973,49 +1973,20 @@ text-align: center;
   margin-top:10%;
 }
 
-.marquee {
-  position: relative;
-  width: 100vw;
-  max-width: 100%;
-  height: 200px;
-  overflow-x: hidden;
-}
-
-.marquee p{
-  font-size: 14px;
-  white-space:pre !important;
-  min-width: 100%;
-  text-align: center;
-  line-height:1em;
-  color:white;
-}
-
-.track {
-  position: absolute;
-  white-space: nowrap;
-  will-change: transform;
-  animation: marquee 32s linear infinite;
-  padding:20px 0;
-  background-color: #F0C044;
-}
-
-@keyframes marquee {
-  from { transform: translateX(0); }
-  to { transform: translateX(-50%); }
-}
 
 
-/* #marquee {
+#marquee {
   bottom: 15%;
   position: absolute;
   -webkit-animation: linear infinite loop;
   -webkit-animation-name: run;
-  -webkit-animation-duration: 120s;
+  -webkit-animation-duration: 30s;
   min-height:initial !important;
   overflow-x: hidden !important;
   overflow-y:hidden;
   padding:20px 0;
   background-color: #F0C044;
+  white-space: nowrap;
 }
 
 #marquee p{
@@ -2029,10 +2000,10 @@ text-align: center;
 
 
 @-webkit-keyframes run {
-  from { transform: translateX(-0%) }
+  from { transform: translateX(0%) }
 
-  to { transform: translateX(-100%) }
-} */
+  to { transform: translateX(-50%) }
+}
 
 .web-dev a {
     position: relative;

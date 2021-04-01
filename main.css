@@ -1463,12 +1463,12 @@ body, section{
 
 /* fonts */
 
-/* @font-face {
-  font-family: "Bon Vivant";
+@font-face {
+  font-family: 'BonVivantSerif';
   src: url("BonVivantSerif.woff") format("woff");
 }
 
-@font-face {
+/* @font-face {
   font-family: "Apfel Grotezk";
   src: url("ApfelGrotezk-Regular.woff") format("woff"),
       url("ApfelGrotezk-Regular") format("woff"),

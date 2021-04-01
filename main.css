@@ -2123,6 +2123,7 @@ text-align: center;
   .slick-next, .slick-prev{
     bottom: 10%!important;
     align-items: flex-end;
+    top: revert;
   }
 
   .slick-next{
